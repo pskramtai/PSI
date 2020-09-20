@@ -11,7 +11,7 @@ namespace Comparison_Engine.Base_Classes
         public int drinkID { get; set; }
 
         //A dictionary of bars with this drink and the prices at those bars, int for bar ID, float for price
-        public Dictionary<int, float> availableBars = new Dictionary<int, float>();
+        public Dictionary<int, float> drinkLocations = new Dictionary<int, float>();
 
         public Drink(int drinkID)
         {
@@ -20,17 +20,17 @@ namespace Comparison_Engine.Base_Classes
 
         public void AddBar(int barID, float price)
         {
-            availableBars.Add(barID, price);
+            drinkLocations.Add(barID, price);
         }
 
-        //Returns a tuple of the lowest price and a list of ID's of bars with that price price for the drink
+        //Returns a tuple of the lowest price and a list of ID's of bars with that price for the drink
         public Tuple<float, List<int>> FindLowestPrice()
         {
-            float min = availableBars.Values.First();
+            float min = drinkLocations.Values.First();
             List<int> bars = new List<int>();
-            bars.Add(availableBars.Keys.First());
+            bars.Add(drinkLocations.Keys.First());
 
-            foreach (KeyValuePair<int, float> kvp in availableBars)
+            foreach (KeyValuePair<int, float> kvp in drinkLocations)
             {
                 if(kvp.Value < min)
                 {
