@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cancer\\PSI\\Comparison Engine\\Comparison Engine\\Comparison Engine.csproj": {}
+    "D:\\MIF\\II kursas\\I semestras\\PSI (C#)\\PSI\\Comparison Engine\\Comparison Engine\\Comparison Engine.csproj": {}
   },
   "projects": {
-    "D:\\cancer\\PSI\\Comparison Engine\\Comparison Engine\\Comparison Engine.csproj": {
+    "D:\\MIF\\II kursas\\I semestras\\PSI (C#)\\PSI\\Comparison Engine\\Comparison Engine\\Comparison Engine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cancer\\PSI\\Comparison Engine\\Comparison Engine\\Comparison Engine.csproj",
+        "projectUniqueName": "D:\\MIF\\II kursas\\I semestras\\PSI (C#)\\PSI\\Comparison Engine\\Comparison Engine\\Comparison Engine.csproj",
         "projectName": "Comparison Engine",
-        "projectPath": "D:\\cancer\\PSI\\Comparison Engine\\Comparison Engine\\Comparison Engine.csproj",
-        "packagesPath": "C:\\Users\\kasparas.jankevicius\\.nuget\\packages\\",
-        "outputPath": "D:\\cancer\\PSI\\Comparison Engine\\Comparison Engine\\obj\\",
+        "projectPath": "D:\\MIF\\II kursas\\I semestras\\PSI (C#)\\PSI\\Comparison Engine\\Comparison Engine\\Comparison Engine.csproj",
+        "packagesPath": "C:\\Users\\Elektros Stulpas\\.nuget\\packages\\",
+        "outputPath": "D:\\MIF\\II kursas\\I semestras\\PSI (C#)\\PSI\\Comparison Engine\\Comparison Engine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\kasparas.jankevicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Elektros Stulpas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "GMap.NET.Windows": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,9 +62,12 @@
             },
             "Microsoft.WindowsDesktop.App.WindowsForms": {
               "privateAssets": "none"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
