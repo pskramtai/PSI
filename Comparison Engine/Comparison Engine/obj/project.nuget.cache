@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VuJJAx6/5AbE0/K0ARSWQfBZIDxX75hfkFDzJgUlhcex+T6hv3g0EfzBPZ4X9uo27y7X+rIdsqP5opKvvJ1L9g==",
+  "dgSpecHash": "4QvWzEK6Vd1mNJ7YHxzL+8vBoRaDZ6sXjQh2l5X0AdFFxggvDfuM7mZehV9dXZBl0ulSbvX4lhJJgYA+cDFJWQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Paulius\\PSI\\Comparison Engine\\Comparison Engine\\Comparison Engine.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Paulius\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
