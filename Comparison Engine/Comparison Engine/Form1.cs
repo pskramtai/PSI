@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Comparison_Engine.Base_Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,38 +13,152 @@ namespace Comparison_Engine
 {
     public partial class Form1 : Form
     {
+
+        private bool barsIsTop = true;
+        private List<Drink> drinks;
+        private List<Bar> bars;
+
+
         public Form1()
         {
 
             InitializeComponent();
+            populateLists();                //Does nothing, for now. Somenone should get on it
+            testDriveLists();               //temporary, delete when populateLists() is done
+            loadBars();
 
-            treeView1.Nodes.Add("Bars");
-            treeView1.Nodes.Add("Drinks");
-
-            treeView1.Nodes[0].Nodes.Add("Minusai");
-            treeView1.Nodes[0].Nodes.Add("Būsi Antras");
-            treeView1.Nodes[0].Nodes.Add("Pilies 9");
-
-            treeView1.Nodes[1].Nodes.Add("Nonalcoholic Beer");
-            treeView1.Nodes[1].Nodes.Add("Nonalcoholic Wine");
-            treeView1.Nodes[1].Nodes.Add("Nonalcoholic Vodka");
-
-
+            openChildFormMap();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
+        
+        //LIST FEATURES
 
-        private void label1_Click(object sender, EventArgs e)
+        private void buttonBottom_Click(object sender, EventArgs e)
+        {
+            barsIsTop = !barsIsTop;
+            stateSwitch();
+        }
+
+        private void stateSwitch()
+        {
+            if (barsIsTop) {
+                loadBars();
+                buttonBarsIsTop();
+            }
+            else { 
+                loadDrinks();
+                buttonDrinksIsTop();
+            }
+        }
+
+        //loadBars and loadDrinks loads from List
+
+        private void loadBars()
+        {
+            foreach(Bar bar in bars)
+            {
+                createBarButton(bar);
+            }
+        }
+
+        private void loadDrinks()
+        {
+            foreach (Drink drink in drinks)
+            {
+                createDrinkButton(drink);
+            }
+        }
+
+        //BUTTON CREATORS
+        
+        private void createBarButton(Bar bar)
         {
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void createDrinkButton(Drink drink)
         {
 
         }
+
+        private void createButton()
+        {
+
+        }
+
+        //PROGRAMMING IS SO EASY
+
+        private void buttonBarsIsTop()
+        {
+            buttonTop.Text = "Bars";
+            buttonBottom.Text = "Drinks";
+        }
+        private void buttonDrinksIsTop()
+        {
+            buttonTop.Text = "Drinks";
+            buttonBottom.Text = "Bars";
+        }
+
+        //Someone needs to make this happen
+        private void populateLists()
+        {
+
+        }
+
+        //placeholder, populates lists. Delete when populateLists() is done
+        private void testDriveLists()
+        {
+            for (int i = 0; i < 50; i++)
+            {
+                String barName;
+                barName = "Bar" + i;
+                bars.Add(new Bar(i, barName, "location"));
+                drinks.Add(new Drink(i));                                  //Shouldn't drinks have names?
+            }
+        }
+        
+
+        //SEARCH FEATURES
+
+        private void buttonSearch_Click(object sender, EventArgs e)
+        {
+            searchFunction(fetchSearchKeyword());
+        }
+
+        private string fetchSearchKeyword()
+        {
+            return textBoxSearch.Text;
+        }
+
+        //Dont worry about it for now
+        private void searchFunction(String keyword)
+        {
+
+        }
+
+
+
+        //OPENING CHILD FORMS
+        private void openChildFormMap()
+        {
+
+        }
+        private void openChildFormBar(Bar bar)
+        {
+
+        }
+        private void openChildFormDrink(Drink drink)
+        {
+
+        }
+        private void closeChildForm()
+        {
+            openChildFormMap();
+        }
+
     }
 }
