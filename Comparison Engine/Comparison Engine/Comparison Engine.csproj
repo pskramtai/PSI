@@ -5,9 +5,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Comparison_Engine</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
+    <UserSecretsId>f14cf624-cc20-4e4f-9076-eec6b9ae0062</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="GMap.NET.Windows" Version="2.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
