@@ -24,12 +24,6 @@ namespace Comparison_Engine.Base_Classes
             barList.Add(new Bar(barID, barName, location));
         }
 
-        //Adds a drink to the bar's menu
-        public void AddDrink(int barID, Drink drink, float price)
-        {
-            barList[barID].availableDrinks.Add(drink, price);
-        }
-
         //Finds the price of a specific drink at a specific bar
         public float FindDrinkPrice(int barID, Drink drink)
         {

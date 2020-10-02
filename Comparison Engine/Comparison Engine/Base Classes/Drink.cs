@@ -18,5 +18,11 @@ namespace Comparison_Engine.Base_Classes
 
         //A dictionary of bars with this drink and the prices at those bars, int for bar ID, float for price
         public Dictionary<int, float> drinkLocations = new Dictionary<int, float>();
+
+        //Adds a location where a drink can be found
+        public void AddBar(int barID, float price)
+        {
+            drinkLocations.Add(barID, price);
+        }
     }
 }

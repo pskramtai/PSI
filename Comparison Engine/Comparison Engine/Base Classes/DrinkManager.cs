@@ -25,12 +25,6 @@ namespace Comparison_Engine.Base_Classes
             drinkList.Add(new Drink(drinkID, drinkName));
         }
 
-        //Adds a location where a drink can be found
-        public void AddBar(int drinkID, int barID, float price)
-        {
-            drinkList[drinkID].drinkLocations.Add(barID, price);
-        }
-
         //Returns a tuple of the lowest price and a list of ID's of bars with that price for the drink
         public Tuple<float, List<int>> FindLowestPrice(int drinkID)
         {
