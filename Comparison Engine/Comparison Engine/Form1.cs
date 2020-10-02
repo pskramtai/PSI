@@ -15,8 +15,8 @@ namespace Comparison_Engine
     {
 
         private bool barsIsTop = true;
-        private List<Drink> drinks;
-        private List<Bar> bars;
+        private List<Drink> drinks = new List<Drink>(); //added constructors to fix build errors
+        private List<Bar> bars = new List<Bar>();
 
 
         public Form1()
@@ -117,7 +117,7 @@ namespace Comparison_Engine
                 String barName;
                 barName = "Bar" + i;
                 bars.Add(new Bar(i, barName, "location"));
-                drinks.Add(new Drink(i));                                  //Shouldn't drinks have names?
+                drinks.Add(new Drink(i, "testName"));                                  //fixed this
             }
         }
         
