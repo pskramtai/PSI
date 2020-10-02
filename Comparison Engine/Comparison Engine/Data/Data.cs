@@ -20,11 +20,11 @@ namespace Comparison_Engine
             return bars;
         }
 
-        public static List<Bar> GetDrinks()
+        public static List<Drink> GetDrinks()
         {
             StreamReader r = new StreamReader("drinkInput.json");
             string json = r.ReadToEnd();
-            List<Bar> drinks = JsonConvert.DeserializeObject<List<Bar>>(json);
+            List<Drink> drinks = JsonConvert.DeserializeObject<List<Drink>>(json);
             return drinks;
         }
 
