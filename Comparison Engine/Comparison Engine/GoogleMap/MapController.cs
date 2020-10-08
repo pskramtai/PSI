@@ -1,4 +1,5 @@
-﻿using GMap.NET;
+﻿using Comparison_Engine.Base_Classes;
+using GMap.NET;
 using GMap.NET.MapProviders;
 using GMap.NET.WindowsForms;
 using GMap.NET.WindowsForms.Markers;
@@ -47,11 +48,30 @@ namespace Comparison_Engine.GoogleMap
             }
         }
 
+        //puts markers on all bars within a wanted radius with addresses and names
+        //can't really test, cuz designer is broken on my side, so the string formatting might need changing
+        //might need to adjust map by zooming out in the future
+        public void ShowNearBars(GMapControl map, double prefDistance, string currentAddress, List<Bar> barList)
+        {
+
+            foreach (Bar bar in barList)
+            {
+                var distanceTo = GetDistance(currentAddress, bar.location);
+
+                if (distanceTo <= prefDistance)
+                {
+                    ShowMapByAddress(map, bar.location, $"{bar.barName} \n {bar.location}");
+                }
+            }
+
+            ShowMapToPoint(map, GetPointFromAddress(currentAddress));
+        }
+
         // positions map on the given address location
         public void ShowMapByAddress(GMapControl map, string address, string toolTipText)
         {
             var point = GetPointFromAddress(address);
-            ShowMapToPoint(map, point, toolTipText);
+            ShowMapToPointMarker(map, point, toolTipText);
         }
 
         // positions map on the given keyword location
@@ -105,9 +125,14 @@ namespace Comparison_Engine.GoogleMap
             }
         }
 
-        private void ShowMapToPoint(GMapControl map, PointLatLng point, string toolTipText)
+        private void ShowMapToPoint(GMapControl map, PointLatLng point)
         {
             map.Position = point;
+        }
+
+        private void ShowMapToPointMarker(GMapControl map, PointLatLng point, string toolTipText)
+        {
+            ShowMapToPoint(map, point);
             AddMarkerWithTooltip(map, point, toolTipText);
         }
 
