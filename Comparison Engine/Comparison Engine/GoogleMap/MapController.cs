@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
@@ -48,23 +49,44 @@ namespace Comparison_Engine.GoogleMap
             }
         }
 
+        // puts markers on all bars within a wanted radius which have a specific drink and notes it's price in those bars
+        //can't really test, cuz designer is broken on my side, so the string formatting might need changing
+        //might need to adjust map by zooming out in the future
+        public void ShowBarsWithDrink(GMapControl map, Drink specificDrink, double prefDistance, string currentAddress, List<Bar> barList)
+        {
+            var barIDs = specificDrink.drinkLocations.Keys.ToArray();
+
+            foreach (int ID in barIDs)
+            {
+                var bar = barList[ID];
+
+                MarkBarsInRadius(map, prefDistance, currentAddress, bar, $"{bar.barName} \n {bar.location} \n {specificDrink.drinkLocations[ID]}");
+            }
+
+            ShowMapToPoint(map, GetPointFromAddress(currentAddress));
+        }
+
         //puts markers on all bars within a wanted radius with addresses and names
         //can't really test, cuz designer is broken on my side, so the string formatting might need changing
         //might need to adjust map by zooming out in the future
         public void ShowNearBars(GMapControl map, double prefDistance, string currentAddress, List<Bar> barList)
         {
-
             foreach (Bar bar in barList)
             {
-                var distanceTo = GetDistance(currentAddress, bar.location);
-
-                if (distanceTo <= prefDistance)
-                {
-                    ShowMapByAddress(map, bar.location, $"{bar.barName} \n {bar.location}");
-                }
+                MarkBarsInRadius(map, prefDistance, currentAddress, bar, $"{bar.barName} \n {bar.location}");
             }
 
             ShowMapToPoint(map, GetPointFromAddress(currentAddress));
+        }
+
+        private void MarkBarsInRadius(GMapControl map, double prefDistance, string currentAddress, Bar bar, string markerString)
+        {
+            var distanceTo = GetDistance(currentAddress, bar.location);
+
+            if (distanceTo <= prefDistance)
+            {
+                ShowMapByAddress(map, bar.location, markerString + $"\n {distanceTo}");
+            }
         }
 
         // positions map on the given address location
