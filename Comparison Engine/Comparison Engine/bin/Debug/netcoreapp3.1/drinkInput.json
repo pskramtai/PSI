@@ -1,11 +1,26 @@
 [
     {
-        "drinkID": 1
+        "drinkID": 1,
+        "drinkName": "Nealkoholinis alus",
+        "drinkLocations":{
+            "1":2.5,
+            "2":2
+        }
     },
     {
-        "drinkID": 2
+        "drinkID": 2, 
+        "drinkName": "Nealkoholinis vynas",
+        "drinkLocations":{
+            "1":2.99,
+            "3":2.5
+        }
     },
     {
-        "drinkID": 3
+        "drinkID": 3,
+        "drinkName": "Nealkoholine degtine",
+        "drinkLocations":{
+            "2":4.5,
+            "3":4
+        }
     }
 ]

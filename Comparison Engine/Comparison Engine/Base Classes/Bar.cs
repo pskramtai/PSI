@@ -21,10 +21,10 @@ namespace Comparison_Engine.Base_Classes
         }
 
         //A dictionary of drinks available at this bar along with the prices
-        public Dictionary<Drink, float> availableDrinks = new Dictionary<Drink, float>();
+        public Dictionary<int, float> availableDrinks = new Dictionary<int, float>();
 
         //Adds a drink to the bar's menu
-        public void AddDrink(Drink drink, float price)
+        public void AddDrink(int drink, float price)
         {
             availableDrinks.Add(drink, price);
         }
