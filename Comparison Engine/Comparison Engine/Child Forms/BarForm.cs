@@ -36,13 +36,13 @@ namespace Comparison_Engine.Forms
         {
             labelBarLocation.Text = location;
         }
-        private void populateDrinkList(Dictionary<Drink, float> availableDrinks)
+        private void populateDrinkList(Dictionary<int, float> availableDrinks)
         {
             Cursor.Current = Cursors.WaitCursor;
 
-            foreach (KeyValuePair<Drink, float> drinkEntries in availableDrinks)
+            foreach (KeyValuePair<int, float> drinkEntries in availableDrinks)
             {
-                ListViewItem listViewDrink = new ListViewItem(drinkEntries.Key.drinkName);
+                ListViewItem listViewDrink = new ListViewItem(drinkEntries.Key.ToString());
                 listViewDrink.SubItems.Add(drinkEntries.Value.ToString());
                 listViewDrinks.Items.Add(listViewDrink);
             }

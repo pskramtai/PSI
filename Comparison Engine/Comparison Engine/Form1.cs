@@ -225,12 +225,12 @@ namespace Comparison_Engine
             drinks[2].AddBar(2, 4.5f);
             drinks[2].AddBar(3, 5f);
 
-            bars[0].AddDrink(drinks[0], 3.5f);
-            bars[1].AddDrink(drinks[0], 1.9f);
-            bars[1].AddDrink(drinks[1], 4f);
-            bars[1].AddDrink(drinks[2], 4.5f);
-            bars[2].AddDrink(drinks[0], 3f);
-            bars[2].AddDrink(drinks[2], 5f);
+            bars[0].AddDrink(drinks[0].drinkID, 3.5f);
+            bars[1].AddDrink(drinks[0].drinkID, 1.9f);
+            bars[1].AddDrink(drinks[1].drinkID, 4f);
+            bars[1].AddDrink(drinks[2].drinkID, 4.5f);
+            bars[2].AddDrink(drinks[0].drinkID, 3f);
+            bars[2].AddDrink(drinks[2].drinkID, 5f);
         }
         private void loadTestBarButtons()
         {
