@@ -60,7 +60,7 @@ namespace Comparison_Engine.GoogleMap
             {
                 var bar = barList[ID];
 
-                MarkBarsInRadius(map, prefDistance, currentAddress, bar, $"{bar.barName} \n {bar.location} \n {specificDrink.drinkLocations[ID]}");
+                MarkBarInRadius(map, prefDistance, currentAddress, bar, $"{bar.barName} \n {bar.location} \n {specificDrink.drinkLocations[ID]}");
             }
 
             ShowMapToPoint(map, GetPointFromAddress(currentAddress));
@@ -73,13 +73,13 @@ namespace Comparison_Engine.GoogleMap
         {
             foreach (Bar bar in barList)
             {
-                MarkBarsInRadius(map, prefDistance, currentAddress, bar, $"{bar.barName} \n {bar.location}");
+                MarkBarInRadius(map, prefDistance, currentAddress, bar, $"{bar.barName} \n {bar.location}");
             }
 
             ShowMapToPoint(map, GetPointFromAddress(currentAddress));
         }
 
-        private void MarkBarsInRadius(GMapControl map, double prefDistance, string currentAddress, Bar bar, string markerString)
+        private void MarkBarInRadius(GMapControl map, double prefDistance, string currentAddress, Bar bar, string markerString)
         {
             var distanceTo = GetDistance(currentAddress, bar.location);
 
