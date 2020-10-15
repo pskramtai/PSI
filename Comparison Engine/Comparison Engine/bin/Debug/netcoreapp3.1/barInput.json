@@ -2,47 +2,30 @@
     {
         "barId": 1,
         "barName": "Minusai",
-        "barLocation": "50.00000 40.000000",
-        "availableDrinks": [
-            {
-                "drinkID": 1,
-                "drinkName": "Nealkoholinis alus",
-                "price": 2.0
-            },
-            {
-                "drinkID": 2,
-                "drinkName": "Nealkoholinis vynas",
-                "price": 2.5
-            }          
-        ]
+        "location": "50.00000 40.000000",
+        "availableDrinks": {
+            "1":2.5,
+            "2":2.99
+        }
+            
+        
     },
     {
         "barId": 2,
         "barName": "Busi Antras",
-        "barLocation": "40.000000 50.000000",
-        "availableDrinks": [
-            {
-                "drinkID": 1,
-                "drinkName": "Nealkoholinis alus",
-                "price": 1.99
-            },
-            {
-                "drinkID": 3,
-                "drinkName": "Nealkoholine degtine",
-                "price": 2.99
-            }          
-        ]
+        "location": "40.000000 50.000000",
+        "availableDrinks": {
+            "1":2,
+            "3":4.5
+        }
     },
     {
         "barId": 3,
         "barName": "Pilies 9",
-        "barLocation": "45.000000 55.000000",
-        "availableDrinks": [
-            {
-                "drinkID": 1,
-                "drinkName": "Nealkoholinis alus",
-                "price": 1.5
-            }  
-        ]
+        "location": "45.000000 55.000000",
+        "availableDrinks": {
+            "2": 2.5,
+            "3": 4
+        }
     }
 ]

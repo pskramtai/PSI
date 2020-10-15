@@ -1,4 +1,6 @@
 ﻿using Comparison_Engine.Base_Classes;
+using Microsoft.EntityFrameworkCore.Internal;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,9 +28,12 @@ namespace Comparison_Engine
             populateLists();                //Does nothing, for now. Somenone should get on it
             testDriveLists();               //temporary, delete when populateLists() is done
             loadBars();
-
             openChildFormMap();
+            Application.ApplicationExit += new EventHandler(this.onApplicationExit); //Method called on app exit
+           
         }
+
+       
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -106,7 +111,8 @@ namespace Comparison_Engine
         //Someone needs to make this happen
         private void populateLists()
         {
-
+            this.bars = Data.GetBars();
+            this.drinks = Data.GetDrinks();
         }
 
         //placeholder, populates lists. Delete when populateLists() is done
@@ -160,5 +166,18 @@ namespace Comparison_Engine
             openChildFormMap();
         }
 
+        //Saves drink and bar data to JSON file
+        private void onApplicationExit(object sender, EventArgs e)
+        {
+            if (this.drinks.Any() && this.drinks != null)
+            {
+                Data.SaveDrinks(this.drinks);
+            }
+
+            if (this.bars.Any() && this.bars != null)
+            {
+                Data.SaveBars(this.bars);
+            }
+        }
     }
 }

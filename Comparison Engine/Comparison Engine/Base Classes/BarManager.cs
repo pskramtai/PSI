@@ -25,7 +25,7 @@ namespace Comparison_Engine.Base_Classes
         }
 
         //Finds the price of a specific drink at a specific bar
-        public float FindDrinkPrice(int barID, Drink drink)
+        public float FindDrinkPrice(int barID, int drink)
         {
             //Return the price of specified drink at this bar
             return barList[barID].availableDrinks.ContainsKey(drink) ? barList[barID].availableDrinks[drink] : -1; //Should return something else besides -1 if drink not available here
