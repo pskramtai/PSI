@@ -1,0 +1,14 @@
+﻿           testDriveLists();               //temporary, delete when populateLists() is done
+
+
+        //placeholder, populates lists. Delete when populateLists() is done
+        private void testDriveLists()
+        {
+            for (int i = 0; i < 50; i++)
+            {
+                String barName;
+                barName = "Bar" + i;
+                bars.Add(new Bar(i, barName, "location"));
+                drinks.Add(new Drink(i, "testName"));                                  
+            }
+  
