@@ -1,5 +1,7 @@
 ﻿using Comparison_Engine.Base_Classes;
 using Comparison_Engine.Forms;
+using Microsoft.EntityFrameworkCore.Internal;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -32,7 +34,9 @@ namespace Comparison_Engine
             //loadBars();                               //#commentedarea
             initializeList();
             openChildFormMap(new MapForm());
+            Application.ApplicationExit += new EventHandler(this.onApplicationExit); //Method called on app exit
         }
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -54,7 +58,8 @@ namespace Comparison_Engine
         //Someone needs to make this happen
         private void populateLists()
         {
-
+            this.bars = Data.GetBars();
+            this.drinks = Data.GetDrinks();
         }
 
         private void stateSwitch()
@@ -303,5 +308,18 @@ namespace Comparison_Engine
          */
 
 
+        //Saves drink and bar data to JSON file
+        private void onApplicationExit(object sender, EventArgs e)
+        {
+            if (this.drinks.Any() && this.drinks != null)
+            {
+                Data.SaveDrinks(this.drinks);
+            }
+
+            if (this.bars.Any() && this.bars != null)
+            {
+                Data.SaveBars(this.bars);
+            }
+        }
     }
 }
