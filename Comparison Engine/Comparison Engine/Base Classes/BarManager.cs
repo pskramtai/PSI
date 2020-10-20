@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Comparison_Engine.Base_Classes
 {
@@ -40,7 +41,6 @@ namespace Comparison_Engine.Base_Classes
             }
             else
             {
-                Console.WriteLine("FindDrinkPrice failed: bar does not have this drink");
                 return -1;
             }
         }
@@ -49,6 +49,22 @@ namespace Comparison_Engine.Base_Classes
         public Dictionary<int, float> FindAllDrinksAtBar(int barID)
         {
             return barList[barID].availableDrinks;
+        }
+
+        //Returns specific Bar obejcts by some property
+        public Bar GetBarByID(int barID)
+        {
+            return barList[barID];
+        }
+
+        public Bar GetBarByName(string barName)
+        {
+            return barList.First(x => x.barName == barName);
+        }
+
+        public Bar GetBarByLocation(string barLocation)
+        {
+            return barList.First(x => x.barLocation == barLocation);
         }
     }
 }

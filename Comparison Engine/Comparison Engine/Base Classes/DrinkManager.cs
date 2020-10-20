@@ -54,13 +54,13 @@ namespace Comparison_Engine.Base_Classes
             //}
 
             //Updated to look through using LINQ, leaving old logic behind for now in case it is needed
-            var lowestPrice = drinkList[drinkID].drinkLocations
-                                                .Min(x => x.Value);
+            var lowestPrice = FindAllBarsWithDrink(drinkID)
+                              .Min(x => x.Value);
 
-            var lowestPriceLocations = drinkList[drinkID].drinkLocations
-                                                         .Where(x => x.Value == lowestPrice)
-                                                         .Select(x => x.Key)
-                                                         .ToList();
+            var lowestPriceLocations = FindAllBarsWithDrink(drinkID)
+                                       .Where(x => x.Value == lowestPrice)
+                                       .Select(x => x.Key)
+                                       .ToList();
 
             
 
@@ -72,6 +72,17 @@ namespace Comparison_Engine.Base_Classes
         public Dictionary<int, float> FindAllBarsWithDrink(int drinkID)
         {
             return drinkList[drinkID].drinkLocations;
+        }
+
+        //Returns specific Drink objects by some property
+        public Drink GetDrinkByID(int drinkID)
+        {
+            return drinkList[drinkID];
+        }
+
+        public Drink GetDrinkByName(string drinkName)
+        {
+            return drinkList.First(x => x.drinkName == drinkName);
         }
     }
 }

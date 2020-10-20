@@ -11,13 +11,13 @@ namespace Comparison_Engine.Base_Classes
         public string barName { get; set; } 
 
         //Location of the bar
-        public string location { get; set; } 
+        public string barLocation { get; set; } 
 
-        public Bar(int barID, string barName, string location)
+        public Bar(int barID, string barName, string barLocation)
         {
             this.barID = barID;
             this.barName = barName;
-            this.location = location;
+            this.barLocation = barLocation;
         }
 
         //Changes this bar object's name
@@ -29,7 +29,7 @@ namespace Comparison_Engine.Base_Classes
         //Changes this bar object's location
         public void EditBarLocation(string newLocation)
         {
-            location = newLocation;
+            barLocation = newLocation;
         }
 
         //A dictionary of drinks available at this bar along with the prices

@@ -10,8 +10,8 @@ namespace Comparison_Engine.Base_Classes
         //Name of the drink
         public string drinkName { get; set; }
 
-        //List of ingridients in this drink, mainly used by cocktails
-        public List<string> ingridientList = new List<string>(); // actually surprised I'm adding this only now
+        //List of ingredients in this drink, mainly used by cocktails
+        public List<string> ingredientList = new List<string>(); // actually surprised I'm adding this only now
 
         public Drink(int drinkID, string drinkName)
         {
