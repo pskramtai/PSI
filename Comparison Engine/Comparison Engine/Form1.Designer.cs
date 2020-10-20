@@ -36,9 +36,6 @@
             this.panelList = new System.Windows.Forms.Panel();
             this.buttonBottom = new System.Windows.Forms.Button();
             this.panelSubList = new System.Windows.Forms.Panel();
-            this.buttonTest3 = new System.Windows.Forms.Button();
-            this.buttonTest2 = new System.Windows.Forms.Button();
-            this.buttonTest1 = new System.Windows.Forms.Button();
             this.buttonTop = new System.Windows.Forms.Button();
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.panelProfile = new System.Windows.Forms.Panel();
@@ -46,7 +43,6 @@
             this.pictureBoxProfile = new System.Windows.Forms.PictureBox();
             this.panelSearch.SuspendLayout();
             this.panelList.SuspendLayout();
-            this.panelSubList.SuspendLayout();
             this.panelSideMenu.SuspendLayout();
             this.panelProfile.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProfile)).BeginInit();
@@ -119,47 +115,11 @@
             // 
             this.panelSubList.AutoScroll = true;
             this.panelSubList.BackColor = System.Drawing.Color.Yellow;
-            this.panelSubList.Controls.Add(this.buttonTest3);
-            this.panelSubList.Controls.Add(this.buttonTest2);
-            this.panelSubList.Controls.Add(this.buttonTest1);
             this.panelSubList.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelSubList.Location = new System.Drawing.Point(0, 37);
             this.panelSubList.Name = "panelSubList";
             this.panelSubList.Size = new System.Drawing.Size(250, 393);
             this.panelSubList.TabIndex = 0;
-            // 
-            // buttonTest3
-            // 
-            this.buttonTest3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonTest3.Location = new System.Drawing.Point(0, 60);
-            this.buttonTest3.Name = "buttonTest3";
-            this.buttonTest3.Size = new System.Drawing.Size(250, 30);
-            this.buttonTest3.TabIndex = 0;
-            this.buttonTest3.Text = "buttonTest3";
-            this.buttonTest3.UseVisualStyleBackColor = true;
-            this.buttonTest3.Click += new System.EventHandler(this.buttonTest3_Click);
-            // 
-            // buttonTest2
-            // 
-            this.buttonTest2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonTest2.Location = new System.Drawing.Point(0, 30);
-            this.buttonTest2.Name = "buttonTest2";
-            this.buttonTest2.Size = new System.Drawing.Size(250, 30);
-            this.buttonTest2.TabIndex = 0;
-            this.buttonTest2.Text = "buttonTest2";
-            this.buttonTest2.UseVisualStyleBackColor = true;
-            this.buttonTest2.Click += new System.EventHandler(this.buttonTest2_Click);
-            // 
-            // buttonTest1
-            // 
-            this.buttonTest1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonTest1.Location = new System.Drawing.Point(0, 0);
-            this.buttonTest1.Name = "buttonTest1";
-            this.buttonTest1.Size = new System.Drawing.Size(250, 30);
-            this.buttonTest1.TabIndex = 0;
-            this.buttonTest1.Text = "buttonTest1";
-            this.buttonTest1.UseVisualStyleBackColor = true;
-            this.buttonTest1.Click += new System.EventHandler(this.buttonTest1_Click);
             // 
             // buttonTop
             // 
@@ -231,7 +191,6 @@
             this.panelSearch.ResumeLayout(false);
             this.panelSearch.PerformLayout();
             this.panelList.ResumeLayout(false);
-            this.panelSubList.ResumeLayout(false);
             this.panelSideMenu.ResumeLayout(false);
             this.panelSideMenu.PerformLayout();
             this.panelProfile.ResumeLayout(false);
@@ -255,9 +214,6 @@
         private System.Windows.Forms.Button buttonBottom;
         private System.Windows.Forms.Button buttonTop;
         private System.Windows.Forms.Panel panelSubList;
-        private System.Windows.Forms.Button buttonTest3;
-        private System.Windows.Forms.Button buttonTest2;
-        private System.Windows.Forms.Button buttonTest1;
     }
 }
 
