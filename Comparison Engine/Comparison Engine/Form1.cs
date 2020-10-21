@@ -1,4 +1,5 @@
 ﻿using Comparison_Engine.Base_Classes;
+using Comparison_Engine.Child_Forms;
 using Comparison_Engine.Forms;
 using Microsoft.EntityFrameworkCore.Internal;
 using Newtonsoft.Json;
@@ -31,6 +32,7 @@ namespace Comparison_Engine
 
             InitializeComponent();
             initializeList();
+            initializeProfileClick();
             openChildFormMap(new MapForm());
             Application.ApplicationExit += new EventHandler(this.onApplicationExit); //Method called on app exit
         }
@@ -147,6 +149,11 @@ namespace Comparison_Engine
             DrinkForm drinkForm = new DrinkForm(drink);            
             configureChildForm(drinkForm);
         }
+        private void openChildFormProfile()                 //This will probably recieve the user info
+        {
+            ProfileForm profileForm = new ProfileForm();         //This will probably recieve the user info
+            configureChildForm(profileForm);
+        }
         private void configureChildForm(Form childForm)
         {
             if (activeForm != null && activeForm.GetType() != mainMapForm.GetType())
@@ -222,13 +229,18 @@ namespace Comparison_Engine
         }
 
         //PROFILE MANAGING #profile
-        private void panelProfile_Paint(object sender, PaintEventArgs e)
+        private void initializeProfileClick()
         {
-            Console.WriteLine("works");
+            panelProfile.Click += (sender, e) => { openChildFormProfile(); };           //This will probably recieve the user info
+            labelProfileName.Click += (sender, e) => { openChildFormProfile(); };           //This will probably recieve the user info
+            pictureBoxProfile.Click += (sender, e) => { openChildFormProfile(); };           //This will probably recieve the user info
         }
 
         //EMPTY AREA #emptyarea
-
+        private void panelProfile_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
 
 
         //TEST AREA #testarea
