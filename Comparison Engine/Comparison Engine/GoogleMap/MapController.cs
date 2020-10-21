@@ -68,7 +68,7 @@ namespace Comparison_Engine.GoogleMap
             DrinkManager drinkManager = DrinkManager.Instance;
             var cheapestPlaces = drinkManager.FindLowestPrice(specificDrink.drinkID).Item2;
 
-            var barIDs = specificDrink.drinkLocations.Keys.ToArray();
+            var barIDs = specificDrink.drinkLocations.Keys.ToArray(); // maybe could rewrite with FindAllBarsWithDrink
 
             foreach (int ID in barIDs)
             {
