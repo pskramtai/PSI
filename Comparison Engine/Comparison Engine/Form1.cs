@@ -22,7 +22,8 @@ namespace Comparison_Engine
         private bool barsIsTop = true;
         private List<Drink> drinks = new List<Drink>();
         private List<Bar> bars = new List<Bar>();
-
+        public Form activeForm = null;
+        public MapForm mainMapForm = null;
         //Testines funkcijas galima rast ieskant #testarea
         //Tuscias funkcijas(nieko jose nebus daroma) galima rast ieskant #emptyarea
 
@@ -131,8 +132,7 @@ namespace Comparison_Engine
 
         //OPENING CHILD FORMS    #childforms
 
-        public Form activeForm = null;
-        public MapForm mainMapForm = null;
+
         private void openChildFormMap(Form childForm)                           //this method will probably recieve some sort of mapData in the future
         {
             MapForm mapForm = new MapForm();
