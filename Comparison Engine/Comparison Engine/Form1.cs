@@ -93,19 +93,19 @@ namespace Comparison_Engine
 
         //loadBars and loadDrinks loads from List
 
-        private void loadBars()
+        private void loadBars(List<Bar> barsList)
         {
             clearButtonList();
-            foreach (Bar bar in bars)
+            foreach (Bar bar in barsList)
             {
                 createBarButton(bar);
             }
         }
 
-        private void loadDrinks()
+        private void loadDrinks(List<Drink> drinksList)
         {
             clearButtonList();
-            foreach (Drink drink in drinks)
+            foreach (Drink drink in drinksList)
             {
                 createDrinkButton(drink);
             }
