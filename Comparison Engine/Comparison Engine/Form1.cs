@@ -1,6 +1,8 @@
 ﻿using Comparison_Engine.Base_Classes;
 using Comparison_Engine.Child_Forms;
 using Comparison_Engine.Forms;
+using Comparison_Engine.GoogleMap;
+using GMap.NET.WindowsForms;
 using Microsoft.EntityFrameworkCore.Internal;
 using Newtonsoft.Json;
 using System;
@@ -22,6 +24,9 @@ namespace Comparison_Engine
         private List<Drink> drinks = new List<Drink>();
         private List<Bar> bars = new List<Bar>();
 
+        private GMapControl map;
+        private MapController mapController = MapController.Instance;
+
         //Testines funkcijas galima rast ieskant #testarea
         //Tuscias funkcijas(nieko jose nebus daroma) galima rast ieskant #emptyarea
 
@@ -34,7 +39,8 @@ namespace Comparison_Engine
             //populateLists();                          //#commentedarea
             //loadBars();                               //#commentedarea
             initializeList();
-            openChildFormMap(new MapForm());
+            // probably will need some method here to get current address of the current user
+            openChildFormMap();
             Application.ApplicationExit += new EventHandler(this.onApplicationExit); //Method called on app exit
         }
 
@@ -120,22 +126,33 @@ namespace Comparison_Engine
         //OPENING CHILD FORMS    #childforms
 
         public Form activeForm = null;
-        private void openChildFormMap(Form childForm)                           //this method will probably recieve some sort of mapData in the future
+        private void openChildFormMap()                           //this method will probably recieve some sort of mapData in the future
         {
             MapForm mapForm = new MapForm();
             configureChildForm(mapForm);
+            map = mapForm.GetMap();
         }
         private void openChildFormBar(Bar bar)
         {
             BarForm barForm = new BarForm(bar);
             //closeActiveForm();            //#commentedarea
             configureChildForm(barForm);
+
+            mapController.ShowRoute(map, bar.location); // WILL SHOW ROUTE TO SELECTED BAR
+            
         }
+        /*private void whateverTheFunctionWillBeCalled()
+        {
+            mapController.RemoveOverlays(map); // THIS SHOULD CLEAN THE MAP
+        }*/
         private void openChildFormDrink(Drink drink)
         {
             DrinkForm drinkForm = new DrinkForm(drink);
             //closeActiveForm();            //#commentedarea
             configureChildForm(drinkForm);
+
+            mapController.ShowBarsWithDrink(map, drink, bars); // WILL SHOW BARS WITH SELECTED DRINKS
+
         }
         private void openChildFormUserContribution(Drink drink, Bar bar)
         {
