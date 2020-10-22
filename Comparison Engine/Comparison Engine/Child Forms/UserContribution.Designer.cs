@@ -45,9 +45,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.ButtonEditPrice = new System.Windows.Forms.Button();
-            this.ButtonAddDrink = new System.Windows.Forms.Button();
-            this.ButtonAddBar = new System.Windows.Forms.Button();
+            this.buttonEditPrice = new System.Windows.Forms.Button();
+            this.buttonAddDrink = new System.Windows.Forms.Button();
+            this.buttonAddBar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -199,42 +199,42 @@
             // 
             // buttonEditPrice
             // 
-            this.ButtonEditPrice.Location = new System.Drawing.Point(53, 330);
-            this.ButtonEditPrice.Name = "button1";
-            this.ButtonEditPrice.Size = new System.Drawing.Size(112, 34);
-            this.ButtonEditPrice.TabIndex = 9;
-            this.ButtonEditPrice.Text = "Edit price";
-            this.ButtonEditPrice.UseVisualStyleBackColor = true;
-            this.ButtonEditPrice.Click += new System.EventHandler(this.ButtonEditPrice_Click);
+            this.buttonEditPrice.Location = new System.Drawing.Point(53, 330);
+            this.buttonEditPrice.Name = "button1";
+            this.buttonEditPrice.Size = new System.Drawing.Size(112, 34);
+            this.buttonEditPrice.TabIndex = 9;
+            this.buttonEditPrice.Text = "Edit price";
+            this.buttonEditPrice.UseVisualStyleBackColor = true;
+            this.buttonEditPrice.Click += new System.EventHandler(this.buttonEditPrice_Click);
             // 
             // buttonAddDrink
             // 
-            this.ButtonAddDrink.Location = new System.Drawing.Point(320, 330);
-            this.ButtonAddDrink.Name = "button2";
-            this.ButtonAddDrink.Size = new System.Drawing.Size(112, 34);
-            this.ButtonAddDrink.TabIndex = 10;
-            this.ButtonAddDrink.Text = "Add Drink";
-            this.ButtonAddDrink.UseVisualStyleBackColor = true;
-            this.ButtonAddDrink.Click += new System.EventHandler(this.ButtonAddDrink_Click);
+            this.buttonAddDrink.Location = new System.Drawing.Point(320, 330);
+            this.buttonAddDrink.Name = "button2";
+            this.buttonAddDrink.Size = new System.Drawing.Size(112, 34);
+            this.buttonAddDrink.TabIndex = 10;
+            this.buttonAddDrink.Text = "Add Drink";
+            this.buttonAddDrink.UseVisualStyleBackColor = true;
+            this.buttonAddDrink.Click += new System.EventHandler(this.buttonAddDrink_Click);
             // 
             // buttonAddBar
             // 
-            this.ButtonAddBar.Location = new System.Drawing.Point(570, 330);
-            this.ButtonAddBar.Name = "button3";
-            this.ButtonAddBar.Size = new System.Drawing.Size(112, 34);
-            this.ButtonAddBar.TabIndex = 11;
-            this.ButtonAddBar.Text = "Add Bar";
-            this.ButtonAddBar.UseVisualStyleBackColor = true;
-            this.ButtonAddBar.Click += new System.EventHandler(this.ButtonAddBar_Click);
+            this.buttonAddBar.Location = new System.Drawing.Point(570, 330);
+            this.buttonAddBar.Name = "button3";
+            this.buttonAddBar.Size = new System.Drawing.Size(112, 34);
+            this.buttonAddBar.TabIndex = 11;
+            this.buttonAddBar.Text = "Add Bar";
+            this.buttonAddBar.UseVisualStyleBackColor = true;
+            this.buttonAddBar.Click += new System.EventHandler(this.buttonAddBar_Click);
             // 
             // UserContribution
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.ButtonAddBar);
-            this.Controls.Add(this.ButtonAddDrink);
-            this.Controls.Add(this.ButtonEditPrice);
+            this.Controls.Add(this.buttonAddBar);
+            this.Controls.Add(this.buttonAddDrink);
+            this.Controls.Add(this.buttonEditPrice);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -272,8 +272,8 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button ButtonEditPrice;
-        private System.Windows.Forms.Button ButtonAddDrink;
-        private System.Windows.Forms.Button ButtonAddBar;
+        private System.Windows.Forms.Button buttonEditPrice;
+        private System.Windows.Forms.Button buttonAddDrink;
+        private System.Windows.Forms.Button buttonAddBar;
     }
 }
