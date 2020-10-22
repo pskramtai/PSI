@@ -25,30 +25,64 @@ namespace Comparison_Engine.Base_Classes
             drinkList.Add(new Drink(drinkID, drinkName));
         }
 
+        //Removes a drink from the drink list
+        public void RemoveDrink(Drink drink)
+        {
+            drinkList.Remove(drink);
+        }
+
         //Returns a tuple of the lowest price and a list of ID's of bars with that price for the drink
         public Tuple<float, List<int>> FindLowestPrice(int drinkID)
         {
-            Dictionary<int, float> drinkLocations = drinkList[drinkID].drinkLocations;
-            float min = drinkLocations.Values.First();
-            List<int> bars = new List<int>();
-            bars.Add(drinkLocations.Keys.First());
+            //Dictionary<int, float> drinkLocations = drinkList[drinkID].drinkLocations;
+            //float min = drinkLocations.Values.First();
+            //List<int> bars = new List<int>();
+            //bars.Add(drinkLocations.Keys.First());
 
-            foreach (KeyValuePair<int, float> kvp in drinkLocations)
-            {
-                if (kvp.Value < min)
-                {
-                    bars.Clear();
-                    min = kvp.Value;
-                    bars.Add(kvp.Key);
-                }
-                else if (kvp.Value == min)
-                {
-                    bars.Add(kvp.Key);
-                }
-            }
+            //foreach (KeyValuePair<int, float> kvp in drinkLocations)
+            //{
+            //    if (kvp.Value < min)
+            //    {
+            //        bars.Clear();
+            //        min = kvp.Value;
+            //        bars.Add(kvp.Key);
+            //    }
+            //    else if (kvp.Value == min)
+            //    {
+            //        bars.Add(kvp.Key);
+            //    }
+            //}
 
-            Tuple<float, List<int>> lowestPrice = new Tuple<float, List<int>>(min, bars);
-            return lowestPrice;
+            //Updated to look through using LINQ, leaving old logic behind for now in case it is needed
+            var lowestPrice = FindAllBarsWithDrink(drinkID)
+                              .Min(x => x.Value);
+
+            var lowestPriceLocations = FindAllBarsWithDrink(drinkID)
+                                       .Where(x => x.Value == lowestPrice)
+                                       .Select(x => x.Key)
+                                       .ToList();
+
+            
+
+            //Tuple<float, List<int>> lowestPrice = new Tuple<float, List<int>>(min, bars);
+            return new Tuple<float, List<int>>(lowestPrice, lowestPriceLocations);
+        }
+
+        //Returns a Disctionary of Bars with specified drink
+        public Dictionary<int, float> FindAllBarsWithDrink(int drinkID)
+        {
+            return drinkList[drinkID].drinkLocations;
+        }
+
+        //Returns specific Drink objects by some property
+        public Drink GetDrinkByID(int drinkID)
+        {
+            return drinkList[drinkID];
+        }
+
+        public Drink GetDrinkByName(string drinkName)
+        {
+            return drinkList.First(x => x.drinkName == drinkName);
         }
     }
 }
