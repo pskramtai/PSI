@@ -1,4 +1,5 @@
 ﻿using Comparison_Engine.Base_Classes;
+using Comparison_Engine.Child_Forms;
 using Comparison_Engine.Forms;
 using Microsoft.EntityFrameworkCore.Internal;
 using Newtonsoft.Json;
@@ -136,7 +137,13 @@ namespace Comparison_Engine
             //closeActiveForm();            //#commentedarea
             configureChildForm(drinkForm);
         }
-        private void configureChildForm(Form childForm)
+        private void openChildFormUserContribution(Drink drink, Bar bar)
+        {
+            Child_Forms.UserContribution userContribution = new UserContribution(drink, bar);
+            //closeActiveForm();            //#commentedarea
+            configureChildForm(userContribution);
+        }
+    private void configureChildForm(Form childForm)
         {
             //if (activeForm.GetType != MapForm.get)              //#commentedarea
 
@@ -281,35 +288,38 @@ namespace Comparison_Engine
             }
         }
 
-
-
-        //COMMENTED FUNCTIONS #commenterarea
-
-        /*
-         //loadBars and loadDrinks loads from List
-
-        private void loadBars()
+        private void buttonEdit_Click(object sender, EventArgs e)
         {
-            foreach(Bar bar in bars)
-            {
-                createBarButton(bar);
-            }
+            openChildFormUserContribution(drinks[2], bars[2]);
         }
 
-        private void loadDrinks()
+    //COMMENTED FUNCTIONS #commenterarea
+
+    /*
+     //loadBars and loadDrinks loads from List
+
+    private void loadBars()
+    {
+        foreach(Bar bar in bars)
         {
-            foreach (Drink drink in drinks)
-            {
-                createDrinkButton(drink);
-            }
+            createBarButton(bar);
         }
-         
-         
-         */
+    }
+
+    private void loadDrinks()
+    {
+        foreach (Drink drink in drinks)
+        {
+            createDrinkButton(drink);
+        }
+    }
 
 
-        //Saves drink and bar data to JSON file
-        private void onApplicationExit(object sender, EventArgs e)
+     */
+
+
+    //Saves drink and bar data to JSON file
+    private void onApplicationExit(object sender, EventArgs e)
         {
             if (this.drinks.Any() && this.drinks != null)
             {
