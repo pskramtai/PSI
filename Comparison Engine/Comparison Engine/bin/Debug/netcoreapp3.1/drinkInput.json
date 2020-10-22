@@ -1,26 +1,26 @@
 [
-    {
-        "drinkID": 1,
-        "drinkName": "Nealkoholinis alus",
-        "drinkLocations":{
-            "1":2.5,
-            "2":2
-        }
+  {
+    "drinkLocations": {
+      "1": 2.5,
+      "2": 2.0
     },
-    {
-        "drinkID": 2, 
-        "drinkName": "Nealkoholinis vynas",
-        "drinkLocations":{
-            "1":2.99,
-            "3":2.5
-        }
+    "drinkID": 1,
+    "drinkName": "Nealkoholinis alus"
+  },
+  {
+    "drinkLocations": {
+      "1": 2.99,
+      "3": 2.5
     },
-    {
-        "drinkID": 3,
-        "drinkName": "Nealkoholine degtine",
-        "drinkLocations":{
-            "2":4.5,
-            "3":4
-        }
-    }
+    "drinkID": 2,
+    "drinkName": "Nealkoholinis vynas"
+  },
+  {
+    "drinkLocations": {
+      "2": 4.5,
+      "3": 4.0
+    },
+    "drinkID": 3,
+    "drinkName": "Nealkoholine degtine"
+  }
 ]

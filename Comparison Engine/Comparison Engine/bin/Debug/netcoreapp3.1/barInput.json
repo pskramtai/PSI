@@ -1,31 +1,29 @@
 [
-    {
-        "barId": 1,
-        "barName": "Minusai",
-        "location": "50.00000 40.000000",
-        "availableDrinks": {
-            "1":2.5,
-            "2":2.99
-        }
-            
-        
+  {
+    "availableDrinks": {
+      "1": 2.5,
+      "2": 2.99
     },
-    {
-        "barId": 2,
-        "barName": "Busi Antras",
-        "location": "40.000000 50.000000",
-        "availableDrinks": {
-            "1":2,
-            "3":4.5
-        }
+    "barID": 1,
+    "barName": "Minusai",
+    "location": "50.00000 40.000000"
+  },
+  {
+    "availableDrinks": {
+      "1": 2.0,
+      "3": 4.5
     },
-    {
-        "barId": 3,
-        "barName": "Pilies 9",
-        "location": "45.000000 55.000000",
-        "availableDrinks": {
-            "2": 2.5,
-            "3": 4
-        }
-    }
+    "barID": 2,
+    "barName": "Busi Antras",
+    "location": "40.000000 50.000000"
+  },
+  {
+    "availableDrinks": {
+      "2": 2.5,
+      "3": 4.0
+    },
+    "barID": 3,
+    "barName": "Pilies 9",
+    "location": "45.000000 55.000000"
+  }
 ]
