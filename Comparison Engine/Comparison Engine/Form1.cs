@@ -148,7 +148,7 @@ namespace Comparison_Engine
             BarForm barForm = new BarForm(bar);        
             configureChildForm(barForm);
 
-            mapController.ShowRoute(map, bar.barLocation); // WILL SHOW ROUTE TO SELECTED BAR
+            //mapController.ShowRoute(map, bar.barLocation); // WILL SHOW ROUTE TO SELECTED BAR
             
         }
         /*private void whateverTheFunctionWillBeCalled()
@@ -160,7 +160,7 @@ namespace Comparison_Engine
             DrinkForm drinkForm = new DrinkForm(drink);            
             configureChildForm(drinkForm);
 
-            mapController.ShowBarsWithDrink(map, drink, bars); // WILL SHOW BARS WITH SELECTED DRINKS
+            //mapController.ShowBarsWithDrink(map, drink, bars); // WILL SHOW BARS WITH SELECTED DRINKS
 
         }
         private void openChildFormProfile()                 //This will probably recieve the user info

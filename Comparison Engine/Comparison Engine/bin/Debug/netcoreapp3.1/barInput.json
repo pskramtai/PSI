@@ -6,7 +6,7 @@
     },
     "barID": 1,
     "barName": "Minusai",
-    "location": "50.00000 40.000000"
+    "barLocation": null
   },
   {
     "availableDrinks": {
@@ -15,7 +15,7 @@
     },
     "barID": 2,
     "barName": "Busi Antras",
-    "location": "40.000000 50.000000"
+    "barLocation": null
   },
   {
     "availableDrinks": {
@@ -24,6 +24,6 @@
     },
     "barID": 3,
     "barName": "Pilies 9",
-    "location": "45.000000 55.000000"
+    "barLocation": null
   }
 ]

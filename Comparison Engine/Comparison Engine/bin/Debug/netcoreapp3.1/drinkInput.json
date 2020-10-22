@@ -1,5 +1,6 @@
 [
   {
+    "ingredientList": [],
     "drinkLocations": {
       "1": 2.5,
       "2": 2.0
@@ -8,6 +9,7 @@
     "drinkName": "Nealkoholinis alus"
   },
   {
+    "ingredientList": [],
     "drinkLocations": {
       "1": 2.99,
       "3": 2.5
@@ -16,6 +18,7 @@
     "drinkName": "Nealkoholinis vynas"
   },
   {
+    "ingredientList": [],
     "drinkLocations": {
       "2": 4.5,
       "3": 4.0
