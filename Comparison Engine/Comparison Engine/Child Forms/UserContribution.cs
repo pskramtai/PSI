@@ -18,17 +18,17 @@ namespace Comparison_Engine.Child_Forms
         }
 
         
-        private void ButtonAddDrink_Click(object sender, System.EventArgs e)
+        private void buttonAddDrink_Click(object sender, System.EventArgs e)
         {
         }
-        private void ButtonAddBar_Click(object sender, System.EventArgs e)
+        private void buttonAddBar_Click(object sender, System.EventArgs e)
         {
             string BarName = textBoxBarName.Text;
             string BarAdress = textBoxBarAdress.Text;
             //AddBar(BarName, BarAdress);
 
         }
-        private void ButtonEditPrice_Click(object sender, System.EventArgs e)
+        private void buttonEditPrice_Click(object sender, System.EventArgs e)
         {
             
         }
