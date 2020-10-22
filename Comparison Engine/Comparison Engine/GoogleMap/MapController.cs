@@ -76,11 +76,11 @@ namespace Comparison_Engine.GoogleMap
 
                 if (cheapestPlaces.Contains(ID))
                 {
-                    MarkBarInRadius(map, bar, $"{bar.barName} \n {bar.location} \n {specificDrink.drinkLocations[ID]}", GMarkerGoogleType.orange_small);
+                    MarkBarInRadius(map, bar, $"{bar.barName} \n {bar.barLocation} \n {specificDrink.drinkLocations[ID]}", GMarkerGoogleType.orange_small);
                 }
                 else
                 {
-                    MarkBarInRadius(map, bar, $"{bar.barName} \n {bar.location} \n {specificDrink.drinkLocations[ID]}");
+                    MarkBarInRadius(map, bar, $"{bar.barName} \n {bar.barLocation} \n {specificDrink.drinkLocations[ID]}");
                 }
             }
 
@@ -94,7 +94,7 @@ namespace Comparison_Engine.GoogleMap
         {
             foreach (Bar bar in barList)
             {
-                MarkBarInRadius(map, bar, $"{bar.barName} \n {bar.location}");
+                MarkBarInRadius(map, bar, $"{bar.barName} \n {bar.barLocation}");
             }
 
             ShowHome(map);
@@ -102,11 +102,11 @@ namespace Comparison_Engine.GoogleMap
 
         private void MarkBarInRadius(GMapControl map, Bar bar, string markerString, GMarkerGoogleType markerType = GMarkerGoogleType.black_small)
         {
-            var distanceTo = GetDistance(homeAddress, bar.location);
+            var distanceTo = GetDistance(homeAddress, bar.barLocation);
 
             if (distanceTo <= prefDistance)
             {
-                ShowMapByAddress(map, bar.location, markerString + $"\n {distanceTo}", markerType);
+                ShowMapByAddress(map, bar.barLocation, markerString + $"\n {distanceTo}", markerType);
             }
         }
 

@@ -25,7 +25,7 @@ namespace Comparison_Engine.Forms
         private void populateBarForm(Bar bar)
         {
             setLabelBarName(bar.barName);
-            setLabelBarLocation(bar.location);
+            setLabelBarLocation(bar.barLocation);
             populateDrinkList(bar.availableDrinks);
         }
         private void setLabelBarName(string name)

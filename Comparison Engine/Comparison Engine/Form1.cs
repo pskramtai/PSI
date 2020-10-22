@@ -55,7 +55,6 @@ namespace Comparison_Engine
         {
 
             populateLists();
-            loadBars();
             stateCheck();
         }
 
@@ -69,13 +68,13 @@ namespace Comparison_Engine
         {
             if (barsIsTop)
             {
-                loadBars();                 
+                loadBars(bars);                 
                 buttonBarsIsTop();
 
             }
             else
             {
-                loadDrinks();                 
+                loadDrinks(drinks);                 
                 buttonDrinksIsTop();
 
             }
@@ -149,7 +148,7 @@ namespace Comparison_Engine
             BarForm barForm = new BarForm(bar);        
             configureChildForm(barForm);
 
-            mapController.ShowRoute(map, bar.location); // WILL SHOW ROUTE TO SELECTED BAR
+            mapController.ShowRoute(map, bar.barLocation); // WILL SHOW ROUTE TO SELECTED BAR
             
         }
         /*private void whateverTheFunctionWillBeCalled()
