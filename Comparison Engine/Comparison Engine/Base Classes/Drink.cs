@@ -10,10 +10,19 @@ namespace Comparison_Engine.Base_Classes
         //Name of the drink
         public string drinkName { get; set; }
 
+        //List of ingredients in this drink, mainly used by cocktails
+        public List<string> ingredientList = new List<string>(); // actually surprised I'm adding this only now
+
         public Drink(int drinkID, string drinkName)
         {
             this.drinkID = drinkID;
             this.drinkName = drinkName;
+        }
+
+        //Changes the name of this drink object
+        public void EditDrinkName(string newName)
+        {
+            drinkName = newName;
         }
 
         //A dictionary of bars with this drink and the prices at those bars, int for bar ID, float for price
@@ -23,6 +32,18 @@ namespace Comparison_Engine.Base_Classes
         public void AddBar(int barID, float price)
         {
             drinkLocations.Add(barID, price);
+        }
+
+        //edits the price of the drink at the specified bar
+        public void EditPrice(int barID, float newPrice)
+        {
+            drinkLocations[barID] = newPrice;
+        }
+
+        //Removes the bar from the dictionary of available bars
+        public void RemoveAvailableBar(int barID)
+        {
+            drinkLocations.Remove(barID);
         }
     }
 }

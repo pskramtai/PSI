@@ -24,6 +24,10 @@ namespace Comparison_Engine.GoogleMap
         {
         }
 
+        // set default values so it would compile, but will need to set these depending on user or from current location
+        public double prefDistance { private get; set; } = 69; 
+        public string homeAddress { private get; set; } = "S. Nėries 99";
+
         // Initializes map and provides all necessities
         public void InitMap(GMapControl map, int zoomAtLoad = 16)
         {
@@ -36,7 +40,14 @@ namespace Comparison_Engine.GoogleMap
 
             map.MinZoom = 3; // Minimum zoom level
             map.MaxZoom = 18; // Maximum zoom level
-            map.Zoom = zoomAtLoad; // Current zoom position
+            SetZoom(map, zoomAtLoad);
+
+            ShowHome(map);
+        }
+
+        private void ShowHome(GMapControl map)
+        {
+            ShowMapByAddress(map, homeAddress);
         }
 
         // removes all current overlays
@@ -52,48 +63,64 @@ namespace Comparison_Engine.GoogleMap
         // puts markers on all bars within a wanted radius which have a specific drink and notes it's price in those bars
         //can't really test, cuz designer is broken on my side, so the string formatting might need changing
         //might need to adjust map by zooming out in the future
-        public void ShowBarsWithDrink(GMapControl map, Drink specificDrink, double prefDistance, string currentAddress, List<Bar> barList)
+        public void ShowBarsWithDrink(GMapControl map, Drink specificDrink, List<Bar> barList)
         {
-            var barIDs = specificDrink.drinkLocations.Keys.ToArray();
+            DrinkManager drinkManager = DrinkManager.Instance;
+            var cheapestPlaces = drinkManager.FindLowestPrice(specificDrink.drinkID).Item2;
+
+            var barIDs = specificDrink.drinkLocations.Keys.ToArray(); // maybe could rewrite with FindAllBarsWithDrink
 
             foreach (int ID in barIDs)
             {
-                var bar = barList[ID];
+                var bar = barList[ID];   // need to fix this so it wouldn't call barList by index
 
-                MarkBarInRadius(map, prefDistance, currentAddress, bar, $"{bar.barName} \n {bar.location} \n {specificDrink.drinkLocations[ID]}");
+                if (cheapestPlaces.Contains(ID))
+                {
+                    MarkBarInRadius(map, bar, $"{bar.barName} \n {bar.location} \n {specificDrink.drinkLocations[ID]}", GMarkerGoogleType.orange_small);
+                }
+                else
+                {
+                    MarkBarInRadius(map, bar, $"{bar.barName} \n {bar.location} \n {specificDrink.drinkLocations[ID]}");
+                }
             }
 
-            ShowMapToPoint(map, GetPointFromAddress(currentAddress));
+            ShowHome(map);
         }
 
         //puts markers on all bars within a wanted radius with addresses and names
         //can't really test, cuz designer is broken on my side, so the string formatting might need changing
         //might need to adjust map by zooming out in the future
-        public void ShowNearBars(GMapControl map, double prefDistance, string currentAddress, List<Bar> barList)
+        public void ShowNearBars(GMapControl map, List<Bar> barList)
         {
             foreach (Bar bar in barList)
             {
-                MarkBarInRadius(map, prefDistance, currentAddress, bar, $"{bar.barName} \n {bar.location}");
+                MarkBarInRadius(map, bar, $"{bar.barName} \n {bar.location}");
             }
 
-            ShowMapToPoint(map, GetPointFromAddress(currentAddress));
+            ShowHome(map);
         }
 
-        private void MarkBarInRadius(GMapControl map, double prefDistance, string currentAddress, Bar bar, string markerString)
+        private void MarkBarInRadius(GMapControl map, Bar bar, string markerString, GMarkerGoogleType markerType = GMarkerGoogleType.black_small)
         {
-            var distanceTo = GetDistance(currentAddress, bar.location);
+            var distanceTo = GetDistance(homeAddress, bar.location);
 
             if (distanceTo <= prefDistance)
             {
-                ShowMapByAddress(map, bar.location, markerString + $"\n {distanceTo}");
+                ShowMapByAddress(map, bar.location, markerString + $"\n {distanceTo}", markerType);
             }
         }
 
         // positions map on the given address location
-        public void ShowMapByAddress(GMapControl map, string address, string toolTipText)
+        public void ShowMapByAddress(GMapControl map, string address)
         {
             var point = GetPointFromAddress(address);
-            ShowMapToPointMarker(map, point, toolTipText);
+            ShowMapToPoint(map, point);
+        }
+
+        public void ShowMapByAddress(GMapControl map, string address, string toolTipText, GMarkerGoogleType markerType = GMarkerGoogleType.black_small)
+        {
+            var point = GetPointFromAddress(address);
+            ShowMapToPoint(map, point, toolTipText, markerType);
         }
 
         // positions map on the given keyword location
@@ -105,10 +132,10 @@ namespace Comparison_Engine.GoogleMap
         }
 
         // displays route between two addresses
-        public void ShowRoute(GMapControl map, string addressA, string addressB, string routeName, string overlayName, bool avoidHighways, bool walkingMode)
+        public void ShowRoute(GMapControl map, string addressWhereTo, string routeName = "New Route", string overlayName = "New Overlay", bool avoidHighways = false, bool walkingMode = true)
         {
-            var pointA = GetPointFromAddress(addressA);
-            var pointB = GetPointFromAddress(addressB);
+            var pointA = GetPointFromAddress(homeAddress);
+            var pointB = GetPointFromAddress(addressWhereTo);
 
             var route = GoogleMapProvider.Instance.GetRoute(pointA, pointB, avoidHighways, walkingMode, 14);
 
@@ -152,10 +179,10 @@ namespace Comparison_Engine.GoogleMap
             map.Position = point;
         }
 
-        private void ShowMapToPointMarker(GMapControl map, PointLatLng point, string toolTipText)
+        private void ShowMapToPoint(GMapControl map, PointLatLng point, string toolTipText, GMarkerGoogleType markerType = GMarkerGoogleType.black_small)
         {
             ShowMapToPoint(map, point);
-            AddMarkerWithTooltip(map, point, toolTipText);
+            AddMarkerWithTooltip(map, point, toolTipText, markerType);
         }
 
         private void AddMarkerWithTooltip(GMapControl map, PointLatLng point, string toolTipText, GMarkerGoogleType markerType = GMarkerGoogleType.black_small)
@@ -183,6 +210,12 @@ namespace Comparison_Engine.GoogleMap
         {
             map.Zoom--;
             map.Zoom++;
+        }
+
+        // sets zoom level
+        private void SetZoom(GMapControl map, int zoom)
+        {
+            map.Zoom = zoom;
         }
     }
 }

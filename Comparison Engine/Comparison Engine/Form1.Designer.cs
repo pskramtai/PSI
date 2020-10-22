@@ -41,6 +41,7 @@
             this.panelProfile = new System.Windows.Forms.Panel();
             this.labelProfileName = new System.Windows.Forms.Label();
             this.pictureBoxProfile = new System.Windows.Forms.PictureBox();
+            this.buttonEdit = new System.Windows.Forms.Button();
             this.panelSearch.SuspendLayout();
             this.panelList.SuspendLayout();
             this.panelSideMenu.SuspendLayout();
@@ -176,6 +177,16 @@
             this.pictureBoxProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxProfile.TabIndex = 0;
             this.pictureBoxProfile.TabStop = false;
+            //
+            // buttonEdit
+            //
+            this.buttonEdit.Location = new System.Drawing.Point(180, 22);
+            this.buttonEdit.Name = "Edit";
+            this.buttonEdit.Size = new System.Drawing.Size(66, 25);
+            this.buttonEdit.TabIndex = 2;
+            this.buttonEdit.Text = "Edit";
+            this.buttonEdit.UseVisualStyleBackColor = true;
+            this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // Form1
             // 
@@ -183,6 +194,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(844, 521);
             this.Controls.Add(this.panelMain);
+            this.Controls.Add(this.buttonEdit);
             this.Controls.Add(this.panelSideMenu);
             this.MinimumSize = new System.Drawing.Size(860, 560);
             this.Name = "Form1";
@@ -214,6 +226,7 @@
         private System.Windows.Forms.Button buttonBottom;
         private System.Windows.Forms.Button buttonTop;
         private System.Windows.Forms.Panel panelSubList;
+        private System.Windows.Forms.Button buttonEdit;
     }
 }
 
