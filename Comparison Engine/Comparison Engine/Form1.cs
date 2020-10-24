@@ -1,11 +1,15 @@
 ﻿using Comparison_Engine.Base_Classes;
+using Comparison_Engine.Child_Forms;
 using Comparison_Engine.Forms;
+using Comparison_Engine.GoogleMap;
+using GMap.NET.WindowsForms;
 using Microsoft.EntityFrameworkCore.Internal;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.DirectoryServices.ActiveDirectory;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -18,9 +22,14 @@ namespace Comparison_Engine
     {
 
         private bool barsIsTop = true;
-        private List<Drink> drinks = new List<Drink>();
-        private List<Bar> bars = new List<Bar>();
-
+        //private Dictionary <int, Drink> drinks = new Dictionary <int, Drink>();
+       // private Dictionary <int, Bar> bars = new Dictionary <int, Bar>();
+        private DrinkManager drinkManager = DrinkManager.Instance;
+        private BarManager barManager = BarManager.Instance;
+        public Form activeForm = null;
+        public MapForm mainMapForm = null;
+        private GMapControl map;
+        private MapController mapController = MapController.Instance;
         //Testines funkcijas galima rast ieskant #testarea
         //Tuscias funkcijas(nieko jose nebus daroma) galima rast ieskant #emptyarea
 
@@ -29,11 +38,10 @@ namespace Comparison_Engine
         {
 
             InitializeComponent();
-
-            //populateLists();                          //#commentedarea
-            //loadBars();                               //#commentedarea
             initializeList();
-            openChildFormMap(new MapForm());
+            initializeProfileClick();
+            // probably will need some method here to get current address of the current user
+            openChildFormMap();
             Application.ApplicationExit += new EventHandler(this.onApplicationExit); //Method called on app exit
         }
 
@@ -47,45 +55,37 @@ namespace Comparison_Engine
 
         private void initializeList()
         {
-            //#testarea
-            initializeTest();
-            
 
             populateLists();
-            stateSwitch();
+            stateCheck();
         }
 
-        //Someone needs to make this happen
         private void populateLists()
         {
-            this.bars = Data.GetBars();
-            this.drinks = Data.GetDrinks();
+            barManager.barDictionary = Data.GetBars();
+            drinkManager.drinkDictionary = Data.GetDrinks();
         }
 
-        private void stateSwitch()
+        private void stateCheck()
         {
             if (barsIsTop)
             {
-                //loadBars();                 //#commentedarea
+                loadBars(barManager.barDictionary);                 
                 buttonBarsIsTop();
 
-                //Test functions #testarea
-                loadTestBarButtons();
             }
             else
             {
-                //loadDrinks();                 //#commentedarea
+                loadDrinks(drinkManager.drinkDictionary);                 
                 buttonDrinksIsTop();
 
-                //Test functions #testarea
-                loadTestDrinkButtons();
             }
         }
 
         private void buttonBottom_Click(object sender, EventArgs e)
         {
             barsIsTop = !barsIsTop;
-            stateSwitch();
+            stateCheck();
         }
         private void buttonBarsIsTop()
         {
@@ -96,6 +96,26 @@ namespace Comparison_Engine
         {
             buttonTop.Text = "Drinks";
             buttonBottom.Text = "Bars";
+        }
+
+        //loadBars and loadDrinks loads from List
+
+        private void loadBars(Dictionary <int, Bar> barsDictionary)
+        {
+            clearButtonList();
+            foreach (Bar bar in barsDictionary.Values)
+            {
+                createBarButton(bar);
+            }
+        }
+
+        private void loadDrinks(Dictionary <int, Drink> drinksDictionary)
+        {
+            clearButtonList();
+            foreach (Drink drink in drinksDictionary.Values)
+            {
+                createDrinkButton(drink);
+            }
         }
 
         //SEARCH FEATURES       #search
@@ -118,28 +138,51 @@ namespace Comparison_Engine
 
         //OPENING CHILD FORMS    #childforms
 
-        public Form activeForm = null;
-        private void openChildFormMap(Form childForm)                           //this method will probably recieve some sort of mapData in the future
+        private void openChildFormMap()                           //this method will probably recieve some sort of mapData in the future
         {
             MapForm mapForm = new MapForm();
+            mainMapForm = mapForm;
             configureChildForm(mapForm);
+            map = mapForm.GetMap();
         }
         private void openChildFormBar(Bar bar)
         {
-            BarForm barForm = new BarForm(bar);
-            //closeActiveForm();            //#commentedarea
+            BarForm barForm = new BarForm(bar);        
             configureChildForm(barForm);
+
+            //mapController.ShowRoute(map, bar.barLocation); // WILL SHOW ROUTE TO SELECTED BAR
+            
         }
+        /*private void whateverTheFunctionWillBeCalled()
+        {
+            mapController.RemoveOverlays(map); // THIS SHOULD CLEAN THE MAP
+        }*/
         private void openChildFormDrink(Drink drink)
         {
-            DrinkForm drinkForm = new DrinkForm(drink);
-            //closeActiveForm();            //#commentedarea
+            DrinkForm drinkForm = new DrinkForm(drink);            
             configureChildForm(drinkForm);
-        }
-        private void configureChildForm(Form childForm)
-        {
-            //if (activeForm.GetType != MapForm.get)              //#commentedarea
 
+            //mapController.ShowBarsWithDrink(map, drink, bars); // WILL SHOW BARS WITH SELECTED DRINKS
+
+        }
+        private void openChildFormProfile()                 //This will probably recieve the user info
+        {
+            ProfileForm profileForm = new ProfileForm();         //This will probably recieve the user info
+            configureChildForm(profileForm);
+        }
+
+        private void openChildFormUserContribution(Drink drink, Bar bar)
+        {
+            Child_Forms.UserContribution userContribution = new UserContribution(drink, bar);
+            //closeActiveForm();            //#commentedarea
+            configureChildForm(userContribution);
+        }
+    private void configureChildForm(Form childForm)
+        {
+            if (activeForm != null && activeForm.GetType() != mainMapForm.GetType())
+            {
+                closeActiveForm();
+            }
             activeForm = childForm;
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
@@ -149,169 +192,96 @@ namespace Comparison_Engine
             childForm.BringToFront();
             childForm.Show();
         }
-        private void closeActiveForm()
+        public void closeActiveForm()
         {
             activeForm.Close();
         }
 
         //LIST BUTTON CREATOR #listbuttons
+
+        //BAR BUTTON FUNCTIONS
         private void createBarButton(Bar bar)
+        {
+            Button button = new Button();
+            configureBarButton(button, bar);
+            bindBar(button, bar);
+        }
+
+        private void bindBar(Button button, Bar bar)
+        {
+            button.Click += (sender, EventArgs) => { barButtonClick(bar); };
+        }
+
+        private void barButtonClick(Bar bar)
+        {
+            openChildFormBar(bar);
+        }
+        private void configureBarButton(Button button, Bar bar)
+        {
+            panelSubList.Controls.Add(button);
+            button.Text = (bar.barName);
+            button.Dock = DockStyle.Top;
+        }
+        //DRINK BUTTON FUNCTIONS
+        private void createDrinkButton(Drink drink)
+        {
+            Button button = new Button();
+            configureDrinkButton(button, drink);
+            bindDrink(button, drink);
+        }
+
+        private void bindDrink(Button button, Drink drink)
+        {
+            button.Click += (sender, EventArgs) => { drinkButtonClick(drink); };
+        }
+
+        private void drinkButtonClick(Drink drink)
+        {
+           openChildFormDrink(drink);
+            mapController.ShowBarsWithDrink(map, drink, barManager.barDictionary);
+        }
+        private void configureDrinkButton(Button button, Drink drink)
+        {
+            panelSubList.Controls.Add(button);
+            button.Text = (drink.drinkName);
+            button.Dock = DockStyle.Top;
+        }
+
+        private void clearButtonList()
+        {
+            panelSubList.Controls.Clear();
+        }
+
+        //PROFILE MANAGING #profile
+        private void initializeProfileClick()
+        {
+            panelProfile.Click += (sender, e) => { openChildFormProfile(); };           //This will probably recieve the user info
+            labelProfileName.Click += (sender, e) => { openChildFormProfile(); };           //This will probably recieve the user info
+            pictureBoxProfile.Click += (sender, e) => { openChildFormProfile(); };           //This will probably recieve the user info
+        }
+
+        //EMPTY AREA #emptyarea
+        private void panelProfile_Paint(object sender, PaintEventArgs e)
         {
             
         }
 
-        private void createDrinkButton(Drink drink)
+        private void buttonEdit_Click(object sender, EventArgs e)
         {
-            /*                          //#commentedarea
-            Button button = new Button();
-            createButton(button);
-            button.Tag = drink;
-            button.Click += drinkButtonClick;
-            */
+           // openChildFormUserContribution(drinks[2], bars[2]);
         }
-
-        private void createButton(Button button)
-        {
-
-        }
-
-        private void drinkButtonClick(object sender, EventArgs e)
-        {
-           // openChildFormDrink(new DrinkForm(), (Drink)this.Tag);     //#commentedarea
-
-        }
-
-
-        private void clearButtonList()
-        {
-            panelSideMenu.Controls.Clear();
-        }
-
-        //PROFILE MANAGING #profile
-        private void panelProfile_Paint(object sender, PaintEventArgs e)
-        {
-            Console.WriteLine("works");
-        }
-
-        //EMPTY AREA #emptyarea
 
 
         //TEST AREA #testarea
 
-        private void initializeTest()
-        {
-            initializeTestBars();
-            initializeTestDrinks();
-            initializeCrossReference();
-        }
-        private void initializeTestBars()
-        {
-            bars.Add(new Bar(1, "Pilies 6", "Pilies g. 6"));
-            bars.Add(new Bar(2, "Pliusai", "Gedimino g. 9"));
-            bars.Add(new Bar(3, "Būsi Trečias", "Totorių g. 8"));
-        }
-        private void initializeTestDrinks()
-        {
-            drinks.Add(new Drink(1, "Beer"));
-            drinks.Add(new Drink(2, "Vodka"));
-            drinks.Add(new Drink(3, "Cuba Libre"));
-        }
-        private void initializeCrossReference()
-        {
-            drinks[0].AddBar(1, 3.5f);
-            drinks[0].AddBar(2, 1.9f);
-            drinks[0].AddBar(3, 3f);
-            drinks[1].AddBar(2, 4f);
-            drinks[2].AddBar(2, 4.5f);
-            drinks[2].AddBar(3, 5f);
 
-            bars[0].AddDrink(drinks[0].drinkID, 3.5f);
-            bars[1].AddDrink(drinks[0].drinkID, 1.9f);
-            bars[1].AddDrink(drinks[1].drinkID, 4f);
-            bars[1].AddDrink(drinks[2].drinkID, 4.5f);
-            bars[2].AddDrink(drinks[0].drinkID, 3f);
-            bars[2].AddDrink(drinks[2].drinkID, 5f);
-        }
-        private void loadTestBarButtons()
-        {
-            buttonTest1.Text = bars[0].barName;
-            buttonTest2.Text = bars[1].barName;
-            buttonTest3.Text = bars[2].barName;
-        }
-        private void loadTestDrinkButtons()
-        {
-            buttonTest1.Text = drinks[0].drinkName;
-            buttonTest2.Text = drinks[1].drinkName;
-            buttonTest3.Text = drinks[2].drinkName;
-        }
-
-        private void buttonTest1_Click(object sender, EventArgs e)
-        {
-            if (barsIsTop)
-            {
-                openChildFormBar(bars[0]);
-            }
-            else
-            {
-                openChildFormDrink(drinks[0]);
-            }
-        }
-
-        private void buttonTest2_Click(object sender, EventArgs e)
-        {
-            if (barsIsTop)
-            {
-                openChildFormBar(bars[1]);
-            }
-            else
-            {
-                openChildFormDrink(drinks[1]);
-            }
-        }
-
-        private void buttonTest3_Click(object sender, EventArgs e)
-        {
-            if (barsIsTop)
-            {
-                openChildFormBar(bars[2]);
-            }
-            else
-            {
-                openChildFormDrink(drinks[2]);
-            }
-        }
+        //COMMENTED FUNCTIONS #commentedarea
 
 
-
-        //COMMENTED FUNCTIONS #commenterarea
-
-        /*
-         //loadBars and loadDrinks loads from List
-
-        private void loadBars()
+    //Saves drink and bar data to JSON file
+    private void onApplicationExit(object sender, EventArgs e)
         {
-            foreach(Bar bar in bars)
-            {
-                createBarButton(bar);
-            }
-        }
-
-        private void loadDrinks()
-        {
-            foreach (Drink drink in drinks)
-            {
-                createDrinkButton(drink);
-            }
-        }
-         
-         
-         */
-
-
-        //Saves drink and bar data to JSON file
-        private void onApplicationExit(object sender, EventArgs e)
-        {
-            if (this.drinks.Any() && this.drinks != null)
+         /*   if (this.drinks.Any() && this.drinks != null)
             {
                 Data.SaveDrinks(this.drinks);
             }
@@ -319,7 +289,7 @@ namespace Comparison_Engine
             if (this.bars.Any() && this.bars != null)
             {
                 Data.SaveBars(this.bars);
-            }
+            }*/
         }
     }
 }

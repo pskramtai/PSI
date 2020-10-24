@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Comparison_Engine.GoogleMap;
+using GMap.NET.WindowsForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,6 +12,8 @@ namespace Comparison_Engine.Forms
 {
     public partial class MapForm : Form
     {
+        private MapController mapControl = MapController.Instance;
+
         public MapForm()
         {
             InitializeComponent();
@@ -17,12 +21,12 @@ namespace Comparison_Engine.Forms
 
         private void MapForm_Load(object sender, EventArgs e)
         {
-
+            mapControl.InitMap(map);
         }
-/*       public void populate(mapData)                                                         will probably need this in the future
-       {                                                                                       
 
-       }
-   }*/
+        public GMapControl GetMap()
+        {
+            return map;
+        }
     }
 }

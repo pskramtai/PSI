@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Windows.Forms;
 
 namespace Comparison_Engine.Base_Classes
 {
@@ -16,39 +17,73 @@ namespace Comparison_Engine.Base_Classes
         }
 
         //A list of drinks
-        public List<Drink> drinkList = new List<Drink>();
+        public Dictionary<int, Drink> drinkDictionary { get; set; }
 
         //Adds a new drink to the list
         public void AddDrink(string drinkName)
         {
-            int drinkID = drinkList.Count - 1;
-            drinkList.Add(new Drink(drinkID, drinkName));
+            int drinkID = drinkDictionary.Count - 1;
+            drinkDictionary.Add(drinkID, new Drink(drinkID, drinkName));
+        }
+
+        //Removes a drink from the drink list
+        public void RemoveDrink(Drink drink)
+        {
+            drinkDictionary.Remove(drink.drinkID);
         }
 
         //Returns a tuple of the lowest price and a list of ID's of bars with that price for the drink
         public Tuple<float, List<int>> FindLowestPrice(int drinkID)
         {
-            Dictionary<int, float> drinkLocations = drinkList[drinkID].drinkLocations;
-            float min = drinkLocations.Values.First();
-            List<int> bars = new List<int>();
-            bars.Add(drinkLocations.Keys.First());
+            //Dictionary<int, float> drinkLocations = drinkDictionary[drinkID].drinkLocations;
+            //float min = drinkLocations.Values.First();
+            //List<int> bars = new List<int>();
+            //bars.Add(drinkLocations.Keys.First());
 
-            foreach (KeyValuePair<int, float> kvp in drinkLocations)
-            {
-                if (kvp.Value < min)
-                {
-                    bars.Clear();
-                    min = kvp.Value;
-                    bars.Add(kvp.Key);
-                }
-                else if (kvp.Value == min)
-                {
-                    bars.Add(kvp.Key);
-                }
-            }
+            //foreach (KeyValuePair<int, float> kvp in drinkLocations)
+            //{
+            //    if (kvp.Value < min)
+            //    {
+            //        bars.Clear();
+            //        min = kvp.Value;
+            //        bars.Add(kvp.Key);
+            //    }
+            //    else if (kvp.Value == min)
+            //    {
+            //        bars.Add(kvp.Key);
+            //    }
+            //}
 
-            Tuple<float, List<int>> lowestPrice = new Tuple<float, List<int>>(min, bars);
-            return lowestPrice;
+            //Updated to look through using LINQ, leaving old logic behind for now in case it is needed
+            var lowestPrice = FindAllBarsWithDrink(drinkID)
+                              .Min(x => x.Value);
+
+            var lowestPriceLocations = FindAllBarsWithDrink(drinkID)
+                                       .Where(x => x.Value == lowestPrice)
+                                       .Select(x => x.Key)
+                                       .ToList();
+
+            
+
+            //Tuple<float, List<int>> lowestPrice = new Tuple<float, List<int>>(min, bars);
+            return new Tuple<float, List<int>>(lowestPrice, lowestPriceLocations);
+        }
+
+        //Returns a Disctionary of Bars with specified drink
+        public Dictionary<int, float> FindAllBarsWithDrink(int drinkID)
+        {
+            return drinkDictionary[drinkID].drinkLocations;
+        }
+
+        //Returns specific Drink objects by some property
+        public Drink GetDrinkByID(int drinkID)
+        {
+            return drinkDictionary[drinkID];
+        }
+
+        public Drink GetDrinkByName(string drinkName)
+        {
+            return drinkDictionary.Values.First(x => x.drinkName == drinkName);
         }
     }
 }

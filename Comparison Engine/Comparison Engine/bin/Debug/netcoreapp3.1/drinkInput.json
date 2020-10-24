@@ -1,26 +1,50 @@
-[
-    {
-        "drinkID": 1,
-        "drinkName": "Nealkoholinis alus",
-        "drinkLocations":{
-            "1":2.5,
-            "2":2
-        }
+{
+  "1":{
+    "ingredientList": [],
+    "drinkLocations": {
+      "1": 2.5
     },
-    {
-        "drinkID": 2, 
-        "drinkName": "Nealkoholinis vynas",
-        "drinkLocations":{
-            "1":2.99,
-            "3":2.5
-        }
+    "drinkID": 1,
+    "drinkName": "Baltas Alus"
+  },
+  "2":{
+    "ingredientList": [],
+    "drinkLocations": {
+      "1": 2.99
     },
-    {
-        "drinkID": 3,
-        "drinkName": "Nealkoholine degtine",
-        "drinkLocations":{
-            "2":4.5,
-            "3":4
-        }
-    }
-]
+    "drinkID": 2,
+    "drinkName": "Kanapinis"
+  },
+  "3":{
+    "ingredientList": [],
+    "drinkLocations": {
+      "2": 2.5
+    },
+    "drinkID": 3,
+    "drinkName": "Jurgis"
+  },
+  "4":{
+    "ingredientList": [],
+    "drinkLocations": {
+      "2": 3.0
+    },
+    "drinkID": 4,
+    "drinkName": "Ciklonas"
+  },
+  "5":{
+    "ingredientList": [],
+    "drinkLocations": {
+      "3": 5.2
+    },
+    "drinkID": 5,
+    "drinkName": "Cuba Libre"
+  },
+  "6":{
+    "ingredientList": [],
+    "drinkLocations": {
+      "3": 3.3
+    },
+    "drinkID": 6,
+    "drinkName": "Vasaros dreifas"
+  }
+}

@@ -28,40 +28,53 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MapForm));
-            this.pictureBoxTempMap = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTempMap)).BeginInit();
+            this.map = new GMap.NET.WindowsForms.GMapControl();
             this.SuspendLayout();
             // 
-            // pictureBoxTempMap
+            // map
             // 
-            this.pictureBoxTempMap.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBoxTempMap.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxTempMap.Image")));
-            this.pictureBoxTempMap.Location = new System.Drawing.Point(0, 0);
-            this.pictureBoxTempMap.Name = "pictureBoxTempMap";
-            this.pictureBoxTempMap.Size = new System.Drawing.Size(594, 521);
-            this.pictureBoxTempMap.TabIndex = 2;
-            this.pictureBoxTempMap.TabStop = false;
+            this.map.Bearing = 0F;
+            this.map.CanDragMap = true;
+            this.map.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.map.EmptyTileColor = System.Drawing.Color.Navy;
+            this.map.GrayScaleMode = false;
+            this.map.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
+            this.map.LevelsKeepInMemory = 5;
+            this.map.Location = new System.Drawing.Point(0, 0);
+            this.map.MarkersEnabled = true;
+            this.map.MaxZoom = 2;
+            this.map.MinZoom = 2;
+            this.map.MouseWheelZoomEnabled = true;
+            this.map.MouseWheelZoomType = GMap.NET.MouseWheelZoomType.MousePositionAndCenter;
+            this.map.Name = "map";
+            this.map.NegativeMode = false;
+            this.map.PolygonsEnabled = true;
+            this.map.RetryLoadTile = 0;
+            this.map.RoutesEnabled = true;
+            this.map.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
+            this.map.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
+            this.map.ShowTileGridLines = false;
+            this.map.Size = new System.Drawing.Size(679, 695);
+            this.map.TabIndex = 0;
+            this.map.Zoom = 0D;
             // 
             // MapForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(594, 521);
-            this.Controls.Add(this.pictureBoxTempMap);
+            this.ClientSize = new System.Drawing.Size(679, 695);
+            this.Controls.Add(this.map);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MapForm";
             this.Text = "MapForm";
             this.Load += new System.EventHandler(this.MapForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTempMap)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBoxTempMap;
+        private GMap.NET.WindowsForms.GMapControl map;
     }
 }

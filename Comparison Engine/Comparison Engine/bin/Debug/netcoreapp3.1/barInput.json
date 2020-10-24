@@ -1,31 +1,29 @@
-[
-    {
-        "barId": 1,
-        "barName": "Minusai",
-        "location": "50.00000 40.000000",
-        "availableDrinks": {
-            "1":2.5,
-            "2":2.99
-        }
-            
-        
+{
+  "1":{
+    "availableDrinks": {
+      "1": 2.5,
+      "2": 2.99
     },
-    {
-        "barId": 2,
-        "barName": "Busi Antras",
-        "location": "40.000000 50.000000",
-        "availableDrinks": {
-            "1":2,
-            "3":4.5
-        }
+    "barID": 1,
+    "barName": "BIX Baras",
+    "barLocation": "Etmonu g. 6"
+  },
+  "2":{
+    "availableDrinks": {
+      "3": 2.5,
+      "4": 3.0
     },
-    {
-        "barId": 3,
-        "barName": "Pilies 9",
-        "location": "45.000000 55.000000",
-        "availableDrinks": {
-            "2": 2.5,
-            "3": 4
-        }
-    }
-]
+    "barID": 2,
+    "barName": "Devinke",
+    "barLocation": "Uzupio g. 4"
+  },
+  "3":{
+    "availableDrinks": {
+      "5": 5.2,
+      "6": 3.3
+    },
+    "barID": 3,
+    "barName": "Piano Man Bar",
+    "barLocation": "Islandijos g. 1"
+  }
+}
