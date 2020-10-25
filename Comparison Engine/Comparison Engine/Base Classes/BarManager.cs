@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Comparison_Engine.Base_Classes
 {
@@ -24,11 +25,46 @@ namespace Comparison_Engine.Base_Classes
             barList.Add(new Bar(barID, barName, location));
         }
 
+        //Removes the bar from the list of all bars
+        public void RemoveBar(Bar bar)
+        {
+            barList.Remove(bar);
+        }
+
         //Finds the price of a specific drink at a specific bar
-        public float FindDrinkPrice(int barID, int drink)
+        public float FindDrinkPrice(int barID, int drinkID)
         {
             //Return the price of specified drink at this bar
-            return barList[barID].availableDrinks.ContainsKey(drink) ? barList[barID].availableDrinks[drink] : -1; //Should return something else besides -1 if drink not available here
+            if (barList[barID].availableDrinks.TryGetValue(drinkID, out float value))
+            {
+                return value;
+            }
+            else
+            {
+                return -1;
+            }
+        }
+
+        //Returns a list of all drinks at a specified bar
+        public Dictionary<int, float> FindAllDrinksAtBar(int barID)
+        {
+            return barList[barID].availableDrinks;
+        }
+
+        //Returns specific Bar obejcts by some property
+        public Bar GetBarByID(int barID)
+        {
+            return barList[barID];
+        }
+
+        public Bar GetBarByName(string barName)
+        {
+            return barList.First(x => x.barName == barName);
+        }
+
+        public Bar GetBarByLocation(string barLocation)
+        {
+            return barList.First(x => x.barLocation == barLocation);
         }
     }
 }
