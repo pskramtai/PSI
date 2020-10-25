@@ -61,26 +61,25 @@ namespace Comparison_Engine.GoogleMap
         }
 
         // puts markers on all bars within a wanted radius which have a specific drink and notes it's price in those bars
-        //can't really test, cuz designer is broken on my side, so the string formatting might need changing
         //might need to adjust map by zooming out in the future
-        public void ShowBarsWithDrink(GMapControl map, Drink specificDrink, List<Bar> barList)
+        public void ShowBarsWithDrink(GMapControl map, Drink specificDrink, Dictionary<int, Bar> barDictionary)
         {
             DrinkManager drinkManager = DrinkManager.Instance;
             var cheapestPlaces = drinkManager.FindLowestPrice(specificDrink.drinkID).Item2;
 
-            var barIDs = specificDrink.drinkLocations.Keys.ToArray(); // maybe could rewrite with FindAllBarsWithDrink
+            var barIDs = drinkManager.FindAllBarsWithDrink(specificDrink.drinkID);//.Keys.ToArray(); // maybe could rewrite with FindAllBarsWithDrink
 
-            foreach (int ID in barIDs)
+            foreach (KeyValuePair<int, float> barAndPrice in barIDs)
             {
-                var bar = barList[ID];   // need to fix this so it wouldn't call barList by index
+                var bar = barDictionary[barAndPrice.Key];
 
-                if (cheapestPlaces.Contains(ID))
+                if (cheapestPlaces.Contains(barAndPrice.Key))
                 {
-                    MarkBarInRadius(map, bar, $"{bar.barName} \n {bar.barLocation} \n {specificDrink.drinkLocations[ID]}", GMarkerGoogleType.orange_small);
+                    MarkBarInRadius(map, bar, $"{bar.barName} \n {bar.barLocation} \n {barAndPrice.Value}", GMarkerGoogleType.orange_small);
                 }
                 else
                 {
-                    MarkBarInRadius(map, bar, $"{bar.barName} \n {bar.barLocation} \n {specificDrink.drinkLocations[ID]}");
+                    MarkBarInRadius(map, bar, $"{bar.barName} \n {bar.barLocation} \n {barAndPrice.Value}");
                 }
             }
 
@@ -88,7 +87,6 @@ namespace Comparison_Engine.GoogleMap
         }
 
         //puts markers on all bars within a wanted radius with addresses and names
-        //can't really test, cuz designer is broken on my side, so the string formatting might need changing
         //might need to adjust map by zooming out in the future
         public void ShowNearBars(GMapControl map, List<Bar> barList)
         {
@@ -141,7 +139,7 @@ namespace Comparison_Engine.GoogleMap
 
             var r = new GMapRoute(route.Points, routeName)
             {
-                Stroke = new Pen(Color.AliceBlue, 3)
+                Stroke = new Pen(Color.Red, 3)
             };
 
             var routes = new GMapOverlay(overlayName);
