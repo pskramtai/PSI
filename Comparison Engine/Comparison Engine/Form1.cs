@@ -22,8 +22,10 @@ namespace Comparison_Engine
     {
 
         private bool barsIsTop = true;
-        private List<Drink> drinks = new List<Drink>();
-        private List<Bar> bars = new List<Bar>();
+        //private Dictionary <int, Drink> drinks = new Dictionary <int, Drink>();
+       // private Dictionary <int, Bar> bars = new Dictionary <int, Bar>();
+        private DrinkManager drinkManager = DrinkManager.Instance;
+        private BarManager barManager = BarManager.Instance;
         public Form activeForm = null;
         public MapForm mainMapForm = null;
         private GMapControl map;
@@ -53,28 +55,20 @@ namespace Comparison_Engine
 
         private void initializeList()
         {
-
-            populateLists();
             stateCheck();
-        }
-
-        private void populateLists()
-        {
-            this.bars = Data.GetBars();
-            this.drinks = Data.GetDrinks();
-        }
+        }   
 
         private void stateCheck()
         {
             if (barsIsTop)
             {
-                loadBars(bars);                 
+                loadBars(barManager.barDictionary);                 
                 buttonBarsIsTop();
 
             }
             else
             {
-                loadDrinks(drinks);                 
+                loadDrinks(drinkManager.drinkDictionary);                 
                 buttonDrinksIsTop();
 
             }
@@ -98,19 +92,19 @@ namespace Comparison_Engine
 
         //loadBars and loadDrinks loads from List
 
-        private void loadBars(List<Bar> barsList)
+        private void loadBars(Dictionary <int, Bar> barsDictionary)
         {
             clearButtonList();
-            foreach (Bar bar in barsList)
+            foreach (Bar bar in barsDictionary.Values)
             {
                 createBarButton(bar);
             }
         }
 
-        private void loadDrinks(List<Drink> drinksList)
+        private void loadDrinks(Dictionary <int, Drink> drinksDictionary)
         {
             clearButtonList();
-            foreach (Drink drink in drinksList)
+            foreach (Drink drink in drinksDictionary.Values)
             {
                 createDrinkButton(drink);
             }
@@ -236,6 +230,7 @@ namespace Comparison_Engine
         private void drinkButtonClick(Drink drink)
         {
            openChildFormDrink(drink);
+           // mapController.ShowBarsWithDrink(map, drink, barManager.barDictionary);
         }
         private void configureDrinkButton(Button button, Drink drink)
         {
@@ -265,7 +260,7 @@ namespace Comparison_Engine
 
         private void buttonEdit_Click(object sender, EventArgs e)
         {
-            openChildFormUserContribution(drinks[2], bars[2]);
+           // openChildFormUserContribution(drinks[2], bars[2]);
         }
 
 
@@ -278,14 +273,14 @@ namespace Comparison_Engine
     //Saves drink and bar data to JSON file
     private void onApplicationExit(object sender, EventArgs e)
         {
-            if (this.drinks.Any() && this.drinks != null)
+            if (drinkManager.drinkDictionary.Any() && drinkManager.drinkDictionary != null)
             {
-                Data.SaveDrinks(this.drinks);
+                Data.SaveDrinks(drinkManager.drinkDictionary);
             }
 
-            if (this.bars.Any() && this.bars != null)
+            if (barManager.barDictionary.Any() && barManager.barDictionary != null)
             {
-                Data.SaveBars(this.bars);
+                Data.SaveBars(barManager.barDictionary);
             }
         }
     }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Windows.Forms;
 
 namespace Comparison_Engine.Base_Classes
 {
@@ -16,25 +17,25 @@ namespace Comparison_Engine.Base_Classes
         }
 
         //A list of drinks
-        public List<Drink> drinkList = new List<Drink>();
+        public Dictionary<int, Drink> drinkDictionary = Data.GetDrinks();
 
         //Adds a new drink to the list
         public void AddDrink(string drinkName)
         {
-            int drinkID = drinkList.Count - 1;
-            drinkList.Add(new Drink(drinkID, drinkName));
+            int drinkID = drinkDictionary.Count - 1;
+            drinkDictionary.Add(drinkID, new Drink(drinkID, drinkName));
         }
 
         //Removes a drink from the drink list
         public void RemoveDrink(Drink drink)
         {
-            drinkList.Remove(drink);
+            drinkDictionary.Remove(drink.drinkID);
         }
 
         //Returns a tuple of the lowest price and a list of ID's of bars with that price for the drink
         public Tuple<float, List<int>> FindLowestPrice(int drinkID)
         {
-            //Dictionary<int, float> drinkLocations = drinkList[drinkID].drinkLocations;
+            //Dictionary<int, float> drinkLocations = drinkDictionary[drinkID].drinkLocations;
             //float min = drinkLocations.Values.First();
             //List<int> bars = new List<int>();
             //bars.Add(drinkLocations.Keys.First());
@@ -71,18 +72,18 @@ namespace Comparison_Engine.Base_Classes
         //Returns a Disctionary of Bars with specified drink
         public Dictionary<int, float> FindAllBarsWithDrink(int drinkID)
         {
-            return drinkList[drinkID].drinkLocations;
+            return drinkDictionary[drinkID].drinkLocations;
         }
 
         //Returns specific Drink objects by some property
         public Drink GetDrinkByID(int drinkID)
         {
-            return drinkList[drinkID];
+            return drinkDictionary[drinkID];
         }
 
         public Drink GetDrinkByName(string drinkName)
         {
-            return drinkList.First(x => x.drinkName == drinkName);
+            return drinkDictionary.Values.First(x => x.drinkName == drinkName);
         }
     }
 }

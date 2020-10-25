@@ -1,29 +1,29 @@
-[
-  {
+{
+  "1": {
     "availableDrinks": {
       "1": 2.5,
       "2": 2.99
     },
     "barID": 1,
-    "barName": "Minusai",
-    "barLocation": null
+    "barName": "BIX Baras",
+    "barLocation": "Etmonu g. 6"
   },
-  {
+  "2": {
     "availableDrinks": {
-      "1": 2.0,
-      "3": 4.5
+      "3": 2.5,
+      "4": 3.0
     },
     "barID": 2,
-    "barName": "Busi Antras",
-    "barLocation": null
+    "barName": "Devinke",
+    "barLocation": "Uzupio g. 4"
   },
-  {
+  "3": {
     "availableDrinks": {
-      "2": 2.5,
-      "3": 4.0
+      "5": 5.2,
+      "6": 3.3
     },
     "barID": 3,
-    "barName": "Pilies 9",
-    "barLocation": null
+    "barName": "Piano Man Bar",
+    "barLocation": "Islandijos g. 1"
   }
-]
+}

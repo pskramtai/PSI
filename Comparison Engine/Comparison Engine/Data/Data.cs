@@ -13,16 +13,16 @@ namespace Comparison_Engine
     class Data
     {
 
-        public static List<Bar> GetBars()
+        public static Dictionary<int, Bar> GetBars()
         {
-            List<Bar> bars;
+            Dictionary<int, Bar> bars;
 
             try
             {
                 using (StreamReader r = new StreamReader("barInput.json"))
                 {
                     string json = r.ReadToEnd();
-                    bars = JsonConvert.DeserializeObject<List<Bar>>(json);
+                    bars = JsonConvert.DeserializeObject<Dictionary<int, Bar>>(json);
                 }
                 return bars;
             }
@@ -35,16 +35,16 @@ namespace Comparison_Engine
             
         }
 
-        public static List<Drink> GetDrinks()
+        public static Dictionary<int, Drink> GetDrinks()
         {
-            List<Drink> drinks;
+            Dictionary<int, Drink> drinks;
 
             try
             {
                 using (StreamReader r = new StreamReader("drinkInput.json"))
                 {
                     string json = r.ReadToEnd();
-                    drinks = JsonConvert.DeserializeObject<List<Drink>>(json);
+                    drinks = JsonConvert.DeserializeObject<Dictionary<int, Drink>>(json);
                 }
                 return drinks;
             }
@@ -56,7 +56,7 @@ namespace Comparison_Engine
             
         }
 
-        public static void SaveBars(List<Bar> bars)
+        public static void SaveBars(Dictionary<int, Bar> bars)
         {
             try
             {
@@ -68,7 +68,7 @@ namespace Comparison_Engine
             }
         }
 
-        public static void SaveDrinks(List<Drink> drinks)
+        public static void SaveDrinks(Dictionary<int, Drink> drinks)
         {
             try
             {
