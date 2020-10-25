@@ -1,5 +1,5 @@
 {
-  "1":{
+  "1": {
     "availableDrinks": {
       "1": 2.5,
       "2": 2.99
@@ -8,7 +8,7 @@
     "barName": "BIX Baras",
     "barLocation": "Etmonu g. 6"
   },
-  "2":{
+  "2": {
     "availableDrinks": {
       "3": 2.5,
       "4": 3.0
@@ -17,7 +17,7 @@
     "barName": "Devinke",
     "barLocation": "Uzupio g. 4"
   },
-  "3":{
+  "3": {
     "availableDrinks": {
       "5": 5.2,
       "6": 3.3

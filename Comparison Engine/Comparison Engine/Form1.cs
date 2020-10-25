@@ -55,16 +55,8 @@ namespace Comparison_Engine
 
         private void initializeList()
         {
-
-            populateLists();
             stateCheck();
-        }
-
-        private void populateLists()
-        {
-            barManager.barDictionary = Data.GetBars();
-            drinkManager.drinkDictionary = Data.GetDrinks();
-        }
+        }   
 
         private void stateCheck()
         {
@@ -238,7 +230,7 @@ namespace Comparison_Engine
         private void drinkButtonClick(Drink drink)
         {
            openChildFormDrink(drink);
-            mapController.ShowBarsWithDrink(map, drink, barManager.barDictionary);
+           // mapController.ShowBarsWithDrink(map, drink, barManager.barDictionary);
         }
         private void configureDrinkButton(Button button, Drink drink)
         {
@@ -281,15 +273,15 @@ namespace Comparison_Engine
     //Saves drink and bar data to JSON file
     private void onApplicationExit(object sender, EventArgs e)
         {
-         /*   if (this.drinks.Any() && this.drinks != null)
+            if (drinkManager.drinkDictionary.Any() && drinkManager.drinkDictionary != null)
             {
-                Data.SaveDrinks(this.drinks);
+                Data.SaveDrinks(drinkManager.drinkDictionary);
             }
 
-            if (this.bars.Any() && this.bars != null)
+            if (barManager.barDictionary.Any() && barManager.barDictionary != null)
             {
-                Data.SaveBars(this.bars);
-            }*/
+                Data.SaveBars(barManager.barDictionary);
+            }
         }
     }
 }

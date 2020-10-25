@@ -17,7 +17,7 @@ namespace Comparison_Engine.Base_Classes
         }
 
         //A list of drinks
-        public Dictionary<int, Drink> drinkDictionary { get; set; }
+        public Dictionary<int, Drink> drinkDictionary = Data.GetDrinks();
 
         //Adds a new drink to the list
         public void AddDrink(string drinkName)
