@@ -36,7 +36,7 @@ namespace Comparison_Engine
         {
 
             InitializeComponent();
-            InitializeList();
+            StateCheck();
             InitializeProfileClick();
             // probably will need some method here to get current address of the current user
             OpenChildFormMap();
@@ -50,11 +50,6 @@ namespace Comparison_Engine
 
 
         //LIST FEATURES      #lists
-
-        private void InitializeList()
-        {
-            StateCheck();
-        }   
 
         private void StateCheck()
         {
