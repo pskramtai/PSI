@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace Comparison_Engine.Child_Forms
@@ -12,25 +13,118 @@ namespace Comparison_Engine.Child_Forms
 {
     public partial class UserContribution : Form
     {
-        public UserContribution(Drink drink, Bar bar)
+        private DrinkManager drinkmanager = DrinkManager.Instance;
+        private BarManager barmanager = BarManager.Instance;
+        public UserContribution()
         {
+            Dictionary<int, float> barChoices = new Dictionary<int, float>();
             InitializeComponent();
+            PopulateComboBoxBar();
+            PopulateComboBoxDrink();
+            comboBoxBar.SelectedIndexChanged += new EventHandler(ComboBoxBarSelectionChange);
         }
 
-        
+        private void ComboBoxBarSelectionChange(object sender, EventArgs e)
+        {
+            var selectedBar = (Bar)comboBoxBar.SelectedItem;
+            List<Drink> drinklist = new List<Drink>();
+            foreach (var drink in selectedBar.availableDrinks)
+            {
+                drinklist.Add(drinkmanager.GetDrinkByID(drink.Key));
+            }
+            comboBoxDrink.DataSource = new BindingSource(drinklist, null);
+        }
+
         private void buttonAddDrink_Click(object sender, System.EventArgs e)
         {
+            if (textBoxDrink.Text == "" || comboBoxBar2.SelectedItem == null )
+            {
+                return;
+            }
+
+            Bar bar = ((Bar)comboBoxBar2.SelectedItem);
+            float price = (float)Convert.ToDouble(textBoxPrice2.Text);
+            string drinkName = textBoxDrink.Text;
+            if (Regex.IsMatch(textBoxPrice2.Text, @"(^[1-9]\d*(.\d{1,2})?$)|(^0(\.\d{1,2})?$)"))
+            {
+               
+                if (drinkmanager.GetDrinkByName(drinkName) == null)
+                {
+
+
+                    drinkmanager.AddDrink(drinkName);
+                    
+                }
+                
+                Drink drink = drinkmanager.GetDrinkByName(drinkName);
+                if (barmanager.GetBarByID(bar.barID).availableDrinks.ContainsKey(drink.drinkID))
+                {
+                    return;
+                }
+
+                barmanager.GetBarByID(bar.barID).AddDrink(drink.drinkID, price);
+                drink.AddBar(bar.barID, price);
+
+            }
+            PopulateComboBoxBar();
+
         }
         private void buttonAddBar_Click(object sender, System.EventArgs e)
         {
             string BarName = textBoxBarName.Text;
             string BarAdress = textBoxBarAdress.Text;
-            //AddBar(BarName, BarAdress);
+            if (BarName == "" || BarAdress == "")
+            {
+                return;
+            }
+            if (barmanager.GetBarByName(BarName) != null)
+            {
+                return;
+            }
+            barmanager.AddBar(BarName, BarAdress);
+            PopulateComboBoxBar();
 
         }
         private void buttonEditPrice_Click(object sender, System.EventArgs e)
         {
+
             
+            if (Regex.IsMatch(textBoxPrice.Text, @"(^[1-9]\d*(.\d{1,2})?$)|(^0(\.\d{1,2})?$)"))
+            {
+                if (comboBoxBar.SelectedItem == null || comboBoxDrink.SelectedItem == null)
+                {
+                    return;
+                }
+                int barId = ((Bar)comboBoxBar.SelectedItem).barID;
+                int drinkId = ((Drink)comboBoxDrink.SelectedItem).drinkID;
+                float newPrice = (float)Convert.ToDouble(textBoxPrice.Text);
+                drinkmanager.GetDrinkByID(drinkId).EditPrice(barId, newPrice);
+                barmanager.GetBarByID(barId).EditDrinkPrice(drinkId, newPrice);
+
+            }
+            textBoxPrice.Text = ""; 
         }
+        private void PopulateComboBoxBar()
+        {
+           
+
+            Dictionary<int, Bar> barDictionary = barmanager.barDictionary;
+            comboBoxBar.DataSource = new BindingSource(barDictionary.Values, null);
+            comboBoxBar.DisplayMember = "barName";
+            comboBoxBar.ValueMember = "barID";
+            comboBoxBar2.DataSource = new BindingSource(barDictionary.Values, null);
+            comboBoxBar2.DisplayMember = "barName";
+            comboBoxBar2.ValueMember = "barID";
+            
+
+        }
+        private void PopulateComboBoxDrink()
+        {
+            comboBoxDrink.DisplayMember = "drinkName";
+            comboBoxDrink.ValueMember = "drinkID";
+
+        }
+
+
     }
 }

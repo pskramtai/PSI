@@ -163,9 +163,9 @@ namespace Comparison_Engine
             configureChildForm(profileForm);
         }
 
-        private void openChildFormUserContribution(Drink drink, Bar bar)
+        private void openChildFormUserContribution()
         {
-            Child_Forms.UserContribution userContribution = new UserContribution(drink, bar);
+            Child_Forms.UserContribution userContribution = new UserContribution();
             //closeActiveForm();            //#commentedarea
             configureChildForm(userContribution);
         }
@@ -260,7 +260,7 @@ namespace Comparison_Engine
 
         private void buttonEdit_Click(object sender, EventArgs e)
         {
-           // openChildFormUserContribution(drinks[2], bars[2]);
+            openChildFormUserContribution();
         }
 
 
