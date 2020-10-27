@@ -22,8 +22,6 @@ namespace Comparison_Engine
     {
 
         private bool barsIsTop = true;
-        //private Dictionary <int, Drink> drinks = new Dictionary <int, Drink>();
-       // private Dictionary <int, Bar> bars = new Dictionary <int, Bar>();
         private DrinkManager drinkManager = DrinkManager.Instance;
         private BarManager barManager = BarManager.Instance;
         public Form activeForm = null;
@@ -38,10 +36,10 @@ namespace Comparison_Engine
         {
 
             InitializeComponent();
-            initializeList();
-            initializeProfileClick();
+            StateCheck();
+            InitializeProfileClick();
             // probably will need some method here to get current address of the current user
-            openChildFormMap();
+            OpenChildFormMap();
             Application.ApplicationExit += new EventHandler(this.onApplicationExit); //Method called on app exit
         }
 
@@ -53,23 +51,18 @@ namespace Comparison_Engine
 
         //LIST FEATURES      #lists
 
-        private void initializeList()
-        {
-            stateCheck();
-        }   
-
-        private void stateCheck()
+        private void StateCheck()
         {
             if (barsIsTop)
             {
-                loadBars(barManager.barDictionary);                 
-                buttonBarsIsTop();
+                LoadBars(barManager.barDictionary);                 
+                ButtonBarsIsTop();
 
             }
             else
             {
-                loadDrinks(drinkManager.drinkDictionary);                 
-                buttonDrinksIsTop();
+                LoadDrinks(drinkManager.drinkDictionary);                 
+                ButtonDrinksIsTop();
 
             }
         }
@@ -77,36 +70,36 @@ namespace Comparison_Engine
         private void buttonBottom_Click(object sender, EventArgs e)
         {
             barsIsTop = !barsIsTop;
-            stateCheck();
+            StateCheck();
         }
-        private void buttonBarsIsTop()
+        private void ButtonBarsIsTop()
         {
             buttonTop.Text = "Bars";
             buttonBottom.Text = "Drinks";
         }
-        private void buttonDrinksIsTop()
+        private void ButtonDrinksIsTop()
         {
             buttonTop.Text = "Drinks";
             buttonBottom.Text = "Bars";
         }
 
-        //loadBars and loadDrinks loads from List
+        //LoadBars and LoadDrinks loads from List
 
-        private void loadBars(Dictionary <int, Bar> barsDictionary)
+        private void LoadBars(Dictionary <int, Bar> barsDictionary)
         {
-            clearButtonList();
+            ClearButtonList();
             foreach (Bar bar in barsDictionary.Values)
             {
-                createBarButton(bar);
+                CreateBarButton(bar);
             }
         }
 
-        private void loadDrinks(Dictionary <int, Drink> drinksDictionary)
+        private void LoadDrinks(Dictionary <int, Drink> drinksDictionary)
         {
-            clearButtonList();
+            ClearButtonList();
             foreach (Drink drink in drinksDictionary.Values)
             {
-                createDrinkButton(drink);
+                CreateDrinkButton(drink);
             }
         }
 
@@ -114,66 +107,56 @@ namespace Comparison_Engine
 
         private void buttonSearch_Click(object sender, EventArgs e)
         {
-            searchFunction(fetchSearchKeyword());
+            SearchFunction(FetchSearchKeyword());
         }
 
-        private string fetchSearchKeyword()
+        private string FetchSearchKeyword()
         {
             return textBoxSearch.Text;
         }
 
-        //Dont worry about it for now
-        private void searchFunction(String keyword)
+        //Dont worry about it for now(maybe start worrying about this a little bit)
+        private void SearchFunction(String keyword)
         {
 
         }
 
         //OPENING CHILD FORMS    #childforms
 
-        private void openChildFormMap()                           //this method will probably recieve some sort of mapData in the future
+        private void OpenChildFormMap()
         {
             MapForm mapForm = new MapForm();
             mainMapForm = mapForm;
-            configureChildForm(mapForm);
+            ConfigureChildForm(mapForm);
             map = mapForm.GetMap();
         }
-        private void openChildFormBar(Bar bar)
+        private void OpenChildFormBar(Bar bar)
         {
             BarForm barForm = new BarForm(bar);        
-            configureChildForm(barForm);
-
-            //mapController.ShowRoute(map, bar.barLocation); // WILL SHOW ROUTE TO SELECTED BAR
-            
+            ConfigureChildForm(barForm);           
         }
-        /*private void whateverTheFunctionWillBeCalled()
-        {
-            mapController.RemoveOverlays(map); // THIS SHOULD CLEAN THE MAP
-        }*/
-        private void openChildFormDrink(Drink drink)
+        private void OpenChildFormDrink(Drink drink)
         {
             DrinkForm drinkForm = new DrinkForm(drink);            
-            configureChildForm(drinkForm);
-
-            //mapController.ShowBarsWithDrink(map, drink, bars); // WILL SHOW BARS WITH SELECTED DRINKS
-
+            ConfigureChildForm(drinkForm);
         }
-        private void openChildFormProfile()                 //This will probably recieve the user info
+        private void OpenChildFormProfile()                 //This will probably recieve the user info
         {
             ProfileForm profileForm = new ProfileForm();         //This will probably recieve the user info
-            configureChildForm(profileForm);
+            ConfigureChildForm(profileForm);
         }
 
-        private void openChildFormUserContribution(Drink drink, Bar bar)
+        private void OpenChildFormUserContribution(Drink drink, Bar bar)
         {
             Child_Forms.UserContribution userContribution = new UserContribution(drink, bar);
-            //closeActiveForm();            //#commentedarea
-            configureChildForm(userContribution);
+            //CloseActiveForm();            //#commentedarea
+            ConfigureChildForm(userContribution);
         }
-    private void configureChildForm(Form childForm)
+    private void ConfigureChildForm(Form childForm)
         {
             if (activeForm != null && activeForm.GetType() != mainMapForm.GetType())
             {
-                closeActiveForm();
+                CloseActiveForm();
             }
             activeForm = childForm;
             childForm.TopLevel = false;
@@ -184,7 +167,7 @@ namespace Comparison_Engine
             childForm.BringToFront();
             childForm.Show();
         }
-        public void closeActiveForm()
+        public void CloseActiveForm()
         {
             activeForm.Close();
         }
@@ -192,64 +175,67 @@ namespace Comparison_Engine
         //LIST BUTTON CREATOR #listbuttons
 
         //BAR BUTTON FUNCTIONS
-        private void createBarButton(Bar bar)
+        private void CreateBarButton(Bar bar)
         {
             Button button = new Button();
-            configureBarButton(button, bar);
-            bindBar(button, bar);
+            ConfigureBarButton(button, bar);
+            BindBar(button, bar);
         }
 
-        private void bindBar(Button button, Bar bar)
+        private void BindBar(Button button, Bar bar)
         {
-            button.Click += (sender, EventArgs) => { barButtonClick(bar); };
+            button.Click += (sender, EventArgs) => { BarButtonClick(bar); };
         }
 
-        private void barButtonClick(Bar bar)
+        private void BarButtonClick(Bar bar)
         {
-            openChildFormBar(bar);
+            OpenChildFormBar(bar);
+            mapController.RemoveOverlays(map);
+            mapController.ShowRoute(map, bar.barLocation);
         }
-        private void configureBarButton(Button button, Bar bar)
+        private void ConfigureBarButton(Button button, Bar bar)
         {
             panelSubList.Controls.Add(button);
             button.Text = (bar.barName);
             button.Dock = DockStyle.Top;
         }
         //DRINK BUTTON FUNCTIONS
-        private void createDrinkButton(Drink drink)
+        private void CreateDrinkButton(Drink drink)
         {
             Button button = new Button();
-            configureDrinkButton(button, drink);
-            bindDrink(button, drink);
+            ConfigureDrinkButton(button, drink);
+            BindDrink(button, drink);
         }
 
-        private void bindDrink(Button button, Drink drink)
+        private void BindDrink(Button button, Drink drink)
         {
-            button.Click += (sender, EventArgs) => { drinkButtonClick(drink); };
+            button.Click += (sender, EventArgs) => { DrinkButtonClick(drink); };
         }
 
-        private void drinkButtonClick(Drink drink)
+        private void DrinkButtonClick(Drink drink)
         {
-           openChildFormDrink(drink);
-           // mapController.ShowBarsWithDrink(map, drink, barManager.barDictionary);
+           OpenChildFormDrink(drink);
+           mapController.RemoveOverlays(map);
+           mapController.ShowBarsWithDrink(map, drink, barManager.barDictionary);
         }
-        private void configureDrinkButton(Button button, Drink drink)
+        private void ConfigureDrinkButton(Button button, Drink drink)
         {
             panelSubList.Controls.Add(button);
             button.Text = (drink.drinkName);
             button.Dock = DockStyle.Top;
         }
 
-        private void clearButtonList()
+        private void ClearButtonList()
         {
             panelSubList.Controls.Clear();
         }
 
         //PROFILE MANAGING #profile
-        private void initializeProfileClick()
+        private void InitializeProfileClick()
         {
-            panelProfile.Click += (sender, e) => { openChildFormProfile(); };           //This will probably recieve the user info
-            labelProfileName.Click += (sender, e) => { openChildFormProfile(); };           //This will probably recieve the user info
-            pictureBoxProfile.Click += (sender, e) => { openChildFormProfile(); };           //This will probably recieve the user info
+            panelProfile.Click += (sender, e) => { OpenChildFormProfile(); };           //This will probably recieve the user info
+            labelProfileName.Click += (sender, e) => { OpenChildFormProfile(); };           //This will probably recieve the user info
+            pictureBoxProfile.Click += (sender, e) => { OpenChildFormProfile(); };           //This will probably recieve the user info
         }
 
         //EMPTY AREA #emptyarea
@@ -260,7 +246,7 @@ namespace Comparison_Engine
 
         private void buttonEdit_Click(object sender, EventArgs e)
         {
-           // openChildFormUserContribution(drinks[2], bars[2]);
+           // OpenChildFormUserContribution(drinks[2], bars[2]);
         }
 
 
