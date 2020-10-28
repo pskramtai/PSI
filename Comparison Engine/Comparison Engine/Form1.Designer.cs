@@ -110,7 +110,7 @@
             this.buttonBottom.TabIndex = 1;
             this.buttonBottom.Text = "buttonBottom";
             this.buttonBottom.UseVisualStyleBackColor = true;
-            this.buttonBottom.Click += new System.EventHandler(this.buttonBottom_Click);
+            this.buttonBottom.Click += new System.EventHandler(this.ButtonBottom_Click);
             // 
             // panelSubList
             // 

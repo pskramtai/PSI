@@ -12,37 +12,46 @@ namespace Comparison_Engine.Forms
 {
     public partial class BarForm : Form
     {
-        public BarForm(Bar bar)
+        public Bar bar = null;
+        public DrinkManager drinkManager = null;
+        public BarForm(Bar tempBar, DrinkManager drinkMan)
         {
             InitializeComponent();
-            populateBarForm(bar);
+            SaveValues(tempBar, drinkMan);
+            PopulateBarForm(bar);
         }
-        private void buttonExit_Click(object sender, EventArgs e)
+        private void SaveValues(Bar tempBar, DrinkManager drinkMan)
+        {
+            bar = tempBar;
+            drinkManager = drinkMan;
+        }
+
+        private void ButtonExit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
         //TEST AREA #testarea
-        private void populateBarForm(Bar bar)
+        private void PopulateBarForm(Bar bar)
         {
-            setLabelBarName(bar.barName);
-            setLabelBarLocation(bar.barLocation);
-            populateDrinkList(bar.availableDrinks);
+            SetLabelBarName(bar.barName);
+            SetLabelBarLocation(bar.barLocation);
+            PopulateDrinkList(bar.availableDrinks);
         }
-        private void setLabelBarName(string name)
+        private void SetLabelBarName(string name)
         {
             labelBarName.Text = name;
         }
-        private void setLabelBarLocation(string location)
+        private void SetLabelBarLocation(string location)
         {
             labelBarLocation.Text = location;
         }
-        private void populateDrinkList(Dictionary<int, float> availableDrinks)
+        private void PopulateDrinkList(Dictionary<int, float> availableDrinks)
         {
             Cursor.Current = Cursors.WaitCursor;
 
             foreach (KeyValuePair<int, float> drinkEntries in availableDrinks)
             {
-                ListViewItem listViewDrink = new ListViewItem(drinkEntries.Key.ToString());
+                ListViewItem listViewDrink = new ListViewItem((drinkManager.GetDrinkByID(drinkEntries.Key).drinkName));
                 listViewDrink.SubItems.Add(drinkEntries.Value.ToString());
                 listViewDrinks.Items.Add(listViewDrink);
             }

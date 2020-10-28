@@ -33,7 +33,7 @@
             this.pictureBoxDrinkIcon = new System.Windows.Forms.PictureBox();
             this.labelDrinkName = new System.Windows.Forms.Label();
             this.listViewBars = new System.Windows.Forms.ListView();
-            this.columnHeaderBarID = new System.Windows.Forms.ColumnHeader();
+            this.columnHeaderBarName = new System.Windows.Forms.ColumnHeader();
             this.columnHeaderDrinkPrice = new System.Windows.Forms.ColumnHeader();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDrinkIcon)).BeginInit();
             this.SuspendLayout();
@@ -47,7 +47,7 @@
             this.buttonClose.TabIndex = 0;
             this.buttonClose.Text = "X";
             this.buttonClose.UseVisualStyleBackColor = true;
-            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
+            this.buttonClose.Click += new System.EventHandler(this.ButtonClose_Click);
             // 
             // pictureBoxDrinkIcon
             // 
@@ -72,7 +72,7 @@
             // listViewBars
             // 
             this.listViewBars.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeaderBarID,
+            this.columnHeaderBarName,
             this.columnHeaderDrinkPrice});
             this.listViewBars.GridLines = true;
             this.listViewBars.HideSelection = false;
@@ -84,10 +84,10 @@
             this.listViewBars.UseCompatibleStateImageBehavior = false;
             this.listViewBars.View = System.Windows.Forms.View.Details;
             // 
-            // columnHeaderBarID
+            // columnHeaderBarName
             // 
-            this.columnHeaderBarID.Text = "Bar ID";
-            this.columnHeaderBarID.Width = 300;
+            this.columnHeaderBarName.Text = "Bar Name";
+            this.columnHeaderBarName.Width = 300;
             // 
             // columnHeaderDrinkPrice
             // 
@@ -119,7 +119,7 @@
         private System.Windows.Forms.PictureBox pictureBoxDrinkIcon;
         private System.Windows.Forms.Label labelDrinkName;
         private System.Windows.Forms.ListView listViewBars;
-        private System.Windows.Forms.ColumnHeader columnHeaderBarID;
+        private System.Windows.Forms.ColumnHeader columnHeaderBarName;
         private System.Windows.Forms.ColumnHeader columnHeaderDrinkPrice;
     }
 }

@@ -67,7 +67,7 @@ namespace Comparison_Engine
             }
         }
 
-        private void buttonBottom_Click(object sender, EventArgs e)
+        private void ButtonBottom_Click(object sender, EventArgs e)
         {
             barsIsTop = !barsIsTop;
             StateCheck();
@@ -132,12 +132,12 @@ namespace Comparison_Engine
         }
         private void OpenChildFormBar(Bar bar)
         {
-            BarForm barForm = new BarForm(bar);        
+            BarForm barForm = new BarForm(bar, drinkManager);        
             ConfigureChildForm(barForm);           
         }
         private void OpenChildFormDrink(Drink drink)
         {
-            DrinkForm drinkForm = new DrinkForm(drink);            
+            DrinkForm drinkForm = new DrinkForm(drink, barManager);            
             ConfigureChildForm(drinkForm);
         }
         private void OpenChildFormProfile()                 //This will probably recieve the user info

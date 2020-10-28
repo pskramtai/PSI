@@ -11,13 +11,22 @@ namespace Comparison_Engine.Forms
 {
     public partial class DrinkForm : Form
     {
-        public DrinkForm(Drink drink)
+        public Drink drink = null;
+        public BarManager barManager = null;
+        public DrinkForm(Drink drnk, BarManager barMan)
         {
             InitializeComponent();
-            populateForm(drink);
+            SaveValues(drnk, barMan);
+            PopulateForm();
         }
 
-        private void buttonClose_Click(object sender, EventArgs e)
+        private void SaveValues(Drink drnk, BarManager barMan)
+        {
+            drink = drnk;
+            barManager = barMan;
+        }
+
+        private void ButtonClose_Click(object sender, EventArgs e)
         {
             this.Close();
         }
@@ -25,22 +34,22 @@ namespace Comparison_Engine.Forms
 
         //TEST AREA #testarea
 
-        public void populateForm(Drink drink)                                                    // Drink class not recognized in form, need help
-        {                                                                                      // (i think the binaries have to be tweaked)
-            setDrinkName(drink.drinkName);
-            populateBarList(drink.drinkLocations);
+        public void PopulateForm()                                                    
+        {                                                                                    
+            SetDrinkName(drink.drinkName);
+            PopulateBarList(drink.drinkLocations);
         }
-        public void setDrinkName(string drinkName)
+        public void SetDrinkName(string drinkName)
         {
             labelDrinkName.Text = drinkName;
         }
-        private void populateBarList(Dictionary<int, float> drinkLocations)
+        private void PopulateBarList(Dictionary<int, float> drinkLocations)
         {
             Cursor.Current = Cursors.WaitCursor;
 
             foreach (KeyValuePair<int, float> barEntries in drinkLocations)
             {
-                ListViewItem listViewBar = new ListViewItem(barEntries.Key.ToString());
+                ListViewItem listViewBar = new ListViewItem((barManager.GetBarByID(barEntries.Key)).barName);
                 listViewBar.SubItems.Add(barEntries.Value.ToString());
                 listViewBars.Items.Add(listViewBar);
             }
