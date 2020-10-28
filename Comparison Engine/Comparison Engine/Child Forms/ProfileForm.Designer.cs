@@ -172,7 +172,6 @@
         private System.Windows.Forms.Button buttonSignUp;
         private System.Windows.Forms.Label labelLogIn;
         private System.Windows.Forms.TextBox textBoxUsername;
-        private System.Windows.Forms.TextBox textBoxPassworf;
         private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button buttonLogOut;

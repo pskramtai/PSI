@@ -40,7 +40,7 @@ namespace Comparison_Engine
             InitializeProfileClick();
             // probably will need some method here to get current address of the current user
             OpenChildFormMap();
-            Application.ApplicationExit += new EventHandler(this.onApplicationExit); //Method called on app exit
+            Application.ApplicationExit += new EventHandler(this.OnApplicationExit); //Method called on app exit
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -105,7 +105,7 @@ namespace Comparison_Engine
 
         //SEARCH FEATURES       #search
 
-        private void buttonSearch_Click(object sender, EventArgs e)
+        private void ButtonSearch_Click(object sender, EventArgs e)
         {
             SearchFunction(FetchSearchKeyword());
         }
@@ -239,12 +239,12 @@ namespace Comparison_Engine
         }
 
         //EMPTY AREA #emptyarea
-        private void panelProfile_Paint(object sender, PaintEventArgs e)
+        private void PanelProfile_Paint(object sender, PaintEventArgs e)
         {
             
         }
 
-        private void buttonEdit_Click(object sender, EventArgs e)
+        private void ButtonEdit_Click(object sender, EventArgs e)
         {
            // OpenChildFormUserContribution(drinks[2], bars[2]);
         }
@@ -257,7 +257,7 @@ namespace Comparison_Engine
 
 
     //Saves drink and bar data to JSON file
-    private void onApplicationExit(object sender, EventArgs e)
+    private void OnApplicationExit(object sender, EventArgs e)
         {
             if (drinkManager.drinkDictionary.Any() && drinkManager.drinkDictionary != null)
             {
