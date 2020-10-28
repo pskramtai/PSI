@@ -37,17 +37,17 @@ namespace Comparison_Engine.Child_Forms
 
         private void buttonAddDrink_Click(object sender, System.EventArgs e)
         {
-            if (textBoxDrink.Text == "" || comboBoxBar2.SelectedItem == null )
+            if (textBoxDrink.Text == "" || comboBoxBar2.SelectedItem == null || textBoxPrice2.Text == "")
             {
+                MessageBox.Show("Bad input");
                 return;
             }
 
             Bar bar = ((Bar)comboBoxBar2.SelectedItem);
-            float price = (float)Convert.ToDouble(textBoxPrice2.Text);
             string drinkName = textBoxDrink.Text;
             if (Regex.IsMatch(textBoxPrice2.Text, @"(^[1-9]\d*(.\d{1,2})?$)|(^0(\.\d{1,2})?$)"))
             {
-               
+                float price = (float)Convert.ToDouble(textBoxPrice2.Text);
                 if (drinkmanager.GetDrinkByName(drinkName) == null)
                 {
 
@@ -59,6 +59,7 @@ namespace Comparison_Engine.Child_Forms
                 Drink drink = drinkmanager.GetDrinkByName(drinkName);
                 if (barmanager.GetBarByID(bar.barID).availableDrinks.ContainsKey(drink.drinkID))
                 {
+                    MessageBox.Show("Drink with this name already exists in this bar");
                     return;
                 }
 
@@ -66,6 +67,8 @@ namespace Comparison_Engine.Child_Forms
                 drink.AddBar(bar.barID, price);
 
             }
+            textBoxDrink.Text = "";
+            textBoxPrice2.Text = "";
             PopulateComboBoxBar();
 
         }
@@ -73,15 +76,21 @@ namespace Comparison_Engine.Child_Forms
         {
             string BarName = textBoxBarName.Text;
             string BarAdress = textBoxBarAdress.Text;
-            if (BarName == "" || BarAdress == "")
+            if (BarName == "" || BarAdress == "" || BarName == null || BarAdress == null)
             {
+                MessageBox.Show("Bad input");
                 return;
             }
             if (barmanager.GetBarByName(BarName) != null)
             {
+                textBoxBarName.Text = "";
+                textBoxBarAdress.Text = "";
+                MessageBox.Show("Bar with this name already exists");
                 return;
             }
             barmanager.AddBar(BarName, BarAdress);
+            textBoxBarName.Text = "";
+            textBoxBarAdress.Text = "";
             PopulateComboBoxBar();
 
         }
@@ -93,6 +102,8 @@ namespace Comparison_Engine.Child_Forms
             {
                 if (comboBoxBar.SelectedItem == null || comboBoxDrink.SelectedItem == null)
                 {
+                    textBoxPrice.Text = "";
+                    MessageBox.Show("Bad input");
                     return;
                 }
                 int barId = ((Bar)comboBoxBar.SelectedItem).barID;
@@ -101,6 +112,10 @@ namespace Comparison_Engine.Child_Forms
                 drinkmanager.GetDrinkByID(drinkId).EditPrice(barId, newPrice);
                 barmanager.GetBarByID(barId).EditDrinkPrice(drinkId, newPrice);
 
+            }
+            else
+            {
+                MessageBox.Show("Bad price");
             }
             textBoxPrice.Text = ""; 
         }
