@@ -1,4 +1,5 @@
 ﻿using Comparison_Engine.Base_Classes;
+using Comparison_Engine.GoogleMap;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,22 +14,28 @@ namespace Comparison_Engine.Forms
     {
         public Drink drink = null;
         public BarManager barManager = null;
-        public DrinkForm(Drink drnk, BarManager barMan)
+        public MapForm mapForm = null;
+        public MapController mapController = null;
+        public DrinkForm(Drink drnk, BarManager barMan, MapForm mainMapForm, MapController mainMapController)
         {
             InitializeComponent();
-            SaveValues(drnk, barMan);
+            SaveValues(drnk, barMan, mainMapForm, mainMapController);
             PopulateForm();
         }
 
-        private void SaveValues(Drink drnk, BarManager barMan)
+        private void SaveValues(Drink drnk, BarManager barMan, MapForm mainMapForm, MapController mainMapController)
         {
             drink = drnk;
             barManager = barMan;
+            mapForm = mainMapForm;
+            mapController = mainMapController;
         }
 
         private void ButtonClose_Click(object sender, EventArgs e)
         {
-            this.Close();
+            mapForm.HideTopPanel();
+            mapController.RemoveOverlays(mapForm.GetMap());
+            Close();
         }
 
 
@@ -55,6 +62,17 @@ namespace Comparison_Engine.Forms
             }
 
             Cursor.Current = Cursors.Default;
+        }
+
+        public Image DrinkImage()
+        {
+            return pictureBoxDrinkIcon.Image;
+        }
+
+        private void ButtonShowOnMap_Click(object sender, EventArgs e)
+        {
+            mapForm.BringToFront();
+            mapForm.PopulateDrinkPanel(this);
         }
     }
 }

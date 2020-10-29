@@ -1,4 +1,5 @@
 ﻿using Comparison_Engine.Base_Classes;
+using Comparison_Engine.GoogleMap;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,24 +15,29 @@ namespace Comparison_Engine.Forms
     {
         public Bar bar = null;
         public DrinkManager drinkManager = null;
-        public BarForm(Bar tempBar, DrinkManager drinkMan)
+        public MapForm mapForm = null;
+        public MapController mapController = null;
+        public BarForm(Bar tempBar, DrinkManager drinkMan, MapForm mainMapForm, MapController mainMapController)
         {
             InitializeComponent();
-            SaveValues(tempBar, drinkMan);
-            PopulateBarForm(bar);
+            SaveValues(tempBar, drinkMan, mainMapForm, mainMapController);
+            PopulateBarForm();
         }
-        private void SaveValues(Bar tempBar, DrinkManager drinkMan)
+        private void SaveValues(Bar tempBar, DrinkManager drinkMan, MapForm mainMapForm, MapController mainMapController)
         {
             bar = tempBar;
             drinkManager = drinkMan;
+            mapForm = mainMapForm;
+            mapController = mainMapController;
         }
 
         private void ButtonExit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            mapForm.HideTopPanel();
+            mapController.RemoveOverlays(mapForm.GetMap());
+            Close();
         }
-        //TEST AREA #testarea
-        private void PopulateBarForm(Bar bar)
+        private void PopulateBarForm()
         {
             SetLabelBarName(bar.barName);
             SetLabelBarLocation(bar.barLocation);
@@ -57,6 +63,17 @@ namespace Comparison_Engine.Forms
             }
 
             Cursor.Current = Cursors.Default;
+        }
+
+        public Image BarImage()
+        {
+            return pictureBoxBarIcon.Image;
+        }
+
+        private void ButtonShowOnMap_Click(object sender, EventArgs e)
+        {
+            mapForm.BringToFront();
+            mapForm.PopulateBarPanel(this);
         }
 
         //EMPTY AREA #emptyarea

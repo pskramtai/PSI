@@ -35,6 +35,7 @@
             this.listViewBars = new System.Windows.Forms.ListView();
             this.columnHeaderBarName = new System.Windows.Forms.ColumnHeader();
             this.columnHeaderDrinkPrice = new System.Windows.Forms.ColumnHeader();
+            this.buttonShowOnMap = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDrinkIcon)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,12 +95,23 @@
             this.columnHeaderDrinkPrice.Text = "Price";
             this.columnHeaderDrinkPrice.Width = 100;
             // 
+            // buttonShowOnMap
+            // 
+            this.buttonShowOnMap.Location = new System.Drawing.Point(180, 136);
+            this.buttonShowOnMap.Name = "buttonShowOnMap";
+            this.buttonShowOnMap.Size = new System.Drawing.Size(98, 23);
+            this.buttonShowOnMap.TabIndex = 4;
+            this.buttonShowOnMap.Text = "Show On Map";
+            this.buttonShowOnMap.UseVisualStyleBackColor = true;
+            this.buttonShowOnMap.Click += new System.EventHandler(this.ButtonShowOnMap_Click);
+            // 
             // DrinkForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(594, 521);
+            this.Controls.Add(this.buttonShowOnMap);
             this.Controls.Add(this.listViewBars);
             this.Controls.Add(this.labelDrinkName);
             this.Controls.Add(this.pictureBoxDrinkIcon);
@@ -121,5 +133,6 @@
         private System.Windows.Forms.ListView listViewBars;
         private System.Windows.Forms.ColumnHeader columnHeaderBarName;
         private System.Windows.Forms.ColumnHeader columnHeaderDrinkPrice;
+        private System.Windows.Forms.Button buttonShowOnMap;
     }
 }

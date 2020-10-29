@@ -36,6 +36,7 @@
             this.columnHeaderDrinkName = new System.Windows.Forms.ColumnHeader();
             this.columnHeaderDrinkPrice = new System.Windows.Forms.ColumnHeader();
             this.labelBarLocation = new System.Windows.Forms.Label();
+            this.buttonShowOnMap = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBarIcon)).BeginInit();
             this.SuspendLayout();
             // 
@@ -106,12 +107,23 @@
             this.labelBarLocation.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.labelBarLocation.UseMnemonic = false;
             // 
+            // buttonShowOnMap
+            // 
+            this.buttonShowOnMap.Location = new System.Drawing.Point(180, 118);
+            this.buttonShowOnMap.Name = "buttonShowOnMap";
+            this.buttonShowOnMap.Size = new System.Drawing.Size(134, 23);
+            this.buttonShowOnMap.TabIndex = 5;
+            this.buttonShowOnMap.Text = "Show Route On Map";
+            this.buttonShowOnMap.UseVisualStyleBackColor = true;
+            this.buttonShowOnMap.Click += new System.EventHandler(this.ButtonShowOnMap_Click);
+            // 
             // BarForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(594, 521);
+            this.Controls.Add(this.buttonShowOnMap);
             this.Controls.Add(this.labelBarLocation);
             this.Controls.Add(this.listViewDrinks);
             this.Controls.Add(this.labelBarName);
@@ -135,5 +147,6 @@
         private System.Windows.Forms.Label labelBarLocation;
         private System.Windows.Forms.ColumnHeader columnHeaderDrinkName;
         private System.Windows.Forms.ColumnHeader columnHeaderDrinkPrice;
+        private System.Windows.Forms.Button buttonShowOnMap;
     }
 }

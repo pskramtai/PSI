@@ -132,12 +132,12 @@ namespace Comparison_Engine
         }
         private void OpenChildFormBar(Bar bar)
         {
-            BarForm barForm = new BarForm(bar, drinkManager);        
+            BarForm barForm = new BarForm(bar, drinkManager, mainMapForm, mapController);        
             ConfigureChildForm(barForm);           
         }
         private void OpenChildFormDrink(Drink drink)
         {
-            DrinkForm drinkForm = new DrinkForm(drink, barManager);            
+            DrinkForm drinkForm = new DrinkForm(drink, barManager, mainMapForm, mapController);            
             ConfigureChildForm(drinkForm);
         }
         private void OpenChildFormProfile()                 //This will probably recieve the user info
