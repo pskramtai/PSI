@@ -15,10 +15,53 @@ namespace Comparison_Engine.User_Classes
 
         }
 
-        //Will need to talk over together how we should approach user login
-        public Boolean ValidateUserLogin(string username, string password)
+        private User user = User.Instance;
+
+        public bool loggedIn = false;
+
+        private Dictionary<string, string> userPasswordKVP = new Dictionary<string, string>() //some default logins for now, will be removed in the future
         {
-            return true;
+            {"Username", "Password" },
+            {"admin", "admin" },
+            {"test", "test" }
+        };
+
+        //Will need to talk over together how we should approach user login
+        public bool ValidateUserLogin(string username, string password)
+        {
+            if (areCredentialsReal(new KeyValuePair<string, string>(username, password)) && !loggedIn)
+            {
+                loggedIn = true;
+                user.username = username;
+                //also set the trust level, favorite bar here for the user
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        private bool areCredentialsReal(KeyValuePair<string, string> userKeyValuePair) //this will definitely change once we have somewhere to store actual user accounts
+        {
+            if(userPasswordKVP.TryGetValue(userKeyValuePair.Key, out string value) && value == userKeyValuePair.Value)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public void LogOutUser()
+        {
+            if (loggedIn)
+            {
+                user.username = "Guest";
+                user.favoriteBar = null;
+                user.userTrust = UserTrustLogic.UserTrustType.None;
+            }
         }
     }
 }

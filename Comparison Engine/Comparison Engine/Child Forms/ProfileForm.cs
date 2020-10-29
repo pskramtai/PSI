@@ -5,11 +5,14 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using Comparison_Engine.User_Classes;
 
 namespace Comparison_Engine.Child_Forms
 {
     public partial class ProfileForm : Form
     {
+        private UserLoginLogic userLoginLogic = UserLoginLogic.Instance;
+
         public ProfileForm()
         {
             InitializeComponent();
@@ -32,7 +35,10 @@ namespace Comparison_Engine.Child_Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            userLoggedIn(true);
+            if (userLoginLogic.ValidateUserLogin(textBoxUsername.Text, textBoxPassword.Text))
+            {
+                userLoggedIn(true);
+            }
         }
 
         private void buttonLogOut_Click(object sender, EventArgs e)
