@@ -214,7 +214,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.Panel panelMain;
+        public System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Panel panelSearch;
         private System.Windows.Forms.Panel panelSideMenu;
         private System.Windows.Forms.Panel panelList;
@@ -223,9 +223,9 @@
         private System.Windows.Forms.Panel panelProfile;
         private System.Windows.Forms.Label labelProfileName;
         private System.Windows.Forms.PictureBox pictureBoxProfile;
-        private System.Windows.Forms.Button buttonBottom;
-        private System.Windows.Forms.Button buttonTop;
-        private System.Windows.Forms.Panel panelSubList;
+        public System.Windows.Forms.Button buttonBottom;
+        public System.Windows.Forms.Button buttonTop;
+        public System.Windows.Forms.Panel panelSubList;
         private System.Windows.Forms.Button buttonEdit;
     }
 }
