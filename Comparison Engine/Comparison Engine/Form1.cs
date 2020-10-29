@@ -72,19 +72,10 @@ namespace Comparison_Engine
             labelProfileName.Click += (sender, e) => { ChildFormMethods.OpenChildFormProfile(this); };           //This will probably recieve the user info
             pictureBoxProfile.Click += (sender, e) => { ChildFormMethods.OpenChildFormProfile(this); };           //This will probably recieve the user info
         }
-
-        //EMPTY AREA #emptyarea
-        private void PanelProfile_Paint(object sender, PaintEventArgs e)
-        {
-            
-        }
-
         private void ButtonEdit_Click(object sender, EventArgs e)
         {
-           // OpenChildFormUserContribution(drinks[2], bars[2]);
+            // OpenChildFormUserContribution(drinks[2], bars[2]);
         }
-
-
 
         //Saves drink and bar data to JSON file
         private void OnApplicationExit(object sender, EventArgs e)
@@ -98,6 +89,12 @@ namespace Comparison_Engine
             {
                 Data.SaveBars(barManager.barDictionary);
             }
+        }
+
+        //EMPTY AREA #emptyarea
+        private void PanelProfile_Paint(object sender, PaintEventArgs e)
+        {
+            
         }
     }
 }
