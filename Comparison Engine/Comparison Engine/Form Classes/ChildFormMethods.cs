@@ -11,28 +11,28 @@ namespace Comparison_Engine.Form_Classes
         {
             MapForm mapForm = new MapForm();
             mainApplication.mainMapForm = mapForm;
-            ChildFormMethods.ConfigureChildForm(mapForm, mainApplication);
+            ConfigureChildForm(mapForm, mainApplication);
             mainApplication.map = mapForm.GetMap();
         }
 
 
         public static void OpenChildFormBar(Bar bar, Form1 mainApplication)
         {
-            BarForm barForm = new BarForm(bar, mainApplication.drinkManager, mainApplication.mainMapForm, mainApplication.mapController);
-            ChildFormMethods.ConfigureChildForm(barForm, mainApplication);
+            BarForm barForm = new BarForm(bar, mainApplication.mainMapForm);
+            ConfigureChildForm(barForm, mainApplication);
         }
 
 
         public static void OpenChildFormDrink(Drink drink, Form1 mainApplication)
         {
-            DrinkForm drinkForm = new DrinkForm(drink, mainApplication.barManager, mainApplication.mainMapForm, mainApplication.mapController);
-            ChildFormMethods.ConfigureChildForm(drinkForm, mainApplication);
+            DrinkForm drinkForm = new DrinkForm(drink, mainApplication.mainMapForm);
+            ConfigureChildForm(drinkForm, mainApplication);
         }
 
         public static void OpenChildFormProfile(Form1 mainApplication)                 //This will probably recieve the user info
         {
             ProfileForm profileForm = new ProfileForm();         //This will probably recieve the user info
-            ChildFormMethods.ConfigureChildForm(profileForm, mainApplication);
+            ConfigureChildForm(profileForm, mainApplication);
         }
 
 
@@ -40,7 +40,7 @@ namespace Comparison_Engine.Form_Classes
         {
             Child_Forms.UserContribution userContribution = new UserContribution(drink, bar);
             //CloseActiveForm();            //#commentedarea
-            ChildFormMethods.ConfigureChildForm(userContribution, mainApplication);
+            ConfigureChildForm(userContribution, mainApplication);
         }
 
         public static void ConfigureChildForm(Form childForm, Form1 mainApplication)
