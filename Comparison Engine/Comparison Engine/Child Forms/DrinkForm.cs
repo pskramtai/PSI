@@ -13,22 +13,20 @@ namespace Comparison_Engine.Forms
     public partial class DrinkForm : Form
     {
         public Drink drink = null;
-        public BarManager barManager = null;
+        public BarManager barManager = BarManager.Instance;
         public MapForm mapForm = null;
-        public MapController mapController = null;
-        public DrinkForm(Drink drnk, BarManager barMan, MapForm mainMapForm, MapController mainMapController)
+        public MapController mapController = MapController.Instance;
+        public DrinkForm(Drink tempDrink, MapForm mainMapForm)
         {
             InitializeComponent();
-            SaveValues(drnk, barMan, mainMapForm, mainMapController);
+            SaveValues(tempDrink, mainMapForm);
             PopulateForm();
         }
 
-        private void SaveValues(Drink drnk, BarManager barMan, MapForm mainMapForm, MapController mainMapController)
+        private void SaveValues(Drink tempDrink, MapForm mainMapForm)
         {
-            drink = drnk;
-            barManager = barMan;
+            drink = tempDrink;
             mapForm = mainMapForm;
-            mapController = mainMapController;
         }
 
         private void ButtonClose_Click(object sender, EventArgs e)

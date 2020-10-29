@@ -35,7 +35,7 @@ namespace Comparison_Engine
         {
 
             InitializeComponent();
-            ListButtonMethods.StateCheck(this);
+            ListMethods.StateCheck(this);
             InitializeProfileClick();
             // probably will need some method here to get current address of the current user
             ChildFormMethods.OpenChildFormMap(this);
@@ -51,7 +51,7 @@ namespace Comparison_Engine
         private void ButtonBottom_Click(object sender, EventArgs e)
         {
             barsIsTop = !barsIsTop;
-            ListButtonMethods.StateCheck(this);
+            ListMethods.StateCheck(this);
         }
 
 

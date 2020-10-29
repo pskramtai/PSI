@@ -14,21 +14,19 @@ namespace Comparison_Engine.Forms
     public partial class BarForm : Form
     {
         public Bar bar = null;
-        public DrinkManager drinkManager = null;
+        public DrinkManager drinkManager = DrinkManager.Instance;
         public MapForm mapForm = null;
-        public MapController mapController = null;
-        public BarForm(Bar tempBar, DrinkManager drinkMan, MapForm mainMapForm, MapController mainMapController)
+        public MapController mapController = MapController.Instance;
+        public BarForm(Bar tempBar, MapForm mainMapForm)
         {
             InitializeComponent();
-            SaveValues(tempBar, drinkMan, mainMapForm, mainMapController);
+            SaveValues(tempBar, mainMapForm);
             PopulateBarForm();
         }
-        private void SaveValues(Bar tempBar, DrinkManager drinkMan, MapForm mainMapForm, MapController mainMapController)
+        private void SaveValues(Bar tempBar, MapForm mainMapForm)
         {
             bar = tempBar;
-            drinkManager = drinkMan;
             mapForm = mainMapForm;
-            mapController = mainMapController;
         }
 
         private void ButtonExit_Click(object sender, EventArgs e)

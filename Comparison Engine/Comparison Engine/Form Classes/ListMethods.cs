@@ -3,20 +3,20 @@ using System.Collections.Generic;
 
 namespace Comparison_Engine.Form_Classes
 {
-    class ListButtonMethods
+    class ListMethods
     {
         public static void StateCheck(Form1 maipApplication)
         {
             if (maipApplication.barsIsTop)
             {
                 LoadBars(maipApplication.barManager.barDictionary, maipApplication);
-                ListButtonMethods.ButtonBarsIsTop(maipApplication);
+                ButtonBarsIsTop(maipApplication);
 
             }
             else
             {
                 LoadDrinks(maipApplication.drinkManager.drinkDictionary, maipApplication);
-                ListButtonMethods.ButtonDrinksIsTop(maipApplication);
+                ButtonDrinksIsTop(maipApplication);
 
             }
         }
