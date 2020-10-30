@@ -76,7 +76,7 @@
             this.buttonSearch.TabIndex = 0;
             this.buttonSearch.Text = "Search";
             this.buttonSearch.UseVisualStyleBackColor = true;
-            this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
+            this.buttonSearch.Click += new System.EventHandler(this.ButtonSearch_Click);
             // 
             // panelMain
             // 
@@ -110,7 +110,7 @@
             this.buttonBottom.TabIndex = 1;
             this.buttonBottom.Text = "buttonBottom";
             this.buttonBottom.UseVisualStyleBackColor = true;
-            this.buttonBottom.Click += new System.EventHandler(this.buttonBottom_Click);
+            this.buttonBottom.Click += new System.EventHandler(this.ButtonBottom_Click);
             // 
             // panelSubList
             // 
@@ -156,7 +156,7 @@
             this.panelProfile.Name = "panelProfile";
             this.panelProfile.Size = new System.Drawing.Size(250, 57);
             this.panelProfile.TabIndex = 0;
-            this.panelProfile.Paint += new System.Windows.Forms.PaintEventHandler(this.panelProfile_Paint);
+            this.panelProfile.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelProfile_Paint);
             // 
             // labelProfileName
             // 
@@ -186,7 +186,7 @@
             this.buttonEdit.TabIndex = 2;
             this.buttonEdit.Text = "Edit";
             this.buttonEdit.UseVisualStyleBackColor = true;
-            this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
+            this.buttonEdit.Click += new System.EventHandler(this.ButtonEdit_Click);
             // 
             // Form1
             // 
@@ -214,7 +214,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.Panel panelMain;
+        public System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Panel panelSearch;
         private System.Windows.Forms.Panel panelSideMenu;
         private System.Windows.Forms.Panel panelList;
@@ -223,9 +223,9 @@
         private System.Windows.Forms.Panel panelProfile;
         private System.Windows.Forms.Label labelProfileName;
         private System.Windows.Forms.PictureBox pictureBoxProfile;
-        private System.Windows.Forms.Button buttonBottom;
-        private System.Windows.Forms.Button buttonTop;
-        private System.Windows.Forms.Panel panelSubList;
+        public System.Windows.Forms.Button buttonBottom;
+        public System.Windows.Forms.Button buttonTop;
+        public System.Windows.Forms.Panel panelSubList;
         private System.Windows.Forms.Button buttonEdit;
     }
 }

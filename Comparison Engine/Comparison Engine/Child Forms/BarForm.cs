@@ -1,4 +1,5 @@
 ﻿using Comparison_Engine.Base_Classes;
+using Comparison_Engine.GoogleMap;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,42 +13,65 @@ namespace Comparison_Engine.Forms
 {
     public partial class BarForm : Form
     {
-        public BarForm(Bar bar)
+        public Bar bar = null;
+        public DrinkManager drinkManager = DrinkManager.Instance;
+        public MapForm mapForm = null;
+        public MapController mapController = MapController.Instance;
+        public BarForm(Bar tempBar, MapForm mainMapForm)
         {
             InitializeComponent();
-            populateBarForm(bar);
+            SaveValues(tempBar, mainMapForm);
+            PopulateBarForm();
         }
-        private void buttonExit_Click(object sender, EventArgs e)
+        private void SaveValues(Bar tempBar, MapForm mainMapForm)
         {
-            this.Close();
+            bar = tempBar;
+            mapForm = mainMapForm;
         }
-        //TEST AREA #testarea
-        private void populateBarForm(Bar bar)
+
+        private void ButtonExit_Click(object sender, EventArgs e)
         {
-            setLabelBarName(bar.barName);
-            setLabelBarLocation(bar.barLocation);
-            populateDrinkList(bar.availableDrinks);
+            mapForm.HideTopPanel();
+            mapController.RemoveOverlays(mapForm.GetMap());
+            Close();
         }
-        private void setLabelBarName(string name)
+        private void PopulateBarForm()
+        {
+            SetLabelBarName(bar.barName);
+            SetLabelBarLocation(bar.barLocation);
+            PopulateDrinkList(bar.availableDrinks);
+        }
+        private void SetLabelBarName(string name)
         {
             labelBarName.Text = name;
         }
-        private void setLabelBarLocation(string location)
+        private void SetLabelBarLocation(string location)
         {
             labelBarLocation.Text = location;
         }
-        private void populateDrinkList(Dictionary<int, float> availableDrinks)
+        private void PopulateDrinkList(Dictionary<int, float> availableDrinks)
         {
             Cursor.Current = Cursors.WaitCursor;
 
             foreach (KeyValuePair<int, float> drinkEntries in availableDrinks)
             {
-                ListViewItem listViewDrink = new ListViewItem(drinkEntries.Key.ToString());
+                ListViewItem listViewDrink = new ListViewItem((drinkManager.GetDrinkByID(drinkEntries.Key).drinkName));
                 listViewDrink.SubItems.Add(drinkEntries.Value.ToString());
                 listViewDrinks.Items.Add(listViewDrink);
             }
 
             Cursor.Current = Cursors.Default;
+        }
+
+        public Image BarImage()
+        {
+            return pictureBoxBarIcon.Image;
+        }
+
+        private void ButtonShowOnMap_Click(object sender, EventArgs e)
+        {
+            mapForm.BringToFront();
+            mapForm.PopulateBarPanel(this);
         }
 
         //EMPTY AREA #emptyarea
