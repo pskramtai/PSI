@@ -36,10 +36,9 @@ namespace Comparison_Engine.Form_Classes
         }
 
 
-        private void OpenChildFormUserContribution(Drink drink, Bar bar, Form1 mainApplication)
+        public static void OpenChildFormUserContribution(Form1 mainApplication)
         {
-            Child_Forms.UserContribution userContribution = new UserContribution(drink, bar);
-            //CloseActiveForm();            //#commentedarea
+            UserContribution userContribution = new UserContribution();
             ConfigureChildForm(userContribution, mainApplication);
         }
 

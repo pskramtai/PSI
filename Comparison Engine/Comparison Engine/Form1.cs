@@ -76,7 +76,7 @@ namespace Comparison_Engine
         }
         private void ButtonEdit_Click(object sender, EventArgs e)
         {
-            // OpenChildFormUserContribution(drinks[2], bars[2]);
+            ChildFormMethods.OpenChildFormUserContribution(this);
         }
 
         //Saves drink and bar data to JSON file
