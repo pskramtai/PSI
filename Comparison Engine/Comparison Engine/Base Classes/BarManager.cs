@@ -22,7 +22,7 @@ namespace Comparison_Engine.Base_Classes
         //Adds a new bar
         public void AddBar(string barName, string location)
         {
-            int barID = barDictionary.Count + 1;
+            int barID = barDictionary.Keys.Max() + 1; //changed up the way we assign ID's as using Count() would still cause trouble when removing elements
             barDictionary.Add(barID, new Bar(barID, barName, location));
         }
 
@@ -49,13 +49,27 @@ namespace Comparison_Engine.Base_Classes
         //Returns a list of all drinks at a specified bar
         public Dictionary<int, float> FindAllDrinksAtBar(int barID)
         {
-            return barDictionary[barID].availableDrinks;
+            if (barDictionary.TryGetValue(barID, out Bar value))
+            {
+                return value.availableDrinks;
+            }
+            else
+            {
+                return null;
+            }
         }
 
         //Returns specific Bar obejcts by some property
         public Bar GetBarByID(int barID)
         {
-            return barDictionary[barID];
+            if (barDictionary.TryGetValue(barID, out Bar value))
+            {
+                return value;
+            }
+            else
+            {
+                return null;
+            }
         }
 
         public Bar GetBarByName(string barName)
@@ -64,7 +78,7 @@ namespace Comparison_Engine.Base_Classes
             {
                 return barDictionary.Values.First(x => x.barName == barName);
             }
-            catch (Exception e)
+            catch(ArgumentNullException e)
             {
                 return null;
             }
@@ -72,7 +86,14 @@ namespace Comparison_Engine.Base_Classes
 
         public Bar GetBarByLocation(string barLocation)
         {
-            return barDictionary.Values.First(x => x.barLocation == barLocation);
+            try
+            {
+                return barDictionary.Values.First(x => x.barLocation == barLocation);
+            }
+            catch(ArgumentNullException e)
+            {
+                return null;
+            }
         }
     }
 }
