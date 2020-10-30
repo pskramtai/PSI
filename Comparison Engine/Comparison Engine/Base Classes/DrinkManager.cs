@@ -22,7 +22,7 @@ namespace Comparison_Engine.Base_Classes
         //Adds a new drink to the list
         public void AddDrink(string drinkName)
         {
-            int drinkID = drinkDictionary.Count - 1;
+            int drinkID = drinkDictionary.Count + 1;
             drinkDictionary.Add(drinkID, new Drink(drinkID, drinkName));
         }
 
@@ -83,7 +83,14 @@ namespace Comparison_Engine.Base_Classes
 
         public Drink GetDrinkByName(string drinkName)
         {
-            return drinkDictionary.Values.First(x => x.drinkName == drinkName);
+            try
+            {
+                return drinkDictionary.Values.First(x => x.drinkName == drinkName);
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
         }
     }
 }

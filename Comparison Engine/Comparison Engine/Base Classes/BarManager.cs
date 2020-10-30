@@ -22,7 +22,7 @@ namespace Comparison_Engine.Base_Classes
         //Adds a new bar
         public void AddBar(string barName, string location)
         {
-            int barID = barDictionary.Count - 1;
+            int barID = barDictionary.Count + 1;
             barDictionary.Add(barID, new Bar(barID, barName, location));
         }
 
@@ -60,7 +60,14 @@ namespace Comparison_Engine.Base_Classes
 
         public Bar GetBarByName(string barName)
         {
-            return barDictionary.Values.First(x => x.barName == barName);
+            try
+            {
+                return barDictionary.Values.First(x => x.barName == barName);
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
         }
 
         public Bar GetBarByLocation(string barLocation)
