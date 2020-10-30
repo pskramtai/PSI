@@ -65,7 +65,9 @@ namespace Comparison_Engine
             return textBoxSearch.Text;
         }
 
+
         //PROFILE MANAGING
+
         private void InitializeProfileClick()
         {
             panelProfile.Click += (sender, e) => { ChildFormMethods.OpenChildFormProfile(this); };           //This will probably recieve the user info
@@ -79,6 +81,7 @@ namespace Comparison_Engine
 
         //Saves drink and bar data to JSON file
         private void OnApplicationExit(object sender, EventArgs e)
+
         {
             if (drinkManager.drinkDictionary.Any() && drinkManager.drinkDictionary != null)
             {
