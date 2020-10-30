@@ -146,13 +146,14 @@ namespace Comparison_Engine
             ConfigureChildForm(profileForm);
         }
 
-        private void OpenChildFormUserContribution(Drink drink, Bar bar)
+        private void openChildFormUserContribution()
         {
-            Child_Forms.UserContribution userContribution = new UserContribution(drink, bar);
-            //CloseActiveForm();            //#commentedarea
-            ConfigureChildForm(userContribution);
+            Child_Forms.UserContribution userContribution = new UserContribution();
+            //closeActiveForm();            //#commentedarea
+            configureChildForm(userContribution);
         }
-    private void ConfigureChildForm(Form childForm)
+        
+        private void ConfigureChildForm(Form childForm)
         {
             if (activeForm != null && activeForm.GetType() != mainMapForm.GetType())
             {
@@ -246,7 +247,7 @@ namespace Comparison_Engine
 
         private void buttonEdit_Click(object sender, EventArgs e)
         {
-           // OpenChildFormUserContribution(drinks[2], bars[2]);
+            openChildFormUserContribution();
         }
 
 
@@ -256,8 +257,8 @@ namespace Comparison_Engine
         //COMMENTED FUNCTIONS #commentedarea
 
 
-    //Saves drink and bar data to JSON file
-    private void onApplicationExit(object sender, EventArgs e)
+        //Saves drink and bar data to JSON file
+        private void onApplicationExit(object sender, EventArgs e)
         {
             if (drinkManager.drinkDictionary.Any() && drinkManager.drinkDictionary != null)
             {
