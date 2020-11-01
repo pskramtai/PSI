@@ -63,7 +63,7 @@ namespace Comparison_Engine.GoogleMap
         }
 
         // puts markers on all bars within a wanted radius which have a specific drink and notes it's price in those bars
-        //might need to adjust map by zooming out in the future
+        // might need to adjust map by zooming out in the future
         public void ShowBarsWithDrink(GMapControl map, Drink specificDrink, Dictionary<int, Bar> barDictionary)
         {
             DrinkManager drinkManager = DrinkManager.Instance;
