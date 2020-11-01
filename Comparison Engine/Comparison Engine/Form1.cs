@@ -33,7 +33,6 @@ namespace Comparison_Engine
         //Tuscias funkcijas(nieko jose nebus daroma) galima rast ieskant #emptyarea
         public Form1()
         {
-
             InitializeComponent();
             ListMethods.StateCheck(this);
             InitializeProfileClick();
@@ -47,13 +46,11 @@ namespace Comparison_Engine
 
         }
 
-
         private void ButtonBottom_Click(object sender, EventArgs e)
         {
             barsIsTop = !barsIsTop;
             ListMethods.StateCheck(this);
         }
-
 
         private void ButtonSearch_Click(object sender, EventArgs e)
         {
@@ -65,15 +62,14 @@ namespace Comparison_Engine
             return textBoxSearch.Text;
         }
 
-
         //PROFILE MANAGING
-
         private void InitializeProfileClick()
         {
             panelProfile.Click += (sender, e) => { ChildFormMethods.OpenChildFormProfile(this); };           //This will probably recieve the user info
             labelProfileName.Click += (sender, e) => { ChildFormMethods.OpenChildFormProfile(this); };           //This will probably recieve the user info
             pictureBoxProfile.Click += (sender, e) => { ChildFormMethods.OpenChildFormProfile(this); };           //This will probably recieve the user info
         }
+
         private void ButtonEdit_Click(object sender, EventArgs e)
         {
             ChildFormMethods.OpenChildFormUserContribution(this);
@@ -81,7 +77,6 @@ namespace Comparison_Engine
 
         //Saves drink and bar data to JSON file
         private void OnApplicationExit(object sender, EventArgs e)
-
         {
             if (drinkManager.drinkDictionary.Any() && drinkManager.drinkDictionary != null)
             {

@@ -22,6 +22,7 @@ namespace Comparison_Engine.GoogleMap
 
         private MapController()
         {
+
         }
 
         // set default values so it would compile, but will need to set these depending on user or from current location
@@ -86,7 +87,7 @@ namespace Comparison_Engine.GoogleMap
             ShowHome(map);
         }
 
-        //puts markers on all bars within a wanted radius with addresses and names
+        //puts markers on all bars within a users specified radius with addresses, names and distance to them
         //might need to adjust map by zooming out in the future
         public void ShowNearBars(GMapControl map, List<Bar> barList)
         {

@@ -15,13 +15,11 @@ namespace Comparison_Engine.Form_Classes
             mainApplication.map = mapForm.GetMap();
         }
 
-
         public static void OpenChildFormBar(Bar bar, Form1 mainApplication)
         {
             BarForm barForm = new BarForm(bar, mainApplication.mainMapForm);
             ConfigureChildForm(barForm, mainApplication);
         }
-
 
         public static void OpenChildFormDrink(Drink drink, Form1 mainApplication)
         {
@@ -34,7 +32,6 @@ namespace Comparison_Engine.Form_Classes
             ProfileForm profileForm = new ProfileForm();         //This will probably recieve the user info
             ConfigureChildForm(profileForm, mainApplication);
         }
-
 
         public static void OpenChildFormUserContribution(Form1 mainApplication)
         {
