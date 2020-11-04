@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace Comparison_Engine.Form_Classes
 {
-    class ButtonListMethods
+    public class ButtonListMethods
     {
         //BAR BUTTON FUNCTIONS
         public static void CreateBarButton(Bar bar, Form1 mainApplication)
@@ -34,8 +34,6 @@ namespace Comparison_Engine.Form_Classes
             button.Text = (bar.barName);
             button.Dock = DockStyle.Top;
         }
-
-
 
         //DRINK BUTTON FUNCTIONS
         public static void CreateDrinkButton(Drink drink, Form1 mainApplication)

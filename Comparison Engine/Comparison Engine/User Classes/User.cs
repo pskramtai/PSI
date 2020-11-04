@@ -11,11 +11,6 @@ namespace Comparison_Engine.User_Classes
 
         public static User Instance { get { return lazy.Value; } }
 
-        private User()
-        {
-            username = "Guest";
-            userTrust = UserTrustLogic.UserTrustType.None;
-        }
         //some general variables that will likely be needed for the User class
         public string username { get; set; }
 
@@ -25,6 +20,12 @@ namespace Comparison_Engine.User_Classes
 
         //Enum defined in UserTrustLogic.cs
         public UserTrustLogic.UserTrustType userTrust { get; set; }
+
+        private User()
+        {
+            username = "Guest";
+            userTrust = UserTrustLogic.UserTrustType.None;
+        }
 
         public void ChangeUsername(string newUsername)
         {
@@ -53,6 +54,5 @@ namespace Comparison_Engine.User_Classes
         {
 
         }
-
     }
 }

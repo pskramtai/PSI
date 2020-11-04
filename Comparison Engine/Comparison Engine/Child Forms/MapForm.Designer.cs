@@ -88,7 +88,7 @@
             this.labelItemName.Size = new System.Drawing.Size(140, 25);
             this.labelItemName.TabIndex = 2;
             this.labelItemName.Text = "labelItemName";
-            this.labelItemName.Click += new System.EventHandler(this.labelItemName_Click);
+            this.labelItemName.Click += new System.EventHandler(this.LabelItemName_Click);
             // 
             // pictureBoxItem
             // 

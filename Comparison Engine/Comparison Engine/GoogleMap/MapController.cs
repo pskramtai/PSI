@@ -7,16 +7,13 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace Comparison_Engine.GoogleMap
 {
     public sealed class MapController
     {
-        private static readonly Lazy<MapController>
-            lazy = new Lazy<MapController>(() => new MapController());
+        private static readonly Lazy<MapController> lazy = new Lazy<MapController>(() => new MapController());
 
         public static MapController Instance { get { return lazy.Value; } }
 
@@ -69,7 +66,7 @@ namespace Comparison_Engine.GoogleMap
             DrinkManager drinkManager = DrinkManager.Instance;
             var cheapestPlaces = drinkManager.FindLowestPrice(specificDrink.drinkID).Item2;
 
-            var barIDs = drinkManager.FindAllBarsWithDrink(specificDrink.drinkID);//.Keys.ToArray(); // maybe could rewrite with FindAllBarsWithDrink
+            var barIDs = drinkManager.FindAllBarsWithDrink(specificDrink.drinkID);
 
             foreach (KeyValuePair<int, float> barAndPrice in barIDs)
             {
@@ -142,6 +139,7 @@ namespace Comparison_Engine.GoogleMap
                 ShowRouteTo(map, addressWhereTo, avoidHighways: false, walkingMode: false);
             }
         }
+
         // displays route between two addresses
         public void ShowRouteTo(GMapControl map, string addressWhereTo, string routeName = "New Route", string overlayName = "New Overlay", bool avoidHighways = false, bool walkingMode = true)
         {

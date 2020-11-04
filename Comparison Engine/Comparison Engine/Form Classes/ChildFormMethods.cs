@@ -5,7 +5,7 @@ using Comparison_Engine.Forms;
 
 namespace Comparison_Engine.Form_Classes
 {
-    class ChildFormMethods
+    public class ChildFormMethods
     {
         public static void OpenChildFormMap(Form1 mainApplication)
         {

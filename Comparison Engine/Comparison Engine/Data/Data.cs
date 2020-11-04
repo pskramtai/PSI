@@ -12,7 +12,6 @@ namespace Comparison_Engine
 {
     class Data
     {
-
         public static Dictionary<int, Bar> GetBars()
         {
             Dictionary<int, Bar> bars;
@@ -32,7 +31,6 @@ namespace Comparison_Engine
                 return null;
                 
             }
-            
         }
 
         public static Dictionary<int, Drink> GetDrinks()
@@ -53,7 +51,6 @@ namespace Comparison_Engine
                 Console.Write(e.StackTrace);
                 return null;
             }
-            
         }
 
         public static void SaveBars(Dictionary<int, Bar> bars)
@@ -79,6 +76,5 @@ namespace Comparison_Engine
                 MessageBox.Show(e.Message);
             }
         }
-
     }
 }

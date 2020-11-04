@@ -16,6 +16,7 @@ namespace Comparison_Engine.Forms
         public BarManager barManager = BarManager.Instance;
         public MapForm mapForm = null;
         public MapController mapController = MapController.Instance;
+
         public DrinkForm(Drink tempDrink, MapForm mainMapForm)
         {
             InitializeComponent();
@@ -36,18 +37,17 @@ namespace Comparison_Engine.Forms
             Close();
         }
 
-
-        //TEST AREA #testarea
-
         public void PopulateForm()                                                    
         {                                                                                    
             SetDrinkName(drink.drinkName);
             PopulateBarList(drink.drinkLocations);
         }
+
         public void SetDrinkName(string drinkName)
         {
             labelDrinkName.Text = drinkName;
         }
+
         private void PopulateBarList(Dictionary<int, float> drinkLocations)
         {
             Cursor.Current = Cursors.WaitCursor;

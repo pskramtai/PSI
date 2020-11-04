@@ -51,7 +51,7 @@
             this.buttonExit.TabIndex = 0;
             this.buttonExit.Text = "X";
             this.buttonExit.UseVisualStyleBackColor = true;
-            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
+            this.buttonExit.Click += new System.EventHandler(this.ButtonExit_Click);
             // 
             // pictureBoxUser
             // 
@@ -125,7 +125,7 @@
             this.button1.TabIndex = 8;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // buttonLogOut
             // 
@@ -136,7 +136,7 @@
             this.buttonLogOut.Text = "Log Out";
             this.buttonLogOut.UseVisualStyleBackColor = true;
             this.buttonLogOut.Visible = false;
-            this.buttonLogOut.Click += new System.EventHandler(this.buttonLogOut_Click);
+            this.buttonLogOut.Click += new System.EventHandler(this.ButtonLogOut_Click);
             // 
             // ProfileForm
             // 

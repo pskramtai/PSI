@@ -2,10 +2,7 @@
 using Comparison_Engine.GoogleMap;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 
 
@@ -17,12 +14,14 @@ namespace Comparison_Engine.Forms
         public DrinkManager drinkManager = DrinkManager.Instance;
         public MapForm mapForm = null;
         public MapController mapController = MapController.Instance;
+
         public BarForm(Bar tempBar, MapForm mainMapForm)
         {
             InitializeComponent();
             SaveValues(tempBar, mainMapForm);
             PopulateBarForm();
         }
+
         private void SaveValues(Bar tempBar, MapForm mainMapForm)
         {
             bar = tempBar;
@@ -35,20 +34,24 @@ namespace Comparison_Engine.Forms
             mapController.RemoveOverlays(mapForm.GetMap());
             Close();
         }
+
         private void PopulateBarForm()
         {
             SetLabelBarName(bar.barName);
             SetLabelBarLocation(bar.barLocation);
             PopulateDrinkList(bar.availableDrinks);
         }
+
         private void SetLabelBarName(string name)
         {
             labelBarName.Text = name;
         }
+
         private void SetLabelBarLocation(string location)
         {
             labelBarLocation.Text = location;
         }
+
         private void PopulateDrinkList(Dictionary<int, float> availableDrinks)
         {
             Cursor.Current = Cursors.WaitCursor;
@@ -75,7 +78,5 @@ namespace Comparison_Engine.Forms
         }
 
         //EMPTY AREA #emptyarea
-
-
     }
 }

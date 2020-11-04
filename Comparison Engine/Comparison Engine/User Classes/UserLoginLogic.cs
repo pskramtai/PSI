@@ -10,11 +10,6 @@ namespace Comparison_Engine.User_Classes
 
         public static UserLoginLogic Instance { get { return lazy.Value; } }
 
-        private UserLoginLogic()
-        {
-
-        }
-
         private User user = User.Instance;
 
         public bool loggedIn = false;
@@ -26,10 +21,15 @@ namespace Comparison_Engine.User_Classes
             {"test", "test" }
         };
 
+        private UserLoginLogic()
+        {
+
+        }
+
         //Will need to talk over together how we should approach user login
         public bool ValidateUserLogin(string username, string password)
         {
-            if (areCredentialsReal(new KeyValuePair<string, string>(username, password)) && !loggedIn)
+            if (AreCredentialsReal(new KeyValuePair<string, string>(username, password)) && !loggedIn)
             {
                 loggedIn = true;
                 user.username = username;
@@ -42,7 +42,7 @@ namespace Comparison_Engine.User_Classes
             }
         }
 
-        private bool areCredentialsReal(KeyValuePair<string, string> userKeyValuePair) //this will definitely change once we have somewhere to store actual user accounts
+        private bool AreCredentialsReal(KeyValuePair<string, string> userKeyValuePair) //this will definitely change once we have somewhere to store actual user accounts
         {
             if(userPasswordKVP.TryGetValue(userKeyValuePair.Key, out string value) && value == userKeyValuePair.Value)
             {

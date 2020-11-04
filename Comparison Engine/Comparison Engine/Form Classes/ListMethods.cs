@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Comparison_Engine.Form_Classes
 {
-    class ListMethods
+    public class ListMethods
     {
         public static void StateCheck(Form1 maipApplication)
         {
@@ -11,13 +11,11 @@ namespace Comparison_Engine.Form_Classes
             {
                 LoadBars(maipApplication.barManager.barDictionary, maipApplication);
                 ButtonBarsIsTop(maipApplication);
-
             }
             else
             {
                 LoadDrinks(maipApplication.drinkManager.drinkDictionary, maipApplication);
                 ButtonDrinksIsTop(maipApplication);
-
             }
         }
 

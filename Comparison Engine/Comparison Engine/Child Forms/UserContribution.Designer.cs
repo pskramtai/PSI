@@ -205,7 +205,7 @@
             this.buttonEditPrice.TabIndex = 9;
             this.buttonEditPrice.Text = "Edit price";
             this.buttonEditPrice.UseVisualStyleBackColor = true;
-            this.buttonEditPrice.Click += new System.EventHandler(this.buttonEditPrice_Click);
+            this.buttonEditPrice.Click += new System.EventHandler(this.ButtonEditPrice_Click);
             // 
             // buttonAddDrink
             // 
@@ -215,7 +215,7 @@
             this.buttonAddDrink.TabIndex = 10;
             this.buttonAddDrink.Text = "Add Drink";
             this.buttonAddDrink.UseVisualStyleBackColor = true;
-            this.buttonAddDrink.Click += new System.EventHandler(this.buttonAddDrink_Click);
+            this.buttonAddDrink.Click += new System.EventHandler(this.ButtonAddDrink_Click);
             // 
             // buttonAddBar
             // 
@@ -225,7 +225,7 @@
             this.buttonAddBar.TabIndex = 11;
             this.buttonAddBar.Text = "Add Bar";
             this.buttonAddBar.UseVisualStyleBackColor = true;
-            this.buttonAddBar.Click += new System.EventHandler(this.buttonAddBar_Click);
+            this.buttonAddBar.Click += new System.EventHandler(this.ButtonAddBar_Click);
             // 
             // UserContribution
             // 
