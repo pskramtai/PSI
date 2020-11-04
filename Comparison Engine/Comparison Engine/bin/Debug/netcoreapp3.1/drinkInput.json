@@ -46,5 +46,13 @@
     },
     "drinkID": 6,
     "drinkName": "Vasaros dreifas"
+  },
+  "7": {
+    "ingredientList": [],
+    "drinkLocations": {
+      "1": 5.0
+    },
+    "drinkID": 7,
+    "drinkName": "test"
   }
 }

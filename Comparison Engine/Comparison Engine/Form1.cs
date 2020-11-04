@@ -85,12 +85,12 @@ namespace Comparison_Engine
         {
             if (drinkManager.drinkDictionary.Any() && drinkManager.drinkDictionary != null)
             {
-                Data.SaveDrinks(drinkManager.drinkDictionary);
+                Data.SaveData(drinkManager.drinkDictionary, "drinkInput.json");
             }
 
             if (barManager.barDictionary.Any() && barManager.barDictionary != null)
             {
-                Data.SaveBars(barManager.barDictionary);
+                Data.SaveData(barManager.barDictionary, "barInput.json");
             }
         }
 

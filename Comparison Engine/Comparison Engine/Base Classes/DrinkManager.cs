@@ -85,7 +85,7 @@ namespace Comparison_Engine.Base_Classes
             {
                 return drinkDictionary.Values.First(x => x.drinkName == drinkName);
             }
-            catch(ArgumentNullException e)
+            catch(Exception e)
             {
                 return null;
             }

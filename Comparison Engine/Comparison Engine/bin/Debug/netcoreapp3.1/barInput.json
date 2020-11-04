@@ -2,7 +2,8 @@
   "1": {
     "availableDrinks": {
       "1": 2.5,
-      "2": 2.99
+      "2": 2.99,
+      "7": 5.0
     },
     "barID": 1,
     "barName": "BIX Baras",

@@ -10,7 +10,7 @@ using System.Windows;
 
 namespace Comparison_Engine
 {
-    class Data
+    public class Data
     {
 
         public static Dictionary<int, Bar> GetBars()
@@ -56,23 +56,11 @@ namespace Comparison_Engine
             
         }
 
-        public static void SaveBars(Dictionary<int, Bar> bars)
+        public static void SaveData<T>(Dictionary<int, T> data, String filePath)
         {
             try
             {
-                File.WriteAllText("barInput.json", JsonConvert.SerializeObject(bars, Formatting.Indented));
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show(e.Message);
-            }
-        }
-
-        public static void SaveDrinks(Dictionary<int, Drink> drinks)
-        {
-            try
-            {
-                File.WriteAllText("drinkInput.json", JsonConvert.SerializeObject(drinks, Formatting.Indented));
+                File.WriteAllText(filePath, JsonConvert.SerializeObject(data, Formatting.Indented));
             }
             catch (Exception e)
             {
