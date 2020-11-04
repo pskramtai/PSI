@@ -57,7 +57,15 @@ namespace Comparison_Engine
 
         private void ButtonSearch_Click(object sender, EventArgs e)
         {
-            SearchMethods.SearchFunction(FetchSearchKeyword());
+            string keyword = FetchSearchKeyword();
+            if(barsIsTop)
+            {
+                ListMethods.LoadBars(SearchMethods.SearchForBars(barManager.barDictionary, keyword), this);
+            }
+            else
+            {
+                ListMethods.LoadDrinks(SearchMethods.SearchForDrinks(drinkManager.drinkDictionary, keyword), this);
+            }   
         }
 
         private string FetchSearchKeyword()
