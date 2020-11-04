@@ -21,13 +21,11 @@ namespace Comparison_Engine.Form_Classes
             }
         }
 
-
         public static void ButtonDrinksIsTop(Form1 maipApplication)
         {
             maipApplication.buttonTop.Text = "Drinks";
             maipApplication.buttonBottom.Text = "Bars";
         }
-
 
         public static void ButtonBarsIsTop(Form1 maipApplication)
         {

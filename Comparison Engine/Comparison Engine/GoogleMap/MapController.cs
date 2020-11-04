@@ -22,11 +22,13 @@ namespace Comparison_Engine.GoogleMap
 
         private MapController()
         {
+
         }
 
         // set default values so it would compile, but will need to set these depending on user or from current location
-        public double prefDistance { private get; set; } = 69; 
-        public string homeAddress { private get; set; } = "S. Nėries 99";
+        public double prefDistance { get; set; } = 69; // user's preferred distance to a bar
+        public string homeAddress { get; set; } = "S. Nėries 99"; // user's current location (for now home location until we can just get current location)
+        public bool prefWalking { get; set; } = true; // user's preference to walk/drive
 
         // Initializes map and provides all necessities
         public void InitMap(GMapControl map, int zoomAtLoad = 16)
@@ -61,7 +63,7 @@ namespace Comparison_Engine.GoogleMap
         }
 
         // puts markers on all bars within a wanted radius which have a specific drink and notes it's price in those bars
-        //might need to adjust map by zooming out in the future
+        // might need to adjust map by zooming out in the future
         public void ShowBarsWithDrink(GMapControl map, Drink specificDrink, Dictionary<int, Bar> barDictionary)
         {
             DrinkManager drinkManager = DrinkManager.Instance;
@@ -86,7 +88,7 @@ namespace Comparison_Engine.GoogleMap
             ShowHome(map);
         }
 
-        //puts markers on all bars within a wanted radius with addresses and names
+        //puts markers on all bars within a users specified radius with addresses, names and distance to them
         //might need to adjust map by zooming out in the future
         public void ShowNearBars(GMapControl map, List<Bar> barList)
         {
@@ -129,8 +131,19 @@ namespace Comparison_Engine.GoogleMap
             AddMarkerWithTooltip(map, point, toolTipText);
         }
 
+        public void ShowRoute(GMapControl map, string addressWhereTo)
+        {
+            if (prefWalking)
+            {
+                ShowRouteTo(map, addressWhereTo, avoidHighways: true, walkingMode: true);
+            }
+            else
+            {
+                ShowRouteTo(map, addressWhereTo, avoidHighways: false, walkingMode: false);
+            }
+        }
         // displays route between two addresses
-        public void ShowRoute(GMapControl map, string addressWhereTo, string routeName = "New Route", string overlayName = "New Overlay", bool avoidHighways = false, bool walkingMode = true)
+        public void ShowRouteTo(GMapControl map, string addressWhereTo, string routeName = "New Route", string overlayName = "New Overlay", bool avoidHighways = false, bool walkingMode = true)
         {
             var pointA = GetPointFromAddress(homeAddress);
             var pointB = GetPointFromAddress(addressWhereTo);
@@ -149,12 +162,12 @@ namespace Comparison_Engine.GoogleMap
         }
 
         // gets distance between two addresses
-        public double GetDistance(string addressA, string addressB)
+        public int GetDistance(string addressA, string addressB)
         {
             var pointA = GetPointFromAddress(addressA);
             var pointB = GetPointFromAddress(addressB);
 
-            return GoogleMapProvider.Instance.GetRoute(pointA, pointB, false, true, 14).Distance;
+            return (int)GoogleMapProvider.Instance.GetRoute(pointA, pointB, false, true, 14).Distance;
         }
 
         private PointLatLng GetPointFromAddress(string address)

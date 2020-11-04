@@ -8,8 +8,6 @@ namespace Comparison_Engine.Form_Classes
 {
     class ButtonListMethods
     {
-
-
         //BAR BUTTON FUNCTIONS
         public static void CreateBarButton(Bar bar, Form1 mainApplication)
         {
@@ -29,6 +27,7 @@ namespace Comparison_Engine.Form_Classes
             mainApplication.mapController.RemoveOverlays(mainApplication.map);
             mainApplication.mapController.ShowRoute(mainApplication.map, bar.barLocation);
         }
+
         private static void ConfigureBarButton(Button button, Bar bar, Form1 mainApplication)
         {
             mainApplication.panelSubList.Controls.Add(button);
@@ -42,15 +41,14 @@ namespace Comparison_Engine.Form_Classes
         public static void CreateDrinkButton(Drink drink, Form1 mainApplication)
         {
             Button button = new Button();
-            ButtonListMethods.ConfigureDrinkButton(button, drink, mainApplication);
+            ConfigureDrinkButton(button, drink, mainApplication);
             BindDrink(button, drink, mainApplication);
         }
 
         private static void BindDrink(Button button, Drink drink, Form1 mainApplication)
         {
-            button.Click += (sender, EventArgs) => { ButtonListMethods.DrinkButtonClick(drink, mainApplication); };
+            button.Click += (sender, EventArgs) => { DrinkButtonClick(drink, mainApplication); };
         }
-
 
         public static void DrinkButtonClick(Drink drink, Form1 mainApplication)
         {
@@ -58,15 +56,13 @@ namespace Comparison_Engine.Form_Classes
             mainApplication.mapController.RemoveOverlays(mainApplication.map);
             mainApplication.mapController.ShowBarsWithDrink(mainApplication.map, drink, mainApplication.barManager.barDictionary);
         }
+
         public static void ConfigureDrinkButton(Button button, Drink drink, Form1 mainApplication)
         {
             mainApplication.panelSubList.Controls.Add(button);
             button.Text = (drink.drinkName);
             button.Dock = DockStyle.Top;
         }
-
-
-
 
         public static void ClearButtonList(Form1 mainApplication)
         {
