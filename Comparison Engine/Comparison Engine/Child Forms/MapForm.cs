@@ -15,6 +15,7 @@ namespace Comparison_Engine.Forms
         private MapController mapControl = MapController.Instance;
         private BarForm barForm = null;
         private DrinkForm drinkForm = null;
+
         public MapForm()
         {
             InitializeComponent();
@@ -30,6 +31,7 @@ namespace Comparison_Engine.Forms
         {
             return map;
         }
+
         private void ButtonBack_Click(object sender, EventArgs e)
         {
             if (barForm == null)
@@ -41,7 +43,6 @@ namespace Comparison_Engine.Forms
                 ButtonBackBar_Click();
             }
         }
-
 
         private void ButtonBackBar_Click()
         {
@@ -78,10 +79,8 @@ namespace Comparison_Engine.Forms
             labelItemName.Text = drinkForm.drink.drinkName;
         }
 
-
-
         //EMPTY METHODS
-        private void labelItemName_Click(object sender, EventArgs e)
+        private void LabelItemName_Click(object sender, EventArgs e)
         {
 
         }

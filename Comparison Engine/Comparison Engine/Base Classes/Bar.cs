@@ -11,7 +11,10 @@ namespace Comparison_Engine.Base_Classes
         public string barName { get; set; } 
 
         //Location of the bar
-        public string barLocation { get; set; } 
+        public string barLocation { get; set; }
+
+        //A dictionary of drinks available at this bar along with the prices
+        public Dictionary<int, float> availableDrinks = new Dictionary<int, float>();
 
         public Bar(int barID, string barName, string barLocation)
         {
@@ -31,9 +34,6 @@ namespace Comparison_Engine.Base_Classes
         {
             barLocation = newLocation;
         }
-
-        //A dictionary of drinks available at this bar along with the prices
-        public Dictionary<int, float> availableDrinks = new Dictionary<int, float>();
 
         //Adds a drink to the bar's menu
         public void AddDrink(int drinkID, float price)

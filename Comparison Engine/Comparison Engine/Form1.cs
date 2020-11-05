@@ -21,7 +21,6 @@ namespace Comparison_Engine
 {
     public partial class Form1 : Form
     {
-
         public bool barsIsTop = true;
         public DrinkManager drinkManager = DrinkManager.Instance;
         public BarManager barManager = BarManager.Instance;
@@ -31,6 +30,7 @@ namespace Comparison_Engine
         public MapController mapController = MapController.Instance;
         //Testines funkcijas galima rast ieskant #testarea
         //Tuscias funkcijas(nieko jose nebus daroma) galima rast ieskant #emptyarea
+
         public Form1()
         {
             InitializeComponent();

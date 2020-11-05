@@ -18,12 +18,12 @@ namespace Comparison_Engine.Child_Forms
             InitializeComponent();
         }
 
-        private void buttonExit_Click(object sender, EventArgs e)
+        private void ButtonExit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void userLoggedIn(Boolean loggedIn)
+        private void UserLoggedIn(bool loggedIn)
         {
             labelLogIn.Visible = !loggedIn;
             buttonLogIn.Visible = !loggedIn;
@@ -33,17 +33,17 @@ namespace Comparison_Engine.Child_Forms
             buttonLogOut.Visible = loggedIn;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
             if (userLoginLogic.ValidateUserLogin(textBoxUsername.Text, textBoxPassword.Text))
             {
-                userLoggedIn(true);
+                UserLoggedIn(true);
             }
         }
 
-        private void buttonLogOut_Click(object sender, EventArgs e)
+        private void ButtonLogOut_Click(object sender, EventArgs e)
         {
-            userLoggedIn(false);
+            UserLoggedIn(false);
         }
     }
 }
