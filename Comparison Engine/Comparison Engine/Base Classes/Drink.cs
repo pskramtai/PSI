@@ -19,10 +19,11 @@ namespace Comparison_Engine.Base_Classes
             this.drinkName = drinkName;
         }
 
-        //Changes the name of this drink object
-        public void EditDrinkName(string newName)
+        //Changes properties of this Drink Object
+        public void EditDrink(DrinkStruct drinkStruct)
         {
-            drinkName = newName;
+            if (drinkStruct.drinkName != null) this.drinkName = drinkStruct.drinkName;
+            if (drinkStruct.ingredientList != null) this.ingredientList = drinkStruct.ingredientList;
         }
 
         //A dictionary of bars with this drink and the prices at those bars, int for bar ID, float for price
