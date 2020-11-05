@@ -23,8 +23,14 @@ namespace Comparison_Engine.Base_Classes
         //Changes properties of this Bar Object
         public void EditBar(BarStruct barStruct)
         {
-            if (barStruct.barName != null) this.barName = barStruct.barName;
-            if (barStruct.barLocation != null) this.barLocation = barStruct.barLocation;
+            if (barStruct.barName != null)
+            {
+                this.barName = barStruct.barName;
+            }
+            if (barStruct.barLocation != null)
+            {
+                this.barLocation = barStruct.barLocation;
+            }
         }
 
         //A dictionary of drinks available at this bar along with the prices
