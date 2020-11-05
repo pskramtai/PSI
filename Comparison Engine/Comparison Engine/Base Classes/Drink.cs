@@ -26,6 +26,7 @@ namespace Comparison_Engine.Base_Classes
             { 
                 this.drinkName = drinkStruct.drinkName; 
             }
+
             if (drinkStruct.ingredientList != null)
             {
                 this.ingredientList = drinkStruct.ingredientList;

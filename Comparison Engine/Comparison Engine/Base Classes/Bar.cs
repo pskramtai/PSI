@@ -27,6 +27,7 @@ namespace Comparison_Engine.Base_Classes
             {
                 this.barName = barStruct.barName;
             }
+
             if (barStruct.barLocation != null)
             {
                 this.barLocation = barStruct.barLocation;
