@@ -78,7 +78,11 @@ namespace Comparison_Engine.Base_Classes
             {
                 return barDictionary.Values.First(x => x.barName == barName);
             }
-            catch(ArgumentNullException e)
+            catch (ArgumentNullException e)
+            {
+                return null;
+            }
+            catch (InvalidOperationException e)
             {
                 return null;
             }
@@ -91,6 +95,10 @@ namespace Comparison_Engine.Base_Classes
                 return barDictionary.Values.First(x => x.barLocation == barLocation);
             }
             catch(ArgumentNullException e)
+            {
+                return null;
+            }
+            catch(InvalidOperationException e)
             {
                 return null;
             }
