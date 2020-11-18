@@ -16,7 +16,7 @@ namespace Comparison_Engine.Base_Classes
         }
 
         //A list of bars
-        public Dictionary<int, Bar> barDictionary = Data.GetBars();
+        public Dictionary<int, Bar> barDictionary; //= Data.GetBars();
 
         //Adds a new bar
         public void AddBar(string barName, string location)
