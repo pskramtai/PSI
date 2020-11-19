@@ -10,7 +10,6 @@ namespace WebService.Data
 {
     public class DbAgent
     {
-        //private string connectionString = "Server=tcp:comparison-engine.database.windows.net,1433;Initial Catalog=Comparison Engine;Persist Security Info=False;User ID=PSIadmin;Password=CompEngine123Ė;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         public static List<Bar> GetBars(DbContextOptions<DBContext> options)
         {
             try

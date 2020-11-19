@@ -25,11 +25,5 @@ namespace WebService.Data
             modelBuilder.Entity<Drink>().ToTable("Drinks");
             modelBuilder.Entity<SpecificPrice>().HasNoKey().ToTable("SpecificPrices");
         }
-
-        /*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Server=tcp:comparison-engine.database.windows.net,1433;Initial Catalog=Comparison Engine;Persist Security Info=False;User ID=PSIadmin;Password=CompEngine123Ė;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
-            base.OnConfiguring(optionsBuilder);
-        }*/
     }
 }
