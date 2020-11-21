@@ -22,6 +22,7 @@ namespace Comparison_Engine.Base_Classes
         public void AddBar(string barName, string location)
         {
             int barID = barDictionary.Keys.Max() + 1; //changed up the way we assign ID's as using Count() would still cause trouble when removing elements
+
             barDictionary.Add(barID, new BarOld(barID, barName, location));
         }
 

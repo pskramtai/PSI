@@ -7,7 +7,6 @@ namespace Comparison_Engine.Form_Classes
 {
     class SearchMethods
     {
-
         public static Dictionary<int, Bar> SearchForBars(Dictionary<int, Bar> currentBarList, String keyword)
         {
             Dictionary<int, Bar> bars = new Dictionary<int, Bar>();
@@ -21,10 +20,10 @@ namespace Comparison_Engine.Form_Classes
             return bars;
         }
 
-
         public static Dictionary<int, Drink> SearchForDrinks(Dictionary<int, Drink> currentDrinkList, String keyword)
         {
             Dictionary<int, Drink> drinks = new Dictionary<int, Drink>();
+
             foreach (Drink drink in currentDrinkList.Values)
             {
                 if (drink.drinkName.ToLower().Contains(keyword.ToLower()))
@@ -32,6 +31,7 @@ namespace Comparison_Engine.Form_Classes
                     drinks.Add(drink.drinkID, drink);
                 }
             }
+
             return drinks;
         }
     }
