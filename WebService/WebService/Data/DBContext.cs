@@ -24,5 +24,9 @@ namespace WebService.Data
             modelBuilder.Entity<Drink>().ToTable("Drinks");
             modelBuilder.Entity<SpecificPrice>().HasNoKey().ToTable("SpecificPrices");
         }
+
+        public DbSet<WebService.Base_Classes.Drink> Drink { get; set; }
+
+        public DbSet<WebService.Base_Classes.Bar> Bar { get; set; }
     }
 }

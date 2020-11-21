@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Comparison_Engine.User_Classes
+namespace WebService.OldProject.User_Classes
 {
     public sealed class UserLoginLogic
     {

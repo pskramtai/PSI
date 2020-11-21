@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Comparison_Engine.Base_Classes;
+using WebService.OldProject.Base_Classes;
 
-namespace Comparison_Engine.User_Classes
+namespace WebService.OldProject.User_Classes
 {
     public sealed class User
     {
