@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Comparison_Engine.Base_Classes
+namespace WebService.OldProject.Base_Classes
 {
     //Structs for Bar and Drink Object properties
     public struct BarStruct

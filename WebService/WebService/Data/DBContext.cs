@@ -1,5 +1,4 @@
-﻿using Comparison_Engine.Base_Classes;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;

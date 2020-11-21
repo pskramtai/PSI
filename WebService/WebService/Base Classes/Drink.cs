@@ -1,9 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using WebService.Base_Classes;
 
-namespace Comparison_Engine.Base_Classes
+namespace WebService.Base_Classes
 {
     public class Drink
     {
