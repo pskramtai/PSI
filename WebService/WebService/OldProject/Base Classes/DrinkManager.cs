@@ -16,17 +16,17 @@ namespace Comparison_Engine.Base_Classes
         }
 
         //A list of drinks
-        public Dictionary<int, Drink> drinkDictionary; //= Data.GetDrinks();
+        public Dictionary<int, DrinkOld> drinkDictionary; //= Data.GetDrinks();
 
         //Adds a new drink to the list
         public void AddDrink(string drinkName)
         {
             int drinkID = drinkDictionary.Keys.Max() + 1; //changed up the way we assign ID's as using Count() would still cause trouble when removing elements
-            drinkDictionary.Add(drinkID, new Drink(drinkID, drinkName));
+            drinkDictionary.Add(drinkID, new DrinkOld(drinkID, drinkName));
         }
 
         //Removes a drink from the drink list
-        public void RemoveDrink(Drink drink)
+        public void RemoveDrink(DrinkOld drink)
         {
             drinkDictionary.Remove(drink.drinkID);
         }
@@ -55,7 +55,7 @@ namespace Comparison_Engine.Base_Classes
         //Returns a Disctionary of Bars with specified drink
         public Dictionary<int, float> FindAllBarsWithDrink(int drinkID)
         {
-            if (drinkDictionary.TryGetValue(drinkID, out Drink value))
+            if (drinkDictionary.TryGetValue(drinkID, out DrinkOld value))
             {
                 return value.drinkLocations;
             }
@@ -66,9 +66,9 @@ namespace Comparison_Engine.Base_Classes
         }
 
         //Returns specific Drink objects by some property
-        public Drink GetDrinkByID(int drinkID)
+        public DrinkOld GetDrinkByID(int drinkID)
         {
-            if (drinkDictionary.TryGetValue(drinkID, out Drink value))
+            if (drinkDictionary.TryGetValue(drinkID, out DrinkOld value))
             {
                 return value;
             }
@@ -78,7 +78,7 @@ namespace Comparison_Engine.Base_Classes
             }
         }
 
-        public Drink GetDrinkByName(string drinkName)
+        public DrinkOld GetDrinkByName(string drinkName)
         {
             try
             {

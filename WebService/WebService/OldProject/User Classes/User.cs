@@ -14,7 +14,7 @@ namespace Comparison_Engine.User_Classes
         //some general variables that will likely be needed for the User class
         public string username { get; set; }
 
-        public Bar favoriteBar { get; set; }
+        public BarOld favoriteBar { get; set; }
 
         public string currentLocation { get; set; }
 
@@ -33,7 +33,7 @@ namespace Comparison_Engine.User_Classes
             SaveUserInfo();
         }
 
-        public void ChangeFaveBar(Bar newBar)
+        public void ChangeFaveBar(BarOld newBar)
         {
             favoriteBar = newBar;
             SaveUserInfo();

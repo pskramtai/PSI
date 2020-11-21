@@ -16,17 +16,18 @@ namespace Comparison_Engine.Base_Classes
         }
 
         //A list of bars
-        public Dictionary<int, Bar> barDictionary; //= Data.GetBars();
+        public Dictionary<int, BarOld> barDictionary; //= Data.GetBars();
 
         //Adds a new bar
         public void AddBar(string barName, string location)
         {
             int barID = barDictionary.Keys.Max() + 1; //changed up the way we assign ID's as using Count() would still cause trouble when removing elements
-            barDictionary.Add(barID, new Bar(barID, barName, location));
+
+            barDictionary.Add(barID, new BarOld(barID, barName, location));
         }
 
         //Removes the bar from the list of all bars
-        public void RemoveBar(Bar bar)
+        public void RemoveBar(BarOld bar)
         {
             barDictionary.Remove(bar.barID);
         }
@@ -48,7 +49,7 @@ namespace Comparison_Engine.Base_Classes
         //Returns a list of all drinks at a specified bar
         public Dictionary<int, float> FindAllDrinksAtBar(int barID)
         {
-            if (barDictionary.TryGetValue(barID, out Bar value))
+            if (barDictionary.TryGetValue(barID, out BarOld value))
             {
                 return value.availableDrinks;
             }
@@ -59,9 +60,9 @@ namespace Comparison_Engine.Base_Classes
         }
 
         //Returns specific Bar obejcts by some property
-        public Bar GetBarByID(int barID)
+        public BarOld GetBarByID(int barID)
         {
-            if (barDictionary.TryGetValue(barID, out Bar value))
+            if (barDictionary.TryGetValue(barID, out BarOld value))
             {
                 return value;
             }
@@ -71,7 +72,7 @@ namespace Comparison_Engine.Base_Classes
             }
         }
 
-        public Bar GetBarByName(string barName)
+        public BarOld GetBarByName(string barName)
         {
             try
             {
@@ -87,7 +88,7 @@ namespace Comparison_Engine.Base_Classes
             }
         }
 
-        public Bar GetBarByLocation(string barLocation)
+        public BarOld GetBarByLocation(string barLocation)
         {
             try
             {
