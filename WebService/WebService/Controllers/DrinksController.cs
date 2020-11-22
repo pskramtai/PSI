@@ -46,9 +46,9 @@ namespace WebService.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutDrink(int id, Drink drink)
+        public async Task<IActionResult> PutDrink(Guid id, Drink drink)
         {
-            if (id != drink.drinkID)
+            if (id != drink.DrinkID)
             {
                 return BadRequest();
             }
@@ -83,7 +83,7 @@ namespace WebService.Controllers
             _context.Drink.Add(drink);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetDrink", new { id = drink.drinkID }, drink);
+            return CreatedAtAction("GetDrink", new { id = drink.DrinkID }, drink);
         }
 
         // DELETE: api/Drinks/5
@@ -102,9 +102,9 @@ namespace WebService.Controllers
             return drink;
         }
 
-        private bool DrinkExists(int id)
+        private bool DrinkExists(Guid id)
         {
-            return _context.Drink.Any(e => e.drinkID == id);
+            return _context.Drink.Any(e => e.DrinkID == id);
         }
     }
 }
