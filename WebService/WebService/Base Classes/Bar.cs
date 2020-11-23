@@ -8,7 +8,7 @@ namespace WebService.Base_Classes
     public class Bar
     {
         //ID of the bar
-        public Guid BarID { get; private set; } 
+        public int BarID { get; set; } 
 
         //Actual name of the bar
         [MaxLength(50)]
@@ -24,7 +24,6 @@ namespace WebService.Base_Classes
 
         public Bar(string barName, string barLocation)
         {
-            this.BarID = Guid.NewGuid();
             this.BarName = barName;
             this.BarLocation = barLocation;
         }

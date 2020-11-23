@@ -8,24 +8,23 @@ namespace WebService.Base_Classes
     public class Drink
     {
         //ID of the drink
-        public Guid DrinkID { get; private set; }
+        public int DrinkID { get; set; }
 
         //Name of the drink
         [MaxLength(50)]
         public string DrinkName { get; set; }
 
         //List of ingredients in this drink, mainly used by cocktails
-        public List<string> IngredientList { get; set; }
+        //public List<string> IngredientList { get; set; }
 
         //A list of bars with this drink and the prices at those bars, int for bar ID, float for price
         [NotMapped]
         public List<SpecificPrice> DrinkLocations { get; set; }
 
-        public Drink(string drinkName, List<string> ingredientList = null)
+        public Drink(string drinkName/*, List<string> ingredientList = null*/)
         {
-            this.DrinkID = Guid.NewGuid();
             this.DrinkName = drinkName;
-            this.IngredientList = ingredientList;
+            //this.IngredientList = ingredientList;
         }
     }
 }
