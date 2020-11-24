@@ -1,29 +1,30 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using WebService.Base_Classes;
 
-namespace Comparison_Engine.Base_Classes
+namespace WebService.Base_Classes
 {
     public class Drink
     {
         //ID of the drink
-        public int drinkID { get; set; }
+        public int DrinkID { get; set; }
 
         //Name of the drink
         [MaxLength(50)]
-        public string drinkName { get; set; }
+        public string DrinkName { get; set; }
 
         //List of ingredients in this drink, mainly used by cocktails
-        public List<string> ingredientList = new List<string>(); // actually surprised I'm adding this only now
+        //public List<string> IngredientList { get; set; }
 
         //A list of bars with this drink and the prices at those bars, int for bar ID, float for price
         [NotMapped]
-        public List<SpecificPrice> drinkLocations { get; set; }
-        public Drink(int drinkID, string drinkName)
+        public List<SpecificPrice> DrinkLocations { get; set; }
+
+        public Drink(string drinkName/*, List<string> ingredientList = null*/)
         {
-            this.drinkID = drinkID;
-            this.drinkName = drinkName;
+            this.DrinkName = drinkName;
+            //this.IngredientList = ingredientList;
         }
     }
 }

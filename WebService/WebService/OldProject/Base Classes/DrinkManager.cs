@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Comparison_Engine.Base_Classes
+namespace WebService.OldProject.Base_Classes
 {
      public sealed class DrinkManager
     {

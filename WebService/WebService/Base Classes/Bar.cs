@@ -1,32 +1,31 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using WebService.Base_Classes;
 
-namespace Comparison_Engine.Base_Classes
+namespace WebService.Base_Classes
 {
     public class Bar
     {
         //ID of the bar
-        public int barID { get; set; } 
+        public int BarID { get; set; } 
 
         //Actual name of the bar
         [MaxLength(50)]
-        public string barName { get; set; } 
+        public string BarName { get; set; } 
 
         //Location of the bar
         [MaxLength(50)]
-        public string barLocation { get; set; }
+        public string BarLocation { get; set; }
 
         //A list of drinks available at this bar along with the prices
         [NotMapped]
-        public List<SpecificPrice> availableDrinks { get; set; }
+        public List<SpecificPrice> AvailableDrinks { get; set; }
 
-        public Bar(int barID, string barName, string barLocation)
+        public Bar(string barName, string barLocation)
         {
-            this.barID = barID;
-            this.barName = barName;
-            this.barLocation = barLocation;
+            this.BarName = barName;
+            this.BarLocation = barLocation;
         }
     }
 }
