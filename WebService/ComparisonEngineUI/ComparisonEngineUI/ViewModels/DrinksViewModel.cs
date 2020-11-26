@@ -17,7 +17,7 @@ namespace ComparisonEngineUI.ViewModels
         }
         private async void OnEditDrinkClicked(object obj)
         {
-            await Shell.Current.GoToAsync($"//{nameof(EditPage)}");
+            await Shell.Current.GoToAsync($"{nameof(EditPage)}");
         }
 
     }

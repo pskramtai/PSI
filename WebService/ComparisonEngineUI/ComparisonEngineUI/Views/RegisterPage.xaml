@@ -6,8 +6,8 @@
         <StackLayout>
             <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
                 
-                <Entry Placeholder="Username" VerticalOptions="Center"/>
-                <Entry Placeholder="Password" VerticalOptions="Center"/>
+                <Entry Placeholder="Username" PlaceholderColor="Black" VerticalOptions="Center"/>
+                <Entry Placeholder="Password" PlaceholderColor="Black" VerticalOptions="Center"/>
                 <Entry Placeholder="Repeat Password" VerticalOptions="Center"/>
                 <Button VerticalOptions="Center" HorizontalOptions="End" Text="Create Account" Command="{Binding LoginCommand}" />
                

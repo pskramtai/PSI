@@ -4,9 +4,9 @@
              x:Class="ComparisonEngineUI.Views.EditPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Here you will be able to edit drink or bar information"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label TextColor="Black" Text="Here you will be able to edit drink or bar information"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
