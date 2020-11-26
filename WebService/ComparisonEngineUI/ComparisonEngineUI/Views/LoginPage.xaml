@@ -7,8 +7,14 @@
              x:Class="ComparisonEngineUI.Views.LoginPage"
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
+
         <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
-            <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
+            <Entry Placeholder="Username"/>
+            <Entry Placeholder="Password"/>
+            <Button VerticalOptions="Center" HorizontalOptions="End" Text="Login" Command="{Binding LoginCommand}" />
+            <Button VerticalOptions="Center" HorizontalOptions="End" Text="Register" Command="{Binding RegisterCommand}"/>
+            
         </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ComparisonEngineUI.Views.RegisterPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
+                
+                <Entry Placeholder="Username" VerticalOptions="Center"/>
+                <Entry Placeholder="Password" VerticalOptions="Center"/>
+                <Entry Placeholder="Repeat Password" VerticalOptions="Center"/>
+                <Button VerticalOptions="Center" HorizontalOptions="End" Text="Create Account" Command="{Binding LoginCommand}" />
+               
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
