@@ -37,7 +37,6 @@ namespace ComparisonEngineUI.Data
             catch (Exception)
             {
                 return null;
-                throw;
             }
         }
 
