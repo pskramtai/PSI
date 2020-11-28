@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using WebService.Base_Classes;
+using ComparisonEngineUI.Models;
 
 namespace ComparisonEngineUI.Data
 {
