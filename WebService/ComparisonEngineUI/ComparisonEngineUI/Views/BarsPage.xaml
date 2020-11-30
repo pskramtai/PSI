@@ -8,6 +8,17 @@
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
             <Button Text="Edit" Command="{Binding EditBarCommand}"/>
+            <ListView ItemsSource="{Binding bars}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Button Text="{Binding BarName}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
