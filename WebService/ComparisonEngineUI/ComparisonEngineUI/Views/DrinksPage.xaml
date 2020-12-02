@@ -8,6 +8,18 @@
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
             <Button Text="Edit" Command="{Binding EditDrinkCommand}"/>
+            <ListView ItemsSource="{Binding DrinkList}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Button Text="{Binding DrinkName}" Command="{Binding DrinkButtonCommand}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
