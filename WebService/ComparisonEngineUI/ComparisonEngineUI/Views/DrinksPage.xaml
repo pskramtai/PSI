@@ -4,6 +4,7 @@
              x:Class="ComparisonEngineUI.Views.DrinksPage">
     <ContentPage.Content>
         <StackLayout>
+            <SearchBar Placeholder="Search Drinks..." />
             <Label TextColor="Black" Text="Drink List:"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />

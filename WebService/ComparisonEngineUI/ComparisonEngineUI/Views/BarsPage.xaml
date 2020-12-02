@@ -4,6 +4,7 @@
              x:Class="ComparisonEngineUI.Views.BarsPage">
     <ContentPage.Content>
         <StackLayout>
+            <SearchBar Placeholder="Search Bars..." />
             <Label TextColor="Black" Text="Bar List:"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />

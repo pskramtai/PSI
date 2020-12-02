@@ -7,6 +7,9 @@
             <Label TextColor="Black" Text="Here you will be able to edit drink or bar information"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
+            <Button Text="Edit Drink Price" Command="{Binding EditDrinkPriceCommand}"/>
+            <Button Text="Add Drink" Command="{Binding AddDrinkCommand}"/>
+            <Button Text="Add Bar" Command="{Binding AddBarCommand}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
