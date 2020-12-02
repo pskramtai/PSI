@@ -363,3 +363,7 @@ FodyWeavers.xsd
 
 #Api Keys ignore
 API_KEY.txt
+
+#NLog generated files
+internallog.txt
+*_logfile.txt

@@ -25,6 +25,7 @@ namespace WebService.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
+            throw new Exception("Exception to test Error Handler");
             return "value";
         }
 
