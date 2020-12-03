@@ -365,4 +365,4 @@ FodyWeavers.xsd
 API_KEY.txt
 
 #Android Manifest
-AndroidManifest.xml
+WebService/ComparisonEngineUI/ComparisonEngineUI.Android/Properties/AndroidManifest.xml
