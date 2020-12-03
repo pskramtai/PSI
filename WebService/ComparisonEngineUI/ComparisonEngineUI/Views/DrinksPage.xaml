@@ -20,6 +20,5 @@
                 </ListView.ItemTemplate>
             </ListView>
         </StackLayout>
-        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
