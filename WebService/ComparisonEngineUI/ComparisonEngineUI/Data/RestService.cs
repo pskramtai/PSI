@@ -34,8 +34,9 @@ namespace ComparisonEngineUI.Data
                 var result = JsonConvert.DeserializeObject<T>(content);
                 return result;
             }
-            catch (Exception)
+            catch (Exception e)
             {
+                Console.WriteLine(e.Message);
                 return null;
             }
         }

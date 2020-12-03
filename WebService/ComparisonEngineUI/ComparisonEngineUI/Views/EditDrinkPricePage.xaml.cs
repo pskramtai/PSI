@@ -10,12 +10,12 @@ using Xamarin.Forms.Xaml;
 namespace ComparisonEngineUI.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class DrinksPage : ContentPage
+    public partial class EditDrinkPricePage : ContentPage
     {
-        public DrinksPage()
+        public EditDrinkPricePage()
         {
             InitializeComponent();
-            this.BindingContext = new DrinksViewModel();
+            this.BindingContext = new EditDrinkPriceViewModel();
         }
     }
 }

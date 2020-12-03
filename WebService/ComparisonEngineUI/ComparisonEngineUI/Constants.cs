@@ -6,8 +6,8 @@ namespace ComparisonEngineUI
 {
     class Constants
     {
-        public static string BarsUrl = "https://localhost:5001/api/Bars";
-        public static string DrinksUrl = "https://localhost:5001/api/Drinks";
-        public static string SpecificPricesUrl = "https://localhost:5001/api/SpecificPrices";
+        public static string BarsUrl = "http://localhost:8081/api/Bars/";
+        public static string DrinksUrl = "http://localhost:8081/api/Drinks/";
+        public static string SpecificPricesUrl = "http://localhost:8081/api/SpecificPrices/";
     }
 }
