@@ -2,6 +2,8 @@
 using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using ComparisonEngineUI.ViewModels;
+using ComparisonEngineUI.Models;
 
 namespace ComparisonEngineUI.Views
 {
@@ -10,6 +12,7 @@ namespace ComparisonEngineUI.Views
         public AboutPage()
         {
             InitializeComponent();
+            this.BindingContext = new AboutViewModel();
         }
     }
 }
