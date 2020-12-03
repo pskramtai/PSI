@@ -15,6 +15,7 @@ namespace ComparisonEngineUI
             Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
             Routing.RegisterRoute(nameof(RegisterPage), typeof(RegisterPage));
             Routing.RegisterRoute(nameof(EditPage), typeof(EditPage));
+            Routing.RegisterRoute(nameof(MapPage), typeof(MapPage));
         }
 
     }

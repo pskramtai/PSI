@@ -363,3 +363,6 @@ FodyWeavers.xsd
 
 #Api Keys ignore
 API_KEY.txt
+
+#Android Manifest
+AndroidManifest.xml
