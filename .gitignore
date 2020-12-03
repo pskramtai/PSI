@@ -364,6 +364,9 @@ FodyWeavers.xsd
 #Api Keys ignore
 API_KEY.txt
 
+#Android Manifest
+WebService/ComparisonEngineUI/ComparisonEngineUI.Android/Properties/AndroidManifest.xml
+
 #NLog generated files
 internallog.txt
 *_logfile.txt

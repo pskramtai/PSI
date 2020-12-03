@@ -8,6 +8,7 @@
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center">
             <Label Text="We are dedicated to providing accurate and fast information to ensure the cheapest drinking experience possible!" TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Button Text="Map Page" Command="{Binding OpenMap}"/>
         </StackLayout>
     </ContentPage.Content>
 
