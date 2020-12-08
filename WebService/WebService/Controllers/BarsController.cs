@@ -61,14 +61,11 @@ namespace WebService.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!BarExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+               if (!BarExists(id))
+               {
+                   return NotFound();
+               }
+               else throw;
             }
 
             return NoContent();

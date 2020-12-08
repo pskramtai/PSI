@@ -18,18 +18,18 @@ namespace WebService.ErrorHandling
             {
                 appError.Run(async context =>
                 {
-                    context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
                     context.Response.ContentType = "application/json";
+                    context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
 
                     var contextFeature = context.Features.Get<IExceptionHandlerFeature>();
                     if (contextFeature != null)
                     {
-                        logger.LogError($"Something went wrong: {contextFeature.Error}");
+                        logger.LogError($"Error produced in backend: {contextFeature.Error}");
 
                         await context.Response.WriteAsync(new ErrorDetails()
                         {
                             StatusCode = context.Response.StatusCode,
-                            Message = "Internal Server Error."
+                            Message = "Internal Server Error. Please report this to the creators of the API"
                         }.ToString());
                     }
                 });
