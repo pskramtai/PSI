@@ -7,6 +7,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using ComparisonEngineUI.Data;
 using ComparisonEngineUI.Models;
+using ComparisonEngineUI.ViewModels;
 
 namespace ComparisonEngineUI.Views
 {
@@ -16,18 +17,20 @@ namespace ComparisonEngineUI.Views
         public AddBarPage()
         {
             InitializeComponent();
+            this.BindingContext = new AddBarViewModel();
         }
 
         private async void OnSaveClicked(object sender, EventArgs e)
         {
-            if (barName.Text == "" || barAdress.Text == "")
+            if (barName.Text == "Enter Bar Name" || barAdress.Text == "" || barName == null)
             {
                 await DisplayAlert("Warning", "Bad Input", "Ok");
                 return;
             }
+            
             Bar bar = new Bar(barName.Text,barAdress.Text);
             var restService = new RestService();
-            await restService.SaveData<Bar>(bar, Constants.SpecificPricesUrl, false);
+            await restService.SaveData<Bar>(bar, Constants.BarsUrl, true);
         }
     }
 }

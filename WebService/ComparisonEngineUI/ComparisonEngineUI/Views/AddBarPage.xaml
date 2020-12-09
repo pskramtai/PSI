@@ -6,7 +6,7 @@
         <StackLayout>
             <Entry x:Name="barName" Placeholder="Enter Bar Name" PlaceholderColor="Black"/>
             <Entry x:Name="barAdress"  Placeholder="Enter Bar Location" PlaceholderColor="Black"/>
-            <Button Clicked="OnSaveClicked" Text="Save"/>
+            <Button Text="Save" Clicked="OnSaveClicked" Command="{Binding SaveCommand}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -29,6 +29,7 @@ namespace ComparisonEngineUI.Views
                 {
                     newEntryPrice.Text = "";
                     await DisplayAlert("Warning", "Bad Input", "Ok");
+                    return;
                 }
                 Bar bar = ((Bar)barChoice.SelectedItem);
                 Drink drink = ((Drink)drinkChoice.SelectedItem);
