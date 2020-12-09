@@ -30,7 +30,7 @@ namespace WebService.Data
                 .WithOne(s => s.Drink)
                 .HasForeignKey(s => s.DrinkID);
 
-            modelBuilder.Entity<SpecificPrice>().HasNoKey();
+            //modelBuilder.Entity<SpecificPrice>().HasNoKey();
 
            // modelBuilder.Entity<SpecificPrice>().HasNoKey().ToTable("SpecificPrices");
         }
