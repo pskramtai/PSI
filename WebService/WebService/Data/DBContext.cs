@@ -20,13 +20,19 @@ namespace WebService.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Bar>().ToTable("Bars");
-            modelBuilder.Entity<Drink>().ToTable("Drinks");
-            modelBuilder.Entity<SpecificPrice>().HasNoKey().ToTable("SpecificPrices");
+            modelBuilder.Entity<Bar>()
+                .HasMany<SpecificPrice>(b => b.AvailableDrinks)
+                .WithOne(s => s.Bar)
+                .HasForeignKey(s => s.BarID);
+
+            modelBuilder.Entity<Drink>()
+                .HasMany<SpecificPrice>(d => d.DrinkLocations)
+                .WithOne(s => s.Drink)
+                .HasForeignKey(s => s.DrinkID);
         }
 
-        public DbSet<WebService.Base_Classes.Drink> Drink { get; set; }
+        public DbSet<Drink> Drink { get; set; }
 
-        public DbSet<WebService.Base_Classes.Bar> Bar { get; set; }
+        public DbSet<Bar> Bar { get; set; }
     }
 }

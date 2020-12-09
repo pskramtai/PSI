@@ -11,100 +11,52 @@ namespace WebService.Data
     {
         public static List<Bar> GetBars(DbContextOptions<DBContext> options)
         {
-            try
+            using (var dbContext = new DBContext(options))
             {
-                using (var dbContext = new DBContext(options))
-                {
-                    return dbContext.Bars.ToList();
-                }
-            }
-            catch (Exception e)
-            {
-                
-                throw;
+                return dbContext.Bars.ToList();
             }
         }
 
         public static List<Drink> GetDrinks(DbContextOptions<DBContext> options)
         {
-            try
+            using (var dbContext = new DBContext(options))
             {
-                using (var dbContext = new DBContext(options))
-                {
-                    return dbContext.Drinks.ToList();
-                }
-            }
-            catch (Exception)
-            {
-
-                throw;
+                return dbContext.Drinks.ToList();
             }
         }
 
         public static List<SpecificPrice> GetSpecificPrices(DbContextOptions<DBContext> options)
         {
-            try
+            using (var dbContext = new DBContext(options))
             {
-                using (var dbContext = new DBContext(options))
-                {
-                    return dbContext.SpecificPrices.ToList();
-                }
-            }
-            catch (Exception)
-            {
-
-                throw;
+                return dbContext.SpecificPrices.ToList();
             }
         }
 
         public static void SaveBar(DbContextOptions<DBContext> options, Bar bar)
         {
-            try
+            using (var dbContext = new DBContext(options))
             {
-                using (var dbContext = new DBContext(options))
-                {
-                    dbContext.Bars.Add(bar);
-                    dbContext.SaveChanges();
-                }
-            }
-            catch (Exception)
-            {
-
-                throw;
+                dbContext.Bars.Add(bar);
+                dbContext.SaveChanges();
             }
         }
 
         public static void SaveDrink(DbContextOptions<DBContext> options, Drink drink)
         {
-            try
+            using (var dbContext = new DBContext(options))
             {
-                using (var dbContext = new DBContext(options))
-                {
-                    dbContext.Drinks.Add(drink);
-                    dbContext.SaveChanges();
-                }
-            }
-            catch (Exception)
-            {
-
-                throw;
+                dbContext.Drinks.Add(drink);
+                dbContext.SaveChanges();
             }
         }
 
         public static void SaveSpecificPrice(DbContextOptions<DBContext> options, SpecificPrice specificPrice)
         {
-            try
+            using (var dbContext = new DBContext(options))
             {
-                using (var dbContext = new DBContext(options))
-                {
-                    dbContext.SpecificPrices.Add(specificPrice);
-                    dbContext.SaveChanges();
-                }
-            }
-            catch (Exception)
-            {
-
-                throw;
+                dbContext.SpecificPrices.Add(specificPrice);
+                dbContext.SaveChanges();
             }
         }
     }
