@@ -26,5 +26,6 @@ namespace ComparisonEngineUI.Models
             this.DrinkName = drinkName;
             //this.IngredientList = ingredientList;
         }
+
     }
 }

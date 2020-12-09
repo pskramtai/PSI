@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ComparisonEngineUI.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using ComparisonEngineUI.Models;
+using System.Text.RegularExpressions;
+using ComparisonEngineUI.Data;
 
 namespace ComparisonEngineUI.Views
 {
@@ -14,6 +18,40 @@ namespace ComparisonEngineUI.Views
         public AddDrinkPage()
         {
             InitializeComponent();
+            this.BindingContext = new AddDrinkViewModel();
+        }
+
+        private async void SaveButtonClicked(object sender, EventArgs e)
+        {
+            if (drinkName.Text == "" || selectedBar.SelectedItem == null || EntryDrinkPrice.Text == "")
+            {
+                await DisplayAlert("Warning", "Bad Input", "Ok");
+                return;
+            }
+            Bar bar = ((Bar)selectedBar.SelectedItem);
+            if (Regex.IsMatch(EntryDrinkPrice.Text, @"(^[1-9]\d*(.\d{1,2})?$)|(^0(\.\d{1,2})?$)"))
+            {
+                float price = (float)Convert.ToDouble(EntryDrinkPrice.Text);
+                Drink drink = new Drink(drinkName.Text);
+                SpecificPrice drinkPrice = new SpecificPrice
+                {
+                    DrinkID = drink.DrinkID,
+                    BarID = bar.BarID,
+                    DrinkPrice = price
+                };
+
+                var restService = new RestService();
+                await restService.SaveData<Drink>(drink, Constants.DrinksUrl, true);
+                await restService.SaveData<SpecificPrice>(drinkPrice, Constants.SpecificPricesUrl, true);
+                // await restService.SaveData<List<Drink>>(drink,Constants.DrinksUrl,true);
+
+            }
+
+
+
+            
+            
+            
         }
     }
 }
