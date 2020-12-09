@@ -19,7 +19,7 @@ namespace WebService.Base_Classes
         public string BarLocation { get; set; }
 
         //A list of drinks available at this bar along with the prices
-        [NotMapped]
+        //[NotMapped]
         public List<SpecificPrice> AvailableDrinks { get; set; }
 
         public Bar(string barName, string barLocation)
