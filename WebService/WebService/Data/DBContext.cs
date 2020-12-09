@@ -29,10 +29,6 @@ namespace WebService.Data
                 .HasMany<SpecificPrice>(d => d.DrinkLocations)
                 .WithOne(s => s.Drink)
                 .HasForeignKey(s => s.DrinkID);
-
-            //modelBuilder.Entity<SpecificPrice>().HasNoKey();
-
-           // modelBuilder.Entity<SpecificPrice>().HasNoKey().ToTable("SpecificPrices");
         }
 
         public DbSet<WebService.Base_Classes.Drink> Drink { get; set; }
