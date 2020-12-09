@@ -34,5 +34,7 @@ namespace WebService.Data
         public DbSet<Drink> Drink { get; set; }
 
         public DbSet<Bar> Bar { get; set; }
+
+        public DbSet<SpecificPrice> SpecificPrice { get; set; }
     }
 }
