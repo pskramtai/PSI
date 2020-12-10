@@ -17,5 +17,11 @@ namespace ComparisonEngineUI.Views
             InitializeComponent();
             this.BindingContext = new BarsViewModel();
         }
+
+        async void Button_Clicked(Object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new BarPage(((Button)sender).Text));
+        }
+
     }
 }

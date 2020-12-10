@@ -17,5 +17,10 @@ namespace ComparisonEngineUI.Views
             InitializeComponent();
             this.BindingContext = new DrinksViewModel();
         }
+
+        async void Button_Clicked(Object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new DrinkPage(((Button)sender).Text));
+        }
     }
 }

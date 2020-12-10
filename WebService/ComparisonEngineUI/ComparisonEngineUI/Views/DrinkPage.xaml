@@ -6,14 +6,12 @@
         <StackLayout>
             <Label Text="{Binding Name}" TextColor="Black" VerticalOptions="Center" 
                    HorizontalOptions="Center"/>
-            <Label Text="{Binding Location}" TextColor="Black"  VerticalOptions="Center"
-                   HorizontalOptions="Center"/>
             <ListView ItemsSource="{Binding SpecificPriceList}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout>
-                                <Label Text="{Binding Drink.DrinkName}" TextColor="Black"/>
+                                <Label Text="{Binding Bar.BarName}" TextColor="Black"/>
                                 <Label Text="{Binding DrinkPrice}" TextColor="Black"/>
                             </StackLayout>  
                         </ViewCell>
