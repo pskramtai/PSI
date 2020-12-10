@@ -25,6 +25,156 @@ namespace ComparisonEngineUI.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Xamarin.Auth.Resource.Animation.slide_in_right = global::ComparisonEngineUI.Droid.Resource.Animation.slide_in_right;
+			global::Xamarin.Auth.Resource.Animation.slide_out_left = global::ComparisonEngineUI.Droid.Resource.Animation.slide_out_left;
+			global::Xamarin.Auth.Resource.Attribute.alpha = global::ComparisonEngineUI.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Auth.Resource.Attribute.font = global::ComparisonEngineUI.Droid.Resource.Attribute.font;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderAuthority = global::ComparisonEngineUI.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderCerts = global::ComparisonEngineUI.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderFetchStrategy = global::ComparisonEngineUI.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderFetchTimeout = global::ComparisonEngineUI.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderPackage = global::ComparisonEngineUI.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderQuery = global::ComparisonEngineUI.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Auth.Resource.Attribute.fontStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Auth.Resource.Attribute.fontVariationSettings = global::ComparisonEngineUI.Droid.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.Auth.Resource.Attribute.fontWeight = global::ComparisonEngineUI.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Auth.Resource.Attribute.ttcIndex = global::ComparisonEngineUI.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.Auth.Resource.Color.browser_actions_bg_grey = global::ComparisonEngineUI.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Xamarin.Auth.Resource.Color.browser_actions_divider_color = global::ComparisonEngineUI.Droid.Resource.Color.browser_actions_divider_color;
+			global::Xamarin.Auth.Resource.Color.browser_actions_text_color = global::ComparisonEngineUI.Droid.Resource.Color.browser_actions_text_color;
+			global::Xamarin.Auth.Resource.Color.browser_actions_title_color = global::ComparisonEngineUI.Droid.Resource.Color.browser_actions_title_color;
+			global::Xamarin.Auth.Resource.Color.notification_action_color_filter = global::ComparisonEngineUI.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Auth.Resource.Color.notification_icon_bg_color = global::ComparisonEngineUI.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Auth.Resource.Color.ripple_material_light = global::ComparisonEngineUI.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Auth.Resource.Color.secondary_text_default_material_light = global::ComparisonEngineUI.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Auth.Resource.Dimension.browser_actions_context_menu_max_width = global::ComparisonEngineUI.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Xamarin.Auth.Resource.Dimension.browser_actions_context_menu_min_padding = global::ComparisonEngineUI.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Xamarin.Auth.Resource.Dimension.compat_button_inset_horizontal_material = global::ComparisonEngineUI.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Auth.Resource.Dimension.compat_button_inset_vertical_material = global::ComparisonEngineUI.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Auth.Resource.Dimension.compat_button_padding_horizontal_material = global::ComparisonEngineUI.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Auth.Resource.Dimension.compat_button_padding_vertical_material = global::ComparisonEngineUI.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Auth.Resource.Dimension.compat_control_corner_material = global::ComparisonEngineUI.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Auth.Resource.Dimension.compat_notification_large_icon_max_height = global::ComparisonEngineUI.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.Auth.Resource.Dimension.compat_notification_large_icon_max_width = global::ComparisonEngineUI.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Auth.Resource.Dimension.notification_action_icon_size = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Auth.Resource.Dimension.notification_action_text_size = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Auth.Resource.Dimension.notification_big_circle_margin = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Auth.Resource.Dimension.notification_content_margin_start = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Auth.Resource.Dimension.notification_large_icon_height = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Auth.Resource.Dimension.notification_large_icon_width = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Auth.Resource.Dimension.notification_main_column_padding_top = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Auth.Resource.Dimension.notification_media_narrow_margin = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Auth.Resource.Dimension.notification_right_icon_size = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Auth.Resource.Dimension.notification_right_side_padding_top = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Auth.Resource.Dimension.notification_small_icon_background_padding = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Auth.Resource.Dimension.notification_small_icon_size_as_large = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Auth.Resource.Dimension.notification_subtext_size = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Auth.Resource.Dimension.notification_top_pad = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Auth.Resource.Dimension.notification_top_pad_large_text = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Auth.Resource.Drawable.ic_arrow_back = global::ComparisonEngineUI.Droid.Resource.Drawable.ic_arrow_back;
+			global::Xamarin.Auth.Resource.Drawable.notification_action_background = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg_low = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg_low_normal = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg_low_pressed = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg_normal = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg_normal_pressed = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Auth.Resource.Drawable.notification_icon_background = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Auth.Resource.Drawable.notification_template_icon_bg = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Auth.Resource.Drawable.notification_template_icon_low_bg = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Auth.Resource.Drawable.notification_tile_bg = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Auth.Resource.Drawable.notify_panel_notification_icon_bg = global::ComparisonEngineUI.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Auth.Resource.Id.action_container = global::ComparisonEngineUI.Droid.Resource.Id.action_container;
+			global::Xamarin.Auth.Resource.Id.action_divider = global::ComparisonEngineUI.Droid.Resource.Id.action_divider;
+			global::Xamarin.Auth.Resource.Id.action_image = global::ComparisonEngineUI.Droid.Resource.Id.action_image;
+			global::Xamarin.Auth.Resource.Id.action_text = global::ComparisonEngineUI.Droid.Resource.Id.action_text;
+			global::Xamarin.Auth.Resource.Id.actions = global::ComparisonEngineUI.Droid.Resource.Id.actions;
+			global::Xamarin.Auth.Resource.Id.async = global::ComparisonEngineUI.Droid.Resource.Id.async;
+			global::Xamarin.Auth.Resource.Id.blocking = global::ComparisonEngineUI.Droid.Resource.Id.blocking;
+			global::Xamarin.Auth.Resource.Id.browser_actions_header_text = global::ComparisonEngineUI.Droid.Resource.Id.browser_actions_header_text;
+			global::Xamarin.Auth.Resource.Id.browser_actions_menu_item_icon = global::ComparisonEngineUI.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Xamarin.Auth.Resource.Id.browser_actions_menu_item_text = global::ComparisonEngineUI.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Xamarin.Auth.Resource.Id.browser_actions_menu_items = global::ComparisonEngineUI.Droid.Resource.Id.browser_actions_menu_items;
+			global::Xamarin.Auth.Resource.Id.browser_actions_menu_view = global::ComparisonEngineUI.Droid.Resource.Id.browser_actions_menu_view;
+			global::Xamarin.Auth.Resource.Id.chronometer = global::ComparisonEngineUI.Droid.Resource.Id.chronometer;
+			global::Xamarin.Auth.Resource.Id.forever = global::ComparisonEngineUI.Droid.Resource.Id.forever;
+			global::Xamarin.Auth.Resource.Id.icon = global::ComparisonEngineUI.Droid.Resource.Id.icon;
+			global::Xamarin.Auth.Resource.Id.icon_group = global::ComparisonEngineUI.Droid.Resource.Id.icon_group;
+			global::Xamarin.Auth.Resource.Id.info = global::ComparisonEngineUI.Droid.Resource.Id.info;
+			global::Xamarin.Auth.Resource.Id.italic = global::ComparisonEngineUI.Droid.Resource.Id.italic;
+			global::Xamarin.Auth.Resource.Id.line1 = global::ComparisonEngineUI.Droid.Resource.Id.line1;
+			global::Xamarin.Auth.Resource.Id.line3 = global::ComparisonEngineUI.Droid.Resource.Id.line3;
+			global::Xamarin.Auth.Resource.Id.normal = global::ComparisonEngineUI.Droid.Resource.Id.normal;
+			global::Xamarin.Auth.Resource.Id.notification_background = global::ComparisonEngineUI.Droid.Resource.Id.notification_background;
+			global::Xamarin.Auth.Resource.Id.notification_main_column = global::ComparisonEngineUI.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Auth.Resource.Id.notification_main_column_container = global::ComparisonEngineUI.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Auth.Resource.Id.right_icon = global::ComparisonEngineUI.Droid.Resource.Id.right_icon;
+			global::Xamarin.Auth.Resource.Id.right_side = global::ComparisonEngineUI.Droid.Resource.Id.right_side;
+			global::Xamarin.Auth.Resource.Id.tag_transition_group = global::ComparisonEngineUI.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Auth.Resource.Id.tag_unhandled_key_event_manager = global::ComparisonEngineUI.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.Auth.Resource.Id.tag_unhandled_key_listeners = global::ComparisonEngineUI.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Auth.Resource.Id.text = global::ComparisonEngineUI.Droid.Resource.Id.text;
+			global::Xamarin.Auth.Resource.Id.text2 = global::ComparisonEngineUI.Droid.Resource.Id.text2;
+			global::Xamarin.Auth.Resource.Id.time = global::ComparisonEngineUI.Droid.Resource.Id.time;
+			global::Xamarin.Auth.Resource.Id.title = global::ComparisonEngineUI.Droid.Resource.Id.title;
+			global::Xamarin.Auth.Resource.Id.webview = global::ComparisonEngineUI.Droid.Resource.Id.webview;
+			global::Xamarin.Auth.Resource.Integer.status_bar_notification_info_maxnum = global::ComparisonEngineUI.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Auth.Resource.Layout.activity_webview = global::ComparisonEngineUI.Droid.Resource.Layout.activity_webview;
+			global::Xamarin.Auth.Resource.Layout.browser_actions_context_menu_page = global::ComparisonEngineUI.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Xamarin.Auth.Resource.Layout.browser_actions_context_menu_row = global::ComparisonEngineUI.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.Auth.Resource.Layout.notification_action = global::ComparisonEngineUI.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Auth.Resource.Layout.notification_action_tombstone = global::ComparisonEngineUI.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Auth.Resource.Layout.notification_template_custom_big = global::ComparisonEngineUI.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Auth.Resource.Layout.notification_template_icon_group = global::ComparisonEngineUI.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Auth.Resource.Layout.notification_template_part_chronometer = global::ComparisonEngineUI.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Auth.Resource.Layout.notification_template_part_time = global::ComparisonEngineUI.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Auth.Resource.String.status_bar_notification_info_overflow = global::ComparisonEngineUI.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Auth.Resource.String.title_activity_webview = global::ComparisonEngineUI.Droid.Resource.String.title_activity_webview;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Info = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Time = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Title = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Auth.Resource.Style.Widget_Compat_NotificationActionContainer = global::ComparisonEngineUI.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Auth.Resource.Style.Widget_Compat_NotificationActionText = global::ComparisonEngineUI.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Auth.Resource.Styleable.ColorStateListItem = global::ComparisonEngineUI.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Auth.Resource.Styleable.ColorStateListItem_alpha = global::ComparisonEngineUI.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Auth.Resource.Styleable.ColorStateListItem_android_alpha = global::ComparisonEngineUI.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Auth.Resource.Styleable.ColorStateListItem_android_color = global::ComparisonEngineUI.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderAuthority = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderCerts = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderPackage = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderQuery = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_android_font = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_android_fontStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_android_fontWeight = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_font = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_fontStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_fontWeight = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_ttcIndex = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Auth.Resource.Styleable.GradientColor = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor;
+			global::Xamarin.Auth.Resource.Styleable.GradientColor_android_centerColor = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.Auth.Resource.Styleable.GradientColor_android_centerX = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.Auth.Resource.Styleable.GradientColor_android_centerY = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.Auth.Resource.Styleable.GradientColor_android_endColor = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.Auth.Resource.Styleable.GradientColor_android_endX = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.Auth.Resource.Styleable.GradientColor_android_endY = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.Auth.Resource.Styleable.GradientColor_android_gradientRadius = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.Auth.Resource.Styleable.GradientColor_android_startColor = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.Auth.Resource.Styleable.GradientColor_android_startX = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.Auth.Resource.Styleable.GradientColor_android_startY = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.Auth.Resource.Styleable.GradientColor_android_tileMode = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.Auth.Resource.Styleable.GradientColor_android_type = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Auth.Resource.Styleable.GradientColorItem = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Auth.Resource.Styleable.GradientColorItem_android_color = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Auth.Resource.Styleable.GradientColorItem_android_offset = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColorItem_android_offset;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::ComparisonEngineUI.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::ComparisonEngineUI.Droid.Resource.Attribute.font;
@@ -207,6 +357,2704 @@ namespace ComparisonEngineUI.Droid
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_type;
 			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::ComparisonEngineUI.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_fade_in = global::ComparisonEngineUI.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_fade_out = global::ComparisonEngineUI.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::ComparisonEngineUI.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_popup_enter = global::ComparisonEngineUI.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_popup_exit = global::ComparisonEngineUI.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::ComparisonEngineUI.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_slide_in_bottom = global::ComparisonEngineUI.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_slide_in_top = global::ComparisonEngineUI.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_slide_out_bottom = global::ComparisonEngineUI.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_slide_out_top = global::ComparisonEngineUI.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_tooltip_enter = global::ComparisonEngineUI.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_tooltip_exit = global::ComparisonEngineUI.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.design_bottom_sheet_slide_in = global::ComparisonEngineUI.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.design_bottom_sheet_slide_out = global::ComparisonEngineUI.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.design_snackbar_in = global::ComparisonEngineUI.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.design_snackbar_out = global::ComparisonEngineUI.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.EnterFromLeft = global::ComparisonEngineUI.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.EnterFromRight = global::ComparisonEngineUI.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.ExitToLeft = global::ComparisonEngineUI.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.ExitToRight = global::ComparisonEngineUI.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.design_appbar_state_list_animator = global::ComparisonEngineUI.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.design_fab_hide_motion_spec = global::ComparisonEngineUI.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.design_fab_show_motion_spec = global::ComparisonEngineUI.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_btn_state_list_anim = global::ComparisonEngineUI.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::ComparisonEngineUI.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_chip_state_list_anim = global::ComparisonEngineUI.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_fab_hide_motion_spec = global::ComparisonEngineUI.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_fab_show_motion_spec = global::ComparisonEngineUI.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::ComparisonEngineUI.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::ComparisonEngineUI.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarDivider = global::ComparisonEngineUI.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarItemBackground = global::ComparisonEngineUI.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarPopupTheme = global::ComparisonEngineUI.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarSize = global::ComparisonEngineUI.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarSplitStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarTabBarStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarTabStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarTabTextStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarTheme = global::ComparisonEngineUI.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarWidgetTheme = global::ComparisonEngineUI.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionButtonStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionDropDownStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionLayout = global::ComparisonEngineUI.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionMenuTextAppearance = global::ComparisonEngineUI.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionMenuTextColor = global::ComparisonEngineUI.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeBackground = global::ComparisonEngineUI.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeCloseButtonStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeCloseDrawable = global::ComparisonEngineUI.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeCopyDrawable = global::ComparisonEngineUI.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeCutDrawable = global::ComparisonEngineUI.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeFindDrawable = global::ComparisonEngineUI.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModePasteDrawable = global::ComparisonEngineUI.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModePopupWindowStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeSelectAllDrawable = global::ComparisonEngineUI.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeShareDrawable = global::ComparisonEngineUI.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeSplitBackground = global::ComparisonEngineUI.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeWebSearchDrawable = global::ComparisonEngineUI.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionOverflowButtonStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionOverflowMenuStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionProviderClass = global::ComparisonEngineUI.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionViewClass = global::ComparisonEngineUI.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.activityChooserViewStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alertDialogCenterButtons = global::ComparisonEngineUI.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alertDialogStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alertDialogTheme = global::ComparisonEngineUI.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.allowStacking = global::ComparisonEngineUI.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alpha = global::ComparisonEngineUI.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alphabeticModifiers = global::ComparisonEngineUI.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.ambientEnabled = global::ComparisonEngineUI.Droid.Resource.Attribute.ambientEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.arrowHeadLength = global::ComparisonEngineUI.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.arrowShaftLength = global::ComparisonEngineUI.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoCompleteTextViewStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoSizeMaxTextSize = global::ComparisonEngineUI.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoSizeMinTextSize = global::ComparisonEngineUI.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoSizePresetSizes = global::ComparisonEngineUI.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoSizeStepGranularity = global::ComparisonEngineUI.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoSizeTextType = global::ComparisonEngineUI.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.background = global::ComparisonEngineUI.Droid.Resource.Attribute.background;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.backgroundSplit = global::ComparisonEngineUI.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.backgroundStacked = global::ComparisonEngineUI.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.backgroundTint = global::ComparisonEngineUI.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.backgroundTintMode = global::ComparisonEngineUI.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.barLength = global::ComparisonEngineUI.Droid.Resource.Attribute.barLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_autoHide = global::ComparisonEngineUI.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_fitToContents = global::ComparisonEngineUI.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_hideable = global::ComparisonEngineUI.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_overlapTop = global::ComparisonEngineUI.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_peekHeight = global::ComparisonEngineUI.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_skipCollapsed = global::ComparisonEngineUI.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.borderlessButtonStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.borderWidth = global::ComparisonEngineUI.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.bottomAppBarStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.bottomNavigationStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.bottomSheetDialogTheme = global::ComparisonEngineUI.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.bottomSheetStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxBackgroundColor = global::ComparisonEngineUI.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxBackgroundMode = global::ComparisonEngineUI.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxCollapsedPaddingTop = global::ComparisonEngineUI.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxCornerRadiusBottomEnd = global::ComparisonEngineUI.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxCornerRadiusBottomStart = global::ComparisonEngineUI.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxCornerRadiusTopEnd = global::ComparisonEngineUI.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxCornerRadiusTopStart = global::ComparisonEngineUI.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxStrokeColor = global::ComparisonEngineUI.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxStrokeWidth = global::ComparisonEngineUI.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonBarButtonStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonBarStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonGravity = global::ComparisonEngineUI.Droid.Resource.Attribute.buttonGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonIconDimen = global::ComparisonEngineUI.Droid.Resource.Attribute.buttonIconDimen;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonPanelSideLayout = global::ComparisonEngineUI.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonSize = global::ComparisonEngineUI.Droid.Resource.Attribute.buttonSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonStyleSmall = global::ComparisonEngineUI.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonTint = global::ComparisonEngineUI.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonTintMode = global::ComparisonEngineUI.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraBearing = global::ComparisonEngineUI.Droid.Resource.Attribute.cameraBearing;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraMaxZoomPreference = global::ComparisonEngineUI.Droid.Resource.Attribute.cameraMaxZoomPreference;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraMinZoomPreference = global::ComparisonEngineUI.Droid.Resource.Attribute.cameraMinZoomPreference;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraTargetLat = global::ComparisonEngineUI.Droid.Resource.Attribute.cameraTargetLat;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraTargetLng = global::ComparisonEngineUI.Droid.Resource.Attribute.cameraTargetLng;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraTilt = global::ComparisonEngineUI.Droid.Resource.Attribute.cameraTilt;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraZoom = global::ComparisonEngineUI.Droid.Resource.Attribute.cameraZoom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardBackgroundColor = global::ComparisonEngineUI.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardCornerRadius = global::ComparisonEngineUI.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardElevation = global::ComparisonEngineUI.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardMaxElevation = global::ComparisonEngineUI.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardPreventCornerOverlap = global::ComparisonEngineUI.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardUseCompatPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardViewStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.cardViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkboxStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkedChip = global::ComparisonEngineUI.Droid.Resource.Attribute.checkedChip;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkedIcon = global::ComparisonEngineUI.Droid.Resource.Attribute.checkedIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkedIconEnabled = global::ComparisonEngineUI.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkedIconVisible = global::ComparisonEngineUI.Droid.Resource.Attribute.checkedIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkedTextViewStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipBackgroundColor = global::ComparisonEngineUI.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipCornerRadius = global::ComparisonEngineUI.Droid.Resource.Attribute.chipCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipEndPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.chipEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipGroupStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.chipGroupStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipIcon = global::ComparisonEngineUI.Droid.Resource.Attribute.chipIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipIconEnabled = global::ComparisonEngineUI.Droid.Resource.Attribute.chipIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipIconSize = global::ComparisonEngineUI.Droid.Resource.Attribute.chipIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipIconTint = global::ComparisonEngineUI.Droid.Resource.Attribute.chipIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipIconVisible = global::ComparisonEngineUI.Droid.Resource.Attribute.chipIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipMinHeight = global::ComparisonEngineUI.Droid.Resource.Attribute.chipMinHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipSpacing = global::ComparisonEngineUI.Droid.Resource.Attribute.chipSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipSpacingHorizontal = global::ComparisonEngineUI.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipSpacingVertical = global::ComparisonEngineUI.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipStandaloneStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipStartPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.chipStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipStrokeColor = global::ComparisonEngineUI.Droid.Resource.Attribute.chipStrokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipStrokeWidth = global::ComparisonEngineUI.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.chipStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.circleCrop = global::ComparisonEngineUI.Droid.Resource.Attribute.circleCrop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIcon = global::ComparisonEngineUI.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconEnabled = global::ComparisonEngineUI.Droid.Resource.Attribute.closeIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconEndPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconSize = global::ComparisonEngineUI.Droid.Resource.Attribute.closeIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconStartPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconTint = global::ComparisonEngineUI.Droid.Resource.Attribute.closeIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconVisible = global::ComparisonEngineUI.Droid.Resource.Attribute.closeIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeItemLayout = global::ComparisonEngineUI.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collapseContentDescription = global::ComparisonEngineUI.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collapsedTitleGravity = global::ComparisonEngineUI.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collapsedTitleTextAppearance = global::ComparisonEngineUI.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collapseIcon = global::ComparisonEngineUI.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collectionViewStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.collectionViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.color = global::ComparisonEngineUI.Droid.Resource.Attribute.color;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorAccent = global::ComparisonEngineUI.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorBackgroundFloating = global::ComparisonEngineUI.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorButtonNormal = global::ComparisonEngineUI.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorControlActivated = global::ComparisonEngineUI.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorControlHighlight = global::ComparisonEngineUI.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorControlNormal = global::ComparisonEngineUI.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorError = global::ComparisonEngineUI.Droid.Resource.Attribute.colorError;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorPrimary = global::ComparisonEngineUI.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorPrimaryDark = global::ComparisonEngineUI.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorScheme = global::ComparisonEngineUI.Droid.Resource.Attribute.colorScheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorSecondary = global::ComparisonEngineUI.Droid.Resource.Attribute.colorSecondary;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorSwitchThumbNormal = global::ComparisonEngineUI.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.commitIcon = global::ComparisonEngineUI.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentDescription = global::ComparisonEngineUI.Droid.Resource.Attribute.contentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetEnd = global::ComparisonEngineUI.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetEndWithActions = global::ComparisonEngineUI.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetLeft = global::ComparisonEngineUI.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetRight = global::ComparisonEngineUI.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetStart = global::ComparisonEngineUI.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetStartWithNavigation = global::ComparisonEngineUI.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentPaddingBottom = global::ComparisonEngineUI.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentPaddingLeft = global::ComparisonEngineUI.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentPaddingRight = global::ComparisonEngineUI.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentPaddingTop = global::ComparisonEngineUI.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentScrim = global::ComparisonEngineUI.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.controlBackground = global::ComparisonEngineUI.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.coordinatorLayoutStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cornerRadius = global::ComparisonEngineUI.Droid.Resource.Attribute.cornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.counterEnabled = global::ComparisonEngineUI.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.counterMaxLength = global::ComparisonEngineUI.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.counterOverflowTextAppearance = global::ComparisonEngineUI.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.counterTextAppearance = global::ComparisonEngineUI.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.customNavigationLayout = global::ComparisonEngineUI.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.defaultQueryHint = global::ComparisonEngineUI.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dialogCornerRadius = global::ComparisonEngineUI.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dialogPreferredPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dialogTheme = global::ComparisonEngineUI.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.displayOptions = global::ComparisonEngineUI.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.divider = global::ComparisonEngineUI.Droid.Resource.Attribute.divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dividerHorizontal = global::ComparisonEngineUI.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dividerPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dividerVertical = global::ComparisonEngineUI.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.drawableSize = global::ComparisonEngineUI.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.drawerArrowStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::ComparisonEngineUI.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dropDownListViewStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.editTextBackground = global::ComparisonEngineUI.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.editTextColor = global::ComparisonEngineUI.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.editTextStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.elevation = global::ComparisonEngineUI.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.enforceMaterialTheme = global::ComparisonEngineUI.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.enforceTextAppearance = global::ComparisonEngineUI.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.errorEnabled = global::ComparisonEngineUI.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.errorTextAppearance = global::ComparisonEngineUI.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::ComparisonEngineUI.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expanded = global::ComparisonEngineUI.Droid.Resource.Attribute.expanded;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleGravity = global::ComparisonEngineUI.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleMargin = global::ComparisonEngineUI.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleMarginBottom = global::ComparisonEngineUI.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleMarginEnd = global::ComparisonEngineUI.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleMarginStart = global::ComparisonEngineUI.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleMarginTop = global::ComparisonEngineUI.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleTextAppearance = global::ComparisonEngineUI.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabAlignmentMode = global::ComparisonEngineUI.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabCradleMargin = global::ComparisonEngineUI.Droid.Resource.Attribute.fabCradleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabCradleRoundedCornerRadius = global::ComparisonEngineUI.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabCradleVerticalOffset = global::ComparisonEngineUI.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabCustomSize = global::ComparisonEngineUI.Droid.Resource.Attribute.fabCustomSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabSize = global::ComparisonEngineUI.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fastScrollEnabled = global::ComparisonEngineUI.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::ComparisonEngineUI.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::ComparisonEngineUI.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::ComparisonEngineUI.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::ComparisonEngineUI.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.firstBaselineToTopHeight = global::ComparisonEngineUI.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.floatingActionButtonStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.font = global::ComparisonEngineUI.Droid.Resource.Attribute.font;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontFamily = global::ComparisonEngineUI.Droid.Resource.Attribute.fontFamily;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderAuthority = global::ComparisonEngineUI.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderCerts = global::ComparisonEngineUI.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderFetchStrategy = global::ComparisonEngineUI.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderFetchTimeout = global::ComparisonEngineUI.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderPackage = global::ComparisonEngineUI.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderQuery = global::ComparisonEngineUI.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontVariationSettings = global::ComparisonEngineUI.Droid.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontWeight = global::ComparisonEngineUI.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.foregroundInsidePadding = global::ComparisonEngineUI.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.gapBetweenBars = global::ComparisonEngineUI.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.goIcon = global::ComparisonEngineUI.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.headerLayout = global::ComparisonEngineUI.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.height = global::ComparisonEngineUI.Droid.Resource.Attribute.height;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.helperText = global::ComparisonEngineUI.Droid.Resource.Attribute.helperText;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.helperTextEnabled = global::ComparisonEngineUI.Droid.Resource.Attribute.helperTextEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.helperTextTextAppearance = global::ComparisonEngineUI.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hideMotionSpec = global::ComparisonEngineUI.Droid.Resource.Attribute.hideMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hideOnContentScroll = global::ComparisonEngineUI.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hideOnScroll = global::ComparisonEngineUI.Droid.Resource.Attribute.hideOnScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hintAnimationEnabled = global::ComparisonEngineUI.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hintEnabled = global::ComparisonEngineUI.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hintTextAppearance = global::ComparisonEngineUI.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.homeAsUpIndicator = global::ComparisonEngineUI.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.homeLayout = global::ComparisonEngineUI.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hoveredFocusedTranslationZ = global::ComparisonEngineUI.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.icon = global::ComparisonEngineUI.Droid.Resource.Attribute.icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconEndPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.iconEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconGravity = global::ComparisonEngineUI.Droid.Resource.Attribute.iconGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconifiedByDefault = global::ComparisonEngineUI.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.iconPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconSize = global::ComparisonEngineUI.Droid.Resource.Attribute.iconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconStartPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.iconStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconTint = global::ComparisonEngineUI.Droid.Resource.Attribute.iconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconTintMode = global::ComparisonEngineUI.Droid.Resource.Attribute.iconTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.imageAspectRatio = global::ComparisonEngineUI.Droid.Resource.Attribute.imageAspectRatio;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.imageAspectRatioAdjust = global::ComparisonEngineUI.Droid.Resource.Attribute.imageAspectRatioAdjust;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.imageButtonStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.indeterminateProgressStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.initialActivityCount = global::ComparisonEngineUI.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.insetForeground = global::ComparisonEngineUI.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.isLightTheme = global::ComparisonEngineUI.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemBackground = global::ComparisonEngineUI.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemHorizontalPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemHorizontalTranslationEnabled = global::ComparisonEngineUI.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemIconPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.itemIconPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemIconSize = global::ComparisonEngineUI.Droid.Resource.Attribute.itemIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemIconTint = global::ComparisonEngineUI.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemSpacing = global::ComparisonEngineUI.Droid.Resource.Attribute.itemSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemTextAppearance = global::ComparisonEngineUI.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemTextAppearanceActive = global::ComparisonEngineUI.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemTextAppearanceInactive = global::ComparisonEngineUI.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemTextColor = global::ComparisonEngineUI.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.keylines = global::ComparisonEngineUI.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.labelVisibilityMode = global::ComparisonEngineUI.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.lastBaselineToBottomHeight = global::ComparisonEngineUI.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.latLngBoundsNorthEastLatitude = global::ComparisonEngineUI.Droid.Resource.Attribute.latLngBoundsNorthEastLatitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.latLngBoundsNorthEastLongitude = global::ComparisonEngineUI.Droid.Resource.Attribute.latLngBoundsNorthEastLongitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.latLngBoundsSouthWestLatitude = global::ComparisonEngineUI.Droid.Resource.Attribute.latLngBoundsSouthWestLatitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.latLngBoundsSouthWestLongitude = global::ComparisonEngineUI.Droid.Resource.Attribute.latLngBoundsSouthWestLongitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout = global::ComparisonEngineUI.Droid.Resource.Attribute.layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layoutManager = global::ComparisonEngineUI.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_anchor = global::ComparisonEngineUI.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_anchorGravity = global::ComparisonEngineUI.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_behavior = global::ComparisonEngineUI.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_collapseMode = global::ComparisonEngineUI.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::ComparisonEngineUI.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_dodgeInsetEdges = global::ComparisonEngineUI.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_insetEdge = global::ComparisonEngineUI.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_keyline = global::ComparisonEngineUI.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_scrollFlags = global::ComparisonEngineUI.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_scrollInterpolator = global::ComparisonEngineUI.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.liftOnScroll = global::ComparisonEngineUI.Droid.Resource.Attribute.liftOnScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.lineHeight = global::ComparisonEngineUI.Droid.Resource.Attribute.lineHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.lineSpacing = global::ComparisonEngineUI.Droid.Resource.Attribute.lineSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::ComparisonEngineUI.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listDividerAlertDialog = global::ComparisonEngineUI.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listItemLayout = global::ComparisonEngineUI.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listLayout = global::ComparisonEngineUI.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listMenuViewStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPopupWindowStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPreferredItemHeight = global::ComparisonEngineUI.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPreferredItemHeightLarge = global::ComparisonEngineUI.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPreferredItemHeightSmall = global::ComparisonEngineUI.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::ComparisonEngineUI.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPreferredItemPaddingRight = global::ComparisonEngineUI.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.liteMode = global::ComparisonEngineUI.Droid.Resource.Attribute.liteMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.logo = global::ComparisonEngineUI.Droid.Resource.Attribute.logo;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.logoDescription = global::ComparisonEngineUI.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.mapType = global::ComparisonEngineUI.Droid.Resource.Attribute.mapType;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.materialButtonStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.materialButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.materialCardViewStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.maxActionInlineWidth = global::ComparisonEngineUI.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.maxButtonHeight = global::ComparisonEngineUI.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.maxImageSize = global::ComparisonEngineUI.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.measureWithLargestChild = global::ComparisonEngineUI.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.menu = global::ComparisonEngineUI.Droid.Resource.Attribute.menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.multiChoiceItemLayout = global::ComparisonEngineUI.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.navigationContentDescription = global::ComparisonEngineUI.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.navigationIcon = global::ComparisonEngineUI.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.navigationMode = global::ComparisonEngineUI.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.navigationViewStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.numericModifiers = global::ComparisonEngineUI.Droid.Resource.Attribute.numericModifiers;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.overlapAnchor = global::ComparisonEngineUI.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.paddingBottomNoButtons = global::ComparisonEngineUI.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.paddingEnd = global::ComparisonEngineUI.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.paddingStart = global::ComparisonEngineUI.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.paddingTopNoTitle = global::ComparisonEngineUI.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.panelBackground = global::ComparisonEngineUI.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.panelMenuListTheme = global::ComparisonEngineUI.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.panelMenuListWidth = global::ComparisonEngineUI.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.passwordToggleContentDescription = global::ComparisonEngineUI.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.passwordToggleDrawable = global::ComparisonEngineUI.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.passwordToggleEnabled = global::ComparisonEngineUI.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.passwordToggleTint = global::ComparisonEngineUI.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.passwordToggleTintMode = global::ComparisonEngineUI.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.popupMenuStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.popupTheme = global::ComparisonEngineUI.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.popupWindowStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.preserveIconSpacing = global::ComparisonEngineUI.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.pressedTranslationZ = global::ComparisonEngineUI.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.progressBarPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.progressBarStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.queryBackground = global::ComparisonEngineUI.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.queryHint = global::ComparisonEngineUI.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.radioButtonStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.ratingBarStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.ratingBarStyleIndicator = global::ComparisonEngineUI.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.ratingBarStyleSmall = global::ComparisonEngineUI.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.reverseLayout = global::ComparisonEngineUI.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.rippleColor = global::ComparisonEngineUI.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.scopeUris = global::ComparisonEngineUI.Droid.Resource.Attribute.scopeUris;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.scrimAnimationDuration = global::ComparisonEngineUI.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.scrimBackground = global::ComparisonEngineUI.Droid.Resource.Attribute.scrimBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::ComparisonEngineUI.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.scrollViewStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.scrollViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.searchHintIcon = global::ComparisonEngineUI.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.searchIcon = global::ComparisonEngineUI.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.searchViewStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.seekBarStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.selectableItemBackground = global::ComparisonEngineUI.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::ComparisonEngineUI.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.showAsAction = global::ComparisonEngineUI.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.showDividers = global::ComparisonEngineUI.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.showMotionSpec = global::ComparisonEngineUI.Droid.Resource.Attribute.showMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.showText = global::ComparisonEngineUI.Droid.Resource.Attribute.showText;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.showTitle = global::ComparisonEngineUI.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.singleChoiceItemLayout = global::ComparisonEngineUI.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.singleLine = global::ComparisonEngineUI.Droid.Resource.Attribute.singleLine;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.singleSelection = global::ComparisonEngineUI.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.snackbarButtonStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.snackbarStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.spanCount = global::ComparisonEngineUI.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.spinBars = global::ComparisonEngineUI.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.spinnerDropDownItemStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.spinnerStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.splitTrack = global::ComparisonEngineUI.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.srcCompat = global::ComparisonEngineUI.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.stackFromEnd = global::ComparisonEngineUI.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.state_above_anchor = global::ComparisonEngineUI.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.state_collapsed = global::ComparisonEngineUI.Droid.Resource.Attribute.state_collapsed;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.state_collapsible = global::ComparisonEngineUI.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.state_liftable = global::ComparisonEngineUI.Droid.Resource.Attribute.state_liftable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.state_lifted = global::ComparisonEngineUI.Droid.Resource.Attribute.state_lifted;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.statusBarBackground = global::ComparisonEngineUI.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.statusBarScrim = global::ComparisonEngineUI.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.strokeColor = global::ComparisonEngineUI.Droid.Resource.Attribute.strokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.strokeWidth = global::ComparisonEngineUI.Droid.Resource.Attribute.strokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.subMenuArrow = global::ComparisonEngineUI.Droid.Resource.Attribute.subMenuArrow;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.submitBackground = global::ComparisonEngineUI.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.subtitle = global::ComparisonEngineUI.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.subtitleTextAppearance = global::ComparisonEngineUI.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.subtitleTextColor = global::ComparisonEngineUI.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.subtitleTextStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.suggestionRowLayout = global::ComparisonEngineUI.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.switchMinWidth = global::ComparisonEngineUI.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.switchPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.switchStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.switchTextAppearance = global::ComparisonEngineUI.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabBackground = global::ComparisonEngineUI.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabContentStart = global::ComparisonEngineUI.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabGravity = global::ComparisonEngineUI.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIconTint = global::ComparisonEngineUI.Droid.Resource.Attribute.tabIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIconTintMode = global::ComparisonEngineUI.Droid.Resource.Attribute.tabIconTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicator = global::ComparisonEngineUI.Droid.Resource.Attribute.tabIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicatorAnimationDuration = global::ComparisonEngineUI.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicatorColor = global::ComparisonEngineUI.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicatorFullWidth = global::ComparisonEngineUI.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicatorGravity = global::ComparisonEngineUI.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicatorHeight = global::ComparisonEngineUI.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabInlineLabel = global::ComparisonEngineUI.Droid.Resource.Attribute.tabInlineLabel;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabMaxWidth = global::ComparisonEngineUI.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabMinWidth = global::ComparisonEngineUI.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabMode = global::ComparisonEngineUI.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabPaddingBottom = global::ComparisonEngineUI.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabPaddingEnd = global::ComparisonEngineUI.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabPaddingStart = global::ComparisonEngineUI.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabPaddingTop = global::ComparisonEngineUI.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabRippleColor = global::ComparisonEngineUI.Droid.Resource.Attribute.tabRippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabSelectedTextColor = global::ComparisonEngineUI.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.tabStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabTextAppearance = global::ComparisonEngineUI.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabTextColor = global::ComparisonEngineUI.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabUnboundedRipple = global::ComparisonEngineUI.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAllCaps = global::ComparisonEngineUI.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceBody1 = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceBody2 = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceButton = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceCaption = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline1 = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline2 = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline3 = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline4 = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline5 = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline6 = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceListItem = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceListItemSecondary = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceListItemSmall = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceOverline = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceSubtitle1 = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceSubtitle2 = global::ComparisonEngineUI.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textColorAlertDialogListItem = global::ComparisonEngineUI.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textColorSearchUrl = global::ComparisonEngineUI.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textEndPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textInputStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textStartPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.textStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.theme = global::ComparisonEngineUI.Droid.Resource.Attribute.theme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.thickness = global::ComparisonEngineUI.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.thumbTextPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.thumbTint = global::ComparisonEngineUI.Droid.Resource.Attribute.thumbTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.thumbTintMode = global::ComparisonEngineUI.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tickMark = global::ComparisonEngineUI.Droid.Resource.Attribute.tickMark;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tickMarkTint = global::ComparisonEngineUI.Droid.Resource.Attribute.tickMarkTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tickMarkTintMode = global::ComparisonEngineUI.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tint = global::ComparisonEngineUI.Droid.Resource.Attribute.tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tintMode = global::ComparisonEngineUI.Droid.Resource.Attribute.tintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.title = global::ComparisonEngineUI.Droid.Resource.Attribute.title;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleEnabled = global::ComparisonEngineUI.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMargin = global::ComparisonEngineUI.Droid.Resource.Attribute.titleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMarginBottom = global::ComparisonEngineUI.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMarginEnd = global::ComparisonEngineUI.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMargins = global::ComparisonEngineUI.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMarginStart = global::ComparisonEngineUI.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMarginTop = global::ComparisonEngineUI.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleTextAppearance = global::ComparisonEngineUI.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleTextColor = global::ComparisonEngineUI.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleTextStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.toolbarId = global::ComparisonEngineUI.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.toolbarStyle = global::ComparisonEngineUI.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tooltipForegroundColor = global::ComparisonEngineUI.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tooltipFrameBackground = global::ComparisonEngineUI.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tooltipText = global::ComparisonEngineUI.Droid.Resource.Attribute.tooltipText;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.track = global::ComparisonEngineUI.Droid.Resource.Attribute.track;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.trackTint = global::ComparisonEngineUI.Droid.Resource.Attribute.trackTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.trackTintMode = global::ComparisonEngineUI.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.ttcIndex = global::ComparisonEngineUI.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiCompass = global::ComparisonEngineUI.Droid.Resource.Attribute.uiCompass;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiMapToolbar = global::ComparisonEngineUI.Droid.Resource.Attribute.uiMapToolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiRotateGestures = global::ComparisonEngineUI.Droid.Resource.Attribute.uiRotateGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiScrollGestures = global::ComparisonEngineUI.Droid.Resource.Attribute.uiScrollGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiScrollGesturesDuringRotateOrZoom = global::ComparisonEngineUI.Droid.Resource.Attribute.uiScrollGesturesDuringRotateOrZoom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiTiltGestures = global::ComparisonEngineUI.Droid.Resource.Attribute.uiTiltGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiZoomControls = global::ComparisonEngineUI.Droid.Resource.Attribute.uiZoomControls;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiZoomGestures = global::ComparisonEngineUI.Droid.Resource.Attribute.uiZoomGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.useCompatPadding = global::ComparisonEngineUI.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.useViewLifecycle = global::ComparisonEngineUI.Droid.Resource.Attribute.useViewLifecycle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.viewInflaterClass = global::ComparisonEngineUI.Droid.Resource.Attribute.viewInflaterClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.voiceIcon = global::ComparisonEngineUI.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowActionBar = global::ComparisonEngineUI.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowActionBarOverlay = global::ComparisonEngineUI.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowActionModeOverlay = global::ComparisonEngineUI.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowFixedHeightMajor = global::ComparisonEngineUI.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowFixedHeightMinor = global::ComparisonEngineUI.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowFixedWidthMajor = global::ComparisonEngineUI.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowFixedWidthMinor = global::ComparisonEngineUI.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowMinWidthMajor = global::ComparisonEngineUI.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowMinWidthMinor = global::ComparisonEngineUI.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowNoTitle = global::ComparisonEngineUI.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.zOrderOnTop = global::ComparisonEngineUI.Droid.Resource.Attribute.zOrderOnTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::ComparisonEngineUI.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Forms.Maps.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::ComparisonEngineUI.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::ComparisonEngineUI.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.Forms.Maps.Android.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::ComparisonEngineUI.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::ComparisonEngineUI.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::ComparisonEngineUI.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_btn_colored_text_material = global::ComparisonEngineUI.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_color_highlight_material = global::ComparisonEngineUI.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_hint_foreground_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_hint_foreground_material_light = global::ComparisonEngineUI.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_input_method_navigation_guard = global::ComparisonEngineUI.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::ComparisonEngineUI.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_primary_text_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_primary_text_material_light = global::ComparisonEngineUI.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_search_url_text = global::ComparisonEngineUI.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_search_url_text_normal = global::ComparisonEngineUI.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_search_url_text_pressed = global::ComparisonEngineUI.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_search_url_text_selected = global::ComparisonEngineUI.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_secondary_text_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_secondary_text_material_light = global::ComparisonEngineUI.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_btn_checkable = global::ComparisonEngineUI.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_default = global::ComparisonEngineUI.Droid.Resource.Color.abc_tint_default;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_edittext = global::ComparisonEngineUI.Droid.Resource.Color.abc_tint_edittext;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_seek_thumb = global::ComparisonEngineUI.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_spinner = global::ComparisonEngineUI.Droid.Resource.Color.abc_tint_spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_switch_track = global::ComparisonEngineUI.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.accent_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.accent_material_light = global::ComparisonEngineUI.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.background_floating_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.background_floating_material_light = global::ComparisonEngineUI.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.background_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.background_material_light = global::ComparisonEngineUI.Droid.Resource.Color.background_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_disabled_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_disabled_material_light = global::ComparisonEngineUI.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_inverse_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_inverse_material_light = global::ComparisonEngineUI.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_material_light = global::ComparisonEngineUI.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.button_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.button_material_light = global::ComparisonEngineUI.Droid.Resource.Color.button_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.cardview_dark_background = global::ComparisonEngineUI.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.cardview_light_background = global::ComparisonEngineUI.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.cardview_shadow_end_color = global::ComparisonEngineUI.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.cardview_shadow_start_color = global::ComparisonEngineUI.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_dark = global::ComparisonEngineUI.Droid.Resource.Color.common_google_signin_btn_text_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_dark_default = global::ComparisonEngineUI.Droid.Resource.Color.common_google_signin_btn_text_dark_default;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_dark_disabled = global::ComparisonEngineUI.Droid.Resource.Color.common_google_signin_btn_text_dark_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_dark_focused = global::ComparisonEngineUI.Droid.Resource.Color.common_google_signin_btn_text_dark_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_dark_pressed = global::ComparisonEngineUI.Droid.Resource.Color.common_google_signin_btn_text_dark_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_light = global::ComparisonEngineUI.Droid.Resource.Color.common_google_signin_btn_text_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_light_default = global::ComparisonEngineUI.Droid.Resource.Color.common_google_signin_btn_text_light_default;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_light_disabled = global::ComparisonEngineUI.Droid.Resource.Color.common_google_signin_btn_text_light_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_light_focused = global::ComparisonEngineUI.Droid.Resource.Color.common_google_signin_btn_text_light_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_light_pressed = global::ComparisonEngineUI.Droid.Resource.Color.common_google_signin_btn_text_light_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_tint = global::ComparisonEngineUI.Droid.Resource.Color.common_google_signin_btn_tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_bottom_navigation_shadow_color = global::ComparisonEngineUI.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_default_color_primary = global::ComparisonEngineUI.Droid.Resource.Color.design_default_color_primary;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_default_color_primary_dark = global::ComparisonEngineUI.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_error = global::ComparisonEngineUI.Droid.Resource.Color.design_error;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_shadow_end_color = global::ComparisonEngineUI.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_shadow_mid_color = global::ComparisonEngineUI.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_shadow_start_color = global::ComparisonEngineUI.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_stroke_end_inner_color = global::ComparisonEngineUI.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_stroke_end_outer_color = global::ComparisonEngineUI.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_stroke_top_inner_color = global::ComparisonEngineUI.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_stroke_top_outer_color = global::ComparisonEngineUI.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_snackbar_background_color = global::ComparisonEngineUI.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_tint_password_toggle = global::ComparisonEngineUI.Droid.Resource.Color.design_tint_password_toggle;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.dim_foreground_disabled_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.dim_foreground_disabled_material_light = global::ComparisonEngineUI.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.dim_foreground_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.dim_foreground_material_light = global::ComparisonEngineUI.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.error_color_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.error_color_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.error_color_material_light = global::ComparisonEngineUI.Droid.Resource.Color.error_color_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.foreground_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.foreground_material_light = global::ComparisonEngineUI.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.highlighted_text_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.highlighted_text_material_light = global::ComparisonEngineUI.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_blue_grey_800 = global::ComparisonEngineUI.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_blue_grey_900 = global::ComparisonEngineUI.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_blue_grey_950 = global::ComparisonEngineUI.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_deep_teal_200 = global::ComparisonEngineUI.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_deep_teal_500 = global::ComparisonEngineUI.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_100 = global::ComparisonEngineUI.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_300 = global::ComparisonEngineUI.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_50 = global::ComparisonEngineUI.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_600 = global::ComparisonEngineUI.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_800 = global::ComparisonEngineUI.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_850 = global::ComparisonEngineUI.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_900 = global::ComparisonEngineUI.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_bottom_nav_item_tint = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_bg_color_disabled = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_bg_color_selector = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_ripple_color = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_stroke_color_selector = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_text_btn_ripple_color = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_text_color_disabled = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_text_color_selector = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_transparent_bg_color = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_chip_background_color = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_chip_close_icon_tint = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_chip_ripple_color = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_chip_text_color = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_fab_ripple_color = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_scrim_color = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_scrim_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_tabs_colored_ripple_color = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_tabs_icon_color_selector = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_tabs_ripple_color = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_textinput_default_box_stroke_color = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_textinput_disabled_color = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_text_btn_text_color_selector = global::ComparisonEngineUI.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.notification_action_color_filter = global::ComparisonEngineUI.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.notification_icon_bg_color = global::ComparisonEngineUI.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.notification_material_background_media_default_color = global::ComparisonEngineUI.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_dark_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_dark_material_light = global::ComparisonEngineUI.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_material_light = global::ComparisonEngineUI.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_text_default_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_text_default_material_light = global::ComparisonEngineUI.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_text_disabled_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_text_disabled_material_light = global::ComparisonEngineUI.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.ripple_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.ripple_material_light = global::ComparisonEngineUI.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.secondary_text_default_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.secondary_text_default_material_light = global::ComparisonEngineUI.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.secondary_text_disabled_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.secondary_text_disabled_material_light = global::ComparisonEngineUI.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_disabled_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_disabled_material_light = global::ComparisonEngineUI.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_material_light = global::ComparisonEngineUI.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_normal_material_dark = global::ComparisonEngineUI.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_normal_material_light = global::ComparisonEngineUI.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.tooltip_background_dark = global::ComparisonEngineUI.Droid.Resource.Color.tooltip_background_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.tooltip_background_light = global::ComparisonEngineUI.Droid.Resource.Color.tooltip_background_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_default_height_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_elevation_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_button_min_height_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_button_min_width_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_alert_dialog_button_dimen = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_button_inset_vertical_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_button_padding_vertical_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_config_prefDialogWidth = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_control_corner_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_control_inset_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_control_padding_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_corner_radius_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_min_width_major = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_min_width_minor = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_padding_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_padding_top_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_title_divider_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_floating_window_z = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_panel_menu_list_width = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_progress_bar_height_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_search_view_preferred_height = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_search_view_preferred_width = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_switch_padding = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_body_1_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_body_2_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_button_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_caption_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_display_1_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_display_2_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_display_3_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_display_4_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_headline_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_large_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_medium_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_menu_header_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_menu_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_small_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_subhead_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_title_material = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::ComparisonEngineUI.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.cardview_compat_inset_shadow = global::ComparisonEngineUI.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.cardview_default_elevation = global::ComparisonEngineUI.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.cardview_default_radius = global::ComparisonEngineUI.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::ComparisonEngineUI.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_button_inset_vertical_material = global::ComparisonEngineUI.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::ComparisonEngineUI.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_button_padding_vertical_material = global::ComparisonEngineUI.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_control_corner_material = global::ComparisonEngineUI.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_notification_large_icon_max_height = global::ComparisonEngineUI.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_notification_large_icon_max_width = global::ComparisonEngineUI.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_appbar_elevation = global::ComparisonEngineUI.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::ComparisonEngineUI.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::ComparisonEngineUI.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::ComparisonEngineUI.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_elevation = global::ComparisonEngineUI.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_height = global::ComparisonEngineUI.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_icon_size = global::ComparisonEngineUI.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::ComparisonEngineUI.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::ComparisonEngineUI.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_margin = global::ComparisonEngineUI.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::ComparisonEngineUI.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_text_size = global::ComparisonEngineUI.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::ComparisonEngineUI.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::ComparisonEngineUI.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_border_width = global::ComparisonEngineUI.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_elevation = global::ComparisonEngineUI.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_image_size = global::ComparisonEngineUI.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_size_mini = global::ComparisonEngineUI.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_size_normal = global::ComparisonEngineUI.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_translation_z_hovered_focused = global::ComparisonEngineUI.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_translation_z_pressed = global::ComparisonEngineUI.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_elevation = global::ComparisonEngineUI.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_icon_padding = global::ComparisonEngineUI.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_icon_size = global::ComparisonEngineUI.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_item_horizontal_padding = global::ComparisonEngineUI.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_item_icon_padding = global::ComparisonEngineUI.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_max_width = global::ComparisonEngineUI.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_padding_bottom = global::ComparisonEngineUI.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::ComparisonEngineUI.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::ComparisonEngineUI.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::ComparisonEngineUI.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_elevation = global::ComparisonEngineUI.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::ComparisonEngineUI.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_max_width = global::ComparisonEngineUI.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_min_width = global::ComparisonEngineUI.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::ComparisonEngineUI.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_padding_vertical = global::ComparisonEngineUI.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::ComparisonEngineUI.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_text_size = global::ComparisonEngineUI.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_tab_max_width = global::ComparisonEngineUI.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_tab_scrollable_min_width = global::ComparisonEngineUI.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_tab_text_size = global::ComparisonEngineUI.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_tab_text_size_2line = global::ComparisonEngineUI.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_textinput_caption_translate_y = global::ComparisonEngineUI.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.disabled_alpha_material_dark = global::ComparisonEngineUI.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.disabled_alpha_material_light = global::ComparisonEngineUI.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.fastscroll_default_thickness = global::ComparisonEngineUI.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.fastscroll_margin = global::ComparisonEngineUI.Droid.Resource.Dimension.fastscroll_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.fastscroll_minimum_range = global::ComparisonEngineUI.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.highlight_alpha_material_colored = global::ComparisonEngineUI.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.highlight_alpha_material_dark = global::ComparisonEngineUI.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.highlight_alpha_material_light = global::ComparisonEngineUI.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.hint_alpha_material_dark = global::ComparisonEngineUI.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.hint_alpha_material_light = global::ComparisonEngineUI.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::ComparisonEngineUI.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::ComparisonEngineUI.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::ComparisonEngineUI.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::ComparisonEngineUI.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::ComparisonEngineUI.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_bottomappbar_height = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_corner_radius = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_disabled_elevation = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_disabled_z = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_elevation = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_focused_z = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_hovered_z = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_icon_padding = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_inset = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_letter_spacing = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_padding_bottom = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_padding_left = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_padding_right = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_padding_top = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_pressed_z = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_stroke_size = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_text_size = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_z = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_card_elevation = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_card_spacing = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_chip_pressed_translation_z = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_chip_text_size = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_fab_elevation = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_fab_translation_z_pressed = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_navigation_elevation = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_navigation_item_icon_padding = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_snackbar_margin = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_padding_end = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_toolbar_default_height = global::ComparisonEngineUI.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_action_icon_size = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_action_text_size = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_big_circle_margin = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_content_margin_start = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_large_icon_height = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_large_icon_width = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_main_column_padding_top = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_media_narrow_margin = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_right_icon_size = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_right_side_padding_top = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_small_icon_background_padding = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_small_icon_size_as_large = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_subtext_size = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_top_pad = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_top_pad_large_text = global::ComparisonEngineUI.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.subtitle_corner_radius = global::ComparisonEngineUI.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.subtitle_outline_width = global::ComparisonEngineUI.Droid.Resource.Dimension.subtitle_outline_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.subtitle_shadow_offset = global::ComparisonEngineUI.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.subtitle_shadow_radius = global::ComparisonEngineUI.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_corner_radius = global::ComparisonEngineUI.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_horizontal_padding = global::ComparisonEngineUI.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_margin = global::ComparisonEngineUI.Droid.Resource.Dimension.tooltip_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::ComparisonEngineUI.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_precise_anchor_threshold = global::ComparisonEngineUI.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_vertical_padding = global::ComparisonEngineUI.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_y_offset_non_touch = global::ComparisonEngineUI.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_y_offset_touch = global::ComparisonEngineUI.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_action_bar_item_background_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_borderless_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_check_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_colored_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_radio_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_cab_background_internal_bg = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_cab_background_top_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_control_background_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_dialog_material_background = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_edit_text_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_ab_back_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_clear_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_go_search_api_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_search_api_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_black_16dp = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_black_36dp = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_black_48dp = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_item_background_holo_dark = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_item_background_holo_light = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_divider_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_focused_holo = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_longpressed_holo = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_pressed_holo_light = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_holo_dark = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_holo_light = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ratingbar_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ratingbar_small_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_seekbar_thumb_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_seekbar_track_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_switch_thumb_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_tab_indicator_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_textfield_search_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_cursor_material = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_vector_test = global::ComparisonEngineUI.Droid.Resource.Drawable.abc_vector_test;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.avd_hide_password = global::ComparisonEngineUI.Droid.Resource.Drawable.avd_hide_password;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.avd_show_password = global::ComparisonEngineUI.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_full_open_on_phone = global::ComparisonEngineUI.Droid.Resource.Drawable.common_full_open_on_phone;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_dark = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_icon_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_dark_focused = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_dark_normal = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_dark_normal_background = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_normal_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_disabled = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_icon_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_light = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_icon_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_light_focused = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_icon_light_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_light_normal = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_icon_light_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_light_normal_background = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_icon_light_normal_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_dark = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_text_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_dark_focused = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_text_dark_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_dark_normal = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_text_dark_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_dark_normal_background = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_text_dark_normal_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_disabled = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_text_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_light = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_text_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_light_focused = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_text_light_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_light_normal = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_text_light_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_light_normal_background = global::ComparisonEngineUI.Droid.Resource.Drawable.common_google_signin_btn_text_light_normal_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_bottom_navigation_item_background = global::ComparisonEngineUI.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_fab_background = global::ComparisonEngineUI.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_ic_visibility = global::ComparisonEngineUI.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_ic_visibility_off = global::ComparisonEngineUI.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_password_eye = global::ComparisonEngineUI.Droid.Resource.Drawable.design_password_eye;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_snackbar_background = global::ComparisonEngineUI.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.googleg_disabled_color_18 = global::ComparisonEngineUI.Droid.Resource.Drawable.googleg_disabled_color_18;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.googleg_standard_color_18 = global::ComparisonEngineUI.Droid.Resource.Drawable.googleg_standard_color_18;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.ic_mtrl_chip_checked_black = global::ComparisonEngineUI.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.ic_mtrl_chip_checked_circle = global::ComparisonEngineUI.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.ic_mtrl_chip_close_circle = global::ComparisonEngineUI.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.mtrl_snackbar_background = global::ComparisonEngineUI.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.mtrl_tabs_default_indicator = global::ComparisonEngineUI.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.navigation_empty_icon = global::ComparisonEngineUI.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_action_background = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg_low = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg_low_normal = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg_low_pressed = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg_normal = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg_normal_pressed = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_icon_background = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_template_icon_bg = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_template_icon_low_bg = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_tile_bg = global::ComparisonEngineUI.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::ComparisonEngineUI.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.tooltip_frame_dark = global::ComparisonEngineUI.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.tooltip_frame_light = global::ComparisonEngineUI.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action0 = global::ComparisonEngineUI.Droid.Resource.Id.action0;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.actions = global::ComparisonEngineUI.Droid.Resource.Id.actions;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar = global::ComparisonEngineUI.Droid.Resource.Id.action_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_activity_content = global::ComparisonEngineUI.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_container = global::ComparisonEngineUI.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_root = global::ComparisonEngineUI.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_spinner = global::ComparisonEngineUI.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_subtitle = global::ComparisonEngineUI.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_title = global::ComparisonEngineUI.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_container = global::ComparisonEngineUI.Droid.Resource.Id.action_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_context_bar = global::ComparisonEngineUI.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_divider = global::ComparisonEngineUI.Droid.Resource.Id.action_divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_image = global::ComparisonEngineUI.Droid.Resource.Id.action_image;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_menu_divider = global::ComparisonEngineUI.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_menu_presenter = global::ComparisonEngineUI.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_mode_bar = global::ComparisonEngineUI.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_mode_bar_stub = global::ComparisonEngineUI.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_mode_close_button = global::ComparisonEngineUI.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_text = global::ComparisonEngineUI.Droid.Resource.Id.action_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.activity_chooser_view_content = global::ComparisonEngineUI.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.add = global::ComparisonEngineUI.Droid.Resource.Id.add;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.adjust_height = global::ComparisonEngineUI.Droid.Resource.Id.adjust_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.adjust_width = global::ComparisonEngineUI.Droid.Resource.Id.adjust_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.alertTitle = global::ComparisonEngineUI.Droid.Resource.Id.alertTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.all = global::ComparisonEngineUI.Droid.Resource.Id.all;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.ALT = global::ComparisonEngineUI.Droid.Resource.Id.ALT;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.always = global::ComparisonEngineUI.Droid.Resource.Id.always;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.async = global::ComparisonEngineUI.Droid.Resource.Id.async;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.auto = global::ComparisonEngineUI.Droid.Resource.Id.auto;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.beginning = global::ComparisonEngineUI.Droid.Resource.Id.beginning;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.blocking = global::ComparisonEngineUI.Droid.Resource.Id.blocking;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.bottom = global::ComparisonEngineUI.Droid.Resource.Id.bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.bottomtab_navarea = global::ComparisonEngineUI.Droid.Resource.Id.bottomtab_navarea;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.bottomtab_tabbar = global::ComparisonEngineUI.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.buttonPanel = global::ComparisonEngineUI.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.cancel_action = global::ComparisonEngineUI.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.center = global::ComparisonEngineUI.Droid.Resource.Id.center;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.center_horizontal = global::ComparisonEngineUI.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.center_vertical = global::ComparisonEngineUI.Droid.Resource.Id.center_vertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.checkbox = global::ComparisonEngineUI.Droid.Resource.Id.checkbox;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.chronometer = global::ComparisonEngineUI.Droid.Resource.Id.chronometer;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.clip_horizontal = global::ComparisonEngineUI.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.clip_vertical = global::ComparisonEngineUI.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.collapseActionView = global::ComparisonEngineUI.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.container = global::ComparisonEngineUI.Droid.Resource.Id.container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.content = global::ComparisonEngineUI.Droid.Resource.Id.content;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.contentPanel = global::ComparisonEngineUI.Droid.Resource.Id.contentPanel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.coordinator = global::ComparisonEngineUI.Droid.Resource.Id.coordinator;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.CTRL = global::ComparisonEngineUI.Droid.Resource.Id.CTRL;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.custom = global::ComparisonEngineUI.Droid.Resource.Id.custom;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.customPanel = global::ComparisonEngineUI.Droid.Resource.Id.customPanel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.dark = global::ComparisonEngineUI.Droid.Resource.Id.dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.decor_content_parent = global::ComparisonEngineUI.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.default_activity_button = global::ComparisonEngineUI.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.design_bottom_sheet = global::ComparisonEngineUI.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.design_menu_item_action_area = global::ComparisonEngineUI.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.design_menu_item_action_area_stub = global::ComparisonEngineUI.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.design_menu_item_text = global::ComparisonEngineUI.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.design_navigation_view = global::ComparisonEngineUI.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.disableHome = global::ComparisonEngineUI.Droid.Resource.Id.disableHome;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.edit_query = global::ComparisonEngineUI.Droid.Resource.Id.edit_query;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.end = global::ComparisonEngineUI.Droid.Resource.Id.end;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.end_padder = global::ComparisonEngineUI.Droid.Resource.Id.end_padder;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.enterAlways = global::ComparisonEngineUI.Droid.Resource.Id.enterAlways;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.enterAlwaysCollapsed = global::ComparisonEngineUI.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.exitUntilCollapsed = global::ComparisonEngineUI.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.expanded_menu = global::ComparisonEngineUI.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.expand_activities_button = global::ComparisonEngineUI.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.fill = global::ComparisonEngineUI.Droid.Resource.Id.fill;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.filled = global::ComparisonEngineUI.Droid.Resource.Id.filled;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.fill_horizontal = global::ComparisonEngineUI.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.fill_vertical = global::ComparisonEngineUI.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.@fixed = global::ComparisonEngineUI.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.flyoutcontent_appbar = global::ComparisonEngineUI.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.flyoutcontent_recycler = global::ComparisonEngineUI.Droid.Resource.Id.flyoutcontent_recycler;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.forever = global::ComparisonEngineUI.Droid.Resource.Id.forever;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.FUNCTION = global::ComparisonEngineUI.Droid.Resource.Id.FUNCTION;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.ghost_view = global::ComparisonEngineUI.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.group_divider = global::ComparisonEngineUI.Droid.Resource.Id.group_divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.home = global::ComparisonEngineUI.Droid.Resource.Id.home;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.homeAsUp = global::ComparisonEngineUI.Droid.Resource.Id.homeAsUp;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.hybrid = global::ComparisonEngineUI.Droid.Resource.Id.hybrid;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.icon = global::ComparisonEngineUI.Droid.Resource.Id.icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.icon_group = global::ComparisonEngineUI.Droid.Resource.Id.icon_group;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.icon_only = global::ComparisonEngineUI.Droid.Resource.Id.icon_only;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.ifRoom = global::ComparisonEngineUI.Droid.Resource.Id.ifRoom;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.image = global::ComparisonEngineUI.Droid.Resource.Id.image;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.info = global::ComparisonEngineUI.Droid.Resource.Id.info;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.italic = global::ComparisonEngineUI.Droid.Resource.Id.italic;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.item_touch_helper_previous_elevation = global::ComparisonEngineUI.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.labeled = global::ComparisonEngineUI.Droid.Resource.Id.labeled;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.largeLabel = global::ComparisonEngineUI.Droid.Resource.Id.largeLabel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.left = global::ComparisonEngineUI.Droid.Resource.Id.left;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.light = global::ComparisonEngineUI.Droid.Resource.Id.light;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.line1 = global::ComparisonEngineUI.Droid.Resource.Id.line1;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.line3 = global::ComparisonEngineUI.Droid.Resource.Id.line3;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.listMode = global::ComparisonEngineUI.Droid.Resource.Id.listMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.list_item = global::ComparisonEngineUI.Droid.Resource.Id.list_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.main_appbar = global::ComparisonEngineUI.Droid.Resource.Id.main_appbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.main_tablayout = global::ComparisonEngineUI.Droid.Resource.Id.main_tablayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.main_toolbar = global::ComparisonEngineUI.Droid.Resource.Id.main_toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.main_viewpager = global::ComparisonEngineUI.Droid.Resource.Id.main_viewpager;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.masked = global::ComparisonEngineUI.Droid.Resource.Id.masked;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.media_actions = global::ComparisonEngineUI.Droid.Resource.Id.media_actions;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.message = global::ComparisonEngineUI.Droid.Resource.Id.message;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.META = global::ComparisonEngineUI.Droid.Resource.Id.META;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.middle = global::ComparisonEngineUI.Droid.Resource.Id.middle;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.mini = global::ComparisonEngineUI.Droid.Resource.Id.mini;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.mtrl_child_content_container = global::ComparisonEngineUI.Droid.Resource.Id.mtrl_child_content_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.mtrl_internal_children_alpha_tag = global::ComparisonEngineUI.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.multiply = global::ComparisonEngineUI.Droid.Resource.Id.multiply;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.navigation_header_container = global::ComparisonEngineUI.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.never = global::ComparisonEngineUI.Droid.Resource.Id.never;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.none = global::ComparisonEngineUI.Droid.Resource.Id.none;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.normal = global::ComparisonEngineUI.Droid.Resource.Id.normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.notification_background = global::ComparisonEngineUI.Droid.Resource.Id.notification_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.notification_main_column = global::ComparisonEngineUI.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.notification_main_column_container = global::ComparisonEngineUI.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.outline = global::ComparisonEngineUI.Droid.Resource.Id.outline;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.parallax = global::ComparisonEngineUI.Droid.Resource.Id.parallax;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.parentPanel = global::ComparisonEngineUI.Droid.Resource.Id.parentPanel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.parent_matrix = global::ComparisonEngineUI.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.pin = global::ComparisonEngineUI.Droid.Resource.Id.pin;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.progress_circular = global::ComparisonEngineUI.Droid.Resource.Id.progress_circular;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.progress_horizontal = global::ComparisonEngineUI.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.radio = global::ComparisonEngineUI.Droid.Resource.Id.radio;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.right = global::ComparisonEngineUI.Droid.Resource.Id.right;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.right_icon = global::ComparisonEngineUI.Droid.Resource.Id.right_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.right_side = global::ComparisonEngineUI.Droid.Resource.Id.right_side;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.satellite = global::ComparisonEngineUI.Droid.Resource.Id.satellite;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.save_image_matrix = global::ComparisonEngineUI.Droid.Resource.Id.save_image_matrix;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.save_non_transition_alpha = global::ComparisonEngineUI.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.save_scale_type = global::ComparisonEngineUI.Droid.Resource.Id.save_scale_type;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.screen = global::ComparisonEngineUI.Droid.Resource.Id.screen;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.scroll = global::ComparisonEngineUI.Droid.Resource.Id.scroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.scrollable = global::ComparisonEngineUI.Droid.Resource.Id.scrollable;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.scrollIndicatorDown = global::ComparisonEngineUI.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.scrollIndicatorUp = global::ComparisonEngineUI.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.scrollView = global::ComparisonEngineUI.Droid.Resource.Id.scrollView;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_badge = global::ComparisonEngineUI.Droid.Resource.Id.search_badge;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_bar = global::ComparisonEngineUI.Droid.Resource.Id.search_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_button = global::ComparisonEngineUI.Droid.Resource.Id.search_button;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_close_btn = global::ComparisonEngineUI.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_edit_frame = global::ComparisonEngineUI.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_go_btn = global::ComparisonEngineUI.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_mag_icon = global::ComparisonEngineUI.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_plate = global::ComparisonEngineUI.Droid.Resource.Id.search_plate;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_src_text = global::ComparisonEngineUI.Droid.Resource.Id.search_src_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_voice_btn = global::ComparisonEngineUI.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.selected = global::ComparisonEngineUI.Droid.Resource.Id.selected;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.select_dialog_listview = global::ComparisonEngineUI.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.shellcontent_appbar = global::ComparisonEngineUI.Droid.Resource.Id.shellcontent_appbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.shellcontent_toolbar = global::ComparisonEngineUI.Droid.Resource.Id.shellcontent_toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.SHIFT = global::ComparisonEngineUI.Droid.Resource.Id.SHIFT;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.shortcut = global::ComparisonEngineUI.Droid.Resource.Id.shortcut;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.showCustom = global::ComparisonEngineUI.Droid.Resource.Id.showCustom;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.showHome = global::ComparisonEngineUI.Droid.Resource.Id.showHome;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.showTitle = global::ComparisonEngineUI.Droid.Resource.Id.showTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.smallLabel = global::ComparisonEngineUI.Droid.Resource.Id.smallLabel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.snackbar_action = global::ComparisonEngineUI.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.snackbar_text = global::ComparisonEngineUI.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.snap = global::ComparisonEngineUI.Droid.Resource.Id.snap;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.snapMargins = global::ComparisonEngineUI.Droid.Resource.Id.snapMargins;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.spacer = global::ComparisonEngineUI.Droid.Resource.Id.spacer;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.split_action_bar = global::ComparisonEngineUI.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.src_atop = global::ComparisonEngineUI.Droid.Resource.Id.src_atop;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.src_in = global::ComparisonEngineUI.Droid.Resource.Id.src_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.src_over = global::ComparisonEngineUI.Droid.Resource.Id.src_over;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.standard = global::ComparisonEngineUI.Droid.Resource.Id.standard;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.start = global::ComparisonEngineUI.Droid.Resource.Id.start;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.status_bar_latest_event_content = global::ComparisonEngineUI.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.stretch = global::ComparisonEngineUI.Droid.Resource.Id.stretch;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.submenuarrow = global::ComparisonEngineUI.Droid.Resource.Id.submenuarrow;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.submit_area = global::ComparisonEngineUI.Droid.Resource.Id.submit_area;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.SYM = global::ComparisonEngineUI.Droid.Resource.Id.SYM;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.tabMode = global::ComparisonEngineUI.Droid.Resource.Id.tabMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.tag_transition_group = global::ComparisonEngineUI.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.tag_unhandled_key_event_manager = global::ComparisonEngineUI.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.tag_unhandled_key_listeners = global::ComparisonEngineUI.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.terrain = global::ComparisonEngineUI.Droid.Resource.Id.terrain;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.text = global::ComparisonEngineUI.Droid.Resource.Id.text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.text2 = global::ComparisonEngineUI.Droid.Resource.Id.text2;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.textinput_counter = global::ComparisonEngineUI.Droid.Resource.Id.textinput_counter;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.textinput_error = global::ComparisonEngineUI.Droid.Resource.Id.textinput_error;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.textinput_helper_text = global::ComparisonEngineUI.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.textSpacerNoButtons = global::ComparisonEngineUI.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.textSpacerNoTitle = global::ComparisonEngineUI.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.textStart = global::ComparisonEngineUI.Droid.Resource.Id.textStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.text_input_password_toggle = global::ComparisonEngineUI.Droid.Resource.Id.text_input_password_toggle;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.time = global::ComparisonEngineUI.Droid.Resource.Id.time;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.title = global::ComparisonEngineUI.Droid.Resource.Id.title;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.titleDividerNoCustom = global::ComparisonEngineUI.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.title_template = global::ComparisonEngineUI.Droid.Resource.Id.title_template;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.top = global::ComparisonEngineUI.Droid.Resource.Id.top;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.topPanel = global::ComparisonEngineUI.Droid.Resource.Id.topPanel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.touch_outside = global::ComparisonEngineUI.Droid.Resource.Id.touch_outside;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.transition_current_scene = global::ComparisonEngineUI.Droid.Resource.Id.transition_current_scene;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.transition_layout_save = global::ComparisonEngineUI.Droid.Resource.Id.transition_layout_save;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.transition_position = global::ComparisonEngineUI.Droid.Resource.Id.transition_position;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.transition_scene_layoutid_cache = global::ComparisonEngineUI.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.transition_transform = global::ComparisonEngineUI.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.uniform = global::ComparisonEngineUI.Droid.Resource.Id.uniform;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.unlabeled = global::ComparisonEngineUI.Droid.Resource.Id.unlabeled;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.up = global::ComparisonEngineUI.Droid.Resource.Id.up;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.useLogo = global::ComparisonEngineUI.Droid.Resource.Id.useLogo;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.view_offset_helper = global::ComparisonEngineUI.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.visible = global::ComparisonEngineUI.Droid.Resource.Id.visible;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.wide = global::ComparisonEngineUI.Droid.Resource.Id.wide;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.withText = global::ComparisonEngineUI.Droid.Resource.Id.withText;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.wrap_content = global::ComparisonEngineUI.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.abc_config_activityDefaultDur = global::ComparisonEngineUI.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.abc_config_activityShortDur = global::ComparisonEngineUI.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.app_bar_elevation_anim_duration = global::ComparisonEngineUI.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.bottom_sheet_slide_duration = global::ComparisonEngineUI.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.cancel_button_image_alpha = global::ComparisonEngineUI.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.config_tooltipAnimTime = global::ComparisonEngineUI.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.design_snackbar_text_max_lines = global::ComparisonEngineUI.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.design_tab_indicator_anim_duration_ms = global::ComparisonEngineUI.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.google_play_services_version = global::ComparisonEngineUI.Droid.Resource.Integer.google_play_services_version;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.hide_password_duration = global::ComparisonEngineUI.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.mtrl_btn_anim_delay_ms = global::ComparisonEngineUI.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.mtrl_btn_anim_duration_ms = global::ComparisonEngineUI.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.mtrl_chip_anim_duration = global::ComparisonEngineUI.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::ComparisonEngineUI.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.show_password_duration = global::ComparisonEngineUI.Droid.Resource.Integer.show_password_duration;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.status_bar_notification_info_maxnum = global::ComparisonEngineUI.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Forms.Maps.Android.Resource.Interpolator.mtrl_fast_out_linear_in = global::ComparisonEngineUI.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Interpolator.mtrl_fast_out_slow_in = global::ComparisonEngineUI.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Interpolator.mtrl_linear = global::ComparisonEngineUI.Droid.Resource.Interpolator.mtrl_linear;
+			global::Xamarin.Forms.Maps.Android.Resource.Interpolator.mtrl_linear_out_slow_in = global::ComparisonEngineUI.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_bar_title_item = global::ComparisonEngineUI.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_bar_up_container = global::ComparisonEngineUI.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_menu_item_layout = global::ComparisonEngineUI.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_menu_layout = global::ComparisonEngineUI.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_mode_bar = global::ComparisonEngineUI.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_mode_close_item_material = global::ComparisonEngineUI.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_activity_chooser_view = global::ComparisonEngineUI.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::ComparisonEngineUI.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::ComparisonEngineUI.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_alert_dialog_material = global::ComparisonEngineUI.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_alert_dialog_title_material = global::ComparisonEngineUI.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_cascading_menu_item_layout = global::ComparisonEngineUI.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_dialog_title_material = global::ComparisonEngineUI.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_expanded_menu_layout = global::ComparisonEngineUI.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_list_menu_item_checkbox = global::ComparisonEngineUI.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_list_menu_item_icon = global::ComparisonEngineUI.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_list_menu_item_layout = global::ComparisonEngineUI.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_list_menu_item_radio = global::ComparisonEngineUI.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::ComparisonEngineUI.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_popup_menu_item_layout = global::ComparisonEngineUI.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_screen_content_include = global::ComparisonEngineUI.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_screen_simple = global::ComparisonEngineUI.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::ComparisonEngineUI.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_screen_toolbar = global::ComparisonEngineUI.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::ComparisonEngineUI.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_search_view = global::ComparisonEngineUI.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_select_dialog_material = global::ComparisonEngineUI.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_tooltip = global::ComparisonEngineUI.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.BottomTabLayout = global::ComparisonEngineUI.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_bottom_navigation_item = global::ComparisonEngineUI.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_bottom_sheet_dialog = global::ComparisonEngineUI.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_layout_snackbar = global::ComparisonEngineUI.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_layout_snackbar_include = global::ComparisonEngineUI.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_layout_tab_icon = global::ComparisonEngineUI.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_layout_tab_text = global::ComparisonEngineUI.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_menu_item_action_area = global::ComparisonEngineUI.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_item = global::ComparisonEngineUI.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_item_header = global::ComparisonEngineUI.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_item_separator = global::ComparisonEngineUI.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_item_subheader = global::ComparisonEngineUI.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_menu = global::ComparisonEngineUI.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_menu_item = global::ComparisonEngineUI.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_text_input_password_icon = global::ComparisonEngineUI.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.FlyoutContent = global::ComparisonEngineUI.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.mtrl_layout_snackbar = global::ComparisonEngineUI.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.mtrl_layout_snackbar_include = global::ComparisonEngineUI.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_action = global::ComparisonEngineUI.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_action_tombstone = global::ComparisonEngineUI.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_media_action = global::ComparisonEngineUI.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_media_cancel_action = global::ComparisonEngineUI.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_big_media = global::ComparisonEngineUI.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_big_media_custom = global::ComparisonEngineUI.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_big_media_narrow = global::ComparisonEngineUI.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::ComparisonEngineUI.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_custom_big = global::ComparisonEngineUI.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_icon_group = global::ComparisonEngineUI.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_lines_media = global::ComparisonEngineUI.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_media = global::ComparisonEngineUI.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_media_custom = global::ComparisonEngineUI.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_part_chronometer = global::ComparisonEngineUI.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_part_time = global::ComparisonEngineUI.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.RootLayout = global::ComparisonEngineUI.Droid.Resource.Layout.RootLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.select_dialog_item_material = global::ComparisonEngineUI.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.select_dialog_multichoice_material = global::ComparisonEngineUI.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.select_dialog_singlechoice_material = global::ComparisonEngineUI.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.ShellContent = global::ComparisonEngineUI.Droid.Resource.Layout.ShellContent;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::ComparisonEngineUI.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_action_bar_home_description = global::ComparisonEngineUI.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_action_bar_up_description = global::ComparisonEngineUI.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_action_menu_overflow_description = global::ComparisonEngineUI.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_action_mode_done = global::ComparisonEngineUI.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_activitychooserview_choose_application = global::ComparisonEngineUI.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_activity_chooser_view_see_all = global::ComparisonEngineUI.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_capital_off = global::ComparisonEngineUI.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_capital_on = global::ComparisonEngineUI.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_body_1_material = global::ComparisonEngineUI.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_body_2_material = global::ComparisonEngineUI.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_button_material = global::ComparisonEngineUI.Droid.Resource.String.abc_font_family_button_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_caption_material = global::ComparisonEngineUI.Droid.Resource.String.abc_font_family_caption_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_display_1_material = global::ComparisonEngineUI.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_display_2_material = global::ComparisonEngineUI.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_display_3_material = global::ComparisonEngineUI.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_display_4_material = global::ComparisonEngineUI.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_headline_material = global::ComparisonEngineUI.Droid.Resource.String.abc_font_family_headline_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_menu_material = global::ComparisonEngineUI.Droid.Resource.String.abc_font_family_menu_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_subhead_material = global::ComparisonEngineUI.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_title_material = global::ComparisonEngineUI.Droid.Resource.String.abc_font_family_title_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_alt_shortcut_label = global::ComparisonEngineUI.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_ctrl_shortcut_label = global::ComparisonEngineUI.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_delete_shortcut_label = global::ComparisonEngineUI.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_enter_shortcut_label = global::ComparisonEngineUI.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_function_shortcut_label = global::ComparisonEngineUI.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_meta_shortcut_label = global::ComparisonEngineUI.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_shift_shortcut_label = global::ComparisonEngineUI.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_space_shortcut_label = global::ComparisonEngineUI.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_sym_shortcut_label = global::ComparisonEngineUI.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_prepend_shortcut_label = global::ComparisonEngineUI.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_searchview_description_clear = global::ComparisonEngineUI.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_searchview_description_query = global::ComparisonEngineUI.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_searchview_description_search = global::ComparisonEngineUI.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_searchview_description_submit = global::ComparisonEngineUI.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_searchview_description_voice = global::ComparisonEngineUI.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_search_hint = global::ComparisonEngineUI.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_shareactionprovider_share_with = global::ComparisonEngineUI.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_shareactionprovider_share_with_application = global::ComparisonEngineUI.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_toolbar_collapse_description = global::ComparisonEngineUI.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.appbar_scrolling_view_behavior = global::ComparisonEngineUI.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.String.bottom_sheet_behavior = global::ComparisonEngineUI.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.String.character_counter_content_description = global::ComparisonEngineUI.Droid.Resource.String.character_counter_content_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.character_counter_pattern = global::ComparisonEngineUI.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_enable_button = global::ComparisonEngineUI.Droid.Resource.String.common_google_play_services_enable_button;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_enable_text = global::ComparisonEngineUI.Droid.Resource.String.common_google_play_services_enable_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_enable_title = global::ComparisonEngineUI.Droid.Resource.String.common_google_play_services_enable_title;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_install_button = global::ComparisonEngineUI.Droid.Resource.String.common_google_play_services_install_button;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_install_text = global::ComparisonEngineUI.Droid.Resource.String.common_google_play_services_install_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_install_title = global::ComparisonEngineUI.Droid.Resource.String.common_google_play_services_install_title;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_notification_channel_name = global::ComparisonEngineUI.Droid.Resource.String.common_google_play_services_notification_channel_name;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_notification_ticker = global::ComparisonEngineUI.Droid.Resource.String.common_google_play_services_notification_ticker;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_unknown_issue = global::ComparisonEngineUI.Droid.Resource.String.common_google_play_services_unknown_issue;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_unsupported_text = global::ComparisonEngineUI.Droid.Resource.String.common_google_play_services_unsupported_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_update_button = global::ComparisonEngineUI.Droid.Resource.String.common_google_play_services_update_button;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_update_text = global::ComparisonEngineUI.Droid.Resource.String.common_google_play_services_update_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_update_title = global::ComparisonEngineUI.Droid.Resource.String.common_google_play_services_update_title;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_updating_text = global::ComparisonEngineUI.Droid.Resource.String.common_google_play_services_updating_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_wear_update_text = global::ComparisonEngineUI.Droid.Resource.String.common_google_play_services_wear_update_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_open_on_phone = global::ComparisonEngineUI.Droid.Resource.String.common_open_on_phone;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_signin_button_text = global::ComparisonEngineUI.Droid.Resource.String.common_signin_button_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_signin_button_text_long = global::ComparisonEngineUI.Droid.Resource.String.common_signin_button_text_long;
+			global::Xamarin.Forms.Maps.Android.Resource.String.fab_transformation_scrim_behavior = global::ComparisonEngineUI.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.String.fab_transformation_sheet_behavior = global::ComparisonEngineUI.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.String.hide_bottom_view_on_scroll_behavior = global::ComparisonEngineUI.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.String.mtrl_chip_close_icon_content_description = global::ComparisonEngineUI.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.overflow_tab_title = global::ComparisonEngineUI.Droid.Resource.String.overflow_tab_title;
+			global::Xamarin.Forms.Maps.Android.Resource.String.password_toggle_content_description = global::ComparisonEngineUI.Droid.Resource.String.password_toggle_content_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.path_password_eye = global::ComparisonEngineUI.Droid.Resource.String.path_password_eye;
+			global::Xamarin.Forms.Maps.Android.Resource.String.path_password_eye_mask_strike_through = global::ComparisonEngineUI.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xamarin.Forms.Maps.Android.Resource.String.path_password_eye_mask_visible = global::ComparisonEngineUI.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xamarin.Forms.Maps.Android.Resource.String.path_password_strike_through = global::ComparisonEngineUI.Droid.Resource.String.path_password_strike_through;
+			global::Xamarin.Forms.Maps.Android.Resource.String.search_menu_title = global::ComparisonEngineUI.Droid.Resource.String.search_menu_title;
+			global::Xamarin.Forms.Maps.Android.Resource.String.status_bar_notification_info_overflow = global::ComparisonEngineUI.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.AlertDialog_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.AlertDialog_AppCompat_Light = global::ComparisonEngineUI.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Animation_AppCompat_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::ComparisonEngineUI.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Animation_AppCompat_Tooltip = global::ComparisonEngineUI.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::ComparisonEngineUI.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.AppCompatDialogStyle = global::ComparisonEngineUI.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_AlertDialog_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::ComparisonEngineUI.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::ComparisonEngineUI.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Animation_AppCompat_Tooltip = global::ComparisonEngineUI.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_CardView = global::ComparisonEngineUI.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::ComparisonEngineUI.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::ComparisonEngineUI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::ComparisonEngineUI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::ComparisonEngineUI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::ComparisonEngineUI.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::ComparisonEngineUI.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::ComparisonEngineUI.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents = global::ComparisonEngineUI.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::ComparisonEngineUI.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::ComparisonEngineUI.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::ComparisonEngineUI.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::ComparisonEngineUI.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V21_Theme_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::ComparisonEngineUI.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V22_Theme_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::ComparisonEngineUI.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V23_Theme_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::ComparisonEngineUI.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V26_Theme_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V26_Theme_AppCompat_Light = global::ComparisonEngineUI.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::ComparisonEngineUI.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V28_Theme_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V28_Theme_AppCompat_Light = global::ComparisonEngineUI.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Theme_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::ComparisonEngineUI.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::ComparisonEngineUI.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::ComparisonEngineUI.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::ComparisonEngineUI.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_Design_TabLayout = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_MaterialComponents_Chip = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::ComparisonEngineUI.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.CardView = global::ComparisonEngineUI.Droid.Resource.Style.CardView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.CardView_Dark = global::ComparisonEngineUI.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.CardView_Light = global::ComparisonEngineUI.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.collectionViewTheme = global::ComparisonEngineUI.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.MainTheme = global::ComparisonEngineUI.Droid.Resource.Style.MainTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.MainTheme_Base = global::ComparisonEngineUI.Droid.Resource.Style.MainTheme_Base;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_AppCompat_Light = global::ComparisonEngineUI.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_MaterialComponents = global::ComparisonEngineUI.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_MaterialComponents_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_MaterialComponents_Light = global::ComparisonEngineUI.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::ComparisonEngineUI.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::ComparisonEngineUI.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_V21_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_V21_AppCompat_Light = global::ComparisonEngineUI.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_V25_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_V25_AppCompat_Light = global::ComparisonEngineUI.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::ComparisonEngineUI.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::ComparisonEngineUI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::ComparisonEngineUI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::ComparisonEngineUI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::ComparisonEngineUI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::ComparisonEngineUI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::ComparisonEngineUI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::ComparisonEngineUI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::ComparisonEngineUI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::ComparisonEngineUI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::ComparisonEngineUI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::ComparisonEngineUI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::ComparisonEngineUI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::ComparisonEngineUI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::ComparisonEngineUI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::ComparisonEngineUI.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::ComparisonEngineUI.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.scrollViewScrollBars = global::ComparisonEngineUI.Droid.Resource.Style.scrollViewScrollBars;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.scrollViewTheme = global::ComparisonEngineUI.Droid.Resource.Style.scrollViewTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Button = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Large = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Small = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Title = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Tooltip = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Counter = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Error = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_HelperText = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Hint = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Tab = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Button = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Caption = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Chip = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Overline = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Tab = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::ComparisonEngineUI.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::ComparisonEngineUI.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design = global::ComparisonEngineUI.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::ComparisonEngineUI.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design_Light = global::ComparisonEngineUI.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::ComparisonEngineUI.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design_NoActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Bridge = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_CompactMenu = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_NoActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::ComparisonEngineUI.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionButton = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionMode = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button_Small = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_EditText = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ImageButton = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ListView = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_RatingBar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_SearchView = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_SeekBar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Spinner = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Toolbar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::ComparisonEngineUI.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::ComparisonEngineUI.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Compat_NotificationActionText = global::ComparisonEngineUI.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_AppBarLayout = global::ComparisonEngineUI.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_BottomNavigationView = global::ComparisonEngineUI.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::ComparisonEngineUI.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_FloatingActionButton = global::ComparisonEngineUI.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_NavigationView = global::ComparisonEngineUI.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::ComparisonEngineUI.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_Snackbar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_TabLayout = global::ComparisonEngineUI.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_TextInputLayout = global::ComparisonEngineUI.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_Icon = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_CardView = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_ChipGroup = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Chip_Action = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_NavigationView = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Snackbar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TabLayout = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Toolbar = global::ComparisonEngineUI.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Support_CoordinatorLayout = global::ComparisonEngineUI.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBarLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_background = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_backgroundSplit = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_backgroundStacked = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetRight = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetStart = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_displayOptions = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_divider = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_elevation = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_height = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_homeLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_icon = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_itemPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_logo = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_navigationMode = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_popupTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_progressBarPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_progressBarStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_subtitle = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_title = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_titleTextStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMenuItemView = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMenuView = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_background = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_backgroundSplit = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_closeItemLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_height = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_titleTextStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActivityChooserView = global::ComparisonEngineUI.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::ComparisonEngineUI.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::ComparisonEngineUI.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog = global::ComparisonEngineUI.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_android_layout = global::ComparisonEngineUI.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_buttonIconDimen = global::ComparisonEngineUI.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_listItemLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_listLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_showTitle = global::ComparisonEngineUI.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat = global::ComparisonEngineUI.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::ComparisonEngineUI.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::ComparisonEngineUI.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::ComparisonEngineUI.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::ComparisonEngineUI.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::ComparisonEngineUI.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::ComparisonEngineUI.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableItem = global::ComparisonEngineUI.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::ComparisonEngineUI.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::ComparisonEngineUI.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableTransition = global::ComparisonEngineUI.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::ComparisonEngineUI.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::ComparisonEngineUI.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::ComparisonEngineUI.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::ComparisonEngineUI.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayoutStates = global::ComparisonEngineUI.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::ComparisonEngineUI.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::ComparisonEngineUI.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayoutStates_state_liftable = global::ComparisonEngineUI.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayoutStates_state_lifted = global::ComparisonEngineUI.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_android_background = global::ComparisonEngineUI.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::ComparisonEngineUI.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::ComparisonEngineUI.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_elevation = global::ComparisonEngineUI.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_expanded = global::ComparisonEngineUI.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_Layout = global::ComparisonEngineUI.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::ComparisonEngineUI.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::ComparisonEngineUI.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_liftOnScroll = global::ComparisonEngineUI.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatImageView = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatImageView_android_src = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatImageView_tint = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatImageView_tintMode = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatSeekBar = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_lineHeight = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorError = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::ComparisonEngineUI.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomAppBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_backgroundTint = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_fabCradleMargin = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_hideOnScroll = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_elevation = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemIconSize = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_menu = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::ComparisonEngineUI.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ButtonBarLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::ComparisonEngineUI.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView = global::ComparisonEngineUI.Droid.Resource.Styleable.CardView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_android_minHeight = global::ComparisonEngineUI.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_android_minWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardBackgroundColor = global::ComparisonEngineUI.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardCornerRadius = global::ComparisonEngineUI.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardElevation = global::ComparisonEngineUI.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardMaxElevation = global::ComparisonEngineUI.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::ComparisonEngineUI.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_contentPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_contentPaddingBottom = global::ComparisonEngineUI.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_contentPaddingLeft = global::ComparisonEngineUI.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_contentPaddingRight = global::ComparisonEngineUI.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_contentPaddingTop = global::ComparisonEngineUI.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup = global::ComparisonEngineUI.Droid.Resource.Styleable.ChipGroup;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_checkedChip = global::ComparisonEngineUI.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_chipSpacing = global::ComparisonEngineUI.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::ComparisonEngineUI.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_chipSpacingVertical = global::ComparisonEngineUI.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_singleLine = global::ComparisonEngineUI.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_singleSelection = global::ComparisonEngineUI.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_android_checkable = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_android_ellipsize = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_android_maxWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_android_text = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_android_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_android_textAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_checkedIcon = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_checkedIconEnabled = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_checkedIconVisible = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipBackgroundColor = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipCornerRadius = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipEndPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipIcon = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipIconEnabled = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipIconSize = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipIconTint = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipIconVisible = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipMinHeight = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipStartPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipStrokeColor = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipStrokeWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIcon = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconEnabled = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconEndPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconSize = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconStartPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconTint = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconVisible = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_hideMotionSpec = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_iconEndPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_iconStartPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_rippleColor = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_showMotionSpec = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_textEndPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_textStartPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::ComparisonEngineUI.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ColorStateListItem = global::ComparisonEngineUI.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ColorStateListItem_alpha = global::ComparisonEngineUI.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::ComparisonEngineUI.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ColorStateListItem_android_color = global::ComparisonEngineUI.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CompoundButton = global::ComparisonEngineUI.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CompoundButton_android_button = global::ComparisonEngineUI.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CompoundButton_buttonTint = global::ComparisonEngineUI.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::ComparisonEngineUI.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_keylines = global::ComparisonEngineUI.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout = global::ComparisonEngineUI.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::ComparisonEngineUI.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::ComparisonEngineUI.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::ComparisonEngineUI.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::ComparisonEngineUI.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::ComparisonEngineUI.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::ComparisonEngineUI.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::ComparisonEngineUI.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DesignTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.DesignTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle = global::ComparisonEngineUI.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::ComparisonEngineUI.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::ComparisonEngineUI.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::ComparisonEngineUI.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_color = global::ComparisonEngineUI.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::ComparisonEngineUI.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::ComparisonEngineUI.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::ComparisonEngineUI.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::ComparisonEngineUI.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton = global::ComparisonEngineUI.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::ComparisonEngineUI.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::ComparisonEngineUI.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::ComparisonEngineUI.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::ComparisonEngineUI.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_elevation = global::ComparisonEngineUI.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_fabCustomSize = global::ComparisonEngineUI.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_fabSize = global::ComparisonEngineUI.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::ComparisonEngineUI.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::ComparisonEngineUI.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_maxImageSize = global::ComparisonEngineUI.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::ComparisonEngineUI.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::ComparisonEngineUI.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_showMotionSpec = global::ComparisonEngineUI.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FlowLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.FlowLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FlowLayout_itemSpacing = global::ComparisonEngineUI.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FlowLayout_lineSpacing = global::ComparisonEngineUI.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_android_font = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_android_fontStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_android_fontWeight = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_font = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_ttcIndex = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::ComparisonEngineUI.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ForegroundLinearLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::ComparisonEngineUI.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::ComparisonEngineUI.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::ComparisonEngineUI.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColorItem = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColorItem_android_color = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColorItem_android_offset = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_centerColor = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_centerX = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_centerY = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_endColor = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_endX = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_endY = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_gradientRadius = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_startColor = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_startX = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_startY = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_tileMode = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_type = global::ComparisonEngineUI.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ItemsViewRendererTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat = global::ComparisonEngineUI.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::ComparisonEngineUI.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::ComparisonEngineUI.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::ComparisonEngineUI.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::ComparisonEngineUI.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::ComparisonEngineUI.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_divider = global::ComparisonEngineUI.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::ComparisonEngineUI.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::ComparisonEngineUI.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::ComparisonEngineUI.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::ComparisonEngineUI.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::ComparisonEngineUI.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::ComparisonEngineUI.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::ComparisonEngineUI.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ListPopupWindow = global::ComparisonEngineUI.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::ComparisonEngineUI.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::ComparisonEngineUI.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LoadingImageView = global::ComparisonEngineUI.Droid.Resource.Styleable.LoadingImageView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LoadingImageView_circleCrop = global::ComparisonEngineUI.Droid.Resource.Styleable.LoadingImageView_circleCrop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LoadingImageView_imageAspectRatio = global::ComparisonEngineUI.Droid.Resource.Styleable.LoadingImageView_imageAspectRatio;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust = global::ComparisonEngineUI.Droid.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_ambientEnabled = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_ambientEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraBearing = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_cameraBearing;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraMaxZoomPreference = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_cameraMaxZoomPreference;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraMinZoomPreference = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_cameraMinZoomPreference;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraTargetLat = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_cameraTargetLat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraTargetLng = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_cameraTargetLng;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraTilt = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_cameraTilt;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraZoom = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_cameraZoom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_latLngBoundsNorthEastLatitude = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_latLngBoundsNorthEastLatitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_latLngBoundsNorthEastLongitude = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_latLngBoundsNorthEastLongitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_latLngBoundsSouthWestLatitude = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_latLngBoundsSouthWestLatitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_latLngBoundsSouthWestLongitude = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_latLngBoundsSouthWestLongitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_liteMode = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_liteMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_mapType = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_mapType;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiCompass = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_uiCompass;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiMapToolbar = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_uiMapToolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiRotateGestures = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_uiRotateGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiScrollGestures = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_uiScrollGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiScrollGesturesDuringRotateOrZoom = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_uiScrollGesturesDuringRotateOrZoom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiTiltGestures = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_uiTiltGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiZoomControls = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_uiZoomControls;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiZoomGestures = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_uiZoomGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_useViewLifecycle = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_useViewLifecycle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_zOrderOnTop = global::ComparisonEngineUI.Droid.Resource.Styleable.MapAttrs_zOrderOnTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_android_insetBottom = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_android_insetLeft = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_android_insetRight = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_android_insetTop = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_backgroundTint = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_backgroundTintMode = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_cornerRadius = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_icon = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_iconGravity = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_iconPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_iconSize = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_iconTint = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_iconTintMode = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_rippleColor = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_strokeColor = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_strokeWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialCardView = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialCardView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialCardView_strokeColor = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialCardView_strokeWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_enabled = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_id = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_visible = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_actionLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_actionProviderClass = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_actionViewClass = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_alphabeticModifiers = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_checkable = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_checked = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_enabled = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_icon = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_id = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_menuCategory = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_onClick = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_title = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_visible = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_contentDescription = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_iconTint = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_iconTintMode = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_numericModifiers = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_showAsAction = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_tooltipText = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_headerBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_itemBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_verticalDivider = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_subMenuArrow = global::ComparisonEngineUI.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView = global::ComparisonEngineUI.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_android_background = global::ComparisonEngineUI.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::ComparisonEngineUI.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_android_maxWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_elevation = global::ComparisonEngineUI.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_headerLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemHorizontalPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemIconPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemIconTint = global::ComparisonEngineUI.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemTextColor = global::ComparisonEngineUI.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_menu = global::ComparisonEngineUI.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindow = global::ComparisonEngineUI.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindowBackgroundState = global::ComparisonEngineUI.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::ComparisonEngineUI.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::ComparisonEngineUI.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecycleListView = global::ComparisonEngineUI.Droid.Resource.Styleable.RecycleListView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::ComparisonEngineUI.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::ComparisonEngineUI.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView = global::ComparisonEngineUI.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::ComparisonEngineUI.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_android_orientation = global::ComparisonEngineUI.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::ComparisonEngineUI.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::ComparisonEngineUI.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::ComparisonEngineUI.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::ComparisonEngineUI.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::ComparisonEngineUI.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_layoutManager = global::ComparisonEngineUI.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_reverseLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_spanCount = global::ComparisonEngineUI.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::ComparisonEngineUI.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::ComparisonEngineUI.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::ComparisonEngineUI.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::ComparisonEngineUI.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ScrollViewRendererTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_android_focusable = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_android_imeOptions = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_android_inputType = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_android_maxWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_closeIcon = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_commitIcon = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_defaultQueryHint = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_goIcon = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_layout = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_queryBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_queryHint = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_searchHintIcon = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_searchIcon = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_submitBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_voiceIcon = global::ComparisonEngineUI.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SignInButton = global::ComparisonEngineUI.Droid.Resource.Styleable.SignInButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SignInButton_buttonSize = global::ComparisonEngineUI.Droid.Resource.Styleable.SignInButton_buttonSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SignInButton_colorScheme = global::ComparisonEngineUI.Droid.Resource.Styleable.SignInButton_colorScheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SignInButton_scopeUris = global::ComparisonEngineUI.Droid.Resource.Styleable.SignInButton_scopeUris;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Snackbar = global::ComparisonEngineUI.Droid.Resource.Styleable.Snackbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SnackbarLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SnackbarLayout_elevation = global::ComparisonEngineUI.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Snackbar_snackbarButtonStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Snackbar_snackbarStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner = global::ComparisonEngineUI.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner_android_entries = global::ComparisonEngineUI.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner_android_popupBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner_android_prompt = global::ComparisonEngineUI.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner_popupTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable = global::ComparisonEngineUI.Droid.Resource.Styleable.StateListDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawableItem = global::ComparisonEngineUI.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawableItem_android_drawable = global::ComparisonEngineUI.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_constantSize = global::ComparisonEngineUI.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_dither = global::ComparisonEngineUI.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::ComparisonEngineUI.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::ComparisonEngineUI.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_variablePadding = global::ComparisonEngineUI.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_visible = global::ComparisonEngineUI.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat = global::ComparisonEngineUI.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_android_textOff = global::ComparisonEngineUI.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_android_textOn = global::ComparisonEngineUI.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_android_thumb = global::ComparisonEngineUI.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_showText = global::ComparisonEngineUI.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_splitTrack = global::ComparisonEngineUI.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_switchPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_thumbTint = global::ComparisonEngineUI.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::ComparisonEngineUI.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_track = global::ComparisonEngineUI.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_trackTint = global::ComparisonEngineUI.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::ComparisonEngineUI.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabItem = global::ComparisonEngineUI.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabItem_android_icon = global::ComparisonEngineUI.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabItem_android_layout = global::ComparisonEngineUI.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabItem_android_text = global::ComparisonEngineUI.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabBackground = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabContentStart = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabGravity = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIconTint = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIconTintMode = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicator = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicatorGravity = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabInlineLabel = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabMinWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabMode = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabPadding = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabRippleColor = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabTextColor = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabUnboundedRipple = global::ComparisonEngineUI.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::ComparisonEngineUI.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::ComparisonEngineUI.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::ComparisonEngineUI.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::ComparisonEngineUI.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::ComparisonEngineUI.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_textColor = global::ComparisonEngineUI.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::ComparisonEngineUI.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::ComparisonEngineUI.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_textSize = global::ComparisonEngineUI.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_textStyle = global::ComparisonEngineUI.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_typeface = global::ComparisonEngineUI.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_fontFamily = global::ComparisonEngineUI.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_textAllCaps = global::ComparisonEngineUI.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_android_hint = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxStrokeColor = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_helperText = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_helperTextEnabled = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::ComparisonEngineUI.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ThemeEnforcement = global::ComparisonEngineUI.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_android_gravity = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_android_minHeight = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_buttonGravity = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_collapseIcon = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetRight = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetStart = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_logo = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_logoDescription = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_navigationIcon = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_popupTheme = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_subtitle = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_title = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMargin = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMargins = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMarginStart = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMarginTop = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleTextColor = global::ComparisonEngineUI.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View = global::ComparisonEngineUI.Droid.Resource.Styleable.View;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewBackgroundHelper = global::ComparisonEngineUI.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::ComparisonEngineUI.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::ComparisonEngineUI.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::ComparisonEngineUI.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewStubCompat = global::ComparisonEngineUI.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewStubCompat_android_id = global::ComparisonEngineUI.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::ComparisonEngineUI.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewStubCompat_android_layout = global::ComparisonEngineUI.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View_android_focusable = global::ComparisonEngineUI.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View_android_theme = global::ComparisonEngineUI.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View_paddingEnd = global::ComparisonEngineUI.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View_paddingStart = global::ComparisonEngineUI.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View_theme = global::ComparisonEngineUI.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::ComparisonEngineUI.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::ComparisonEngineUI.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::ComparisonEngineUI.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -5420,6 +8268,12 @@ namespace ComparisonEngineUI.Droid
 			// aapt resource value: 0x7F010013
 			public const int ExitToRight = 2130771987;
 			
+			// aapt resource value: 0x7F010014
+			public const int slide_in_right = 2130771988;
+			
+			// aapt resource value: 0x7F010015
+			public const int slide_out_left = 2130771989;
+			
 			static Animation()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -6947,58 +9801,61 @@ namespace ComparisonEngineUI.Droid
 			public const int uiScrollGestures = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int uiTiltGestures = 2130903530;
+			public const int uiScrollGesturesDuringRotateOrZoom = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int uiZoomControls = 2130903531;
+			public const int uiTiltGestures = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int uiZoomGestures = 2130903532;
+			public const int uiZoomControls = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int useCompatPadding = 2130903533;
+			public const int uiZoomGestures = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int useViewLifecycle = 2130903534;
+			public const int useCompatPadding = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int viewInflaterClass = 2130903535;
+			public const int useViewLifecycle = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int voiceIcon = 2130903536;
+			public const int viewInflaterClass = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int windowActionBar = 2130903537;
+			public const int voiceIcon = 2130903537;
 			
 			// aapt resource value: 0x7F0301F2
-			public const int windowActionBarOverlay = 2130903538;
+			public const int windowActionBar = 2130903538;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int windowActionModeOverlay = 2130903539;
+			public const int windowActionBarOverlay = 2130903539;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int windowFixedHeightMajor = 2130903540;
+			public const int windowActionModeOverlay = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int windowFixedHeightMinor = 2130903541;
+			public const int windowFixedHeightMajor = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int windowFixedWidthMajor = 2130903542;
+			public const int windowFixedHeightMinor = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int windowFixedWidthMinor = 2130903543;
+			public const int windowFixedWidthMajor = 2130903543;
 			
 			// aapt resource value: 0x7F0301F8
-			public const int windowMinWidthMajor = 2130903544;
+			public const int windowFixedWidthMinor = 2130903544;
 			
 			// aapt resource value: 0x7F0301F9
-			public const int windowMinWidthMinor = 2130903545;
+			public const int windowMinWidthMajor = 2130903545;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int windowNoTitle = 2130903546;
+			public const int windowMinWidthMinor = 2130903546;
 			
 			// aapt resource value: 0x7F0301FB
-			public const int zOrderOnTop = 2130903547;
+			public const int windowNoTitle = 2130903547;
+			
+			// aapt resource value: 0x7F0301FC
+			public const int zOrderOnTop = 2130903548;
 			
 			static Attribute()
 			{
@@ -8507,74 +11364,77 @@ namespace ComparisonEngineUI.Droid
 			// aapt resource value: 0x7F070076
 			public const int googleg_standard_color_18 = 2131165302;
 			
-			// aapt resource value: 0x7F07007A
-			public const int icon_about = 2131165306;
-			
 			// aapt resource value: 0x7F07007B
-			public const int icon_feed = 2131165307;
-			
-			// aapt resource value: 0x7F070077
-			public const int ic_mtrl_chip_checked_black = 2131165303;
-			
-			// aapt resource value: 0x7F070078
-			public const int ic_mtrl_chip_checked_circle = 2131165304;
-			
-			// aapt resource value: 0x7F070079
-			public const int ic_mtrl_chip_close_circle = 2131165305;
+			public const int icon_about = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int mtrl_snackbar_background = 2131165308;
+			public const int icon_feed = 2131165308;
+			
+			// aapt resource value: 0x7F070077
+			public const int ic_arrow_back = 2131165303;
+			
+			// aapt resource value: 0x7F070078
+			public const int ic_mtrl_chip_checked_black = 2131165304;
+			
+			// aapt resource value: 0x7F070079
+			public const int ic_mtrl_chip_checked_circle = 2131165305;
+			
+			// aapt resource value: 0x7F07007A
+			public const int ic_mtrl_chip_close_circle = 2131165306;
 			
 			// aapt resource value: 0x7F07007D
-			public const int mtrl_tabs_default_indicator = 2131165309;
+			public const int mtrl_snackbar_background = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int navigation_empty_icon = 2131165310;
+			public const int mtrl_tabs_default_indicator = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int notification_action_background = 2131165311;
+			public const int navigation_empty_icon = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int notification_bg = 2131165312;
+			public const int notification_action_background = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int notification_bg_low = 2131165313;
+			public const int notification_bg = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int notification_bg_low_normal = 2131165314;
+			public const int notification_bg_low = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int notification_bg_low_pressed = 2131165315;
+			public const int notification_bg_low_normal = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int notification_bg_normal = 2131165316;
+			public const int notification_bg_low_pressed = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int notification_bg_normal_pressed = 2131165317;
+			public const int notification_bg_normal = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_icon_background = 2131165318;
+			public const int notification_bg_normal_pressed = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_template_icon_bg = 2131165319;
+			public const int notification_icon_background = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notification_template_icon_low_bg = 2131165320;
+			public const int notification_template_icon_bg = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_tile_bg = 2131165321;
+			public const int notification_template_icon_low_bg = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notify_panel_notification_icon_bg = 2131165322;
+			public const int notification_tile_bg = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int tooltip_frame_dark = 2131165323;
+			public const int notify_panel_notification_icon_bg = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int tooltip_frame_light = 2131165324;
+			public const int tooltip_frame_dark = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int xamarin_logo = 2131165325;
+			public const int tooltip_frame_light = 2131165325;
+			
+			// aapt resource value: 0x7F07008E
+			public const int xamarin_logo = 2131165326;
 			
 			static Drawable()
 			{
@@ -9232,13 +12092,16 @@ namespace ComparisonEngineUI.Droid
 			public const int visible = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int wide = 2131230934;
+			public const int webview = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int withText = 2131230935;
+			public const int wide = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int wrap_content = 2131230936;
+			public const int withText = 2131230936;
+			
+			// aapt resource value: 0x7F0800D9
+			public const int wrap_content = 2131230937;
 			
 			static Id()
 			{
@@ -9424,133 +12287,136 @@ namespace ComparisonEngineUI.Droid
 			public const int abc_tooltip = 2131427355;
 			
 			// aapt resource value: 0x7F0B001C
-			public const int BottomTabLayout = 2131427356;
+			public const int activity_webview = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
-			public const int browser_actions_context_menu_page = 2131427357;
+			public const int BottomTabLayout = 2131427357;
 			
 			// aapt resource value: 0x7F0B001E
-			public const int browser_actions_context_menu_row = 2131427358;
+			public const int browser_actions_context_menu_page = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public const int design_bottom_navigation_item = 2131427359;
+			public const int browser_actions_context_menu_row = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public const int design_bottom_sheet_dialog = 2131427360;
+			public const int design_bottom_navigation_item = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public const int design_layout_snackbar = 2131427361;
+			public const int design_bottom_sheet_dialog = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public const int design_layout_snackbar_include = 2131427362;
+			public const int design_layout_snackbar = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_layout_tab_icon = 2131427363;
+			public const int design_layout_snackbar_include = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_layout_tab_text = 2131427364;
+			public const int design_layout_tab_icon = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_menu_item_action_area = 2131427365;
+			public const int design_layout_tab_text = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_navigation_item = 2131427366;
+			public const int design_menu_item_action_area = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_navigation_item_header = 2131427367;
+			public const int design_navigation_item = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_navigation_item_separator = 2131427368;
+			public const int design_navigation_item_header = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item_subheader = 2131427369;
+			public const int design_navigation_item_separator = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_menu = 2131427370;
+			public const int design_navigation_item_subheader = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_menu_item = 2131427371;
+			public const int design_navigation_menu = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_text_input_password_icon = 2131427372;
+			public const int design_navigation_menu_item = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int FlyoutContent = 2131427373;
+			public const int design_text_input_password_icon = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int mtrl_layout_snackbar = 2131427374;
+			public const int FlyoutContent = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int mtrl_layout_snackbar_include = 2131427375;
+			public const int mtrl_layout_snackbar = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int notification_action = 2131427376;
+			public const int mtrl_layout_snackbar_include = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int notification_action_tombstone = 2131427377;
+			public const int notification_action = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int notification_media_action = 2131427378;
+			public const int notification_action_tombstone = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int notification_media_cancel_action = 2131427379;
+			public const int notification_media_action = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int notification_template_big_media = 2131427380;
+			public const int notification_media_cancel_action = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int notification_template_big_media_custom = 2131427381;
+			public const int notification_template_big_media = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int notification_template_big_media_narrow = 2131427382;
+			public const int notification_template_big_media_custom = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int notification_template_big_media_narrow_custom = 2131427383;
+			public const int notification_template_big_media_narrow = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int notification_template_custom_big = 2131427384;
+			public const int notification_template_big_media_narrow_custom = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int notification_template_icon_group = 2131427385;
+			public const int notification_template_custom_big = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int notification_template_lines_media = 2131427386;
+			public const int notification_template_icon_group = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int notification_template_media = 2131427387;
+			public const int notification_template_lines_media = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int notification_template_media_custom = 2131427388;
+			public const int notification_template_media = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int notification_template_part_chronometer = 2131427389;
+			public const int notification_template_media_custom = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int notification_template_part_time = 2131427390;
+			public const int notification_template_part_chronometer = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int RootLayout = 2131427391;
+			public const int notification_template_part_time = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int select_dialog_item_material = 2131427392;
+			public const int RootLayout = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int select_dialog_multichoice_material = 2131427393;
+			public const int select_dialog_item_material = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int select_dialog_singlechoice_material = 2131427394;
+			public const int select_dialog_multichoice_material = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int ShellContent = 2131427395;
+			public const int select_dialog_singlechoice_material = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int support_simple_spinner_dropdown_item = 2131427396;
+			public const int ShellContent = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int Tabbar = 2131427397;
+			public const int support_simple_spinner_dropdown_item = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int Toolbar = 2131427398;
+			public const int Tabbar = 2131427398;
+			
+			// aapt resource value: 0x7F0B0047
+			public const int Toolbar = 2131427399;
 			
 			static Layout()
 			{
@@ -9735,73 +12601,79 @@ namespace ComparisonEngineUI.Droid
 			public const int common_google_play_services_install_title = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int common_google_play_services_notification_ticker = 2131558449;
+			public const int common_google_play_services_notification_channel_name = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int common_google_play_services_unknown_issue = 2131558450;
+			public const int common_google_play_services_notification_ticker = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int common_google_play_services_unsupported_text = 2131558451;
+			public const int common_google_play_services_unknown_issue = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int common_google_play_services_update_button = 2131558452;
+			public const int common_google_play_services_unsupported_text = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int common_google_play_services_update_text = 2131558453;
+			public const int common_google_play_services_update_button = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int common_google_play_services_update_title = 2131558454;
+			public const int common_google_play_services_update_text = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int common_google_play_services_updating_text = 2131558455;
+			public const int common_google_play_services_update_title = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
-			public const int common_google_play_services_wear_update_text = 2131558456;
+			public const int common_google_play_services_updating_text = 2131558456;
 			
 			// aapt resource value: 0x7F0D0039
-			public const int common_open_on_phone = 2131558457;
+			public const int common_google_play_services_wear_update_text = 2131558457;
 			
 			// aapt resource value: 0x7F0D003A
-			public const int common_signin_button_text = 2131558458;
+			public const int common_open_on_phone = 2131558458;
 			
 			// aapt resource value: 0x7F0D003B
-			public const int common_signin_button_text_long = 2131558459;
+			public const int common_signin_button_text = 2131558459;
 			
 			// aapt resource value: 0x7F0D003C
-			public const int fab_transformation_scrim_behavior = 2131558460;
+			public const int common_signin_button_text_long = 2131558460;
 			
 			// aapt resource value: 0x7F0D003D
-			public const int fab_transformation_sheet_behavior = 2131558461;
+			public const int fab_transformation_scrim_behavior = 2131558461;
 			
 			// aapt resource value: 0x7F0D003E
-			public const int hide_bottom_view_on_scroll_behavior = 2131558462;
+			public const int fab_transformation_sheet_behavior = 2131558462;
 			
 			// aapt resource value: 0x7F0D003F
-			public const int mtrl_chip_close_icon_content_description = 2131558463;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int overflow_tab_title = 2131558464;
+			public const int mtrl_chip_close_icon_content_description = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int password_toggle_content_description = 2131558465;
+			public const int overflow_tab_title = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int path_password_eye = 2131558466;
+			public const int password_toggle_content_description = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int path_password_eye_mask_strike_through = 2131558467;
+			public const int path_password_eye = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int path_password_eye_mask_visible = 2131558468;
+			public const int path_password_eye_mask_strike_through = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int path_password_strike_through = 2131558469;
+			public const int path_password_eye_mask_visible = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int search_menu_title = 2131558470;
+			public const int path_password_strike_through = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int status_bar_notification_info_overflow = 2131558471;
+			public const int search_menu_title = 2131558471;
+			
+			// aapt resource value: 0x7F0D0048
+			public const int status_bar_notification_info_overflow = 2131558472;
+			
+			// aapt resource value: 0x7F0D0049
+			public const int title_activity_webview = 2131558473;
 			
 			static String()
 			{
@@ -11787,7 +14659,7 @@ namespace ComparisonEngineUI.Droid
 			// aapt resource value: 10
 			public const int AppCompatTextView_textAllCaps = 10;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002C,0x7F03003F,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030056,0x7F030057,0x7F030068,0x7F03006D,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F03009A,0x7F0300A9,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F0300B7,0x7F0300B9,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300F5,0x7F030103,0x7F03012A,0x7F03012B,0x7F03012E,0x7F03012F,0x7F030130,0x7F030131,0x7F030132,0x7F030133,0x7F030134,0x7F03014B,0x7F03014C,0x7F03014D,0x7F030153,0x7F030155,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F030179,0x7F03017A,0x7F030190,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301BA,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C2,0x7F0301C3,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301EF,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002C,0x7F03003F,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030056,0x7F030057,0x7F030068,0x7F03006D,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F03009A,0x7F0300A9,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F0300B7,0x7F0300B9,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300F5,0x7F030103,0x7F03012A,0x7F03012B,0x7F03012E,0x7F03012F,0x7F030130,0x7F030131,0x7F030132,0x7F030133,0x7F030134,0x7F03014B,0x7F03014C,0x7F03014D,0x7F030153,0x7F030155,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F030179,0x7F03017A,0x7F030190,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301BA,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C2,0x7F0301C3,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301F0,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -11899,8 +14771,7 @@ namespace ComparisonEngineUI.Droid
 					2130903518,
 					2130903519,
 					2130903520,
-					2130903535,
-					2130903537,
+					2130903536,
 					2130903538,
 					2130903539,
 					2130903540,
@@ -11909,7 +14780,8 @@ namespace ComparisonEngineUI.Droid
 					2130903543,
 					2130903544,
 					2130903545,
-					2130903546};
+					2130903546,
+					2130903547};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -12787,7 +15659,7 @@ namespace ComparisonEngineUI.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030035,0x7F030036,0x7F03003E,0x7F0300C1,0x7F0300D3,0x7F0300D4,0x7F0300EF,0x7F0300F7,0x7F03013D,0x7F030157,0x7F030161,0x7F03016F,0x7F0301ED }
+			// aapt resource value: { 0x7F030035,0x7F030036,0x7F03003E,0x7F0300C1,0x7F0300D3,0x7F0300D4,0x7F0300EF,0x7F0300F7,0x7F03013D,0x7F030157,0x7F030161,0x7F03016F,0x7F0301EE }
 			public static int[] FloatingActionButton = new int[] {
 					2130903093,
 					2130903094,
@@ -12801,7 +15673,7 @@ namespace ComparisonEngineUI.Droid
 					2130903383,
 					2130903393,
 					2130903407,
-					2130903533};
+					2130903534};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -13098,7 +15970,7 @@ namespace ComparisonEngineUI.Droid
 			// aapt resource value: 2
 			public const int LoadingImageView_imageAspectRatioAdjust = 2;
 			
-			// aapt resource value: { 0x7F030029,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030117,0x7F030118,0x7F030119,0x7F03011A,0x7F030135,0x7F030138,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301EE,0x7F0301FB }
+			// aapt resource value: { 0x7F030029,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030117,0x7F030118,0x7F030119,0x7F03011A,0x7F030135,0x7F030138,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED,0x7F0301EF,0x7F0301FC }
 			public static int[] MapAttrs = new int[] {
 					2130903081,
 					2130903130,
@@ -13121,8 +15993,9 @@ namespace ComparisonEngineUI.Droid
 					2130903530,
 					2130903531,
 					2130903532,
-					2130903534,
-					2130903547};
+					2130903533,
+					2130903535,
+					2130903548};
 			
 			// aapt resource value: 0
 			public const int MapAttrs_ambientEnabled = 0;
@@ -13179,19 +16052,22 @@ namespace ComparisonEngineUI.Droid
 			public const int MapAttrs_uiScrollGestures = 17;
 			
 			// aapt resource value: 18
-			public const int MapAttrs_uiTiltGestures = 18;
+			public const int MapAttrs_uiScrollGesturesDuringRotateOrZoom = 18;
 			
 			// aapt resource value: 19
-			public const int MapAttrs_uiZoomControls = 19;
+			public const int MapAttrs_uiTiltGestures = 19;
 			
 			// aapt resource value: 20
-			public const int MapAttrs_uiZoomGestures = 20;
+			public const int MapAttrs_uiZoomControls = 20;
 			
 			// aapt resource value: 21
-			public const int MapAttrs_useViewLifecycle = 21;
+			public const int MapAttrs_uiZoomGestures = 21;
 			
 			// aapt resource value: 22
-			public const int MapAttrs_zOrderOnTop = 22;
+			public const int MapAttrs_useViewLifecycle = 22;
+			
+			// aapt resource value: 23
+			public const int MapAttrs_zOrderOnTop = 23;
 			
 			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030035,0x7F030036,0x7F0300AB,0x7F0300F8,0x7F0300FA,0x7F0300FB,0x7F0300FC,0x7F0300FE,0x7F0300FF,0x7F030161,0x7F030185,0x7F030186 }
 			public static int[] MaterialButton = new int[] {
@@ -13715,7 +16591,7 @@ namespace ComparisonEngineUI.Droid
 			// aapt resource value: 0
 			public const int ScrollViewRendererTheme_scrollViewStyle = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030081,0x7F03009B,0x7F0300B1,0x7F0300E9,0x7F030100,0x7F03011B,0x7F03015A,0x7F03015B,0x7F030167,0x7F030168,0x7F030188,0x7F03018D,0x7F0301F0 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030081,0x7F03009B,0x7F0300B1,0x7F0300E9,0x7F030100,0x7F03011B,0x7F03015A,0x7F03015B,0x7F030167,0x7F030168,0x7F030188,0x7F03018D,0x7F0301F1 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
@@ -13733,7 +16609,7 @@ namespace ComparisonEngineUI.Droid
 					2130903400,
 					2130903432,
 					2130903437,
-					2130903536};
+					2130903537};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
