@@ -4,8 +4,9 @@
              x:Class="ComparisonEngineUI.Views.AddBarPage">
     <ContentPage.Content>
         <StackLayout>
-            <Entry Placeholder="Enter Bar Name" PlaceholderColor="Black"/>
-            <Entry Placeholder="Enter Bar Location" PlaceholderColor="Black"/>
+            <Entry x:Name="barName" Placeholder="Enter Bar Name" PlaceholderColor="Black"/>
+            <Entry x:Name="barAdress"  Placeholder="Enter Bar Location" PlaceholderColor="Black"/>
+            <Button Text="Save" Clicked="OnSaveClicked" Command="{Binding SaveCommand}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

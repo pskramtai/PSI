@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ComparisonEngineUI.Views.AddDrinkPage">
+             x:Class="ComparisonEngineUI.Views.DeleteDrinkPage">
     <ContentPage.Content>
         <StackLayout>
             <Picker x:Name="selectedBar"
@@ -9,9 +9,12 @@
                     TitleColor="Red"
                     ItemsSource ="{Binding BarList} "
                     ItemDisplayBinding="{Binding BarName} " />
-            <Entry x:Name ="drinkName" Placeholder="Enter Drink Name" PlaceholderColor="Black"/>
-            <Entry x:Name ="EntryDrinkPrice" Placeholder="Enter Price" PlaceholderColor="Black" Keyboard="Numeric"/>
-            <Button Text="Save" Clicked ="SaveButtonClicked" Command="{Binding SaveCommand}"/>
+            <Picker x:Name="selecteDrink"
+                    Title="Select Drink"
+                    TitleColor="Red"
+                    ItemsSource ="{Binding DrinkList} "
+                    ItemDisplayBinding="{Binding DrinkName} " />
+            <Button Text="Delete" Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
