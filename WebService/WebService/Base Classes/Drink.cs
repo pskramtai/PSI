@@ -8,6 +8,11 @@ namespace WebService.Base_Classes
     public partial class Drink
     {
         //ID of the drink
+<<<<<<< HEAD
+=======
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+>>>>>>> master
         public Guid DrinkID { get; set; }
 
         //Name of the drink
@@ -22,7 +27,13 @@ namespace WebService.Base_Classes
 
         public Drink()
         {
+<<<<<<< HEAD
             DrinkLocations = new HashSet<SpecificPrice>();
+=======
+            this.DrinkName = drinkName;
+            this.DrinkID = new Guid();
+            //this.IngredientList = ingredientList;
+>>>>>>> master
         }
     }
 }
