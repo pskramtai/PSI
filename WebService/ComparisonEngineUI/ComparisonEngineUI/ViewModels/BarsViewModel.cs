@@ -48,10 +48,6 @@ namespace ComparisonEngineUI.ViewModels
 
         private async void OnEditBarClicked(object obj)
         {
-            Bar bar = new Bar("asd", "fawfaf");
-            var restService = new RestService();
-            bool a = await restService.SaveData<Bar>(bar, Constants.BarsUrl, true);
-            
             await Shell.Current.GoToAsync($"{nameof(EditPage)}");
         }
         
