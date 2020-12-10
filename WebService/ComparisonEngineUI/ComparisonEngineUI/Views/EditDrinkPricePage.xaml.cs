@@ -62,7 +62,6 @@ namespace ComparisonEngineUI.Views
         {
             if (Regex.IsMatch(newEntryPrice.Text, @"(^[1-9]\d*(.\d{1,2})?$)|(^0(\.\d{1,2})?$)"))
             {
-
                 if (barChoice.SelectedItem == null || drinkChoice.SelectedItem == null)
                 {
                     newEntryPrice.Text = "";
