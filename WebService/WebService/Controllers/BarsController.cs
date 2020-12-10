@@ -30,7 +30,7 @@ namespace WebService.Controllers
 
         // GET: api/Bars/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Bar>> GetBar(int id)
+        public async Task<ActionResult<Bar>> GetBar(Guid id)
         {
             var bar = await _context.Bar.FindAsync(id);
 
@@ -46,7 +46,7 @@ namespace WebService.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutBar(int id, Bar bar)
+        public async Task<IActionResult> PutBar(Guid id, Bar bar)
         {
             if (id != bar.BarID)
             {
@@ -85,7 +85,7 @@ namespace WebService.Controllers
 
         // DELETE: api/Bars/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Bar>> DeleteBar(int id)
+        public async Task<ActionResult<Bar>> DeleteBar(Guid id)
         {
             var bar = await _context.Bar.FindAsync(id);
             if (bar == null)
@@ -99,7 +99,7 @@ namespace WebService.Controllers
             return bar;
         }
 
-        private bool BarExists(int id)
+        private bool BarExists(Guid id)
         {
             return _context.Bar.Any(e => e.BarID == id);
         }

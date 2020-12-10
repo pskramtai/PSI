@@ -7,9 +7,10 @@ namespace ComparisonEngineUI.Models
 {
     public class SpecificPrice
     {
-        public int BarID { get; set; }
+        public int SpecificPriceID { get; set; }
+        public Guid BarID { get; set; }
         public Bar Bar { get; set; }
-        public int DrinkID { get; set; }
+        public Guid DrinkID { get; set; }
         public Drink Drink { get; set; }
         public float DrinkPrice { get; set; }
     }
