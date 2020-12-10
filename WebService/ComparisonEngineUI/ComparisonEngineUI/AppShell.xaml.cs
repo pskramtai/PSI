@@ -20,6 +20,7 @@ namespace ComparisonEngineUI
             Routing.RegisterRoute(nameof(AddBarPage), typeof(AddBarPage));
             Routing.RegisterRoute(nameof(AddDrinkPage), typeof(AddDrinkPage));
             Routing.RegisterRoute(nameof(BarPage), typeof(BarPage));
+            Routing.RegisterRoute(nameof(DeleteBarPage), typeof(DeleteBarPage));
         }
 
     }
