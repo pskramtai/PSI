@@ -84,12 +84,29 @@ namespace ComparisonEngineUI.Views
         {
             try
             {
+                CheckAndRequestLocationPermission();
                 currentPosition = await Xamarin.Essentials.Geolocation.GetLastKnownLocationAsync();
             }
             catch (Exception ex)
             {
                 // Unable to get location
             }
+        }
+
+        public async void CheckAndRequestLocationPermission()
+        {
+            var status = await Xamarin.Essentials.Permissions.CheckStatusAsync<Xamarin.Essentials.Permissions.LocationWhenInUse>();
+
+            if (status == Xamarin.Essentials.PermissionStatus.Granted)
+                return;
+
+            if (status == Xamarin.Essentials.PermissionStatus.Denied && Xamarin.Essentials.DeviceInfo.Platform == Xamarin.Essentials.DevicePlatform.iOS)
+            {
+                return;
+            }
+
+            status = await Xamarin.Essentials.Permissions.RequestAsync<Xamarin.Essentials.Permissions.LocationWhenInUse>();
+
         }
     }
 }
