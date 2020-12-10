@@ -39,7 +39,6 @@ namespace ComparisonEngineUI.ViewModels
         }
         private async void OnSaveClicked(object obj)
         {
-            
         }
     }
 }
