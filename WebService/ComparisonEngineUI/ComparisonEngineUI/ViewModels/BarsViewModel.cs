@@ -35,15 +35,20 @@ namespace ComparisonEngineUI.ViewModels
         public BarsViewModel()
         {
             EditBarCommand = new Command(OnEditBarClicked);
-            BarButtonCommand = new Command(OnBarButtonClicked);
+            //BarButtonCommand = new Command(OnBarButtonClicked);
+            BarButtonCommand = new Command<string>((BarID) =>
+                Shell.Current.GoToAsync($"{nameof(BarPage)}?barID={BarID}")
+            );
             var restService = new RestService();
             BarList = Task.Run(async ()=> await restService.GetData<List<Bar>>(Constants.BarsUrl)).Result;
         }
 
-        private async void OnBarButtonClicked(object obj)
-        {
+        //private async void OnBarButtonClicked(object obj)
+        //{
+        //    string barName = "baro pavadinimas";
             //This method will pass AvailbaleDrinks List to another page.
-        }
+        //    await Shell.Current.GoToAsync($"{nameof(BarPage)}?barName={ barName} ");
+        //}
 
         private async void OnEditBarClicked(object obj)
         {
