@@ -27,10 +27,24 @@ namespace ComparisonEngineUI.ViewModels
                 OnPropertyChanged();
             }
         }
+        private string _Location;
+        public string Location
+        {
+            get
+            {
+                return _Location;
+            }
+            set
+            {
+                _Location = value;
+                OnPropertyChanged();
+            }
+        }
         public BarViewModel(string BarID)
         {
-            listContainer.GetBarByID(/* BarID*/ 0);
-            //Name = bar.BarName;
+            bar = listContainer.GetBarByID(Guid.Parse(BarID));
+            Name = bar.BarName;
+            Location = bar.BarLocation;
         }
     }
 }

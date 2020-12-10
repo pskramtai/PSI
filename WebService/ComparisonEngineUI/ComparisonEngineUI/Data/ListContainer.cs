@@ -19,7 +19,7 @@ namespace ComparisonEngineUI.Data
         public List<Bar> barList = new List<Bar>();
         public List<Drink> drinkList = new List<Drink>();
 
-        public Bar GetBarByID(int barID)
+        public Bar GetBarByID(Guid barID)
         {
             return barList.First(x => x.BarID == barID);
         }

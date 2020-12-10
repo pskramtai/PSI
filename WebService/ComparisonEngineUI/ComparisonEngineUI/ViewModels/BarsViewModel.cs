@@ -14,6 +14,7 @@ namespace ComparisonEngineUI.ViewModels
 
     class BarsViewModel : BaseViewModel
     {
+        private ListContainer listContainer = ListContainer.Instance;
         public Command EditBarCommand { get; }
         public Command BarButtonCommand { get; }
         private List<Bar> _barList {get; set; }
@@ -36,11 +37,12 @@ namespace ComparisonEngineUI.ViewModels
         {
             EditBarCommand = new Command(OnEditBarClicked);
             //BarButtonCommand = new Command(OnBarButtonClicked);
-            BarButtonCommand = new Command<string>((BarID) =>
-                Shell.Current.GoToAsync($"{nameof(BarPage)}?barID={BarID}")
+            BarButtonCommand = new Command<Guid>((BarID) =>
+                Shell.Current.GoToAsync($"{nameof(BarPage)}?barID={BarID.ToString()}")
             );
             var restService = new RestService();
             BarList = Task.Run(async ()=> await restService.GetData<List<Bar>>(Constants.BarsUrl)).Result;
+            listContainer.barList = BarList;
         }
 
         //private async void OnBarButtonClicked(object obj)
