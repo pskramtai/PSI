@@ -5,11 +5,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebService.Base_Classes
 {
-    public class Drink
+    public partial class Drink
     {
         //ID of the drink
+<<<<<<< HEAD
+=======
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
+>>>>>>> master
         public Guid DrinkID { get; set; }
 
         //Name of the drink
@@ -20,13 +23,17 @@ namespace WebService.Base_Classes
         //public List<string> IngredientList { get; set; }
 
         //A list of bars with this drink and the prices at those bars, int for bar ID, float for price
-        public List<SpecificPrice> DrinkLocations { get; set; }
+        public virtual ICollection<SpecificPrice> DrinkLocations { get; set; }
 
-        public Drink(string drinkName/*, List<string> ingredientList = null*/)
+        public Drink()
         {
+<<<<<<< HEAD
+            DrinkLocations = new HashSet<SpecificPrice>();
+=======
             this.DrinkName = drinkName;
             this.DrinkID = new Guid();
             //this.IngredientList = ingredientList;
+>>>>>>> master
         }
     }
 }
