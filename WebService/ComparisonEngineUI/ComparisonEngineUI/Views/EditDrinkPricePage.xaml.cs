@@ -60,7 +60,6 @@ namespace ComparisonEngineUI.Views
 
         private async void OnSaveClicked(object sender, EventArgs e)
         {
-
             if (Regex.IsMatch(newEntryPrice.Text, @"(^[1-9]\d*(.\d{1,2})?$)|(^0(\.\d{1,2})?$)"))
             {
 
