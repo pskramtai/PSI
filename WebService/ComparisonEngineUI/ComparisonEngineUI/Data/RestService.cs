@@ -48,7 +48,7 @@ namespace ComparisonEngineUI.Data
             try
             {
                 string json = JsonConvert.SerializeObject(item);
-                var content = new StringContent(json);
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
                 HttpResponseMessage response = null;
 
                 if (isNew)
