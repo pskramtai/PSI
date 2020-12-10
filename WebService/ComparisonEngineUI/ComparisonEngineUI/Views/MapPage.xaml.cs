@@ -16,6 +16,7 @@ namespace ComparisonEngineUI.Views
     public partial class MapPage : ContentPage
     {
         Map map;
+        Xamarin.Essentials.Location currentPosition;
         public MapPage()
         {
             InitializeComponent();
@@ -29,8 +30,18 @@ namespace ComparisonEngineUI.Views
                 VerticalOptions = LayoutOptions.FillAndExpand
             };
 
-            map.MoveToRegion(MapSpan.FromCenterAndRadius(
-                new Position(54.68916, 25.2798), Distance.FromMiles(3)));
+            GetCurrentPosition();
+
+            if (currentPosition != null)
+            {
+                map.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(currentPosition.Latitude, currentPosition.Longitude), Distance.FromMiles(3)));
+            }
+            else
+            {
+                map.MoveToRegion(MapSpan.FromCenterAndRadius( new Position(54.68916, 25.2798), Distance.FromMiles(3)));
+            }
+
+            map.IsShowingUser = true;
 
             var stack = new StackLayout { Spacing = 0 };
             stack.Children.Add(map);
@@ -67,6 +78,18 @@ namespace ComparisonEngineUI.Views
         public void ClearPins()
         {
             map.Pins.Clear();
+        }
+
+        public async void GetCurrentPosition()
+        {
+            try
+            {
+                currentPosition = await Xamarin.Essentials.Geolocation.GetLastKnownLocationAsync();
+            }
+            catch (Exception ex)
+            {
+                // Unable to get location
+            }
         }
     }
 }
