@@ -9,13 +9,7 @@ namespace WebService.Base_Classes
     {
         public int SpecificPriceID { get; set; }
         public Guid BarID { get; set; }
-<<<<<<< HEAD
         public Guid DrinkID { get; set; }
-=======
-        public Bar Bar { get; set; }
-        public Guid DrinkID { get; set; }
-        public Drink Drink { get; set; }
->>>>>>> master
         public float DrinkPrice { get; set; }
     }
 }

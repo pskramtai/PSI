@@ -8,11 +8,8 @@ namespace WebService.Base_Classes
     public partial class Drink
     {
         //ID of the drink
-<<<<<<< HEAD
-=======
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
->>>>>>> master
         public Guid DrinkID { get; set; }
 
         //Name of the drink
@@ -25,15 +22,12 @@ namespace WebService.Base_Classes
         //A list of bars with this drink and the prices at those bars, int for bar ID, float for price
         public virtual ICollection<SpecificPrice> DrinkLocations { get; set; }
 
-        public Drink()
+        public Drink(string drinkName)
         {
-<<<<<<< HEAD
-            DrinkLocations = new HashSet<SpecificPrice>();
-=======
             this.DrinkName = drinkName;
             this.DrinkID = new Guid();
             //this.IngredientList = ingredientList;
->>>>>>> master
+            DrinkLocations = new HashSet<SpecificPrice>();
         }
     }
 }
