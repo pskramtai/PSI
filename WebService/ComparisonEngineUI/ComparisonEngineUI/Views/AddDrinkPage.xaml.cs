@@ -33,17 +33,22 @@ namespace ComparisonEngineUI.Views
             {
                 float price = (float)Convert.ToDouble(EntryDrinkPrice.Text);
                 Drink drink = new Drink(drinkName.Text);
+
+                drink.DrinkLocations = new List<SpecificPrice>();
+
                 SpecificPrice drinkPrice = new SpecificPrice
                 {
-                    DrinkID = drink.DrinkID,
+                    
                     BarID = bar.BarID,
                     DrinkPrice = price
+                    
                 };
 
+                drink.DrinkLocations.Add(drinkPrice);
                 var restService = new RestService();
                 await restService.SaveData<Drink>(drink, Constants.DrinksUrl, true);
-                await restService.SaveData<SpecificPrice>(drinkPrice, Constants.SpecificPricesUrl, true);
-                // await restService.SaveData<List<Drink>>(drink,Constants.DrinksUrl,true);
+               // await restService.SaveData<SpecificPrice>(drinkPrice, Constants.SpecificPricesUrl, true);
+                
 
             }
 
