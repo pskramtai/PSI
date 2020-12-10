@@ -65,6 +65,7 @@ namespace ComparisonEngineUI.Views
         public async void SetBarPin(Bar bar)
         {
             var location = (await Xamarin.Essentials.Geocoding.GetLocationsAsync(bar.BarLocation)).FirstOrDefault();
+            
             if (location != null)
             {
                 map.Pins.Add(new Pin
