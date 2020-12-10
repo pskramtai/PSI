@@ -8,18 +8,18 @@
             <Label TextColor="Black" Text="Drink List:"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
-            <Button Text="Edit" Command="{Binding EditDrinkCommand}"/>
             <ListView ItemsSource="{Binding DrinkList}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout>
-                                <Button Text="{Binding DrinkName}" Command="{Binding DrinkButtonCommand}"/>
+                                <Button Text="{Binding DrinkName}" Clicked="Button_Clicked"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            <Button Text="Edit" Command="{Binding EditDrinkCommand}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

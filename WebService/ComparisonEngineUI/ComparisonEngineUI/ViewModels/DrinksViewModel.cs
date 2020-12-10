@@ -8,14 +8,15 @@ using ComparisonEngineUI.Views;
 using ComparisonEngineUI.Models;
 using ComparisonEngineUI.Data;
 using System.Threading.Tasks;
+using ComparisonEngineUI.Data;
 
 namespace ComparisonEngineUI.ViewModels
 {
     
     class DrinksViewModel : BaseViewModel
     {
+        private ListContainer listContainer = ListContainer.Instance;
         public Command EditDrinkCommand { get; }
-        public Command DrinkButtonCommand { get; }
         private List<Drink> _drinkList { get; set; }
         public List<Drink> DrinkList
         {
@@ -35,17 +36,12 @@ namespace ComparisonEngineUI.ViewModels
         public DrinksViewModel ()
         {
             EditDrinkCommand = new Command(OnEditDrinkClicked);
-            DrinkButtonCommand = new Command(OnDrinkButtonClicked);
             var restService = new RestService();
             DrinkList = Task.Run(async () => await restService.GetData<List<Drink>>(Constants.DrinksUrl)).Result;
+            listContainer.drinkList = DrinkList;
         }
 
-        private void OnDrinkButtonClicked(object obj)
-        {
-            //This method will pass DrinkLocations List to another page.
-        }
-
-        private async void OnEditDrinkClicked(object obj)
+          private async void OnEditDrinkClicked(object obj)
         {
             await Shell.Current.GoToAsync($"{nameof(EditPage)}");
         }

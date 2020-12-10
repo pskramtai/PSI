@@ -7,19 +7,19 @@
             <SearchBar Placeholder="Search Bars..." />
             <Label TextColor="Black" Text="Bar List:"
                 VerticalOptions="Center" 
-                HorizontalOptions="Center" />
-            <Button Text="Edit" Command="{Binding EditBarCommand}"/>
+                HorizontalOptions="Center"/>
             <ListView ItemsSource="{Binding BarList}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout>
-                                <Button Text="{Binding BarName}" Command="{Binding BarButtonCommand}"/>
-                            </StackLayout>
+                                <Button Text="{Binding BarName}" Clicked="Button_Clicked"/>
+                            </StackLayout>  
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            <Button Text="Edit" Command="{Binding EditBarCommand}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

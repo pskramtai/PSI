@@ -6,22 +6,17 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using ComparisonEngineUI.ViewModels;
+using ComparisonEngineUI.Models;
 
 namespace ComparisonEngineUI.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class BarsPage : ContentPage
+    public partial class DrinkPage : ContentPage
     {
-        public BarsPage()
+        public DrinkPage(string DrinkName)
         {
             InitializeComponent();
-            this.BindingContext = new BarsViewModel();
+            this.BindingContext = new DrinkViewModel(DrinkName);
         }
-
-        async void Button_Clicked(Object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new BarPage(((Button)sender).Text));
-        }
-
     }
 }
