@@ -67,7 +67,7 @@ namespace ComparisonEngineUI.Data
 
                 return false;
             }
-            catch (HttpRequestException)
+            catch (Exception)
             {
                 return false;
             }
