@@ -85,7 +85,6 @@ namespace ComparisonEngineUI.Views
             {
                 await DisplayAlert("Warning", "Bad Input", "Ok");
             }
-
         }
 
         private void barChoice_SelectedIndexChanged(object sender, EventArgs e)
