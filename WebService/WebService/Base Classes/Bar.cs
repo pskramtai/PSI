@@ -5,10 +5,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebService.Base_Classes
 {
-    public class Bar
+    public partial class Bar
     {
         //ID of the bar
-        public int BarID { get; set; } 
+        public Guid BarID { get; set; } 
 
         //Actual name of the bar
         [MaxLength(50)]
@@ -19,12 +19,11 @@ namespace WebService.Base_Classes
         public string BarLocation { get; set; }
 
         //A list of drinks available at this bar along with the prices
-        public List<SpecificPrice> AvailableDrinks { get; set; }
+        public virtual ICollection<SpecificPrice> AvailableDrinks { get; set; }
 
-        public Bar(string barName, string barLocation)
+        public Bar()
         {
-            this.BarName = barName;
-            this.BarLocation = barLocation;
+            AvailableDrinks = new HashSet<SpecificPrice>();
         }
     }
 }
