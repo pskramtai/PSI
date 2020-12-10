@@ -51,7 +51,7 @@ namespace ComparisonEngineUI.ViewModels
             //SaveCommand = new Command(OnSaveClicked);
             var restService = new RestService();
             BarList = Task.Run(async () => await restService.GetData<List<Bar>>(Constants.BarsUrl)).Result;
-            DrinkList = Task.Run(async () => await restService.GetData<List<Drink>>(Constants.DrinksUrl)).Result;
+           // DrinkList = Task.Run(async () => await restService.GetData<List<Drink>>(Constants.DrinksUrl)).Result;
         }
         private async void OnSaveClicked(object obj)
         {

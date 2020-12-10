@@ -22,10 +22,10 @@ namespace WebService.Base_Classes
         //A list of bars with this drink and the prices at those bars, int for bar ID, float for price
         public virtual ICollection<SpecificPrice> DrinkLocations { get; set; }
 
-        public Drink(string drinkName)
+        public Drink(string drinkName,Guid drinkID)
         {
             this.DrinkName = drinkName;
-            this.DrinkID = new Guid();
+            this.DrinkID = drinkID;
             //this.IngredientList = ingredientList;
             DrinkLocations = new HashSet<SpecificPrice>();
         }

@@ -1,22 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ComparisonEngineUI.Views.EditDrinkPricePage">
+             x:Class="ComparisonEngineUI.Views.DeleteDrinkPage">
     <ContentPage.Content>
         <StackLayout>
-            <Picker x:Name="barChoice"
+            <Picker x:Name="selectedBar"
                     Title="Select Bar"
                     TitleColor="Red"
                     ItemsSource ="{Binding BarList} "
-                    ItemDisplayBinding="{Binding BarName} " 
-                    SelectedIndexChanged="barChoice_SelectedIndexChanged"/>
-            <Picker x:Name="drinkChoice"
+                    ItemDisplayBinding="{Binding BarName} " />
+            <Picker x:Name="selecteDrink"
                     Title="Select Drink"
                     TitleColor="Red"
                     ItemsSource ="{Binding DrinkList} "
                     ItemDisplayBinding="{Binding DrinkName} " />
-            <Entry x:Name="newEntryPrice" Keyboard ="Numeric" Placeholder="Enter New Price" PlaceholderColor="Black"/>
-            <Button Text="Save" Clicked="OnSaveClicked" Command="{Binding SaveCommand}"/>
+            <Button Text="Delete" Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
