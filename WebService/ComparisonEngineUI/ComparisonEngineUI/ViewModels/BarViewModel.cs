@@ -13,7 +13,6 @@ namespace ComparisonEngineUI.ViewModels
     {
         private ListContainer listContainer = ListContainer.Instance;
         public Bar bar;
-        public string BarID;
         private string _Name;
         public string Name
         {
@@ -40,11 +39,33 @@ namespace ComparisonEngineUI.ViewModels
                 OnPropertyChanged();
             }
         }
-        public BarViewModel(string BarID)
+        private List<SpecificPrice> _SpecificPriceList { get; set; }
+        public List<SpecificPrice> SpecificPriceList
         {
-            bar = listContainer.GetBarByID(Guid.Parse(BarID));
+            get
+            {
+                return _SpecificPriceList;
+            }
+            set
+            {
+                if (value != _SpecificPriceList)
+                {
+                    _SpecificPriceList = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+        public BarViewModel(string BarName)
+        {
+            bar = listContainer.GetBarByName(BarName);
             Name = bar.BarName;
             Location = bar.BarLocation;
+            SpecificPriceList = bar.AvailableDrinks;
+
+            foreach (var item in SpecificPriceList)
+            {
+                item.Drink = listContainer.GetDrinkByID(item.DrinkID);
+            }
         }
     }
 }

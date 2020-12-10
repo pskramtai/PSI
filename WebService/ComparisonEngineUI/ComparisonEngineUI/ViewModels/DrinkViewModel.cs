@@ -49,6 +49,10 @@ namespace ComparisonEngineUI.ViewModels
             drink = listContainer.GetDrinkByName(DrinkName);
             Name = drink.DrinkName;
             SpecificPriceList = drink.DrinkLocations;
+            foreach (var item in SpecificPriceList)
+            {
+                item.Bar = listContainer.GetBarByID(item.BarID);
+            }
         }
     }
 }

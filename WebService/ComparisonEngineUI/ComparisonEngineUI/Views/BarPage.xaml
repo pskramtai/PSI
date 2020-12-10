@@ -13,8 +13,10 @@
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout>
-                                <Label Text="{Binding Drink.DrinkName}" TextColor="Black"/>
-                                <Label Text="{Binding DrinkPrice}" TextColor="Black"/>
+                                <Grid>
+                                    <Label Text="{Binding Drink.DrinkName}" TextColor="Black" Grid.Column="0" HorizontalOptions="Center"/>
+                                    <Label Text="{Binding DrinkPrice}" TextColor="Black" Grid.Column="1" HorizontalOptions="Center"/>
+                                </Grid>
                             </StackLayout>  
                         </ViewCell>
                     </DataTemplate>
