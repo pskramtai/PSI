@@ -21,7 +21,6 @@ namespace ComparisonEngineUI
         public static string GoogleiOSRedirectUrl = "<insert IOS redirect URL here>:/oauth2redirect";
         public static string GoogleAndroidRedirectUrl = "com.googleusercontent.apps.433871991239-rq3kn77qftb5qndip967jdb5nbgjebra:/oauth2redirect";
 
-
         public static string BarsUrl = "http://localhost:8081/api/Bars/";
         public static string DrinksUrl = "http://localhost:8081/api/Drinks/";
         public static string SpecificPricesUrl = "http://localhost:8081/api/SpecificPrices/";
