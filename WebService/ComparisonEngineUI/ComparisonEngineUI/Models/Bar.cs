@@ -8,7 +8,7 @@ namespace ComparisonEngineUI.Models
     public class Bar
     {
         //ID of the bar
-        public int BarID { get; set; } 
+        public Guid BarID { get; set; } 
 
         //Actual name of the bar
         [MaxLength(50)]
@@ -19,13 +19,13 @@ namespace ComparisonEngineUI.Models
         public string BarLocation { get; set; }
 
         //A list of drinks available at this bar along with the prices
-        [NotMapped]
         public List<SpecificPrice> AvailableDrinks { get; set; }
 
         public Bar(string barName, string barLocation)
         {
             this.BarName = barName;
             this.BarLocation = barLocation;
+            this.BarID = Guid.NewGuid();
         }
     }
 }

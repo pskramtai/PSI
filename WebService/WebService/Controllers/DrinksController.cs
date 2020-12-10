@@ -30,7 +30,7 @@ namespace WebService.Controllers
 
         // GET: api/Drinks/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Drink>> GetDrink(int id)
+        public async Task<ActionResult<Drink>> GetDrink(Guid id)
         {
             var drink = await _context.Drink.FindAsync(id);
 
@@ -46,7 +46,7 @@ namespace WebService.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutDrink(int id, Drink drink)
+        public async Task<IActionResult> PutDrink(Guid id, Drink drink)
         {
             if (id != drink.DrinkID)
             {
@@ -65,10 +65,7 @@ namespace WebService.Controllers
                 {
                     return NotFound();
                 }
-                else
-                {
-                    throw;
-                }
+                else throw;
             }
 
             return NoContent();
@@ -88,7 +85,7 @@ namespace WebService.Controllers
 
         // DELETE: api/Drinks/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Drink>> DeleteDrink(int id)
+        public async Task<ActionResult<Drink>> DeleteDrink(Guid id)
         {
             var drink = await _context.Drink.FindAsync(id);
             if (drink == null)
@@ -102,7 +99,7 @@ namespace WebService.Controllers
             return drink;
         }
 
-        private bool DrinkExists(int id)
+        private bool DrinkExists(Guid id)
         {
             return _context.Drink.Any(e => e.DrinkID == id);
         }
