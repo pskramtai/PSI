@@ -17,6 +17,7 @@ namespace ComparisonEngineUI.Views
     {
         Map map;
         Xamarin.Essentials.Location currentPosition;
+        
         public MapPage()
         {
             InitializeComponent();
