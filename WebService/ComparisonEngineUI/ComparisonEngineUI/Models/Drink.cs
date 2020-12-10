@@ -22,10 +22,10 @@ namespace ComparisonEngineUI.Models
         [NotMapped]
         public List<SpecificPrice> DrinkLocations { get; set; }
 
-        public Drink(string drinkName/*, List<string> ingredientList = null*/)
+        public Drink(string drinkName, Guid drinkID/*, List<string> ingredientList = null*/)
         {
             this.DrinkName = drinkName;
-            this.DrinkID = Guid.NewGuid();
+            this.DrinkID = drinkID;
             //this.IngredientList = ingredientList;
         }
     }

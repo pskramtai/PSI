@@ -30,7 +30,7 @@ namespace WebService.Controllers
 
         // GET: api/Bars/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Bar>> GetBar(Guid? id)
+        public async Task<ActionResult<Bar>> GetBar(Guid id)
         {
             var bar = await _context.Bar.FindAsync(id);
 

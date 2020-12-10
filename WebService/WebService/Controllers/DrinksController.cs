@@ -30,7 +30,7 @@ namespace WebService.Controllers
 
         // GET: api/Drinks/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Drink>> GetDrink(int id)
+        public async Task<ActionResult<Drink>> GetDrink(Guid id)
         {
             var drink = await _context.Drink.FindAsync(id);
 
@@ -85,7 +85,7 @@ namespace WebService.Controllers
 
         // DELETE: api/Drinks/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Drink>> DeleteDrink(int id)
+        public async Task<ActionResult<Drink>> DeleteDrink(Guid id)
         {
             var drink = await _context.Drink.FindAsync(id);
             if (drink == null)

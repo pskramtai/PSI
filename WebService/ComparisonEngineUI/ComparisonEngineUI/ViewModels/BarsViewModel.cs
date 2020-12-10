@@ -38,7 +38,6 @@ namespace ComparisonEngineUI.ViewModels
             BarButtonCommand = new Command(OnBarButtonClicked);
             var restService = new RestService();
             BarList = Task.Run(async ()=> await restService.GetData<List<Bar>>(Constants.BarsUrl)).Result;
-          
         }
 
         private async void OnBarButtonClicked(object obj)
