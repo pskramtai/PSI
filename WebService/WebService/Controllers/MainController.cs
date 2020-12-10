@@ -18,7 +18,8 @@ namespace WebService.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { JsonSerializer.Serialize(new Bar("Kartusis", "Jogailos 13")) };//new string[] { "value1", "value2" };
+            //return new string[] { JsonSerializer.Serialize(new Bar("Kartusis", "Jogailos 13",Guid.NewGuid())) };//new string[] { "value1", "value2" };
+            return new string[]{ "value1", "value2" };
         }
 
         // GET api/<Main>/5

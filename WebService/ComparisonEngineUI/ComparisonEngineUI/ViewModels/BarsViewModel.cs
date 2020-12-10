@@ -38,6 +38,7 @@ namespace ComparisonEngineUI.ViewModels
             BarButtonCommand = new Command(OnBarButtonClicked);
             var restService = new RestService();
             BarList = Task.Run(async ()=> await restService.GetData<List<Bar>>(Constants.BarsUrl)).Result;
+          
         }
 
         private async void OnBarButtonClicked(object obj)
@@ -47,6 +48,10 @@ namespace ComparisonEngineUI.ViewModels
 
         private async void OnEditBarClicked(object obj)
         {
+            Bar bar = new Bar("asd", "fawfaf");
+            var restService = new RestService();
+            bool a = await restService.SaveData<Bar>(bar, Constants.BarsUrl, true);
+            
             await Shell.Current.GoToAsync($"{nameof(EditPage)}");
         }
         

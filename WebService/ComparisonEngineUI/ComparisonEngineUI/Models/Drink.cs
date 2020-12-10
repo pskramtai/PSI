@@ -8,7 +8,8 @@ namespace ComparisonEngineUI.Models
     public class Drink
     {
         //ID of the drink
-        public int DrinkID { get; set; }
+       
+        public Guid DrinkID { get; set; }
 
         //Name of the drink
         [MaxLength(50)]
@@ -24,6 +25,7 @@ namespace ComparisonEngineUI.Models
         public Drink(string drinkName/*, List<string> ingredientList = null*/)
         {
             this.DrinkName = drinkName;
+            this.DrinkID = Guid.NewGuid();
             //this.IngredientList = ingredientList;
         }
     }

@@ -8,7 +8,9 @@ namespace WebService.Base_Classes
     public class Drink
     {
         //ID of the drink
-        public int DrinkID { get; set; }
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public Guid DrinkID { get; set; }
 
         //Name of the drink
         [MaxLength(50)]
@@ -23,6 +25,7 @@ namespace WebService.Base_Classes
         public Drink(string drinkName/*, List<string> ingredientList = null*/)
         {
             this.DrinkName = drinkName;
+            this.DrinkID = new Guid();
             //this.IngredientList = ingredientList;
         }
     }
