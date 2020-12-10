@@ -81,7 +81,6 @@ namespace ComparisonEngineUI.Views
                 var restService = new RestService();
                 await restService.SaveData<SpecificPrice>(newPrice,Constants.SpecificPricesUrl, false);
             }
-
             else 
             {
                 await DisplayAlert("Warning", "Bad Input", "Ok");
