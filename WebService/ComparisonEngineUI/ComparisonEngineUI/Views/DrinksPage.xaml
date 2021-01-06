@@ -6,6 +6,7 @@
         <StackLayout>
             <SearchBar x:Name="searchBar"
                        Placeholder="Search Drinks..." 
+                       TextColor="Black"
                        SearchCommand="{Binding PerformSearch}"
                        SearchCommandParameter="{Binding Text, Source={x:Reference searchBar}}">
                 <SearchBar.Behaviors>
