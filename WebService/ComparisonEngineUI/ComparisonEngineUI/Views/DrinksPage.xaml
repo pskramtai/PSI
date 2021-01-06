@@ -6,17 +6,19 @@
     <ContentPage.Content>
         <StackLayout>
             <SearchBar Placeholder="Search Drinks..." TextColor="Black"/>
-            <ListView ItemsSource="{Binding DrinkList}">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout>
-                                <Button Text="{Binding DrinkName}" TextColor="Black" Clicked="Button_Clicked"/>
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+            <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}">
+                <ListView ItemsSource="{Binding DrinkList}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <Button Text="{Binding DrinkName}" TextColor="Black" Clicked="Button_Clicked"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </RefreshView>
             <Button Text="Edit" Command="{Binding EditDrinkCommand}"/>
         </StackLayout>
     </ContentPage.Content>

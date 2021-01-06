@@ -16,6 +16,7 @@ namespace ComparisonEngineUI.ViewModels
     {
         private ListContainer listContainer = ListContainer.Instance;
         public Command EditDrinkCommand { get; }
+        public Command RefreshCommand { get; }
         private List<Drink> _drinkList { get; set; }
         public List<Drink> DrinkList
         {
@@ -32,9 +33,21 @@ namespace ComparisonEngineUI.ViewModels
                 }
             }
         }
+        bool isRefreshing;
+        public bool IsRefreshing
+        {
+            get => isRefreshing;
+            set
+            {
+                isRefreshing = value;
+                OnPropertyChanged(nameof(IsRefreshing));
+            }
+        }
+
         public DrinksViewModel ()
         {
             EditDrinkCommand = new Command(OnEditDrinkClicked);
+            RefreshCommand = new Command(ExecuteRefreshCommand);
             var restService = new RestService();
             listContainer.drinkList = Task.Run(async () => await restService.GetData<List<Drink>>(Constants.DrinksUrl)).Result;
             DrinkList = listContainer.drinkList;
@@ -43,6 +56,16 @@ namespace ComparisonEngineUI.ViewModels
           private async void OnEditDrinkClicked(object obj)
         {
             await Shell.Current.GoToAsync($"{nameof(EditPage)}");
+        }
+
+        void ExecuteRefreshCommand()
+        {
+            var restService = new RestService();
+            listContainer.drinkList = Task.Run(async () => await restService.GetData<List<Drink>>(Constants.DrinksUrl)).Result;
+            DrinkList = listContainer.drinkList;
+
+            // Stop refreshing
+            IsRefreshing = false;
         }
 
     }

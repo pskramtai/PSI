@@ -16,6 +16,7 @@ namespace ComparisonEngineUI.ViewModels
     {
         private ListContainer listContainer = ListContainer.Instance;
         public Command EditBarCommand { get; }
+        public Command RefreshCommand { get; }
         private List<Bar> _barList {get; set; }
         public List<Bar> BarList 
         {
@@ -32,9 +33,21 @@ namespace ComparisonEngineUI.ViewModels
                 }
             } 
         }
+        bool isRefreshing;
+        public bool IsRefreshing
+        {
+            get => isRefreshing;
+            set
+            {
+                isRefreshing = value;
+                OnPropertyChanged(nameof(IsRefreshing));
+            }
+        }
+
         public BarsViewModel()
         {
             EditBarCommand = new Command(OnEditBarClicked);
+            RefreshCommand = new Command(ExecuteRefreshCommand);
             var restService = new RestService();
             listContainer.barList = Task.Run(async ()=> await restService.GetData<List<Bar>>(Constants.BarsUrl)).Result;
             BarList = listContainer.barList;
@@ -44,6 +57,16 @@ namespace ComparisonEngineUI.ViewModels
         {
             await Shell.Current.GoToAsync($"{nameof(EditPage)}");
         }
-        
+
+        void ExecuteRefreshCommand()
+        {
+            var restService = new RestService();
+            listContainer.barList = Task.Run(async () => await restService.GetData<List<Bar>>(Constants.BarsUrl)).Result;
+            BarList = listContainer.barList;
+
+            // Stop refreshing
+            IsRefreshing = false;
+        }
+
     }
 }
