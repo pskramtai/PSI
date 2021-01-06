@@ -8,7 +8,6 @@ using ComparisonEngineUI.Views;
 using ComparisonEngineUI.Models;
 using ComparisonEngineUI.Data;
 using System.Threading.Tasks;
-using ComparisonEngineUI.Data;
 
 namespace ComparisonEngineUI.ViewModels
 {
@@ -37,8 +36,8 @@ namespace ComparisonEngineUI.ViewModels
         {
             EditDrinkCommand = new Command(OnEditDrinkClicked);
             var restService = new RestService();
-            DrinkList = Task.Run(async () => await restService.GetData<List<Drink>>(Constants.DrinksUrl)).Result;
-            listContainer.drinkList = DrinkList;
+            listContainer.drinkList = Task.Run(async () => await restService.GetData<List<Drink>>(Constants.DrinksUrl)).Result;
+            DrinkList = listContainer.drinkList;
         }
 
           private async void OnEditDrinkClicked(object obj)
