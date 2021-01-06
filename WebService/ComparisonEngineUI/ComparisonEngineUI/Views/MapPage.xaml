@@ -7,15 +7,7 @@
              xmlns:gmaps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
              Title="Map">
     <ContentPage.Content>
-        <Grid>
-            <gmaps:Map x:Name="MyMap" MapType="Street" HasZoomEnabled="True" MyLocationEnabled="True">
-                <gmaps:Map.ItemTemplate>
-                    <DataTemplate>
-                        <gmaps:Pin Icon="{Binding PinIcon}" Position="{Binding Position}"
-                              Label="{Binding PinLabel}" />
-                    </DataTemplate>
-                </gmaps:Map.ItemTemplate>
-            </gmaps:Map>
-        </Grid>
+        <StackLayout>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
