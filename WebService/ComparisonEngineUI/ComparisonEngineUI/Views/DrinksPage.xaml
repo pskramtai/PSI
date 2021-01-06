@@ -1,19 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ComparisonEngineUI.Views.DrinksPage">
+             x:Class="ComparisonEngineUI.Views.DrinksPage"
+             Title="Drink List">
     <ContentPage.Content>
         <StackLayout>
-            <SearchBar Placeholder="Search Drinks..." />
-            <Label TextColor="Black" Text="Drink List:"
-                VerticalOptions="Center" 
-                HorizontalOptions="Center" />
+            <SearchBar Placeholder="Search Drinks..." TextColor="Black"/>
             <ListView ItemsSource="{Binding DrinkList}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout>
-                                <Button Text="{Binding DrinkName}" Clicked="Button_Clicked"/>
+                                <Button Text="{Binding DrinkName}" TextColor="Black" Clicked="Button_Clicked"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

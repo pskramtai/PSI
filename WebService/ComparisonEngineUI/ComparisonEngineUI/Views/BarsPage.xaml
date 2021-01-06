@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ComparisonEngineUI.Views.BarsPage">
+             x:Class="ComparisonEngineUI.Views.BarsPage"
+             Title="Bar List">
     <ContentPage.Content>
         <StackLayout>
-            <SearchBar Placeholder="Search Bars..." />
-            <Label TextColor="Black" Text="Bar List:"
-                VerticalOptions="Center" 
-                HorizontalOptions="Center"/>
+            <SearchBar Placeholder="Search Bars..." TextColor="Black"/>
             <ListView ItemsSource="{Binding BarList}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
