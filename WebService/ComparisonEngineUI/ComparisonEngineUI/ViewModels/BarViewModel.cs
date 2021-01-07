@@ -66,6 +66,7 @@ namespace ComparisonEngineUI.ViewModels
             {
                 item.Drink = listContainer.GetDrinkByID(item.DrinkID);
             }
+            listContainer.mapView.SetBarDirections(bar);
         }
     }
 }

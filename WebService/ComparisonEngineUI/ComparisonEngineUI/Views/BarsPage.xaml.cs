@@ -22,6 +22,5 @@ namespace ComparisonEngineUI.Views
         {
             await Navigation.PushAsync(new BarPage(((Button)sender).Text));
         }
-
     }
 }

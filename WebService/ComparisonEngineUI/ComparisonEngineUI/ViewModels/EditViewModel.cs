@@ -11,12 +11,14 @@ namespace ComparisonEngineUI.ViewModels
         public Command AddDrinkCommand { get; }
         public Command AddBarCommand { get; }
         public Command DeleteBarCommand { get; }
+        public Command DeleteDrinkCommand { get; }
         public EditViewModel()
         {
             EditDrinkPriceCommand = new Command(OnEditDrinkPriceClicked);
             AddDrinkCommand = new Command(OnAddDrinkClicked);
             AddBarCommand = new Command(OnAddBarClicked);
             DeleteBarCommand = new Command(OnDeleteBarClicked);
+            DeleteDrinkCommand = new Command(OnDeleteDrinkClicked);
         }
         private async void OnEditDrinkPriceClicked(object obj)
         {
@@ -33,6 +35,10 @@ namespace ComparisonEngineUI.ViewModels
         private async void OnDeleteBarClicked(object obj)
         {
             await Shell.Current.GoToAsync($"{nameof(DeleteBarPage)}");
+        }
+        private async void OnDeleteDrinkClicked(object obj)
+        {
+            await Shell.Current.GoToAsync($"{nameof(DeleteDrinkPage)}");
         }
     }
 
