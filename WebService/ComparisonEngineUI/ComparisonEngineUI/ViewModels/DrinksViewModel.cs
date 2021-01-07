@@ -9,6 +9,7 @@ using ComparisonEngineUI.Models;
 using ComparisonEngineUI.Data;
 using System.Threading.Tasks;
 using ComparisonEngineUI.Data;
+using System.Windows.Input;
 
 namespace ComparisonEngineUI.ViewModels
 {
@@ -41,10 +42,15 @@ namespace ComparisonEngineUI.ViewModels
             listContainer.drinkList = DrinkList;
         }
 
-          private async void OnEditDrinkClicked(object obj)
+        private async void OnEditDrinkClicked(object obj)
         {
             await Shell.Current.GoToAsync($"{nameof(EditPage)}");
         }
+
+        public ICommand PerformSearch => new Command<String>((string keyword) =>
+        {
+            DrinkList = listContainer.drinkList.FindAll(x => x.DrinkName.Contains(keyword));
+        });
 
     }
 }

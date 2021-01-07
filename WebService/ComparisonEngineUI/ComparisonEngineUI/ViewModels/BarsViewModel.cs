@@ -8,6 +8,7 @@ using ComparisonEngineUI.Views;
 using ComparisonEngineUI.Data;
 using ComparisonEngineUI.Models;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace ComparisonEngineUI.ViewModels
 {
@@ -56,6 +57,10 @@ namespace ComparisonEngineUI.ViewModels
         {
             await Shell.Current.GoToAsync($"{nameof(EditPage)}");
         }
-        
+
+        public ICommand PerformSearch => new Command<String>((string keyword) =>
+        {   
+                BarList = listContainer.barList.FindAll(x => x.BarName.Contains(keyword));
+        });
     }
 }
