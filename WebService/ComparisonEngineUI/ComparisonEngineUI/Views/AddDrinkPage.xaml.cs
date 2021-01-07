@@ -45,6 +45,7 @@ namespace ComparisonEngineUI.Views
                     if (drinkCheck.DrinkName == drink.DrinkName)
                     {
                         flag = true;
+                        drink = drinkCheck;
                     }
                 }
 
@@ -59,8 +60,9 @@ namespace ComparisonEngineUI.Views
                 {
                     BarID = bar.BarID,
                     DrinkPrice = price,
-                    DrinkID = drink.DrinkID   
+                    DrinkID = drink.DrinkID
                 };
+                
 
                 flag = false;
 
