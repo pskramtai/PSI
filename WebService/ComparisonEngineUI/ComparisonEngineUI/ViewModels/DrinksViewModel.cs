@@ -51,8 +51,6 @@ namespace ComparisonEngineUI.ViewModels
         {
             EditDrinkCommand = new Command(OnEditDrinkClicked);
             RefreshCommand = new Command(ExecuteRefreshCommand);
-            var restService = new RestService();
-            listContainer.drinkList = Task.Run(async () => await restService.GetData<List<Drink>>(Constants.DrinksUrl)).Result;
             DrinkList = listContainer.drinkList;
         }
 

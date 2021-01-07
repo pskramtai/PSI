@@ -23,7 +23,7 @@
                         <DataTemplate>
                             <ViewCell>
                                 <StackLayout>
-                                    <Button Text="{Binding BarName}" Clicked="Button_Clicked"/>
+                                    <Button Text="{Binding BarName}" TextColor="Black" Clicked="Button_Clicked"/>
                                 </StackLayout>
                             </ViewCell>
                         </DataTemplate>

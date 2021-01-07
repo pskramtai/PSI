@@ -49,8 +49,6 @@ namespace ComparisonEngineUI.ViewModels
         {
             EditBarCommand = new Command(OnEditBarClicked);
             RefreshCommand = new Command(ExecuteRefreshCommand);
-            var restService = new RestService();
-            listContainer.barList = Task.Run(async ()=> await restService.GetData<List<Bar>>(Constants.BarsUrl)).Result;
             BarList = listContainer.barList;
         }
 
