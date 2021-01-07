@@ -370,3 +370,5 @@ WebService/ComparisonEngineUI/ComparisonEngineUI.Android/Properties/AndroidManif
 #NLog generated files
 internallog.txt
 *_logfile.txt
+
+WebService/WebService/appsettings.json

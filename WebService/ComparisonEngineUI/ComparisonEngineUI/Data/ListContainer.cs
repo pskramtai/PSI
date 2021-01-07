@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using ComparisonEngineUI.Models;
 using System.Linq;
 using System.Threading.Tasks;
+using ComparisonEngineUI.Views;
 
 namespace ComparisonEngineUI.Data
 {
@@ -14,6 +15,7 @@ namespace ComparisonEngineUI.Data
 
         public List<Bar> barList;
         public List<Drink> drinkList;
+        public MapPage mapView;
         private ListContainer()
         {
             var restService = new RestService();

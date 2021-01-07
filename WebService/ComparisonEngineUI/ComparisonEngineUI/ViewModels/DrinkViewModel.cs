@@ -53,6 +53,8 @@ namespace ComparisonEngineUI.ViewModels
             {
                 item.Bar = listContainer.GetBarByID(item.BarID);
             }
+            listContainer.mapView.ClearPins();
+            listContainer.mapView.SetDrinkPins(SpecificPriceList);
         }
     }
 }

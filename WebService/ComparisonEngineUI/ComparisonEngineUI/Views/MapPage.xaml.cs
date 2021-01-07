@@ -9,6 +9,7 @@ using Xamarin.Forms.Xaml;
 using System.Diagnostics;
 using Xamarin.Forms.Maps;
 using ComparisonEngineUI.Models;
+using ComparisonEngineUI.Data;
 
 namespace ComparisonEngineUI.Views
 {
@@ -17,12 +18,13 @@ namespace ComparisonEngineUI.Views
     {
         Map map;
         Xamarin.Essentials.Location currentPosition;
+        private ListContainer listContainer = ListContainer.Instance;
         
         public MapPage()
         {
             InitializeComponent();
             BindingContext = new MapViewModel();
-            
+            listContainer.mapView = this;
             map = new Map
             {
 
@@ -49,11 +51,11 @@ namespace ComparisonEngineUI.Views
             Content = stack;
         }
 
-        public void SetDrinkPins(List<Bar> items)
+        public void SetDrinkPins(List<SpecificPrice> items)
         {
-            foreach (Bar item in items)
+            foreach (SpecificPrice item in items)
             {
-                SetBarPin(item);
+                SetBarPin(item.Bar);
             }
         }
 
@@ -88,6 +90,7 @@ namespace ComparisonEngineUI.Views
             {
                 CheckAndRequestLocationPermission();
                 currentPosition = await Xamarin.Essentials.Geolocation.GetLastKnownLocationAsync();
+                map.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(currentPosition.Latitude, currentPosition.Longitude), Distance.FromMiles(3)));
             }
             catch (Exception ex)
             {
