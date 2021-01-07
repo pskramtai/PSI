@@ -1,25 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:behaviorsPack="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
              x:Class="ComparisonEngineUI.Views.DrinksPage">
     <ContentPage.Content>
         <StackLayout>
-            <SearchBar Placeholder="Search Drinks..." />
-            <Label TextColor="Black" Text="Drink List:"
-                VerticalOptions="Center" 
-                HorizontalOptions="Center" />
-            <ListView ItemsSource="{Binding DrinkList}">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout>
-                                <Button Text="{Binding DrinkName}" Clicked="Button_Clicked"/>
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-            <Button Text="Edit" Command="{Binding EditDrinkCommand}"/>
+            <SearchBar x:Name="searchBar"
+                       Placeholder="Search Drinks..." 
+                       TextColor="Black"
+                       SearchCommand="{Binding PerformSearch}"
+                       SearchCommandParameter="{Binding Text, Source={x:Reference searchBar}}">
+                <SearchBar.Behaviors>
+                    <behaviorsPack:EventToCommandBehavior
+                                EventName="TextChanged"
+                                Command="{Binding PerformSearch}"
+                                CommandParameter="{Binding Text, Source={x:Reference searchBar}}"/>
+                </SearchBar.Behaviors>
+            </SearchBar>
+            <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}">
+                <ListView ItemsSource="{Binding DrinkList}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <Button Text="{Binding DrinkName}" TextColor="Black" Clicked="Button_Clicked"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </RefreshView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

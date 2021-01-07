@@ -1,16 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ComparisonEngineUI.Views.EditPage">
+             x:Class="ComparisonEngineUI.Views.EditPage"
+             Title="Edit Drinks and Bars">
     <ContentPage.Content>
         <StackLayout>
             <Label TextColor="Black" Text="Here you will be able to edit drink or bar information"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
-            <Button Text="Add Drink" Command="{Binding AddDrinkCommand}"/>
-            <Button Text="Add Bar" Command="{Binding AddBarCommand}"/>
-            <Button Text="Delete Bar" Command="{Binding DeleteBarCommand}"/>
-            <Button Text="Delete Drink" Command="{Binding DeleteDrinkCommand}"/>
+            <Button Text="Delete a Bar" Command="{Binding DeleteBarCommand}"/>
+            <Button Text="Delete a Drink" Command="{Binding DeleteDrinkCommand}"/>
+            <Button Text="Add a Drink" Command="{Binding AddDrinkCommand}"/>
+            <Button Text="Add a Bar" Command="{Binding AddBarCommand}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
