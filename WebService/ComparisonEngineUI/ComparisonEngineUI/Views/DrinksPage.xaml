@@ -16,21 +16,19 @@
                                 CommandParameter="{Binding Text, Source={x:Reference searchBar}}"/>
                 </SearchBar.Behaviors>
             </SearchBar>
-            <Label TextColor="Black" Text="Drink List:"
-                VerticalOptions="Center" 
-                HorizontalOptions="Center" />
-            <ListView ItemsSource="{Binding DrinkList}">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout>
-                                <Button Text="{Binding DrinkName}" Clicked="Button_Clicked"/>
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-            <Button Text="Edit" Command="{Binding EditDrinkCommand}"/>
+            <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}">
+                <ListView ItemsSource="{Binding DrinkList}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <Button Text="{Binding DrinkName}" TextColor="Black" Clicked="Button_Clicked"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </RefreshView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

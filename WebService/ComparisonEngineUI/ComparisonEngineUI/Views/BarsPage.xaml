@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:behaviorsPack="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
-             x:Class="ComparisonEngineUI.Views.BarsPage">
+             x:Class="ComparisonEngineUI.Views.BarsPage"
+             Title="Bar List">
     <ContentPage.Content>
         <StackLayout>
             <SearchBar x:Name="searchBar"
@@ -16,20 +17,19 @@
                                 CommandParameter="{Binding Text, Source={x:Reference searchBar}}"/>
                 </SearchBar.Behaviors>
             </SearchBar>
-            <Label TextColor="Black" Text="Bar List:"
-                VerticalOptions="Center" 
-                HorizontalOptions="Center"/>
-            <ListView ItemsSource="{Binding BarList}">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout>
-                                <Button Text="{Binding BarName}" Clicked="Button_Clicked"/>
-                            </StackLayout>  
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+            <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}">
+                <ListView ItemsSource="{Binding BarList}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <Button Text="{Binding BarName}" TextColor="Black" Clicked="Button_Clicked"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </RefreshView>
             <Button Text="Edit" Command="{Binding EditBarCommand}"/>
         </StackLayout>
     </ContentPage.Content>
