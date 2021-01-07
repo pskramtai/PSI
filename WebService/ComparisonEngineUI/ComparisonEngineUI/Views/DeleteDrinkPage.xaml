@@ -9,11 +9,11 @@
                     Title="Select Bar"
                     TitleColor="Red"
                     ItemsSource ="{Binding BarList} "
-                    ItemDisplayBinding="{Binding BarName} " />
-            <Picker x:Name="selecteDrink"
+                    ItemDisplayBinding="{Binding BarName} " 
+                    SelectedIndexChanged="barChoice_SelectedIndexChanged" />
+            <Picker x:Name="selectedDrink"
                     Title="Select Drink"
                     TitleColor="Red"
-                    ItemsSource ="{Binding DrinkList} "
                     ItemDisplayBinding="{Binding DrinkName} " />
             <Button Text="Delete" Clicked="Button_Clicked"/>
         </StackLayout>

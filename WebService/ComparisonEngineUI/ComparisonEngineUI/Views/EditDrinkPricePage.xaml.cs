@@ -52,13 +52,29 @@ namespace ComparisonEngineUI.Views
         public EditDrinkPricePage()
         {
             InitializeComponent();
+            
             this.BindingContext = new EditDrinkPriceViewModel();
             var restService = new RestService();
             initialBarList = Task.Run(async () => await restService.GetData<List<Bar>>(Constants.BarsUrl)).Result;
             initialDrinkList = Task.Run(async () => await restService.GetData<List<Drink>>(Constants.DrinksUrl)).Result;
+            
+
         }
 
-        private async void OnSaveClicked(object sender, EventArgs e)
+        private void barChoice_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            List<Drink> tempDrinkList = new List<Drink>();
+             
+            foreach (var SpecificPrice in ((Bar)barChoice.SelectedItem).AvailableDrinks)
+            {
+                tempDrinkList.Add(initialDrinkList.Find(x => x.DrinkID == SpecificPrice.DrinkID));
+            }
+
+            DrinkList = tempDrinkList;
+            drinkChoice.ItemsSource = DrinkList;
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
         {
             if (Regex.IsMatch(newEntryPrice.Text, @"(^[1-9]\d*(.\d{1,2})?$)|(^0(\.\d{1,2})?$)"))
             {
@@ -79,24 +95,12 @@ namespace ComparisonEngineUI.Views
                     DrinkPrice = price
                 };
                 var restService = new RestService();
-                await restService.SaveData<SpecificPrice>(newPrice,Constants.SpecificPricesUrl, false);
+                await restService.SaveData<SpecificPrice>(newPrice, Constants.SpecificPricesUrl, false);
             }
-            else 
+            else
             {
                 await DisplayAlert("Warning", "Bad Input", "Ok");
             }
-        }
-
-        private void barChoice_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            List<Drink> tempDrinkList = new List<Drink>();
-            
-            foreach (var SpecificPrice in ((Bar)barChoice.SelectedItem).AvailableDrinks)
-            {
-                tempDrinkList.Add(initialDrinkList.Find(x => x.DrinkID == SpecificPrice.DrinkID));
-            }
-
-            DrinkList = tempDrinkList;
         }
     }
 }
