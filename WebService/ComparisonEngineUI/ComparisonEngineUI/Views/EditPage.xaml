@@ -9,6 +9,8 @@
                 HorizontalOptions="Center" />
             <Button Text="Add Drink" Command="{Binding AddDrinkCommand}"/>
             <Button Text="Add Bar" Command="{Binding AddBarCommand}"/>
+            <Button Text="Delete Bar" Command="{Binding DeleteBarCommand}"/>
+            <Button Text="Delete Drink" Command="{Binding DeleteDrinkCommand}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

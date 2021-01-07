@@ -13,10 +13,9 @@
             <Picker x:Name="drinkChoice"
                     Title="Select Drink"
                     TitleColor="Red"
-                    ItemsSource ="{Binding DrinkList} "
                     ItemDisplayBinding="{Binding DrinkName} " />
             <Entry x:Name="newEntryPrice" Keyboard ="Numeric" Placeholder="Enter New Price" PlaceholderColor="Black"/>
-            <Button Text="Save" Clicked="OnSaveClicked" Command="{Binding SaveCommand}"/>
+            <Button x:Name ="SaveButton" Text="Save" Clicked="Button_Clicked" Command="{Binding SaveCommand}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -22,6 +22,12 @@ namespace ComparisonEngineUI.Views
 
         private async void OnDeleteClicked(object sender, EventArgs e)
         {
+            if (selectedBar.SelectedItem == null)
+            {
+                await DisplayAlert("Warning", "Bad Input", "Ok");
+                return;
+            }
+
             Bar bar = ((Bar)selectedBar.SelectedItem);
             var restService = new RestService();
             await restService.DeleteData(Constants.BarsUrl,bar.BarID.ToString());
