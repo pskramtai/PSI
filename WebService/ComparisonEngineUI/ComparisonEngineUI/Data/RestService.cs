@@ -75,7 +75,7 @@ namespace ComparisonEngineUI.Data
 
         public async Task<bool> DeleteData(string url, string id)
         {
-            Uri uri = new Uri(string.Format(url, "/", id));
+            Uri uri = new Uri(string.Format(url, id));
 
             try
             {
