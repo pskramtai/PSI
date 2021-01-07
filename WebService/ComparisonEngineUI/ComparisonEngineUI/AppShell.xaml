@@ -33,6 +33,5 @@
         <ShellContent Title="Map" Icon="icon_about.jpg" Route="MapPage" ContentTemplate="{DataTemplate local:MapPage}" />
         <ShellContent Title="Browse Bars" Icon="icon_feed.png" Route="BarsPage" ContentTemplate="{DataTemplate local:BarsPage}" />
         <ShellContent Title="Browse Drinks" Icon="icon_feed.png" Route="DrinksPage" ContentTemplate="{DataTemplate local:DrinksPage}" />
-        <ShellContent Title="Login" Icon="" Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />
     </TabBar>
 </Shell>
