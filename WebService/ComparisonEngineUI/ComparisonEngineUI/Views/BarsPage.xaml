@@ -1,11 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:behaviorsPack="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
              x:Class="ComparisonEngineUI.Views.BarsPage"
              Title="Bar List">
     <ContentPage.Content>
         <StackLayout>
-            <SearchBar Placeholder="Search Bars..." TextColor="Black"/>
+            <SearchBar x:Name="searchBar"
+                       Placeholder="Search Bars..." 
+                       TextColor="Black"
+                       SearchCommand="{Binding PerformSearch}"
+                       SearchCommandParameter="{Binding Text, Source={x:Reference searchBar}}">
+                <SearchBar.Behaviors>
+                            <behaviorsPack:EventToCommandBehavior
+                                EventName="TextChanged"
+                                Command="{Binding PerformSearch}"
+                                CommandParameter="{Binding Text, Source={x:Reference searchBar}}"/>
+                </SearchBar.Behaviors>
+            </SearchBar>
             <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}">
                 <ListView ItemsSource="{Binding BarList}">
                     <ListView.ItemTemplate>

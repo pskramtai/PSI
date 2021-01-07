@@ -8,6 +8,9 @@ using ComparisonEngineUI.Views;
 using ComparisonEngineUI.Models;
 using ComparisonEngineUI.Data;
 using System.Threading.Tasks;
+using ComparisonEngineUI.Data;
+using System.Windows.Input;
+
 
 namespace ComparisonEngineUI.ViewModels
 {
@@ -53,10 +56,11 @@ namespace ComparisonEngineUI.ViewModels
             DrinkList = listContainer.drinkList;
         }
 
-          private async void OnEditDrinkClicked(object obj)
+        private async void OnEditDrinkClicked(object obj)
         {
             await Shell.Current.GoToAsync($"{nameof(EditPage)}");
         }
+
 
         void ExecuteRefreshCommand()
         {
@@ -67,6 +71,12 @@ namespace ComparisonEngineUI.ViewModels
             // Stop refreshing
             IsRefreshing = false;
         }
+
+        public ICommand PerformSearch => new Command<String>((string keyword) =>
+        {
+            DrinkList = listContainer.drinkList.FindAll(x => x.DrinkName.Contains(keyword));
+        });
+
 
     }
 }
