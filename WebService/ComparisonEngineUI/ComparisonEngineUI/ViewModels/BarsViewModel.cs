@@ -71,7 +71,7 @@ namespace ComparisonEngineUI.ViewModels
 
         public ICommand PerformSearch => new Command<String>((string keyword) =>
         {   
-                BarList = listContainer.barList.FindAll(x => x.BarName.Contains(keyword));
+                BarList = listContainer.barList.FindAll(x => x.BarName.ToLower().Contains(keyword.ToLower()));
         });
 
     }

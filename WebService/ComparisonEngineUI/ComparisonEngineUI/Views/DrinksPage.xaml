@@ -29,6 +29,7 @@
                     </ListView.ItemTemplate>
                 </ListView>
             </RefreshView>
+            <Button Text="Edit" Command="{Binding EditBarCommand}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
